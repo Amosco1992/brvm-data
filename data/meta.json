@@ -1,0 +1,26 @@
+{
+ "genere_le": "2026-09-11T22:50:09+00:00",
+ "sources": {
+  "miroir-github": {
+   "tickers_attendus": 47,
+   "tickers_obtenus": 47,
+   "etat": "ok"
+  },
+  "sika": {
+   "tickers_controles": 0,
+   "echecs": 0,
+   "detail_echecs": [],
+   "etat": "injoignable"
+  },
+  "calendrier": {
+   "seances_retenues": 90,
+   "de": "2026-05-04",
+   "a": "2026-09-11"
+  }
+ },
+ "divergences": [],
+ "perimes": [],
+ "devise": "XOF",
+ "parite_eur_fixe": 655.957,
+ "avertissement": "Données de marché à titre informatif. Ne constitue pas un conseil en investissement."
+}
