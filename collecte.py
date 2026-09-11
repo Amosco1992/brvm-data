@@ -194,7 +194,7 @@ def historique_sika(symbole_sika: str, jours: int = 365,
     params = {"symbol": symbole_sika, "length": min(jours, 365),
               "period": "0", "guid": str(uuid.uuid4())}
     try:
-        r = s.get(URL, params=params, headers=_entetes(), timeout=timeout)
+        r = s.get(URL, params=params, headers=_entetes_sika(), timeout=timeout)
         r.raise_for_status()
         data = r.json()
     except (requests.RequestException, ValueError):
@@ -433,7 +433,7 @@ def tranche_liquidite(ind: dict) -> str:
 
 def collecter(verifier_sika: bool = True) -> tuple[list[dict], dict]:
     session = requests.Session()
-    univers, journal, divergences = [], {}, []
+    univers, journal, divergences, echecs_sika = [], {}, [], []
     ok_miroir = 0
 
     # passe 1 : tout télécharger, puis établir le calendrier de marché
@@ -474,9 +474,18 @@ def collecter(verifier_sika: bool = True) -> tuple[list[dict], dict]:
                         "seances_ecoulees": None, "perime": True,
                         "indicateurs": {}, "liquidite": "inconnue"})
 
-        # deuxième avis : on ne remplace rien, on compare
+        # Deuxième avis : on ne remplace rien, on compare.
+        # Isolé dans un try : un contrôle qui échoue doit dégrader la
+        # collecte, jamais l'interrompre. Les cours viennent du miroir ; si
+        # Sika est injoignable ou change son API, on perd la vérification,
+        # pas les données.
         if verifier_sika and dernier:
-            autre = historique_sika(ref["symbole_sika"], jours=10, session=session)
+            try:
+                autre = historique_sika(ref["symbole_sika"], jours=10,
+                                        session=session)
+            except Exception as e:          # noqa: BLE001 - dégradation voulue
+                autre = []
+                echecs_sika.append(f"{ticker}: {type(e).__name__}")
             if autre:
                 ecart = abs(autre[-1]["cloture"] - dernier["cloture"]) / dernier["cloture"]
                 ref["controle_sika"] = {
@@ -499,8 +508,14 @@ def collecter(verifier_sika: bool = True) -> tuple[list[dict], dict]:
     }
     if verifier_sika:
         controles = sum(1 for u in univers if "controle_sika" in u)
-        journal["sika"] = {"tickers_controles": controles,
-                           "etat": "ok" if controles else "injoignable"}
+        journal["sika"] = {
+            "tickers_controles": controles,
+            "echecs": len(echecs_sika),
+            "detail_echecs": echecs_sika[:5],
+            # « injoignable » n'est pas un échec de collecte : le contrôle
+            # croisé est un confort, le miroir est la source.
+            "etat": "ok" if controles else "injoignable",
+        }
 
     journal["calendrier"] = {"seances_retenues": len(calendrier),
                             "de": calendrier[0], "a": calendrier[-1]}
