@@ -32,6 +32,7 @@ import io
 import json
 import random
 import re
+import math
 import statistics
 import unicodedata
 import uuid
@@ -1439,6 +1440,17 @@ def hebdomadaire(lignes: list[dict], n: int = 260) -> list[int]:
     return out[-n:]
 
 
+def volatilite(hebdo: list[int]) -> float | None:
+    """Volatilité annualisée, à partir des variations hebdomadaires."""
+    if len(hebdo) < 10:
+        return None
+    rets = [math.log(hebdo[i] / hebdo[i - 1])
+            for i in range(1, len(hebdo)) if hebdo[i - 1] > 0]
+    if len(rets) < 8:
+        return None
+    return round(statistics.pstdev(rets) * math.sqrt(52) * 100, 1)
+
+
 def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
     """Écrit data/app.json : exactement ce que lit l'application, et rien de plus.
 
@@ -1461,6 +1473,11 @@ def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
             "h": i.get("plus_haut_52s"), "b": i.get("plus_bas_52s"),
             "va": i.get("variation_52s_pct"), "r": i.get("position_dans_range_52s"),
             "h5": max(w) if w else None, "b5": min(w) if w else None,
+            # Calculés ici et non dans l'application : elle ne reçoit que les
+            # clôtures hebdomadaires, pas de quoi les recalculer fidèlement.
+            "vol": volatilite(w),
+            "dd": (round(min(0.0, (u["cours"] - max(w)) / max(w) * 100), 1)
+                   if w and u.get("cours") else None),
             "w": w,
             "div": {
                 "n": d.get("exercices_connus", 0),
