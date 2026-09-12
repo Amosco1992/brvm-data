@@ -33,6 +33,7 @@ import json
 import random
 import re
 import statistics
+import unicodedata
 import uuid
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -379,6 +380,25 @@ LIBELLES = {
     "bank of africa sn":"BOAS","bank of africa senegal":"BOAS",
     "boa bn":"BOAB","boa bf":"BOABF","boa ml":"BOAM","boa ng":"BOAN","boa sn":"BOAS",
     "bici ci":"BICC","bici":"BICC",
+    # Libellés longs employés par les rubriques d'annonces, là où le tableau
+    # des dividendes emploie des sigles.
+    "societe generale ci":"SGBC","societe generale":"SGBC",
+    "societe ivoirienne de banque":"SIBC","safca ci":"SAFC",
+    "loterie nationale du benin":"LNBB","loterie nationale":"LNBB",
+    "servair abidjan ci":"ABJC","nsia banque cote d ivoire":"NSBC",
+    "nsia banque":"NSBC","ecobank cote d ivoire":"ECOC",
+    "totalenergies marketing ci":"TTLC","totalenergies marketing senegal":"TTLS",
+    "vivo energy ci":"SHEC","crown siem ci":"SEMC","crown siem":"SEMC",
+    "air liquide ci":"SIVC","air liquide":"SIVC","sitab ci":"STBC",
+    "nestle cote d ivoire":"NTLC","sonatel sn":"SNTS","sonatel senegal":"SNTS",
+    "bollore africa logistics ci":"SDSC","bollore transport logistics":"SDSC",
+    "coris bank international bf":"CBIBF","oragroup togo":"ORGT",
+    "palm ci":"PALC","palmci":"PALC","sogb ci":"SOGC","sucrivoire ci":"SCRC",
+    "filtisac ci":"FTSC","uniwax ci":"UNXC","unilever ci":"UNLC",
+    "solibra ci":"SLBC","setao ci":"STAC","bernabe":"BNBC",
+    "cfao motors":"CFAC","tractafric motors ci":"PRSC","smb ci":"SMBC",
+    "sodeci ci":"SDCC","sode ci":"SDCC","cie cote d ivoire":"CIEC",
+    "nei ceda":"NEIC","nei ceda ci":"NEIC","saph":"SPHC","sogb":"SOGC",
 }
 
 
@@ -411,15 +431,38 @@ def _montant(s: str) -> float | None:
         return None
 
 
+def _plier_accents(s: str) -> str:
+    """« SOCIÉTÉ » et « SOCIETE » doivent tomber au même endroit."""
+    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+
+
 def ticker_de(libelle: str, url_avis: str) -> str | None:
-    """Le nom de fichier de l'avis prime sur le libellé affiché."""
+    """Le nom de fichier de l'avis prime sur le libellé affiché.
+
+    Le libellé varie d'une rubrique à l'autre : le tableau des dividendes
+    écrit « SGCI » là où les annonces écrivent « SOCIETE GENERALE CI ».
+    D'où le repli par inclusion, qui évite de recenser chaque variante.
+    """
     u = (url_avis or "").lower()
     for slug, t in SLUGS:
         if slug in u:
             return t
-    n = re.sub(r"[^a-z0-9 ]", " ", (libelle or "").lower())
+
+    n = re.sub(r"[^a-z0-9 ]", " ", _plier_accents(libelle or "").lower())
     n = re.sub(r"\s+", " ", n).strip()
-    return LIBELLES.get(n)
+    if not n:
+        return None
+    if n in LIBELLES:
+        return LIBELLES[n]
+
+    # Repli : la clé connue la plus longue contenue dans le libellé. On exige
+    # au moins quatre caractères pour éviter qu'un fragment comme « sib »
+    # n'accroche « bicici » au passage.
+    candidats = [(k, v) for k, v in LIBELLES.items()
+                 if len(k) >= 4 and (f" {k} " in f" {n} " or n.startswith(k + " "))]
+    if candidats:
+        return max(candidats, key=lambda kv: len(kv[0]))[1]
+    return None
 
 
 def parser_page(html: str) -> tuple[list[dict], list[str]]:
@@ -685,6 +728,398 @@ def collecter_valorisation(session, tickers: list[str], cours: dict[str, float],
 
 
 # ==========================================================================
+# ANNONCES DES ÉMETTEURS
+# ==========================================================================
+
+RUBRIQUES_ANN = {
+    "communique": "/fr/emetteurs/type-annonces/communiques",
+    "notation": "/fr/emetteurs/type-annonces/notations-financieres",
+    "dirigeant": "/fr/emetteurs/type-annonces/changements-de-dirigeants",
+    "seuil": "/fr/emetteurs/type-annonces/franchissements-de-seuil",
+    "assemblee": "/fr/emetteurs/type-annonces/convocations-assemblees-generales",
+    "resolution": "/fr/emetteurs/type-annonces/projets-de-resolution",
+    "permanente": "/fr/informations-permanentes",
+}
+
+# Ordre significatif : le premier motif qui accroche l'emporte, donc les
+# libellés les plus spécifiques d'abord.
+TYPES_ANN = [
+    (r"paiement de dividende", "dividende"),
+    (r"états? financiers?|etats? financiers?", "etats_financiers"),
+    (r"rapport d.?activit", "rapport_activite"),
+    (r"notation", "notation"),
+    (r"augmentation de capital|admission à la cote", "capital"),
+    (r"assemblée|assemblee|convocation", "assemblee"),
+    (r"résolution|resolution", "resolution"),
+    (r"dirigeant|nomination|démission|demission", "dirigeant"),
+    (r"franchissement|seuil", "seuil"),
+    (r"contrat de liquidité|contrat de liquidite", "liquidite"),
+]
+
+# Ce qui mérite qu'on le remonte à un porteur de long terme, et ce qui relève
+# de la formalité administrative.
+IMPORTANTS_ANN = {"etats_financiers", "rapport_activite", "notation", "dividende",
+              "capital", "seuil", "dirigeant"}
+
+
+def _texte_ann(h):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h)).strip()
+
+
+def _date_ann(s):
+    m = re.search(r"(\d{1,2})[/-](\d{1,2})[/-](\d{4})", s or "")
+    if not m:
+        return None
+    try:
+        return date(int(m.group(3)), int(m.group(2)), int(m.group(1))).isoformat()
+    except ValueError:
+        return None
+
+
+def classer_annonce(titre):
+    t = (titre or "").lower()
+    for motif, nom in TYPES_ANN:
+        if re.search(motif, t):
+            return nom
+    return "autre"
+
+
+def emetteur_de(titre, resolveur):
+    """Les titres s'écrivent « ÉMETTEUR : libellé du document ».
+
+    On tente d'abord le segment avant le deux-points, puis le titre entier :
+    certaines rubriques ne respectent pas la convention.
+    """
+    if not titre:
+        return None
+    avant = titre.split(":", 1)[0] if ":" in titre else titre
+    return resolveur(avant, "") or resolveur(titre, "")
+
+
+def parser_annonces(html, rubrique, resolveur):
+    lignes = []
+    for bloc in re.split(r"<tr[^>]*>", html, flags=re.I)[1:]:
+        cells = [_texte_ann(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", bloc, re.I | re.S)]
+        if not cells:
+            continue
+        d = next((_date_ann(c) for c in cells if _date_ann(c)), None)
+        titre = max((c for c in cells if len(c) > 12 and not _date_ann(c)),
+                    key=len, default="")
+        if not titre or not d:
+            continue
+        lien = re.search(r'href="([^"]+\.pdf)"', bloc, re.I)
+        url = lien.group(1) if lien else ""
+        if url.startswith("/"):
+            url = "https://www.brvm.org" + url
+        typ = classer_annonce(titre)
+        lignes.append({
+            "date": d, "titre": titre, "rubrique": rubrique, "type": typ,
+            "important": typ in IMPORTANTS_ANN, "url": url,
+            "ticker": emetteur_de(titre, resolveur),
+        })
+    return lignes
+
+
+def collecter_annonces(session, resolveur, pages=3, timeout=30):
+    """Parcourt chaque rubrique sur ses premières pages : on veut le récent,
+    pas l'archive. L'échec d'une rubrique n'interrompt pas les autres."""
+    tout, echecs = [], []
+    for nom, chemin in RUBRIQUES_ANN.items():
+        obtenues = 0
+        for p in range(pages):
+            url = f"https://www.brvm.org{chemin}" + ("" if p == 0 else f"?page={p}")
+            try:
+                r = session.get(url, timeout=timeout,
+                                headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "fr"})
+                r.raise_for_status()
+            except Exception:                       # noqa: BLE001
+                break
+            l = parser_page(r.text, nom, resolveur)
+            if not l:
+                break
+            tout.extend(l)
+            obtenues += len(l)
+        if not obtenues:
+            echecs.append(nom)
+    vus, net = set(), []
+    for a in sorted(tout, key=lambda x: x["date"], reverse=True):
+        cle = (a["date"], a["titre"][:80])
+        if cle not in vus:
+            vus.add(cle)
+            net.append(a)
+    return net, echecs
+
+
+# ==========================================================================
+# ÉTATS FINANCIERS — extraction des PDF publiés
+# ==========================================================================
+
+# Multiplicateurs déclarés dans les en-têtes de section.
+ECHELLES = [
+    (r"en\s+milliards?\s+(?:de\s+)?", 1_000_000_000),
+    (r"en\s+millions?\s+(?:de\s+)?", 1_000_000),
+    (r"en\s+milliers?\s+(?:de\s+)?", 1_000),
+]
+DEVISES = [
+    (r"f\s?cfa|francs?\s+cfa|xof", "XOF"),
+    (r"dollars?\s*(?:eu|us|américains?)?|\$\s?eu|usd", "USD"),
+    (r"euros?|€|eur", "EUR"),
+]
+
+# Ordre significatif : le libellé le plus spécifique doit gagner.
+POSTES = [
+    ("resultat_net", [
+        r"r[ée]sultat\s+net\s+consolid[ée]",
+        r"r[ée]sultat\s+net\s+de\s+l.exercice",
+        r"r[ée]sultat\s+net(?!\s+par\s+action)(?!\s*,\s*part)",
+        r"b[ée]n[ée]fice\s+net",
+    ]),
+    ("produit_exploitation", [
+        r"produit\s+net\s+bancaire",
+        r"chiffre\s+d.affaires\s+net",
+        r"chiffre\s+d.affaires",
+        r"produits?\s+d.exploitation",
+    ]),
+    ("capitaux_propres", [
+        r"total\s+(?:des\s+)?capitaux\s+propres(?!\s*,\s*part)",
+        r"capitaux\s+propres(?!\s*,\s*part)(?!\s+part)",
+        r"total\s+fonds\s+propres",
+    ]),
+    ("total_bilan", [
+        r"total\s+(?:de\s+l.)?actif",
+        r"total\s+du\s+bilan",
+        r"total\s+bilan",
+    ]),
+]
+
+# En français le séparateur de milliers est l'espace — le même caractère qui
+# sépare deux colonnes. « 406 923 366 691 » est donc illisible hors contexte :
+# 406 milliards, ou bien 406 923 et 366 691 côte à côte ? On découpe d'abord
+# en groupes, puis on tranche sur la forme (voir _colonnes).
+_GROUPE = re.compile(r"\(?-?\d{1,3}(?:[\s\u00a0\u202f]\d{3})*(?:[.,]\d+)?\)?")
+
+
+def _groupes(txt: str) -> list[str]:
+    return re.split(r"[\s\u00a0\u202f]", re.sub(r"[()]", "", txt).strip())
+
+
+def _colonnes(reste: str) -> list[float]:
+    """Les nombres d'une ligne comptable, colonnes séparées.
+
+    Quand un candidat compte un nombre pair de groupes de trois chiffres, il
+    s'agit presque toujours de deux colonnes accolées (exercice N et N-1). On
+    ne coupe que si les deux moitiés sont du même ordre de grandeur : deux
+    exercices consécutifs se ressemblent, un vrai nombre coupé en deux non.
+    """
+    out = []
+    for m in _GROUPE.finditer(reste):
+        brut = m.group()
+        neg = brut.strip().startswith("(")
+        gr = _groupes(brut)
+        coupe = None
+        if len(gr) >= 4 and len(gr) % 2 == 0 and all(len(g) == 3 for g in gr[1:]):
+            moitie = len(gr) // 2
+            if len(gr[moitie]) == 3:
+                a, b = _valeur_fin(" ".join(gr[:moitie])), _valeur_fin(" ".join(gr[moitie:]))
+                if a and b and 0.2 <= a / b <= 5:
+                    coupe = [a, b]
+        vals = coupe if coupe else [_valeur_fin(brut)]
+        for v in vals:
+            if v is not None:
+                out.append(-abs(v) if neg else v)
+    return out
+
+
+def _valeur_fin(txt: str) -> float | None:
+    neg = txt.strip().startswith("(")
+    t = re.sub(r"[()\s\u00a0\u202f]", "", txt)
+    t = t.replace(",", ".") if re.search(r",\d{1,2}$", t) else t.replace(",", "")
+    try:
+        v = float(t)
+    except ValueError:
+        return None
+    return -v if neg else v
+
+
+def unite_financiere(ligne: str) -> tuple[int | None, str | None]:
+    """Lit « (Montants en milliers de Dollars EU) » -> (1000, 'USD')."""
+    l = ligne.lower()
+    echelle = next((m for motif, m in ECHELLES if re.search(motif, l)), None)
+    devise = next((d for motif, d in DEVISES if re.search(motif, l)), None)
+    return echelle, devise
+
+
+def extraire_etats(texte: str, devise_attendue: str = "XOF") -> dict:
+    """Renvoie {poste: {...}} pour ce que le document permet d'affirmer.
+
+    Un poste n'est retenu que si la section qui le porte déclare une échelle
+    et une devise. Les candidats contradictoires sont conservés et signalés
+    plutôt qu'arbitrés.
+    """
+    echelle = devise = None
+    candidats: dict[str, list] = {}
+
+    for brute in texte.splitlines():
+        ligne = re.sub(r"[ \t\u00a0\u202f]+", " ", brute).strip()
+        if not ligne:
+            continue
+
+        # Une déclaration d'unité vaut pour tout ce qui suit, jusqu'à la suivante.
+        if re.search(r"montants?\s+en|exprim[ée]s?\s+en|\(en\s+", ligne, re.I):
+            e, d = unite_de(ligne)
+            if e or d:
+                echelle, devise = e or echelle, d or devise
+                continue
+
+        bas = ligne.lower()
+        for poste, motifs in POSTES:
+            motif = next((m for m in motifs if re.search(r"^\s*" + m, bas)), None)
+            if not motif:
+                continue
+            reste = ligne[re.search(motif, bas).end():]
+            nombres = [v for v in _colonnes(reste) if abs(v) > 0]
+            if not nombres:
+                continue
+            if echelle is None or devise is None:
+                candidats.setdefault(poste, []).append(
+                    {"valeur": None, "motif_rejet": "unite_non_declaree", "ligne": ligne[:120]})
+                continue
+            candidats.setdefault(poste, []).append({
+                "valeur": nombres[0] * echelle, "devise": devise,
+                "echelle": echelle, "ligne": ligne[:120],
+                "nb_colonnes": len(nombres),
+            })
+            break
+
+    out = {}
+    for poste, liste in candidats.items():
+        valides = [c for c in liste if c.get("valeur") is not None]
+        if not valides:
+            out[poste] = {"valeur": None, "confiance": "aucune",
+                          "raison": liste[0].get("motif_rejet", "illisible")}
+            continue
+        # Une ligne à deux colonnes est un compte de résultat (exercice N et
+        # N-1) ; au-delà, c'est un tableau de synthèse mêlant les devises, donc
+        # moins sûr.
+        valides.sort(key=lambda c: (c["nb_colonnes"] != 2, -abs(c["valeur"])))
+        retenu = valides[0]
+        ecarts = {round(c["valeur"], 2) for c in valides if c["devise"] == retenu["devise"]}
+        confiance = ("elevee" if len(ecarts) == 1 and retenu["nb_colonnes"] == 2
+                     else "moyenne" if len(ecarts) <= 2 else "faible")
+        if retenu["devise"] != devise_attendue:
+            confiance = "a_convertir"
+        out[poste] = {
+            "valeur": retenu["valeur"], "devise": retenu["devise"],
+            "confiance": confiance, "candidats": len(valides),
+            "source_ligne": retenu["ligne"],
+        }
+    return out
+
+
+def ratios_etats(postes: dict, dividende_net: float | None = None,
+           actions: float | None = None) -> dict:
+    """Taux de distribution et marge, uniquement si les bases sont fiables."""
+    out = {}
+    rn = postes.get("resultat_net") or {}
+    ca = postes.get("produit_exploitation") or {}
+    cp = postes.get("capitaux_propres") or {}
+
+    fiable = lambda p: p.get("valeur") and p.get("confiance") in ("elevee", "moyenne")
+
+    if fiable(rn) and fiable(ca) and ca["valeur"]:
+        out["marge_nette_pct"] = round(rn["valeur"] / ca["valeur"] * 100, 1)
+    if fiable(rn) and fiable(cp) and cp["valeur"]:
+        out["rentabilite_fonds_propres_pct"] = round(rn["valeur"] / cp["valeur"] * 100, 1)
+    if fiable(rn) and dividende_net and actions:
+        total_verse = dividende_net * actions
+        out["taux_distribution_pct"] = round(total_verse / rn["valeur"] * 100, 1)
+        out["base_taux"] = "etats_financiers"
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Récupération des PDF sur brvm.org
+# ---------------------------------------------------------------------------
+
+
+RACINE_SITE = "https://www.brvm.org"
+TID_ETATS = 57          # filtre « Etats Financiers » de la vue Drupal
+ENTETES_PDF = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                             "(KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+               "Accept-Language": "fr"}
+
+
+def slugs_emetteurs(session, timeout: int = 30) -> dict[str, str]:
+    """Relève les slugs des pages « rapports société » depuis l'index.
+
+    Les slugs (« sonatel », « onatel-bf ») ne se déduisent pas du ticker ;
+    l'index les publie tous, autant les lire que les deviner.
+    """
+    try:
+        r = session.get(f"{RACINE_SITE}/fr/rapports-societes-cotees",
+                        headers=ENTETES_PDF, timeout=timeout)
+        r.raise_for_status()
+    except Exception:                                       # noqa: BLE001
+        return {}
+    out = {}
+    for href, libelle in re.findall(
+            r'href="(/fr/rapports-societe-cotes/[^"]+)"[^>]*>([^<]{2,80})<', r.text):
+        out[re.sub(r"\s+", " ", libelle).strip()] = RACINE_SITE + href
+    return out
+
+
+def dernier_etat_financier(session, url_societe: str, timeout: int = 30) -> dict | None:
+    """Le PDF d'états financiers le plus récent publié par un émetteur."""
+    try:
+        r = session.get(f"{url_societe}?field_type_rapport_tid={TID_ETATS}",
+                        headers=ENTETES_PDF, timeout=timeout)
+        r.raise_for_status()
+    except Exception:                                       # noqa: BLE001
+        return None
+    liens = re.findall(r'href="([^"]+\.pdf)"', r.text, re.I)
+    if not liens:
+        return None
+    url = liens[0]
+    if url.startswith("/"):
+        url = RACINE_SITE + url
+    # Le nom de fichier commence par la date de publication : AAAAMMJJ_-_…
+    m = re.search(r"/(\d{8})_", url)
+    return {"url": url,
+            "publie_le": (f"{m.group(1)[:4]}-{m.group(1)[4:6]}-{m.group(1)[6:]}"
+                          if m else None)}
+
+
+def texte_du_pdf(session, url: str, timeout: int = 60, pages_max: int = 12) -> tuple[str, str]:
+    """Texte d'un PDF distant. Renvoie (texte, état).
+
+    Un état financier scanné n'a pas de couche texte : pdfplumber renvoie du
+    vide. On le signale comme « scanne » plutôt que de le traiter comme un
+    document sans chiffres — c'est une limite connue, pas une absence de
+    données.
+    """
+    try:
+        import pdfplumber
+    except ImportError:
+        return "", "pdfplumber_absent"
+    try:
+        r = session.get(url, headers=ENTETES_PDF, timeout=timeout)
+        r.raise_for_status()
+    except Exception:                                       # noqa: BLE001
+        return "", "telechargement_echoue"
+    try:
+        morceaux = []
+        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+            for page in pdf.pages[:pages_max]:
+                morceaux.append(page.extract_text() or "")
+        texte = "\n".join(morceaux)
+    except Exception:                                       # noqa: BLE001
+        return "", "pdf_illisible"
+    if len(texte.strip()) < 200:
+        return texte, "scanne"
+    return texte, "ok"
+
+
+# ==========================================================================
 # COLLECTE ET INDICATEURS
 # ==========================================================================
 
@@ -795,7 +1230,8 @@ def tranche_liquidite(ind: dict) -> str:
 
 
 def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
-              avec_valorisation: bool = True) -> tuple[list[dict], dict]:
+              avec_valorisation: bool = True, avec_annonces: bool = True,
+              avec_etats: bool = True) -> tuple[list[dict], dict]:
     session = requests.Session()
     univers, journal, divergences, echecs_sika = [], {}, [], []
     ok_miroir = 0
@@ -921,6 +1357,57 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
     else:
         journal["valorisation"] = {"etat": "ignore"}
 
+    if avec_annonces:
+        annonces, echecs = collecter_annonces(session, ticker_de)
+        par_t: dict[str, list] = {}
+        for a in annonces:
+            if a["ticker"]:
+                par_t.setdefault(a["ticker"], []).append(a)
+        for u in univers:
+            u["annonces"] = par_t.get(u["ticker"], [])[:12]
+        journal["annonces"] = {
+            "total": len(annonces),
+            "rattachees": sum(1 for a in annonces if a["ticker"]),
+            "rubriques_en_echec": echecs,
+            "etat": "ok" if len(annonces) > 20 else "degrade",
+        }
+        (DOSSIER / "annonces.json").write_text(
+            json.dumps(annonces, ensure_ascii=False, indent=1), encoding="utf-8")
+    else:
+        journal["annonces"] = {"etat": "ignore"}
+
+    if avec_etats:
+        slugs = slugs_emetteurs(session)
+        res_ok = scannes = 0
+        for u in univers:
+            cible = next((v for k, v in slugs.items()
+                          if ticker_de(k, "") == u["ticker"]), None)
+            if not cible:
+                continue
+            doc = dernier_etat_financier(session, cible)
+            if not doc:
+                continue
+            texte, etat = texte_du_pdf(session, doc["url"])
+            if etat != "ok":
+                u["etats"] = {"etat": etat, "url": doc["url"],
+                              "publie_le": doc["publie_le"]}
+                scannes += etat == "scanne"
+                continue
+            postes = extraire_etats(texte)
+            val = u.get("valorisation") or {}
+            div = (u.get("dividendes") or {}).get("dernier_montant_net")
+            u["etats"] = {"etat": "ok", "url": doc["url"],
+                          "publie_le": doc["publie_le"], "postes": postes,
+                          "ratios": ratios_etats(postes, div,
+                                                 val.get("actions_estimees"))}
+            res_ok += 1
+        journal["etats_financiers"] = {
+            "titres_extraits": res_ok, "documents_scannes": scannes,
+            "etat": "ok" if res_ok >= 15 else "degrade",
+        }
+    else:
+        journal["etats_financiers"] = {"etat": "ignore"}
+
     journal["calendrier"] = {"seances_retenues": len(calendrier),
                             "de": calendrier[0], "a": calendrier[-1]}
 
@@ -964,6 +1451,8 @@ def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
         w = hebdomadaire(histoires.get(u["ticker"], []))
         d = u.get("dividendes") or {}
         v = u.get("valorisation") or {}
+        ann = u.get("annonces") or []
+        ef = u.get("etats") or {}
         titres.append({
             "t": u["ticker"], "n": u["emetteur"], "p": u["pays_libelle"],
             "s": u["secteur"], "c": u["cours"], "d": u["date_cours"],
@@ -991,6 +1480,20 @@ def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
                 "niveau": v.get("distribution"),
                 "comptes": v.get("date_comptes"), "vieux": v.get("fiche_ancienne"),
             } if v.get("bpa_implicite") else None,
+            "fin": {
+                "ok": ef.get("etat") == "ok",
+                "etat": ef.get("etat"), "publie_le": ef.get("publie_le"),
+                "url": ef.get("url"),
+                "rn": (ef.get("postes", {}).get("resultat_net") or {}).get("valeur"),
+                "rn_conf": (ef.get("postes", {}).get("resultat_net") or {}).get("confiance"),
+                "cp": (ef.get("postes", {}).get("capitaux_propres") or {}).get("valeur"),
+                "ca": (ef.get("postes", {}).get("produit_exploitation") or {}).get("valeur"),
+                "marge": ef.get("ratios", {}).get("marge_nette_pct"),
+                "roe": ef.get("ratios", {}).get("rentabilite_fonds_propres_pct"),
+                "payout": ef.get("ratios", {}).get("taux_distribution_pct"),
+            } if ef else None,
+            "ann": [{"d": a["date"], "t": a["type"], "i": a["important"],
+                     "x": a["titre"][:140], "u": a["url"]} for a in ann[:8]] or None,
         })
     (DOSSIER / "app.json").write_text(
         json.dumps({"titres": titres, "date_seance": meta["date_seance"],
@@ -1001,6 +1504,10 @@ def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Collecte des données BRVM")
+    ap.add_argument("--sans-etats", action="store_true",
+                    help="ne pas extraire les états financiers PDF")
+    ap.add_argument("--sans-annonces", action="store_true",
+                    help="ne pas collecter les annonces des émetteurs")
     ap.add_argument("--sans-valorisation", action="store_true",
                     help="ne pas collecter PER et capitalisation")
     ap.add_argument("--sans-dividendes", action="store_true",
@@ -1012,7 +1519,9 @@ def main() -> int:
     DOSSIER.mkdir(parents=True, exist_ok=True)
     univers, meta = collecter(verifier_sika=not args.sans_sika,
                               avec_dividendes=not args.sans_dividendes,
-                              avec_valorisation=not args.sans_valorisation)
+                              avec_valorisation=not args.sans_valorisation,
+                              avec_annonces=not args.sans_annonces,
+                              avec_etats=not args.sans_etats)
 
     (DOSSIER / "universe.json").write_text(
         json.dumps(univers, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -1035,6 +1544,15 @@ def main() -> int:
               f"{vv['fiches_anciennes']} anciennes")
         if vv["titres_manquants"]:
             print("  sans fiche :", ", ".join(vv["titres_manquants"][:10]))
+    aa = meta["sources"].get("annonces", {})
+    if aa.get("etat") not in (None, "ignore"):
+        print(f"annonces : {aa['total']} relevées, {aa['rattachees']} rattachées à un titre")
+        if aa["rubriques_en_echec"]:
+            print("  rubriques en échec :", ", ".join(aa["rubriques_en_echec"]))
+    ef = meta["sources"].get("etats_financiers", {})
+    if ef.get("etat") not in (None, "ignore"):
+        print(f"états financiers : {ef['titres_extraits']} extraits, "
+              f"{ef['documents_scannes']} scannés (illisibles sans OCR)")
     print(f"périmés : {len(meta['perimes'])}  divergences : {len(meta['divergences'])}")
     for d in meta["divergences"][:10]:
         print(f"  {d['ticker']}: miroir {d['miroir']} / sika {d['sika']} "
