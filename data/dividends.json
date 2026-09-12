@@ -92,11 +92,31 @@
  {
   "ticker": "BICC",
   "libelle_source": "BICI CI",
+  "exercice": 2015,
+  "date_paiement": "2016-07-20",
+  "date_ex": "2016-07-18",
+  "montant_net": 4231.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
   "exercice": 2016,
   "date_paiement": "2017-07-24",
   "date_ex": "2017-07-20",
   "montant_net": 2771.41,
   "avis": "https://www.brvm.org/sites/default/files/20170710_-_avis_ndeg108_brvmdg_-_paiement_de_dividendes_exo_2016_-_bici_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2017,
+  "date_paiement": "2018-07-02",
+  "date_ex": "2018-06-28",
+  "montant_net": 213.56,
+  "avis": "https://www.brvm.org/sites/default/files/20180618_-_avis_ndeg092_brvmdg_-_paiement_de_dividendes_exo_2017_.pdf",
   "source": "brvm.org"
  },
  {
@@ -246,7 +266,67 @@
   "date_paiement": "2020-05-15",
   "date_ex": "2020-05-13",
   "montant_net": 436.0,
-  "avis": "https://www.brvm.org/sites/default/files/avis_ndeg38-2020-_pmnt_des_dividendes_boa_benin_exo_2019.pdf",
+  "avis": "https://www.brvm.org/sites/default/files/20200410_-_avis_ndeg044_brvmdg_-_paiement_de_dividendes_exo_2019_-_boab.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2020,
+  "date_paiement": "2021-05-20",
+  "date_ex": "2021-05-18",
+  "montant_net": 436.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210413_-_avis_ndeg055_brvmdg_-_paiement_de_dividendes_exo_2020_-_boab.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2021,
+  "date_paiement": "2022-05-25",
+  "date_ex": null,
+  "montant_net": 23.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220427_-_avis_ndeg067_brvmdg_-_paiement_de_dividendes_exo_2021_-_boab_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2022,
+  "date_paiement": "2023-05-25",
+  "date_ex": "2023-05-23",
+  "montant_net": 627.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230420_-_avis_ndeg064_brvmdg_-_paiement_de_dividendes_exo_2022_-_boab.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2023,
+  "date_paiement": "2024-05-27",
+  "date_ex": "2024-05-23",
+  "montant_net": 706.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240422_-_avis_ndeg070_brvmdg_-_paiement_de_dividendes_exo_2023_-_boab.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2024,
+  "date_paiement": "2025-06-03",
+  "date_ex": "2025-05-30",
+  "montant_net": 468.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250519_-_avis_ndeg113_brvmdg_-_paiement_de_dividendes_exo_2024_-_boab.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2025,
+  "date_paiement": "2026-05-26",
+  "date_ex": "2026-05-22",
+  "montant_net": 585.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260508_-_avis_ndeg121_brvmdg_-_paiement_de_dividendes_exo_2025_-_boab.pdf",
   "source": "brvm.org"
  },
  {
@@ -262,11 +342,41 @@
  {
   "ticker": "BOABF",
   "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2017,
+  "date_paiement": "2018-05-07",
+  "date_ex": "2018-05-03",
+  "montant_net": 358.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180413_-_avis_ndeg046_brvmdg_-_paiement_de_dividendes_exo_2017_-_boabf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2018,
+  "date_paiement": "2019-05-02",
+  "date_ex": "2019-04-29",
+  "montant_net": 366.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190411_-_avis_ndeg040_brvmdg_-_paiement_de_dividendes_exo_2018_-_boabf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
   "exercice": 2019,
   "date_paiement": "2020-05-04",
   "date_ex": "2020-04-29",
   "montant_net": 370.0,
-  "avis": "https://www.brvm.org/sites/default/files/avis_ndeg37-2020-_pmnt_des_dividendes_boa_bf_exo_2019.pdf",
+  "avis": "https://www.brvm.org/sites/default/files/20200410_-_avis_ndeg043_brvmdg_-_paiement_de_dividendes_exo_2019_-_boabf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2020,
+  "date_paiement": "2021-05-03",
+  "date_ex": "2021-04-29",
+  "montant_net": 370.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210412_-_avis_ndeg051_brvmdg_-_paiement_de_dividendes_exo_2020_-_boabf_0.pdf",
   "source": "brvm.org"
  },
  {
@@ -322,6 +432,76 @@
  {
   "ticker": "BOAC",
   "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2016,
+  "date_paiement": "2017-05-08",
+  "date_ex": "2017-05-05",
+  "montant_net": 5480.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_023-2017-dcbr-dg-dividende_exercice_2016-boa_cote_divoire.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2017,
+  "date_paiement": "2018-06-06",
+  "date_ex": "2018-06-04",
+  "montant_net": 295.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180516_-_avis_ndeg065_brvmdg_-_paiement_de_dividendes_exo_2017_-_boac.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2018,
+  "date_paiement": "2019-05-20",
+  "date_ex": null,
+  "montant_net": 16.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190419_-_avis_ndeg045_brvmdg_-_paiement_de_dividendes_exo_2018_-_boac.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2019,
+  "date_paiement": "2020-06-15",
+  "date_ex": "2020-06-11",
+  "montant_net": 315.0,
+  "avis": "https://www.brvm.org/sites/default/files/20200526_-_avis_ndeg083_brvmdg_-_paiement_de_dividendes_exo_2019_-_boac.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2020,
+  "date_paiement": "2021-05-12",
+  "date_ex": "2021-05-10",
+  "montant_net": 315.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210426_-_avis_ndeg060_brvmdg_-_paiement_de_dividendes_exo_2020_-_boac.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2021,
+  "date_paiement": "2022-04-28",
+  "date_ex": null,
+  "montant_net": 26.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220406_-_avis_ndeg050_brvmdg_-_paiement_de_dividendes_exo_2021_-_boac.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2022,
+  "date_paiement": "2023-04-28",
+  "date_ex": "2023-04-26",
+  "montant_net": 540.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230411_-_avis_ndeg053_brvmdg_-_paiement_de_dividendes_exo_2022_-_boac.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
   "exercice": 2023,
   "date_paiement": "2024-04-29",
   "date_ex": "2024-04-25",
@@ -352,11 +532,151 @@
  {
   "ticker": "BOAM",
   "libelle_source": "BANK OF AFRICA ML",
+  "exercice": 2017,
+  "date_paiement": "2018-05-31",
+  "date_ex": "2018-05-29",
+  "montant_net": 290.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180516_-_avis_ndeg068_brvmdg_-_paiement_de_dividendes_exo_2017_-_boam.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAM",
+  "libelle_source": "BANK OF AFRICA ML",
   "exercice": 2018,
   "date_paiement": "2019-05-15",
   "date_ex": null,
   "montant_net": 13.0,
   "avis": "https://www.brvm.org/sites/default/files/avis_n_037-2019-dcbr-dg-dividende_exercice_2018-boa_mali.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAM",
+  "libelle_source": "BANK OF AFRICA ML",
+  "exercice": 2023,
+  "date_paiement": "2024-05-21",
+  "date_ex": "2024-05-16",
+  "montant_net": 144.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240429_-_avis_ndeg082_brvmdg_-_paiement_de_dividendes_exo_2023_-_boam.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAM",
+  "libelle_source": "BANK OF AFRICA ML",
+  "exercice": 2024,
+  "date_paiement": "2025-06-03",
+  "date_ex": "2025-05-30",
+  "montant_net": 237.5,
+  "avis": "https://www.brvm.org/sites/default/files/20250519_-_avis_ndeg111_brvmdg_-_paiement_de_dividendes_exo_2024_-_boam.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAM",
+  "libelle_source": "BANK OF AFRICA ML",
+  "exercice": 2025,
+  "date_paiement": "2026-06-03",
+  "date_ex": "2026-06-02",
+  "montant_net": 305.04,
+  "avis": "https://www.brvm.org/sites/default/files/20260511_-_avis_ndeg129_brvmdg_-_paiement_de_dividendes_exo_2025_-_boam.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2016,
+  "date_paiement": "2017-05-19",
+  "date_ex": "2017-05-16",
+  "montant_net": 4910.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170504_-_avis_ndeg043_brvmdg_-_paiement_de_dividendes_exo_2016_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2017,
+  "date_paiement": "2018-05-31",
+  "date_ex": "2018-05-29",
+  "montant_net": 379.44,
+  "avis": "https://www.brvm.org/sites/default/files/20180516_-_avis_ndeg069_brvmdg_-_paiement_de_dividendes_exo_2017_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2018,
+  "date_paiement": "2019-05-27",
+  "date_ex": "2019-05-23",
+  "montant_net": 385.95,
+  "avis": "https://www.brvm.org/sites/default/files/20190411_-_avis_ndeg041_brvmdg_-_paiement_de_dividendes_exo_2018_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2019,
+  "date_paiement": "2020-05-20",
+  "date_ex": "2020-05-18",
+  "montant_net": 429.66,
+  "avis": "https://www.brvm.org/sites/default/files/20200421_-_avis_ndeg050_brvmdg_-_paiement_de_dividendes_exo_2019_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2020,
+  "date_paiement": "2021-05-06",
+  "date_ex": "2021-05-04",
+  "montant_net": 429.66,
+  "avis": "https://www.brvm.org/sites/default/files/20210413_-_avis_ndeg054_brvmdg_-_paiement_de_dividendes_exo_2020_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2021,
+  "date_paiement": "2022-05-12",
+  "date_ex": "2022-05-10",
+  "montant_net": 10.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220406_-_avis_ndeg049_brvmdg_-_paiement_de_dividendes_exo_2021_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2022,
+  "date_paiement": "2023-05-25",
+  "date_ex": "2023-05-23",
+  "montant_net": 613.8,
+  "avis": "https://www.brvm.org/sites/default/files/20230411_-_avis_ndeg055_brvmdg_-_paiement_de_dividendes_exo_2022_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2023,
+  "date_paiement": "2024-05-31",
+  "date_ex": "2024-05-29",
+  "montant_net": 609.15,
+  "avis": "https://www.brvm.org/sites/default/files/20240405_-_avis_ndeg059_brvmdg_-_paiement_de_dividendes_exo_2023_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAN",
+  "libelle_source": "BANK OF AFRICA NG",
+  "exercice": 2024,
+  "date_paiement": "2025-06-03",
+  "date_ex": "2025-05-30",
+  "montant_net": 209.25,
+  "avis": "https://www.brvm.org/sites/default/files/20250519_-_avis_ndeg112_brvmdg_-_paiement_de_dividendes_exo_2024_-_boan.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2015,
+  "date_paiement": "2016-08-01",
+  "date_ex": "2016-07-28",
+  "montant_net": 750.0,
+  "avis": "",
   "source": "brvm.org"
  },
  {
@@ -374,9 +694,9 @@
   "libelle_source": "BANK OF AFRICA SN",
   "exercice": 2017,
   "date_paiement": "2018-05-02",
-  "date_ex": null,
+  "date_ex": "2018-04-27",
   "montant_net": 160.0,
-  "avis": "https://www.brvm.org/sites/default/files/avis_n_031-2018-dcbr-dg-dividende_exercice_2017-boa_sn.pdf",
+  "avis": "https://www.brvm.org/sites/default/files/20180409_-_avis_ndeg043_brvmdg_-_paiement_de_dividendes_exo_2017_-_boas.pdf",
   "source": "brvm.org"
  },
  {
@@ -387,6 +707,56 @@
   "date_ex": "2019-05-30",
   "montant_net": 160.0,
   "avis": "https://www.brvm.org/sites/default/files/avis_n_039-2019-dcbr-dg-dividende_exercice_2018-boa_sn.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2019,
+  "date_paiement": "2020-06-19",
+  "date_ex": "2020-06-17",
+  "montant_net": 161.0,
+  "avis": "https://www.brvm.org/sites/default/files/20200603_-_avis_ndeg089_brvmdg_-_paiement_de_dividendes_exo_2019_-_boas.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2020,
+  "date_paiement": "2021-06-01",
+  "date_ex": "2021-05-28",
+  "montant_net": 161.01,
+  "avis": "https://www.brvm.org/sites/default/files/20210427_-_avis_ndeg061_brvmdg_-_paiement_de_dividendes_exo_2020_-_boas.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2021,
+  "date_paiement": "2022-06-01",
+  "date_ex": null,
+  "montant_net": 30.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220420_-_avis_ndeg061_brvmdg_-_paiement_de_dividendes_exo_2021_-_boas.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2022,
+  "date_paiement": "2023-06-01",
+  "date_ex": "2023-05-30",
+  "montant_net": 187.5,
+  "avis": "https://www.brvm.org/sites/default/files/20230411_-_avis_ndeg056_brvmdg_-_paiement_de_dividendes_exo_2022_-_boas.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2023,
+  "date_paiement": "2024-06-27",
+  "date_ex": "2024-06-25",
+  "montant_net": 300.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240612_-_avis_ndeg129_brvmdg_-_paiement_de_dividendes_exo_2023_-_boas.pdf",
   "source": "brvm.org"
  },
  {
