@@ -2190,20 +2190,20 @@
    },
    {
     "date": "2009-04-29",
-    "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (4)",
-    "rubrique": "seuil",
-    "type": "seuil",
-    "important": true,
-    "url": "https://www.brvm.org/sites/default/files/20090429_-_fs_-_palm_ci_-_exercice_2009_ph_ci_4.pdf",
-    "ticker": "PALC"
-   },
-   {
-    "date": "2009-04-29",
     "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (3)",
     "rubrique": "seuil",
     "type": "seuil",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20090429_-_fs_-_palm_ci_-_exercice_2009_ph_ci_3.pdf",
+    "ticker": "PALC"
+   },
+   {
+    "date": "2009-04-29",
+    "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (4)",
+    "rubrique": "seuil",
+    "type": "seuil",
+    "important": true,
+    "url": "https://www.brvm.org/sites/default/files/20090429_-_fs_-_palm_ci_-_exercice_2009_ph_ci_4.pdf",
     "ticker": "PALC"
    },
    {
