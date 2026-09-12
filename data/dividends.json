@@ -2,6 +2,16 @@
  {
   "ticker": "ABJC",
   "libelle_source": "SERVAIR ABIDJAN CI",
+  "exercice": 2015,
+  "date_paiement": "2016-06-16",
+  "date_ex": "2016-06-14",
+  "montant_net": 1800.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ABJC",
+  "libelle_source": "SERVAIR ABIDJAN CI",
   "exercice": 2016,
   "date_paiement": "2017-07-24",
   "date_ex": "2017-07-20",
@@ -1282,11 +1292,31 @@
  {
   "ticker": "FTSC",
   "libelle_source": "FILTISAC CI",
+  "exercice": 2015,
+  "date_paiement": "2016-06-30",
+  "date_ex": "2016-06-28",
+  "montant_net": 1045.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "FTSC",
+  "libelle_source": "FILTISAC CI",
   "exercice": 2016,
   "date_paiement": "2018-01-09",
   "date_ex": "2018-01-05",
   "montant_net": 1200.0,
   "avis": "https://www.brvm.org/sites/default/files/20171222_-_avis_ndeg267_brvmdg_-_paiement_de_dividendes_complementaires_-_filtisac_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "FTSC",
+  "libelle_source": "FILTISAC CI",
+  "exercice": 2017,
+  "date_paiement": "2018-08-16",
+  "date_ex": "2018-08-13",
+  "montant_net": 161.27,
+  "avis": "https://www.brvm.org/sites/default/files/20180730_-_avis_ndeg125_brvmdg_-_paiement_de_dividendes_exercice_2017.pdf",
   "source": "brvm.org"
  },
  {

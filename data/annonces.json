@@ -1,0 +1,2306 @@
+[
+ {
+  "date": "2026-09-01",
+  "titre": "FCTC ZAKA RMBS NSIA BANQUE CÔTE D’IVOIRE 2025-2044 : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260901_-_notation_financiere_-_fctc_zaka_rmbs_nsia_banque_cote_divoire_2025-2044.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2026-08-26",
+  "titre": "BOA BURKINA FASO : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_boa_bf.pdf",
+  "ticker": "BOABF"
+ },
+ {
+  "date": "2026-08-26",
+  "titre": "CORIS BANK INTERNATIONAL BURKINA FASO : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_coris_bank_international_bf.pdf",
+  "ticker": "CBIBF"
+ },
+ {
+  "date": "2026-08-26",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-18",
+  "titre": "BOA BN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_bn.pdf",
+  "ticker": "BOAB"
+ },
+ {
+  "date": "2026-08-18",
+  "titre": "BOA ML : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_ml.pdf",
+  "ticker": "BOAM"
+ },
+ {
+  "date": "2026-08-17",
+  "titre": "ETI TG : Communiqué de Presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260817_-_communique_de_presse_-_eti_tg.pdf",
+  "ticker": "ETIT"
+ },
+ {
+  "date": "2026-08-14",
+  "titre": "NOURMONY HOLDING SA 7,25 % 2024-2029 : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260813_-_notation_financiere_-_nourmony_holding_sa_725_2024-2029.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_avis_de_convocation_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI : Pouvoir - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_pouvoir_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI - Formulaire de vote par correspondance - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI : Projet de résolutions - Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_projet_de_resolutions_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-07-29",
+  "titre": "SONATEL SN : Communiqué - Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260729_-_communique_-_changement_important_dans_la_direction_-_sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2026-07-27",
+  "titre": "SONATEL SN - Communiqué de Presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260724_-_communique_de_presse_-_sonatel_sn_0.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2026-07-23",
+  "titre": "ETI TG : Avis de convocation - Assemblée Générale Extraordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260722_-_avis_de_convocation_-_assemblee_generale_extraordinaire_-_eti_tg.pdf",
+  "ticker": "ETIT"
+ },
+ {
+  "date": "2026-07-14",
+  "titre": "BICI CI : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260713_-_communique_-_bici_ci.pdf",
+  "ticker": "BICC"
+ },
+ {
+  "date": "2026-07-14",
+  "titre": "NSIA BANQUE CI : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260713_-_communique_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2026-07-08",
+  "titre": "FILTISAC CI : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260707_-_communique_-_filtisac_ci.pdf",
+  "ticker": "FTSC"
+ },
+ {
+  "date": "2026-07-08",
+  "titre": "AFINHAB (Ex-CRRH-UEMOA) : Communiqué - Changement de dénomination sociale",
+  "rubrique": "communique",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260707_-_communique_-_changement_de_denomination_sociale_-_afinhab_ex-crrh-uemoa.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-07-05",
+  "titre": "BOA CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260703_-_notation_financiere_-_boa_ci.pdf",
+  "ticker": "BOAC"
+ },
+ {
+  "date": "2026-07-05",
+  "titre": "ORAGROUP TG : Avis de convocation et Projet de résolution - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260703_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_mixte_-_oragroup_tg.pdf",
+  "ticker": "ORGT"
+ },
+ {
+  "date": "2026-07-01",
+  "titre": "SONATEL SN : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260630_-_notation_financiere_-_sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2026-06-30",
+  "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2026-06-30",
+  "titre": "UNIWAX CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260629_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2026-06-29",
+  "titre": "LNB BN (Annule et remplace le précédent) : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260626_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_lnb_bn_annule_et_remplace_le_precedent.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-29",
+  "titre": "ERIUM CI : Pouvoir - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260626_-_pouvoir_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-29",
+  "titre": "ERIUM CI : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260626_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_morale_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_physique_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "Avis de convocation - Assemblée Générale Ordinaire - ERIUM CI",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-avis_de_convocation_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "SITAB CI : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-24",
+  "titre": "AFRICA GLOBAL LOGISTICS CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260623_-_notation_financiere_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-21",
+  "titre": "ERIUM CI : Communiqué - Profit Warning",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260619_-_communique_-_profit_warning_-_erium_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-15",
+  "titre": "LNB BN : Communiqué - Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260615_-_communique_-_changement_important_dans_la_direction_-_lnb_bn.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-15",
+  "titre": "TRACTAFRIC MOTORS CI : Avis de convocation - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260615_-_avis_de_convocation_-_assemblee_generale_mixte_-_tractafric_motors_ci.pdf",
+  "ticker": "PRSC"
+ },
+ {
+  "date": "2026-06-13",
+  "titre": "BIIC BN : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260612_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_biic_bn.pdf",
+  "ticker": "BICB"
+ },
+ {
+  "date": "2026-06-13",
+  "titre": "LNB BN : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260612_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_lnb_bn.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-12",
+  "titre": "NSIA BANQUE CI : Avis de convocation et Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260611_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2026-06-08",
+  "titre": "SODE CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260608_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sode_ci.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "NESTLE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_nestle_ci.pdf",
+  "ticker": "NTLC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "CRRH-UEMOA : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "SMB CI : Pouvoir - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_pouvoir_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2026-06-04",
+  "titre": "SOCIETE GENERALE CI : Avis de convocation - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_-_assemblee_generale_mixte_-_societe_generale_ci.pdf",
+  "ticker": "SGBC"
+ },
+ {
+  "date": "2026-06-04",
+  "titre": "VIVO ENERGY CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_vivo_energy_ci.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2026-06-04",
+  "titre": "CIE CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_cie_ci.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2026-06-03",
+  "titre": "SAFCA CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260602_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_safca_ci.pdf",
+  "ticker": "SAFC"
+ },
+ {
+  "date": "2026-06-01",
+  "titre": "NEI-CEDA CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260529_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_nei-ceda_ci.pdf",
+  "ticker": "NEIC"
+ },
+ {
+  "date": "2026-06-01",
+  "titre": "FILTISAC CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260529_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_filtisac_ci.pdf",
+  "ticker": "FTSC"
+ },
+ {
+  "date": "2026-05-29",
+  "titre": "TOTALENERGIES MARKETING SENEGAL : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260528_-_avis_de_convocation-assemblee_generale_ordinaire_-_totalenergies_marketing_sn.pdf",
+  "ticker": "TTLS"
+ },
+ {
+  "date": "2026-05-24",
+  "titre": "NESTLE CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260522_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_nestle_ci.pdf",
+  "ticker": "NTLC"
+ },
+ {
+  "date": "2026-05-21",
+  "titre": "BENABE CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260520_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_bernabe_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOGB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sogb_ci.pdf",
+  "ticker": "SOGC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Pouvoir - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-16",
+  "titre": "SICOR CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260515_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sicor_ci.pdf",
+  "ticker": "SICC"
+ },
+ {
+  "date": "2026-05-13",
+  "titre": "ETI TOGO : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260513_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-05-12",
+  "titre": "CFAO MOTORS CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260512_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_cfao_motors_ci.pdf",
+  "ticker": "CFAC"
+ },
+ {
+  "date": "2026-05-05",
+  "titre": "ORAGROUP TG : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_oragroup_sa_-_2025.pdf",
+  "ticker": "ORGT"
+ },
+ {
+  "date": "2026-05-05",
+  "titre": "ERIUM CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation-_erium_ci_-_2025.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-05-05",
+  "titre": "SITAB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_sitab_2025.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-05-05",
+  "titre": "TotalEnergies Marketing CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260505_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_totalenergies_marketing_ci.pdf",
+  "ticker": "TTLC"
+ },
+ {
+  "date": "2026-05-01",
+  "titre": "SUCRIVOIRE CI : Avis de convocation et projets de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sucrivoire_ci.pdf",
+  "ticker": "SCRC"
+ },
+ {
+  "date": "2026-05-01",
+  "titre": "SERVAIR ABIDJAN CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_servair_abidjan_ci.pdf",
+  "ticker": "ABJC"
+ },
+ {
+  "date": "2026-05-01",
+  "titre": "SETAO CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_setao_ci.pdf",
+  "ticker": "STAC"
+ },
+ {
+  "date": "2026-05-01",
+  "titre": "SETAO CI : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_setao_ci_0.pdf",
+  "ticker": "STAC"
+ },
+ {
+  "date": "2026-04-29",
+  "titre": "BOA NG : Communiqué de presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260429_-_communique_de_presse_-_boa_ng.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2026-04-24",
+  "titre": "SIB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260423_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sib_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-04-22",
+  "titre": "SIB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260421_-_notation_financiere_-_sib_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-04-17",
+  "titre": "BICI CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260417_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_bici_ci.pdf",
+  "ticker": "BICC"
+ },
+ {
+  "date": "2026-04-16",
+  "titre": "Communiqué - Franchissement de seuil par NSIA PARTICIPATIONS",
+  "rubrique": "communique",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260416_-_communique_-_franchissement_de_seuil_par_nsia_participations.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-04-16",
+  "titre": "Communiqué - Franchissement de seuil par NSIA HOLDING FINANCIERE",
+  "rubrique": "communique",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260416_-_communique_-_franchissement_de_seuil_par_nsia_holding_financiere.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-04-16",
+  "titre": "BOA BN : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260415_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_boa_bn.pdf",
+  "ticker": "BOAB"
+ },
+ {
+  "date": "2026-04-16",
+  "titre": "ETI TG : Avis de convocation - Assemblée Générale Extraordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260415_-_avis_de_convocation_-_assemblee_generale_extraordinaire_-_eti_tg.pdf",
+  "ticker": "ETIT"
+ },
+ {
+  "date": "2026-04-16",
+  "titre": "BOA BN : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260415_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_bn.pdf",
+  "ticker": "BOAB"
+ },
+ {
+  "date": "2026-04-14",
+  "titre": "ALIOS FINANCE (SAFCA CI) : Augmentation de capital par apport en numéraire avec DPS",
+  "rubrique": "communique",
+  "type": "capital",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260413_-_avis_ndeg093_brvmdg_-_augmentation_de_k_par_apport_en_numeraire_avec_dps_-_safca_ci.pdf",
+  "ticker": "SAFC"
+ },
+ {
+  "date": "2026-04-10",
+  "titre": "ECOBANK CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260410_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_ecobank_ci.pdf",
+  "ticker": "ECOC"
+ },
+ {
+  "date": "2026-04-09",
+  "titre": "ONATEL BURKINA FASO : Communiqué de presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260409_-_communique_de_presse_-_onatel_bf.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-04-02",
+  "titre": "SODECI : Communiqué - Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-_changement_important_dans_la_direction_-_sode_ci.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2026-04-01",
+  "titre": "BOA CI : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260331_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_ci.pdf",
+  "ticker": "BOAC"
+ },
+ {
+  "date": "2026-03-25",
+  "titre": "BOA ML : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260324_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_ml.pdf",
+  "ticker": "BOAM"
+ },
+ {
+  "date": "2026-03-18",
+  "titre": "BOA SN : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260317_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_sn.pdf",
+  "ticker": "BOAS"
+ },
+ {
+  "date": "2026-03-13",
+  "titre": "BOA NIGER : Communiqué - Profit Warning",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260313_-_communique_-_profit_warning_-_boa_niger.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2026-03-12",
+  "titre": "SICABLE CI : Projet de résolutions - Assemblée Générale Ordinaire (Annule et remplace le précédent)",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260311_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_sicable_ci_annule_et_remplace_le_precedent.pdf",
+  "ticker": "CABC"
+ },
+ {
+  "date": "2026-03-10",
+  "titre": "SICABLE CI : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260310_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_sicable_ci.pdf",
+  "ticker": "CABC"
+ },
+ {
+  "date": "2026-03-06",
+  "titre": "Projet de résolutions - Assemblée Générale Ordinaire - BOA BF",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260306_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_bf.pdf",
+  "ticker": "BOABF"
+ },
+ {
+  "date": "2026-03-03",
+  "titre": "NEI CEDA CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260303_-_notation_financiere_-_nei_ceda_ci.pdf",
+  "ticker": "NEIC"
+ },
+ {
+  "date": "2026-03-03",
+  "titre": "ALIOS FINANCE (EX SAFCA CI) : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260303_-_notation_financiere_-_safca_ci.pdf",
+  "ticker": "SAFC"
+ },
+ {
+  "date": "2026-02-22",
+  "titre": "FIDELIS FINANCE : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260220_-_communique_-_fidelis_finance.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-02-22",
+  "titre": "NEI-CEDA CI : Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260220_-_communique_-_changement_important_dans_la_direction_-_nei-ceda_ci.pdf",
+  "ticker": "NEIC"
+ },
+ {
+  "date": "2026-02-16",
+  "titre": "SONATEL SN : Communiqué de presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260216_-_communique_de_presse_-_sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2026-02-11",
+  "titre": "UNIWAX CI : Communiqué - Cession de participation",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260211_-_communique_-_cession_de_participation_-_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2026-02-02",
+  "titre": "ORANGE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260202_-_notation_financiere_-_orange_ci.pdf",
+  "ticker": "ORAC"
+ },
+ {
+  "date": "2026-01-28",
+  "titre": "SAPH CI : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260128_-_communique_-_saph_ci.pdf",
+  "ticker": "SPHC"
+ },
+ {
+  "date": "2026-01-27",
+  "titre": "SODE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260127_-_notation_financiere_-_sode_ci.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2026-01-08",
+  "titre": "CIE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_cie_ci.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2026-01-08",
+  "titre": "SIB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_sib_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-12-31",
+  "titre": "LOTERIE NATIONALE DU BENIN : Profit Warning",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20251231_-_communique_profit_warning_lnb_sa_30-12-2025.pdf",
+  "ticker": "LNBB"
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "ONATEL BURKINA FASO : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_onatel_bf.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "SERVAIR ABIDJAN CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_servair_abidjan_ci.pdf",
+  "ticker": "ABJC"
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "SUCRIVOIRE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_sucrivoire_ci.pdf",
+  "ticker": "SCRC"
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "TOTALENERGIES MARKETING CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_ci.pdf",
+  "ticker": "TTLC"
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "TOTALENERGIES MARKETING SN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_sn.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-12-23",
+  "titre": "Communiqué – Alerte sur résultats - BOA NIGER",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20251223_-_communique_-_alerte_sur_resultats_-_boa_niger.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2025-12-17",
+  "titre": "EVIOSYS PACKAGING SIEM CI : Changement de dénomination sociale",
+  "rubrique": "communique",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251217_-_communique_-_changement_de_denomination_sociale_-_eviosys_packaging_siem_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-12-09",
+  "titre": "SMB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251209_-_notation_financiere_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2025-11-29",
+  "titre": "AIR LIQUIDE CI : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20251128_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_air_liquide_ci.pdf",
+  "ticker": "SIVC"
+ },
+ {
+  "date": "2025-11-28",
+  "titre": "AIR LIQUIDE CI : Communiqué - Changement de dénomination sociale",
+  "rubrique": "communique",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251127_-_communique_-_changement_de_denomination_sociale_-_air_liquide_ci.pdf",
+  "ticker": "SIVC"
+ },
+ {
+  "date": "2025-11-26",
+  "titre": "SICABLE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251126_-_notation_financiere_-_sicable_ci.pdf",
+  "ticker": "CABC"
+ },
+ {
+  "date": "2025-11-22",
+  "titre": "AIR LIQUIDE INTERNATIONAL : Communiqué - Franchissement de seuil",
+  "rubrique": "communique",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251121_-_communique_-_franchissement_de_seuil_par_air_liquide_international.pdf",
+  "ticker": "SIVC"
+ },
+ {
+  "date": "2025-11-18",
+  "titre": "BOA NG : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251117_-_notation_financiere_-_boa_ng.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2025-11-07",
+  "titre": "BOA SENEGAL : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20251107_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_sn.pdf",
+  "ticker": "BOAS"
+ },
+ {
+  "date": "2025-11-03",
+  "titre": "TOTALENERGIES MARKETING SENEGAL : Communiqué - Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20251103_-_communique_-_changement_important_dans_la_direction_-_totalenergies_marketing_sn.pdf",
+  "ticker": "TTLS"
+ },
+ {
+  "date": "2025-10-29",
+  "titre": "MOOV BURKINA FASO (Ex ONATEL BF) : Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20251029_-_communique_-_changement_important_dans_la_direction_-_onatel_bf.pdf",
+  "ticker": "ONTBF"
+ },
+ {
+  "date": "2025-10-28",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251028_-_notation_financiere_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2025-10-28",
+  "titre": "ECOBANK CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251028_-_notation_financiere_-_ecobank_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-10-23",
+  "titre": "BOA SN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251022_-_notation_financiere_-_boa_sn.pdf",
+  "ticker": "BOAS"
+ },
+ {
+  "date": "2025-10-23",
+  "titre": "PETRO IVOIRE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251022_-_notation_financiere_-_petro_ivoire_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-10-16",
+  "titre": "SAPH CÔTE D&#039;IVOIRE : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251016_-_notation_financiere_-_saph_ci.pdf",
+  "ticker": "SPHC"
+ },
+ {
+  "date": "2025-10-06",
+  "titre": "BOA CÔTE D&#039;IVOIRE : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20251006_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-09-15",
+  "titre": "CORIS BANK INTERNATIONAL BURKINA FASO : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250915_-_notation_financiere_-_coris_bank_international_bf.pdf",
+  "ticker": "CBIBF"
+ },
+ {
+  "date": "2025-09-15",
+  "titre": "SOCIETE GENERALE CÔTE D&#039;IVOIRE : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250915_-_notation_financiere_-_societe_generale_ci.pdf",
+  "ticker": "SGBC"
+ },
+ {
+  "date": "2025-09-02",
+  "titre": "TOTALENERGIES MARKETING CÔTE D&#039;IVOIRE : Changement important au sein de la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250902_-_changement_important_au_sein_de_la_direction_-_totalenergies_marketing_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-09-01",
+  "titre": "Port Autonome de Dakar - SENEGAL : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250901_-_notation_financiere_-_port_autonome_de_dakar.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-08-28",
+  "titre": "LNB BENIN : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250828_-_notation_financiere_-_lnb_bn.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-08-22",
+  "titre": "BERNABE CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_bernabe_ci.pdf",
+  "ticker": "BNBC"
+ },
+ {
+  "date": "2025-08-22",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-08-18",
+  "titre": "ETI TOGO : Communiqué de presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250818_-_communique_de_presse_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-08-06",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250806_-_communique_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2025-08-05",
+  "titre": "ETI TOGO : Communiqué de presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250805_-_communique_de_presse_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-07-28",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250728_-_communique_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2025-07-25",
+  "titre": "SONATEL SENEGAL : Communiqué de presse - Résultats consolidés du groupe du 1er semestre 2025",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250725_-_communique_de_presse_-_resultats_consolides_du_groupe_du_1er_semestre_2025_-_sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2025-07-24",
+  "titre": "SONATEL SENEGAL : Communiqué de presse - Nomination au sein de la direction",
+  "rubrique": "communique",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250724_-_communique_de_presse_-_nomination_au_sein_de_la_direction_de_sonatel.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2025-07-24",
+  "titre": "SONATEL SENEGAL : Changement important au sein de la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250724_-_changement_important_au_sein_de_la_direction_-_sonatel.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2025-07-23",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué – Lancement du Fonds Commun de Titrisation de Créances FCTC",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/lancement_fctc_nsia_banque_du_18_juillet_1.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2025-07-23",
+  "titre": "BOA MALI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_mali.pdf",
+  "ticker": "BOAM"
+ },
+ {
+  "date": "2025-07-23",
+  "titre": "BOA BENIN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_benin.pdf",
+  "ticker": "BOAB"
+ },
+ {
+  "date": "2025-07-10",
+  "titre": "Ecobank Transnational Incorporated TOGO : Communiqué de presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250710_-_communique_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-07-08",
+  "titre": "CRRH-UEMOA : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250708_-_notation_financiere_-_crrh-uemoa.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-07-07",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2025-07-07",
+  "titre": "CIE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_cie_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-07-07",
+  "titre": "SITAB CÔTE D&#039;IVOIRE : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250707_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2025-07-01",
+  "titre": "SONATEL SENEGAL : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250701_-_notation_financiere_-_sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2025-06-27",
+  "titre": "LOTERIE NATIONALE DU BENIN : Projet de résolutions à l&#039;Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "resolution",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250624_-_projet_de_resolutions_-_assemblee_generale_mixte_-_loterie_nationale_du_benin.pdf",
+  "ticker": "LNBB"
+ },
+ {
+  "date": "2025-06-27",
+  "titre": "BANQUE INTERNATIONALE POUR L&#039;INDUSTRIE ET LE COMMERCE DU BENIN : ERRATUM - Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250627_-_erratum_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_biic_bn.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-06-26",
+  "titre": "MOVIS CÔTE D&#039;IVOIRE : Radiation de la cote",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250625_-_avis_ndeg142_brvmdg_-_radiation_movis_ci_1.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-06-26",
+  "titre": "BANQUE INTERNATIONALE POUR L&#039;INDUSTRIE ET LE COMMERCE DU BENIN :Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250626_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_biic_bn.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-06-25",
+  "titre": "UNIWAX CÔTE D&#039;IVOIRE: Communiqué - Report de l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "communique",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250625_-_communique_-_report_de_lassemblee_generale_ordinaire_-_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2025-06-25",
+  "titre": "UNIWAX CÔTE D&#039;IVOIRE : Communiqué - Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250625_-_communique_-_changement_important_dans_la_direction_-_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2025-06-10",
+  "titre": "Ecobank Transnational Incorporated TOGO : Communiqué de presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250610_-_communique_de_presse_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-06-03",
+  "titre": "SMB CÔTE D&#039;IVOIRE : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250603_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-05-30",
+  "titre": "ETI TOGO : Projet de résolutions à l&#039;Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250530_-_projet_de_resolutions_-_assemblee_generale_mixte_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-05-23",
+  "titre": "FILTISAC CÔTE D&#039;IVOIRE : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250523_-_avis_de_convocation_et_projet_de_resolutions_-_assemblee_generale_ordinaire_-_filtisac_ci_1.pdf",
+  "ticker": "FTSC"
+ },
+ {
+  "date": "2025-05-22",
+  "titre": "ORAGROUP TOGO : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250522_-_communique_-_oragroup_tg.pdf",
+  "ticker": "ORGT"
+ },
+ {
+  "date": "2025-05-09",
+  "titre": "ALIOS FINANCE SA : Communiqué - Franchissement de seuil",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250509_-_communique_-_franchissement_de_seuil_par_alios_finance_sa.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-04-25",
+  "titre": "CORIS BANK INTERNATIONAL BF : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250425_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_coris_bank_international_bf.pdf",
+  "ticker": "CBIBF"
+ },
+ {
+  "date": "2025-04-17",
+  "titre": "MOOV BURKINA FASO (ex ONATEL BF) Communiqué de presse - Résultats au 31 décembre 2024",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250417_-_communique_de_presse_-_resultats_au_31_decembre_2024_-_onatel_bf.pdf",
+  "ticker": "ONTBF"
+ },
+ {
+  "date": "2025-04-08",
+  "titre": "UNILEVER CÔTE D&#039;IVOIRE : Communiqué de presse",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250408_-_communique_de_presse_-_unilever_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-04-07",
+  "titre": "MOVIS CI : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250407_-_communique_-_movis_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-04-03",
+  "titre": "BOA CÔTE D&#039;IVOIRE : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250403_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-03-24",
+  "titre": "SONATEL SENEGAL : Projet de résolutions - Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250324_-_projet_de_resolutions_-_assemblee_generale_mixte_-_sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA NIGER : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_niger.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA SENEGAL : Projet de résolutions àl&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_senegal.pdf",
+  "ticker": "BOAS"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_benin.pdf",
+  "ticker": "BOAB"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA MALI : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_mali.pdf",
+  "ticker": "BOAM"
+ },
+ {
+  "date": "2025-03-18",
+  "titre": "TOTALENERGIES MARKETING CÔTE D&#039;IVOIRE : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250318_-_communique_-_totalenergies_marketing_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-03-13",
+  "titre": "SICABLE CÔTE D&#039;IVOIRE : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250313_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_sicable_ci.pdf",
+  "ticker": "CABC"
+ },
+ {
+  "date": "2025-03-03",
+  "titre": "BOA BURKINA FASO : Projet de résolution à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250303_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_boa_bf_1.pdf",
+  "ticker": "BOABF"
+ },
+ {
+  "date": "2025-02-24",
+  "titre": "SUCRIVOIRE CÔTE D&#039;IVOIRE : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250224_-_communique_-_sucrivoire_ci.pdf",
+  "ticker": "SCRC"
+ },
+ {
+  "date": "2025-02-24",
+  "titre": "SOCIETE GENERALE CÔTE D&#039;IVOIRE : Communiqué - Augmentation de capital",
+  "rubrique": "communique",
+  "type": "capital",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250224_-_communique_-_augmentation_de_capital_-_societe_generale_ci.pdf",
+  "ticker": "SGBC"
+ },
+ {
+  "date": "2025-02-20",
+  "titre": "FILTISAC CÔTE D&#039;IVOIRE : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250220_-_communique_-_filtisac_ci.pdf",
+  "ticker": "FTSC"
+ },
+ {
+  "date": "2025-02-12",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250212_-_communique_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2025-01-10",
+  "titre": "MOOV BURKINA FASO (ex ONATEL) : Communiqué - Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250110_-_communique_-_changement_important_dans_la_direction_-_onatel_bf.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2024-12-27",
+  "titre": "FILTISAC CI : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20241227_-_communique_-_filtisac_ci.pdf",
+  "ticker": "FTSC"
+ },
+ {
+  "date": "2024-12-17",
+  "titre": "BOA NIGER : Note d&#039;information sur la baisse de résultat",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20241217_-_note_dinformation_sur_la_baisse_de_resultat_-_boa_niger.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2024-11-29",
+  "titre": "BICI CÔTE D&#039;IVOIRE : Communiqué - Augmentation de capital par incorporation de réserves",
+  "rubrique": "communique",
+  "type": "capital",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20241129_-_communique_-_augmentation_de_capital_par_incorporation_de_reserves_-_bici_ci.pdf",
+  "ticker": "BICC"
+ },
+ {
+  "date": "2024-10-29",
+  "titre": "TRACTAFRIC MOTORS CI : Communiqué - Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20241029_-_communique_-_changement_important_dans_la_direction_-_tractafric_motors_ci.pdf",
+  "ticker": "PRSC"
+ },
+ {
+  "date": "2024-10-24",
+  "titre": "AFRICA GLOBAL LOGISTICS CI : Projet de texte des résolutions",
+  "rubrique": "resolution",
+  "type": "resolution",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20241024_-_projet_de_texte_des_resolutions_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2024-10-09",
+  "titre": "BOA CI : Projet de résolution - Assemblée Générale Extraordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20241009_-_projet_de_resolution_-_assemblee_generale_extraordinaire_-_boa_ci.pdf",
+  "ticker": "BOAC"
+ },
+ {
+  "date": "2024-09-17",
+  "titre": "ECOBANK CI : Projet de Résolutions – Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240917_-_avis_de_convocation_et_projet_de_resolutions_-_assemblee_generale_ordinaire_-_ecobank_ci_1.pdf",
+  "ticker": "ECOC"
+ },
+ {
+  "date": "2024-09-05",
+  "titre": "BOA NIGER : Communiqué – Changement important à la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240905_-_communique_-_changement_important_dans_la_direction_-_boa_niger.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2024-08-28",
+  "titre": "ORAGROUP TOGO : Communiqué - Changement important dans le Conseil d&#039;Administration",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240828_-_communique_-_changement_important_dans_le_ca_-_oragroup_tg.pdf",
+  "ticker": "ORGT"
+ },
+ {
+  "date": "2024-08-19",
+  "titre": "VIVO ENERGY CI : Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240819_-_changement_important_dans_la_direction_-_vivo_energy_ci.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2024-08-13",
+  "titre": "SOLIBRA CI : Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240812_-_communique_-_changement_important_dans_la_direction_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2024-08-08",
+  "titre": "BOA BENIN : Projet de textes de résolutions - Assemblée Générale Extraordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240808_-_projet_de_textes_de_resolutions_-_assemblee_generale_extraordinaire_-_boa_benin.pdf",
+  "ticker": "BOAB"
+ },
+ {
+  "date": "2024-07-25",
+  "titre": "BOA MALI : Projet de résolutions - Assemblée Générale Extraordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240725_-_projet_de_resolutions_-_assemblee_generale_extraordinaire_-_boa_mali.pdf",
+  "ticker": "BOAM"
+ },
+ {
+  "date": "2024-07-05",
+  "titre": "SOCIETE GENERALE CI : Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240705_-_communique_-_changement_important_dans_la_direction_-_societe_generale_ci.pdf",
+  "ticker": "SGBC"
+ },
+ {
+  "date": "2024-06-25",
+  "titre": "CFAO MOTORS CI : Projet de texte des résolutions - Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240625_-_projet_de_texte_des_resolutions_-_assemblee_generale_mixte_-_cfao_motors_ci.pdf",
+  "ticker": "CFAC"
+ },
+ {
+  "date": "2024-06-10",
+  "titre": "Ecobank Transnational Incorporated TOGO : Résolution à l&#039;Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240610_-_resolution_-_assemblee_generale_mixte_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2024-06-06",
+  "titre": "SODE CI : Projet de résolution à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240606_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_sode_ci_1.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2024-06-05",
+  "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
+  "rubrique": "resolution",
+  "type": "resolution",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_onatel_bf_1.pdf",
+  "ticker": "ONTBF"
+ },
+ {
+  "date": "2024-06-05",
+  "titre": "TOTALENERGIES MARKETING CI : Projets de résolution à l&#039;Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_mixte_-_totalenergies_marketing_ci_1.pdf",
+  "ticker": "TTLC"
+ },
+ {
+  "date": "2024-06-05",
+  "titre": "CIE CI : Projet de résolution à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_cie_ci_1.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2024-06-05",
+  "titre": "SITAB CI : Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2024-05-30",
+  "titre": "SMB CI : Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240530_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2024-05-30",
+  "titre": "FILTISAC CI : Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240530_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_filtisac_ci.pdf",
+  "ticker": "FTSC"
+ },
+ {
+  "date": "2024-05-03",
+  "titre": "NSIA BANQUE CI : Projet de résolution à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240503_-_avis_de_convocation_-_assemblee_generale_ordinaire_et_projet_de_resolution_-_nsia_banque_ci_1.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2024-01-30",
+  "titre": "Communiqué - Franchissement de seuil par NSIA VIE ASSURANCES CI",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/declaration_franchissement_de_seuil.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2024-01-24",
+  "titre": "NSIA BANQUE CI : Communiqué de nomination",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20240124_-_communique_-_nomination_dga_nsia_banque_cote_divoire_1.pdf",
+  "ticker": "NSBC"
+ },
+ {
+  "date": "2023-10-30",
+  "titre": "PALM CI : Communiqué - Changement de dirigeant",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_de_dirigeant_-_palm_ci.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2023-10-30",
+  "titre": "PALM CI : Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2023-06-29",
+  "titre": "ORAGROUP TG : Communiqué de déclaration de franchissement de seuils",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20230629_-_communique_declaration_franchissement_seuils_-_oragroup_tg.pdf",
+  "ticker": "ORGT"
+ },
+ {
+  "date": "2023-06-27",
+  "titre": "BICI CI : Communiqué de déclaration de franchissement de seuils",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20230627_-_communique_declaration_franchissement_seuils_-_bici_ci_1.pdf",
+  "ticker": "BICC"
+ },
+ {
+  "date": "2023-06-08",
+  "titre": "TRACTAFRIC MOTORS CI : Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20230608_-_changement_important_dans_la_direction_-_tractafric_motors_ci.pdf",
+  "ticker": "PRSC"
+ },
+ {
+  "date": "2023-04-19",
+  "titre": "FILTISAC CÔTE D&#039;IVOIRE : Important change in the management",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20230419_-_changement_important_dans_la_direction_-_filtisac_ci_0.pdf",
+  "ticker": "FTSC"
+ },
+ {
+  "date": "2023-04-03",
+  "titre": "AIR LIQUIDE CI : Changement Important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20230403_-_changement_important_dans_la_direction_-_air_liquide_ci.pdf",
+  "ticker": "SIVC"
+ },
+ {
+  "date": "2023-02-15",
+  "titre": "SONATEL : Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20230215_-_changement_important_dans_la_direction_-_sonatel.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2023-02-15",
+  "titre": "BICI CÔTE D&#039;IVOIRE : Déclarations de franchissement de seuils",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20230215_-_declarations_de_franchissement_de_seuils_-_bicici.pdf",
+  "ticker": "BICC"
+ },
+ {
+  "date": "2023-02-01",
+  "titre": "SUCRIVOIRE CI : Changement Important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/vf-_communique_sucrivoire_brvm_-_annonce_nomination_nouveau_dg_-fevrier_.pdf",
+  "ticker": "SCRC"
+ },
+ {
+  "date": "2023-01-19",
+  "titre": "SERVAIR ABIDJAN CI : Changement Important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20230119_-_changement_important_dans_la_direction_-_servair_abidjan_ci.pdf",
+  "ticker": "ABJC"
+ },
+ {
+  "date": "2023-01-11",
+  "titre": "SONATEL SENEGAL : Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20230111_-_changement_important_dans_la_direction_-_sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2022-12-21",
+  "titre": "SAPH CI : Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20221221_-_changement_important_dans_la_direction_-_saph_ci.pdf",
+  "ticker": "SPHC"
+ },
+ {
+  "date": "2022-10-21",
+  "titre": "BOA MALI : Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20221021_-_changement_important_dans_la_direction_-_boa_mali.pdf",
+  "ticker": "BOAM"
+ },
+ {
+  "date": "2022-10-18",
+  "titre": "BOA CI : Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20221018_-_changement_important_dans_la_direction_-_boa_ci.pdf",
+  "ticker": "BOAC"
+ },
+ {
+  "date": "2022-10-14",
+  "titre": "NESTLE CI : Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20221014_-_changement_important_dans_la_direction_-_nestle_ci.pdf",
+  "ticker": "NTLC"
+ },
+ {
+  "date": "2022-06-27",
+  "titre": "AIR LIQUIDE CI : Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20220627_-_changement_important_dans_la_direction_-_air_liquide_ci.pdf",
+  "ticker": "SIVC"
+ },
+ {
+  "date": "2022-06-13",
+  "titre": "TOTALENERGIES MARKETING CI : Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20220613_-_changement_important_dans_la_direction_-_totalenergies_marketing_ci.pdf",
+  "ticker": "TTLC"
+ },
+ {
+  "date": "2022-05-24",
+  "titre": "VIVO ENERGY CI : Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20220524_-_changement_important_dans_la_direction_-_vivo_energy_ci.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2022-04-01",
+  "titre": "UNILEVER CI : Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20220401_-_communique_-_changement_important_dans_la_direction_-_unilever_ci.pdf",
+  "ticker": "UNLC"
+ },
+ {
+  "date": "2021-12-07",
+  "titre": "ETI TOGO : Communiqué - Départ important au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_depart_important_au_sein_de_la_direction_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2021-12-07",
+  "titre": "ETI TOG0 : Communiqué - Nomination au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_nomination_au_sein_de_la_sein_de_la_direction_-_eti_tg_0.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2021-12-01",
+  "titre": "SONATEL SENEGAL : Changement Important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20211201_-_changement_important_dans_la_direction-sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
+  "date": "2021-08-30",
+  "titre": "ONATEL BF : Communique changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20210830_-_communique_changement_important_dans_la_direction_-_onatel_bf.pdf",
+  "ticker": "ONTBF"
+ },
+ {
+  "date": "2021-08-17",
+  "titre": "SMB CI : Communique changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20210817_-_communique_changement_important_dans_la_direction_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2021-06-07",
+  "titre": "Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20210604_-_communique_-_changement_important_dans_la_direction_-_sib_ci_1.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2021-06-03",
+  "titre": "ONATEL BURKINA FASO : Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20210603_-_communique_-_changement_important_dans_la_direction_-_onatel_bf.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2021-04-08",
+  "titre": "ETI TOGO : Nomination au sein de la direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20210408_-_nomination_au_sein_de_la_direction_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2018-04-19",
+  "titre": "ONATEL BF : Franchissement de seuil par l’Etat du BURKINA FASO",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/franchissement_seuil_onatel_par_etat_du_burkina_faso_0.pdf",
+  "ticker": "ONTBF"
+ },
+ {
+  "date": "2018-04-17",
+  "titre": "Franchissement de seuil par MAROC TELECOM – ONATEL BF",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/communique_de_declaration_de_franchissement_de_seuil_par_maroc_telecom.pdf",
+  "ticker": "ONTBF"
+ },
+ {
+  "date": "2015-10-07",
+  "titre": "Franchissement de seuil - SAPH CI - Exercice 2015",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20151007_-_fs_-_saph_ci_-_exercice_2015.pdf",
+  "ticker": "SPHC"
+ },
+ {
+  "date": "2015-09-18",
+  "titre": "Franchissement de seuil - BANK OF AFRICA NG - Exercice 2015 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20150918_-_fs_-_bank_of_africa_ng_-_exercice_2015_2.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2015-09-05",
+  "titre": "Franchissement de seuil - BANK OF AFRICA CI - Exercice 2015",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20150904_-_fs_-_bank_of_africa_ci_-_exercice_2015.pdf",
+  "ticker": "BOAC"
+ },
+ {
+  "date": "2015-09-04",
+  "titre": "Franchissement de seuil - BANK OF AFRICA NG - Exercice 2015 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20150904_-_fs_-_bank_of_africa_ng_-_exercice_2015_1.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2014-09-19",
+  "titre": "Franchissement de seuil - ECOBANK TG - Exercice 2014",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20140919_-_fs_-_ecobank_tg_-_exercice_2014.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2013-01-18",
+  "titre": "Franchissement de seuil - CFAO MOTORS CI - Exercice 2013",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20130118_-_fs_-_cfao_motors_ci_-_exercice_2013.pdf",
+  "ticker": "CFAC"
+ },
+ {
+  "date": "2012-03-02",
+  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2012-03-02",
+  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2012-01-04",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_1.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2011-12-12",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2011 (SDA CI) (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_bollore_transport_logistics_ci_-_exercice_2011_sda_ci_1.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2011-12-12",
+  "titre": "Franchissement de seuil - TRACTAFRIC MOTORS CI - Exercice 2011",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_tractafric_motors_ci_-_exercice_2011.pdf",
+  "ticker": "PRSC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_1.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_2.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2010-09-24",
+  "titre": "Franchissement de seuil - MOVIS CI - Exercice 2009 (SIVOM CI)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20100924_-_fs_-_movis_ci_-_exercice_2009_sivom_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2009-04-29",
+  "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (4)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20090429_-_fs_-_palm_ci_-_exercice_2009_ph_ci_4.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2009-04-29",
+  "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (3)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20090429_-_fs_-_palm_ci_-_exercice_2009_ph_ci_3.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2009-02-20",
+  "titre": "Franchissement de seuil - PALM CI - Exercice 2009",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20090220_-_fs_-_palm_ci_-_exercice_2009.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2009-02-12",
+  "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20090212_-_fs_-_palm_ci_-_exercice_2009_ph_ci_1.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2009-02-12",
+  "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20090212_-_fs_-_palm_ci_-_exercice_2009_ph_ci_2.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2008-07-22",
+  "titre": "Franchissement de seuil - SERVAIR ABIDJAN CI - Exercice 2008",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20080722_-_fs_-_servair_abidjan_ci_-_exercice_2008.pdf",
+  "ticker": "ABJC"
+ },
+ {
+  "date": "2006-02-10",
+  "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_1.pdf",
+  "ticker": "SAFC"
+ },
+ {
+  "date": "2006-02-10",
+  "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_2.pdf",
+  "ticker": "SAFC"
+ },
+ {
+  "date": "2003-05-12",
+  "titre": "Franchissement de seuil - BERNABE CI -Exercice 2003",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20030514_-_fs_-_bernabe_ci_-exercice_2003.pdf",
+  "ticker": "BNBC"
+ }
+]
