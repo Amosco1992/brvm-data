@@ -88,7 +88,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260701_-_avis_ndeg193_brvmdg_-_paiement_de_dividendes_exo_2025_-_servair_abidjan_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BICC",
@@ -212,7 +213,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260617_-_avis_ndeg176_brvmdg_-_paiement_de_dividendes_exercice_2025_-_bicici.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BNBC",
@@ -301,7 +303,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20230710_-_avis_ndeg139_brvmdg_-_paiement_de_dividendes_exercice_2022_-_bernabe_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BOAC",
@@ -419,7 +422,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20250505_-_avis_ndeg092_brvmdg_-_paiement_de_dividendes_exo_2024_-_boa_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "CABC",
@@ -538,7 +542,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20250516_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sicable_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "CFAC",
@@ -667,7 +672,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260730_-_avis_ndeg227_brvmdg_-_paiement_de_dividendes_exo_2025_-_cfao_motors_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "CIEC",
@@ -787,7 +793,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260707_-_avis_ndeg201_brvmdg_-_paiement_de_dividendes_exercice_2025_-_cie_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "ECOC",
@@ -900,7 +907,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260508_-_avis_ndeg128_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_ecobank_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "FTSC",
@@ -979,7 +987,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20250916_-_avis_ndeg230_brvmdg_-_paiement_de_dividendes_exercice_2024_et_paiement_de_dividendes_exceptionnels_-_filtisac_ci_0.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "NEIC",
@@ -1040,7 +1049,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260827_-_avis_ndeg252_brvmdg_-_paiement_de_dividendes_exo_2025_-_nei-ceda_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "NSBC",
@@ -1136,7 +1146,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260721_-_avis_ndeg212_brvmdg_-_paiement_de_dividendes_exercice_2025_-_nsia_banque_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "NTLC",
@@ -1231,7 +1242,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260730_-_avis_ndeg228_brvmdg_-_paiement_de_dividendes_exo_2025_-_nestle_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "ORAC",
@@ -1304,7 +1316,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260520_-_avis_ndeg138_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_orange_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "PALC",
@@ -1416,7 +1429,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260610_-_avis_ndeg162_brvmdg_-_paiement_de_dividendes_exo_2025_-_palm_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "PRSC",
@@ -1529,7 +1543,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20250911_-_avis_ndeg223_brvmdg_-_paiement_de_dividendes_exo_2024_-_tractafric_motors_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SAFC",
@@ -1560,7 +1575,8 @@
   "liquidite": "liquide",
   "dividendes": {
    "exercices_connus": 0
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SCRC",
@@ -1627,7 +1643,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20210805_-_avis_ndeg157_brvmdg_-_paiement_de_dividendes_exo_2020_-_sucrivoire_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SDCC",
@@ -1741,7 +1758,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260902_-_avis_ndeg259_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sode_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SDSC",
@@ -1843,7 +1861,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20250811_-_avis_ndeg198_brvmdg_-_paiement_de_dividendes_exo_2024_-_agl_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SEMC",
@@ -1898,7 +1917,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20211214_-_avis_ndeg234_brvmdg_-_paiement_de_dividendes_exo_2020_-_crown_siem.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SGBC",
@@ -2017,7 +2037,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260806_-_avis_ndeg231_brvmdg_-_paiement_de_dividendes_exercice_2025_-_societe_generale_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SHEC",
@@ -2131,7 +2152,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260821_-_avis_ndeg249_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_vivo_energy_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SIBC",
@@ -2245,7 +2267,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260623_-_avis_ndeg184_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sib_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SICC",
@@ -2276,7 +2299,8 @@
   "liquidite": "illiquide",
   "dividendes": {
    "exercices_connus": 0
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SIVC",
@@ -2325,7 +2349,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20170915_-_avis_ndeg172_brvmdg_-_paiement_de_dividendes_exo_2016_-_air_liquide_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SLBC",
@@ -2421,7 +2446,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260713_-_avis_ndeg208_brvmdg_-_paiement_de_dividendes_exo_2025_-_solibra_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SMBC",
@@ -2523,7 +2549,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260904_-_avis_ndeg261_brvmdg_-_paiement_de_dividendes_exercice_2025_-_smb_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SOGC",
@@ -2658,7 +2685,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260722_-_avis_ndeg213_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sogb_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SPHC",
@@ -2754,7 +2782,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260812_-_avis_ndeg238_brvmdg_-_paiement_de_dividendes_exo_2025_-_saph_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "STAC",
@@ -2809,7 +2838,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20220617_-_avis_ndeg113_brvmdg_-_paiement_de_dividendes_exercice_2021_-_setao_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "STBC",
@@ -2905,7 +2935,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260729_-_avis_ndeg226_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sitab_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "TTLC",
@@ -3024,7 +3055,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260814_-_avis_ndeg245_brvmdg_-_paiement_de_dividendes_exo_2025_-_totalenergies_marketing_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "UNLC",
@@ -3055,7 +3087,8 @@
   "liquidite": "illiquide",
   "dividendes": {
    "exercices_connus": 0
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "UNXC",
@@ -3134,7 +3167,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20220715_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_exo_2021_-_uniwax_ci.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BOAS",
@@ -3254,7 +3288,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260508_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exo_2025_-_boa_sn.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "SNTS",
@@ -3285,7 +3320,8 @@
   "liquidite": "liquide",
   "dividendes": {
    "exercices_connus": 0
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "TTLS",
@@ -3334,7 +3370,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20170602-_communique_declaration_de_dividendes_-total_senegal.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BOABF",
@@ -3458,7 +3495,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260331_-_avis_ndeg072_brvmdg_-_paiement_de_dividendes_exo_2025_-_boa_bf.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "CBIBF",
@@ -3554,7 +3592,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260603_-_avis_n154_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_coris_bank_international_bf.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "ONTBF",
@@ -3688,7 +3727,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260519_-_avis_ndeg137_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BOAM",
@@ -3778,7 +3818,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260511_-_avis_ndeg129_brvmdg_-_paiement_de_dividendes_exo_2025_-_boam.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "ETIT",
@@ -3845,7 +3886,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260624_-_avis_ndeg185_brvmdg_-_paiement_de_dividendes_exercice_2025_-_totalenergies_marketing_sn.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "ORGT",
@@ -3900,7 +3942,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20200703_-_avis_ndeg115_brvmdg_-_paiement_de_dividendes_exercice_2019_-_oragroup_tg.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BICB",
@@ -3955,7 +3998,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260703_-_avis_ndeg199_brvmdg_-_paiement_de_dividendes_exo_2025_-_biic_bn.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "LNBB",
@@ -4016,7 +4060,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20250720_-_avis_ndeg211_brvmdg_-_paiement_de_dividendes_exo_2025_-_loterie_nationale_du_benin.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BOAB",
@@ -4124,7 +4169,8 @@
      "avis": "https://www.brvm.org/sites/default/files/20260508_-_avis_ndeg121_brvmdg_-_paiement_de_dividendes_exo_2025_-_boab.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  },
  {
   "ticker": "BOAN",
@@ -4242,6 +4288,7 @@
      "avis": "https://www.brvm.org/sites/default/files/20250519_-_avis_ndeg112_brvmdg_-_paiement_de_dividendes_exo_2024_-_boan.pdf"
     }
    ]
-  }
+  },
+  "valorisation": null
  }
 ]
