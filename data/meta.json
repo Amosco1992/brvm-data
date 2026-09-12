@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-11T22:50:09+00:00",
+ "genere_le": "2026-09-12T00:07:18+00:00",
  "sources": {
   "miroir-github": {
    "tickers_attendus": 47,
@@ -12,6 +12,35 @@
    "detail_echecs": [],
    "etat": "injoignable"
   },
+  "dividendes": {
+   "paiements": 260,
+   "titres_couverts": 42,
+   "titres_sans_historique": [
+    "SAFC",
+    "SICC",
+    "UNLC",
+    "SNTS",
+    "BOAN"
+   ],
+   "libelles_non_rapproches": [
+    "",
+    "BANK OF AFRICA BF",
+    "BANK OF AFRICA BN",
+    "BANK OF AFRICA CI",
+    "BANK OF AFRICA ML",
+    "BANK OF AFRICA NG",
+    "BANK OF AFRICA SN",
+    "BICI CI",
+    "BOLLORE TRANSPORT &amp; LOGISTICS",
+    "ECOBANK TG",
+    "FILTISAC CI",
+    "SERVAIR ABIDJAN CI",
+    "TOTAL",
+    "TOTAL SENEGAL S.A.",
+    "TRACTAFRIC CI"
+   ],
+   "etat": "ok"
+  },
   "calendrier": {
    "seances_retenues": 90,
    "de": "2026-05-04",
@@ -22,5 +51,6 @@
  "perimes": [],
  "devise": "XOF",
  "parite_eur_fixe": 655.957,
+ "date_seance": "2026-09-11",
  "avertissement": "Données de marché à titre informatif. Ne constitue pas un conseil en investissement."
 }

@@ -25,7 +25,70 @@
    "variation_52s_pct": 126.24,
    "position_dans_range_52s": 1.0
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 7,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 124.0,
+   "derniere_date_paiement": "2026-09-30",
+   "prochaine_date_ex": "2026-09-29",
+   "exercices_payes_10a": 7,
+   "exercices_consecutifs": 1,
+   "baisses": [
+    {
+     "exercice": 2018,
+     "de": 98.97,
+     "a": 41.239003
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 3.03,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 49.5,
+     "date_paiement": "2017-07-24",
+     "avis": "https://www.brvm.org/sites/default/files/20170710_-_avis_ndeg110_brvmdg_-_paiement_de_dividendes_exo_2016_-_servair_abidjan_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 98.97,
+     "date_paiement": "2018-06-20",
+     "avis": "https://www.brvm.org/sites/default/files/20180604_-_avis_ndeg81_brvmdg_-paiement_de_dividendes_exo_2017_-_servair_abj.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 41.239003,
+     "date_paiement": "2019-09-30",
+     "avis": "https://www.brvm.org/sites/default/files/20190910_-_avis_ndeg148_brvmdg_-_paiement_de_la_derniere_fraction_des_dividendes_exo_2018_-_servair_abidjan_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 57.73,
+     "date_paiement": "2022-08-24",
+     "avis": "https://www.brvm.org/sites/default/files/20220805_-_avis_ndeg161_brvmdg_-_paiement_de_dividendes_exo_2021_-_servair_abidjan_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 92.0,
+     "date_paiement": "2023-08-31",
+     "avis": "https://www.brvm.org/sites/default/files/20230717_-_avis_ndeg149_brvmdg_-_paiement_de_dividendes_exo_2022_-_servair_abidjan_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 206.195,
+     "date_paiement": "2024-09-30",
+     "avis": "https://www.brvm.org/sites/default/files/20240916_-_avis_ndeg234_brvmdg_-_paiement_de_dividendes_exo_2023_-_servair_abidjan_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 124.0,
+     "date_paiement": "2026-09-30",
+     "avis": "https://www.brvm.org/sites/default/files/20260701_-_avis_ndeg193_brvmdg_-_paiement_de_dividendes_exo_2025_-_servair_abidjan_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BICC",
@@ -53,7 +116,76 @@
    "variation_52s_pct": 112.69,
    "position_dans_range_52s": 0.947
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 8,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 1315.0,
+   "derniere_date_paiement": "2026-07-06",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 8,
+   "exercices_consecutifs": 6,
+   "baisses": [
+    {
+     "exercice": 2022,
+     "de": 518.0,
+     "a": 401.4
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 3.98,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 2771.41,
+     "date_paiement": "2017-07-24",
+     "avis": "https://www.brvm.org/sites/default/files/20170710_-_avis_ndeg108_brvmdg_-_paiement_de_dividendes_exo_2016_-_bici_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 182.9,
+     "date_paiement": "2019-07-17",
+     "avis": "https://www.brvm.org/sites/default/files/20190703_-_avis_ndeg110_brvmdg_-_paiement_de_dividendes_exo_2018_-_bici_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 50.0,
+     "date_paiement": "2021-07-06",
+     "avis": "https://www.brvm.org/sites/default/files/20210622_-_avis_ndeg112_brvmdg_-_paiement_de_dividendes_exercice_2020_-_bicici.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 518.0,
+     "date_paiement": "2022-07-15",
+     "avis": "https://www.brvm.org/sites/default/files/20220627_-_avis_ndeg120_brvmdg_-_paiement_de_dividendes_exercice_2021_-_bicici.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 401.4,
+     "date_paiement": "2023-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20230714_-_avis_ndeg146_brvmdg_-_paiement_de_dividendes_exercice_2022_-_bicici_0.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 540.9,
+     "date_paiement": "2024-06-27",
+     "avis": "https://www.brvm.org/sites/default/files/20240607_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exercice_2023_-_bicici.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 944.0,
+     "date_paiement": "2025-05-23",
+     "avis": "https://www.brvm.org/sites/default/files/20250502_-_avis_ndeg090_brvmdg_-_paiement_de_dividendes_exercice_2024_-_bicici.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 1315.0,
+     "date_paiement": "2026-07-06",
+     "avis": "https://www.brvm.org/sites/default/files/20260617_-_avis_ndeg176_brvmdg_-_paiement_de_dividendes_exercice_2025_-_bicici.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BNBC",
@@ -81,7 +213,68 @@
    "variation_52s_pct": 18.61,
    "position_dans_range_52s": 0.768
   },
-  "liquidite": "etroite"
+  "liquidite": "etroite",
+  "dividendes": {
+   "exercices_connus": 5,
+   "premier_exercice": 2015,
+   "dernier_exercice": 2022,
+   "dernier_montant_net": 150.0,
+   "derniere_date_paiement": "2023-07-24",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 4,
+   "exercices_consecutifs": 1,
+   "baisses": [
+    {
+     "exercice": 2016,
+     "de": 5500.0,
+     "a": 3252.0
+    },
+    {
+     "exercice": 2017,
+     "de": 3252.0,
+     "a": 63.0
+    },
+    {
+     "exercice": 2018,
+     "de": 63.0,
+     "a": 45.0
+    }
+   ],
+   "nb_baisses": 3,
+   "rendement_net_pct": 7.03,
+   "historique": [
+    {
+     "exercice": 2015,
+     "montant_net": 5500.0,
+     "date_paiement": "2016-07-08",
+     "avis": ""
+    },
+    {
+     "exercice": 2016,
+     "montant_net": 3252.0,
+     "date_paiement": "2017-07-11",
+     "avis": "https://www.brvm.org/sites/default/files/20170627_-_avis_ndeg097_brvmdg_-_paiement_de_dividendes_exo_2016_-_bernabe_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 63.0,
+     "date_paiement": "2018-07-25",
+     "avis": "https://www.brvm.org/sites/default/files/20180705_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exo_2017_-_bernabe.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 45.0,
+     "date_paiement": "2019-07-19",
+     "avis": "https://www.brvm.org/sites/default/files/20190702_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exo_2018_-_bernabe_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 150.0,
+     "date_paiement": "2023-07-24",
+     "avis": "https://www.brvm.org/sites/default/files/20230710_-_avis_ndeg139_brvmdg_-_paiement_de_dividendes_exercice_2022_-_bernabe_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BOAC",
@@ -109,7 +302,40 @@
    "variation_52s_pct": 91.06,
    "position_dans_range_52s": 0.85
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 2,
+   "premier_exercice": 2023,
+   "dernier_exercice": 2024,
+   "dernier_montant_net": 469.0,
+   "derniere_date_paiement": "2025-05-20",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 2,
+   "exercices_consecutifs": 2,
+   "baisses": [
+    {
+     "exercice": 2024,
+     "de": 684.0,
+     "a": 469.0
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 3.78,
+   "historique": [
+    {
+     "exercice": 2023,
+     "montant_net": 684.0,
+     "date_paiement": "2024-04-29",
+     "avis": "https://www.brvm.org/sites/default/files/20240404_-_avis_ndeg057_brvmdg_-_paiement_de_dividendes_exo_2023_-_boa_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 469.0,
+     "date_paiement": "2025-05-20",
+     "avis": "https://www.brvm.org/sites/default/files/20250505_-_avis_ndeg092_brvmdg_-_paiement_de_dividendes_exo_2024_-_boa_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "CABC",
@@ -137,7 +363,98 @@
    "variation_52s_pct": 166.16,
    "position_dans_range_52s": 0.687
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 10,
+   "premier_exercice": 2015,
+   "dernier_exercice": 2024,
+   "dernier_montant_net": 128.1,
+   "derniere_date_paiement": "2025-06-02",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 9,
+   "exercices_consecutifs": 10,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 2000.0,
+     "a": 100.0
+    },
+    {
+     "exercice": 2018,
+     "de": 100.0,
+     "a": 75.0
+    },
+    {
+     "exercice": 2021,
+     "de": 133.0,
+     "a": 69.0
+    }
+   ],
+   "nb_baisses": 3,
+   "rendement_net_pct": 3.66,
+   "historique": [
+    {
+     "exercice": 2015,
+     "montant_net": 1200.0,
+     "date_paiement": "2016-07-28",
+     "avis": ""
+    },
+    {
+     "exercice": 2016,
+     "montant_net": 2000.0,
+     "date_paiement": "2017-06-30",
+     "avis": "https://www.brvm.org/sites/default/files/20170614_-_avis_ndeg079_brvmdg_-_paiement_de_dividendes_exo_2016_-_sicable_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 100.0,
+     "date_paiement": "2018-05-31",
+     "avis": "https://www.brvm.org/sites/default/files/20180516_-_avis_ndeg067_brvmdg_-_paiement_de_dividendes_exo_2017_-_sicable_ci_.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 75.0,
+     "date_paiement": "2019-06-03",
+     "avis": "https://www.brvm.org/sites/default/files/20190517_-_avis_ndeg073_brvmdg_-_paiement_de_dividendes_exo_2018_-_sicable_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 75.0,
+     "date_paiement": "2020-07-29",
+     "avis": "https://www.brvm.org/sites/default/files/20200714_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exercice_2019_-_sicable_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 133.0,
+     "date_paiement": "2021-08-02",
+     "avis": "https://www.brvm.org/sites/default/files/20210716_-_avis_ndeg148_brvmdg_-_paiement_de_dividendes_exercice_2020_-_sicable_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 69.0,
+     "date_paiement": "2022-08-02",
+     "avis": "https://www.brvm.org/sites/default/files/20220719_-_avis_ndeg148_brvmdg_-_paiement_de_dividendes_exercice_2021_-_sicable_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 69.0,
+     "date_paiement": "2023-08-02",
+     "avis": "https://www.brvm.org/sites/default/files/20230719_-_avis_ndeg152_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sicable_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 79.58,
+     "date_paiement": "2024-05-31",
+     "avis": "https://www.brvm.org/sites/default/files/20240514_-_avis_ndeg091_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sicable_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 128.1,
+     "date_paiement": "2025-06-02",
+     "avis": "https://www.brvm.org/sites/default/files/20250516_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sicable_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "CFAC",
@@ -165,7 +482,108 @@
    "variation_52s_pct": 130.41,
    "position_dans_range_52s": 0.55
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 10,
+   "premier_exercice": 2015,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 63.0,
+   "derniere_date_paiement": "2026-08-14",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 9,
+   "exercices_consecutifs": 3,
+   "baisses": [
+    {
+     "exercice": 2016,
+     "de": 2297.0,
+     "a": 2032.0
+    },
+    {
+     "exercice": 2017,
+     "de": 2032.0,
+     "a": 9.9
+    },
+    {
+     "exercice": 2019,
+     "de": 31.5,
+     "a": 26.073
+    },
+    {
+     "exercice": 2020,
+     "de": 26.073,
+     "a": 22.15
+    },
+    {
+     "exercice": 2024,
+     "de": 15.87,
+     "a": 8.0
+    }
+   ],
+   "nb_baisses": 5,
+   "rendement_net_pct": 3.7,
+   "historique": [
+    {
+     "exercice": 2015,
+     "montant_net": 2297.0,
+     "date_paiement": "2016-07-29",
+     "avis": ""
+    },
+    {
+     "exercice": 2016,
+     "montant_net": 2032.0,
+     "date_paiement": "2017-07-24",
+     "avis": "https://www.brvm.org/sites/default/files/20170710_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exo_2016_-_cfao_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 9.9,
+     "date_paiement": "2018-07-27",
+     "avis": "https://www.brvm.org/sites/default/files/20180713_-_avis_ndeg117_brvmdg_-_paiement_de_dividendes_exo_2017_-_cfao_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 31.5,
+     "date_paiement": "2019-07-23",
+     "avis": "https://www.brvm.org/sites/default/files/20190709_-_avis_ndeg115_brvmdg_-_paiement_de_dividendes_exo_2018_-_cfao_motors_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 26.073,
+     "date_paiement": "2020-08-25",
+     "avis": "https://www.brvm.org/sites/default/files/20200810_-_avis_ndeg138_brvmdg_-_paiement_de_dividendes_exo_2019_-_cfao_motors_ci_0.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 22.15,
+     "date_paiement": "2021-07-15",
+     "avis": "https://www.brvm.org/sites/default/files/20210701_-_avis_ndeg127_brvmdg_-_paiement_de_dividendes_exo_2020_-_cfao_motors_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 69.47,
+     "date_paiement": "2022-08-02",
+     "avis": "https://www.brvm.org/sites/default/files/20220719_-_avis_ndeg149_brvmdg_-_paiement_de_dividendes_exo_2021_-_cfao_motors_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 15.87,
+     "date_paiement": "2024-08-30",
+     "avis": "https://www.brvm.org/sites/default/files/20240816_-_avis_ndeg195_brvmdg_-_paiement_de_dividendes_exo_2023_-_cfao_motors_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 8.0,
+     "date_paiement": "2025-08-19",
+     "avis": "https://www.brvm.org/sites/default/files/20250801_-_avis_ndeg188_brvmdg_-_paiement_de_dividendes_exo_2024_-_cfao_motors_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 63.0,
+     "date_paiement": "2026-08-14",
+     "avis": "https://www.brvm.org/sites/default/files/20260730_-_avis_ndeg227_brvmdg_-_paiement_de_dividendes_exo_2025_-_cfao_motors_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "CIEC",
@@ -193,7 +611,99 @@
    "variation_52s_pct": 221.27,
    "position_dans_range_52s": 0.942
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 11,
+   "premier_exercice": 2015,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 234.0,
+   "derniere_date_paiement": "2026-07-28",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 10,
+   "exercices_consecutifs": 11,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 3465.0,
+     "a": 31.95
+    },
+    {
+     "exercice": 2021,
+     "de": 167.14,
+     "a": 153.161
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 3.3,
+   "historique": [
+    {
+     "exercice": 2015,
+     "montant_net": 2641.0,
+     "date_paiement": "2016-09-15",
+     "avis": "https://www.brvm.org/sites/default/files/20160714_-_avis_ndeg063-2016-_dcbr-dg-pmt_de_dividendes_cie_ci.pdf"
+    },
+    {
+     "exercice": 2016,
+     "montant_net": 3465.0,
+     "date_paiement": "2017-09-20",
+     "avis": "https://www.brvm.org/sites/default/files/20170904_-_avis_ndeg161_brvmdg_-_paiement_de_dividende_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 31.95,
+     "date_paiement": "2018-07-20",
+     "avis": "https://www.brvm.org/sites/default/files/20180706_-_avis_ndeg111_brvmdg_-_paiement_de_dividendes_exo_2017_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 79.23,
+     "date_paiement": "2019-08-09",
+     "avis": "https://www.brvm.org/sites/default/files/20190725_-_avis_ndeg127_brvmdg_-_paiement_de_dividendes_exo_2018_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 104.979,
+     "date_paiement": "2020-08-05",
+     "avis": "https://www.brvm.org/sites/default/files/20200715_-_avis_ndeg124_brvmdg_-_paiement_de_dividendes_exercice_2019_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 167.14,
+     "date_paiement": "2021-07-14",
+     "avis": "https://www.brvm.org/sites/default/files/20210629_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exercice_2020_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 153.161,
+     "date_paiement": "2022-07-25",
+     "avis": "https://www.brvm.org/sites/default/files/20220701_-_avis_ndeg123_brvmdg_-_paiement_de_dividendes_exercice_2021_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 157.5,
+     "date_paiement": "2023-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20230706_-_avis_ndeg136_brvmdg_-_paiement_de_dividendes_exercice_2022_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 171.0,
+     "date_paiement": "2024-07-30",
+     "avis": "https://www.brvm.org/sites/default/files/20240710_-_avis_ndeg157_brvmdg_-_paiement_de_dividendes_exercice_2023_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 180.0,
+     "date_paiement": "2025-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20250711_-_avis_ndeg163_brvmdg_-_paiement_de_dividendes_exercice_2024_-_cie_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 234.0,
+     "date_paiement": "2026-07-28",
+     "avis": "https://www.brvm.org/sites/default/files/20260707_-_avis_ndeg201_brvmdg_-_paiement_de_dividendes_exercice_2025_-_cie_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "ECOC",
@@ -221,7 +731,92 @@
    "variation_52s_pct": 44.16,
    "position_dans_range_52s": 0.912
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 9,
+   "premier_exercice": 2017,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 888.0,
+   "derniere_date_paiement": "2026-05-26",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 9,
+   "exercices_consecutifs": 9,
+   "baisses": [
+    {
+     "exercice": 2018,
+     "de": 1844.0,
+     "a": 13.0
+    },
+    {
+     "exercice": 2020,
+     "de": 353.0,
+     "a": 294.3
+    },
+    {
+     "exercice": 2021,
+     "de": 294.3,
+     "a": 26.0
+    }
+   ],
+   "nb_baisses": 3,
+   "rendement_net_pct": 5.14,
+   "historique": [
+    {
+     "exercice": 2017,
+     "montant_net": 1844.0,
+     "date_paiement": "2018-06-22",
+     "avis": "https://www.brvm.org/sites/default/files/20180601_-_avis_ndeg080_brvmdg_-_paiement_de_dividendes_exo_2017_-_ecobank_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 13.0,
+     "date_paiement": "2019-05-15",
+     "avis": "https://www.brvm.org/sites/default/files/20190430_-_avis_ndeg055_brvmdg_-_paiement_de_dividendes_exo_2018_-_ecobank_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 353.0,
+     "date_paiement": "2020-07-20",
+     "avis": "https://www.brvm.org/sites/default/files/20200706_-_avis_ndeg116_brvmdg_-_paiement_de_dividendes_exercice_2019_-_ecobank_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 294.3,
+     "date_paiement": "2021-05-06",
+     "avis": "https://www.brvm.org/sites/default/files/20210422_-_avis_ndeg058_brvmdg_-_paiement_de_dividendes_exercice_2020_-_ecobank_ci_0.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 26.0,
+     "date_paiement": "2022-04-29",
+     "avis": "https://www.brvm.org/sites/default/files/20220412_-_avis_ndeg058_brvmdg_-_paiement_de_dividendes_exercice_2021_-_ecobank_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 549.0,
+     "date_paiement": "2023-05-30",
+     "avis": "https://www.brvm.org/sites/default/files/20230512_-_avis_ndeg081-2023_paiement_de_dividendes_ecobank_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 594.0,
+     "date_paiement": "2024-05-30",
+     "avis": "https://www.brvm.org/sites/default/files/20240510_-_avis_ndeg089_brvmdg_-_paiement_de_dividendes_-_exercice_2023_-_ecobank_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 804.0,
+     "date_paiement": "2025-05-30",
+     "avis": "https://www.brvm.org/sites/default/files/20240515_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_-_exercice_2024_-_ecobank_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 888.0,
+     "date_paiement": "2026-05-26",
+     "avis": "https://www.brvm.org/sites/default/files/20260508_-_avis_ndeg128_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_ecobank_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "FTSC",
@@ -249,7 +844,58 @@
    "variation_52s_pct": -56.29,
    "position_dans_range_52s": 0.071
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 6,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2024,
+   "dernier_montant_net": 1320.0,
+   "derniere_date_paiement": "2025-09-30",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 6,
+   "exercices_consecutifs": 2,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 62.26,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 1200.0,
+     "date_paiement": "2018-01-09",
+     "avis": "https://www.brvm.org/sites/default/files/20171222_-_avis_ndeg267_brvmdg_-_paiement_de_dividendes_complementaires_-_filtisac_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 110.0,
+     "date_paiement": "2019-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20190625_-_avis_ndeg103_brvmdg_-_paiement_de_dividendes_exercice_2018_-_filtisac_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 125.0,
+     "date_paiement": "2020-08-06",
+     "avis": "https://www.brvm.org/sites/default/files/20200721_-_avis_ndeg127_brvmdg_-_paiement_de_dividendes_exercice_2019_-_filtisac_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 235.0,
+     "date_paiement": "2021-07-30",
+     "avis": "https://www.brvm.org/sites/default/files/20210628_-_avis_ndeg121_brvmdg_-_paiement_de_dividendes_exercice_2020_-_filtisac_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 143.1,
+     "date_paiement": "2024-09-30",
+     "avis": "https://www.brvm.org/sites/default/files/20240916_-_avis_ndeg235_brvmdg_-_paiement_de_dividendes_exercice_2023_-_filtisac_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 1320.0,
+     "date_paiement": "2025-09-30",
+     "avis": "https://www.brvm.org/sites/default/files/20250916_-_avis_ndeg230_brvmdg_-_paiement_de_dividendes_exercice_2024_et_paiement_de_dividendes_exceptionnels_-_filtisac_ci_0.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "NEIC",
@@ -277,7 +923,40 @@
    "variation_52s_pct": 340.0,
    "position_dans_range_52s": 0.895
   },
-  "liquidite": "etroite"
+  "liquidite": "etroite",
+  "dividendes": {
+   "exercices_connus": 3,
+   "premier_exercice": 2022,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 159.54,
+   "derniere_date_paiement": "2026-09-10",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 3,
+   "exercices_consecutifs": 1,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 5.8,
+   "historique": [
+    {
+     "exercice": 2022,
+     "montant_net": 35.25,
+     "date_paiement": "2023-09-22",
+     "avis": "https://www.brvm.org/sites/default/files/20230828_-_avis_ndeg181_brvmdg_-_paiement_de_dividendes_exercice_2022_-_nei-ceda_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 81.78,
+     "date_paiement": "2024-06-25",
+     "avis": "https://www.brvm.org/sites/default/files/20240605_-_avis_ndeg120_brvmdg_-_paiement_de_dividendes_exo_2023_-_nei-ceda_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 159.54,
+     "date_paiement": "2026-09-10",
+     "avis": "https://www.brvm.org/sites/default/files/20260827_-_avis_ndeg252_brvmdg_-_paiement_de_dividendes_exo_2025_-_nei-ceda_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "NSBC",
@@ -305,7 +984,75 @@
    "variation_52s_pct": 146.59,
    "position_dans_range_52s": 0.968
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 7,
+   "premier_exercice": 2017,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 768.16,
+   "derniere_date_paiement": "2026-08-04",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 7,
+   "exercices_consecutifs": 4,
+   "baisses": [
+    {
+     "exercice": 2018,
+     "de": 466.1,
+     "a": 194.2
+    },
+    {
+     "exercice": 2019,
+     "de": 194.2,
+     "a": 77.68666379
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 3.15,
+   "historique": [
+    {
+     "exercice": 2017,
+     "montant_net": 466.1,
+     "date_paiement": "2018-06-25",
+     "avis": "https://www.brvm.org/sites/default/files/20180607_-_avis_ndeg085_brvmdg_-_paiement_de_dividendes_exo_2017_-_nsia_banque_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 194.2,
+     "date_paiement": "2019-07-09",
+     "avis": "https://www.brvm.org/sites/default/files/20190625_-_avis_ndeg102_brvmdg_-_paiement_de_dividendes_exo_2018_-_nsia_banque_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 77.68666379,
+     "date_paiement": "2020-07-27",
+     "avis": "https://www.brvm.org/sites/default/files/20200713_-_avis_ndeg121_brvmdg_-_paiement_de_dividendes_exercice_2019_-_nsia_banque_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 363.6,
+     "date_paiement": "2023-06-07",
+     "avis": "https://www.brvm.org/sites/default/files/20230622_-_avis_ndeg123_brvmdg_-_paiement_de_dividendes_exercice_2022_-_nsia_banque_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 454.829,
+     "date_paiement": "2024-07-08",
+     "avis": "https://www.brvm.org/sites/default/files/20240620_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_exercice_2023_-_nsia_banque_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 759.2612,
+     "date_paiement": "2025-07-09",
+     "avis": "https://www.brvm.org/sites/default/files/20250624_-_avis_ndeg141_brvmdg_-_paiement_de_dividendes_exercice_2024_-_nsia_banque_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 768.16,
+     "date_paiement": "2026-08-04",
+     "avis": "https://www.brvm.org/sites/default/files/20260721_-_avis_ndeg212_brvmdg_-_paiement_de_dividendes_exercice_2025_-_nsia_banque_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "NTLC",
@@ -333,7 +1080,74 @@
    "variation_52s_pct": 34.66,
    "position_dans_range_52s": 0.858
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 6,
+   "premier_exercice": 2020,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 420.0,
+   "derniere_date_paiement": "2026-09-07",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 6,
+   "exercices_consecutifs": 6,
+   "baisses": [
+    {
+     "exercice": 2022,
+     "de": 856.8,
+     "a": 728.1
+    },
+    {
+     "exercice": 2023,
+     "de": 728.1,
+     "a": 675.0
+    },
+    {
+     "exercice": 2025,
+     "de": 820.0,
+     "a": 420.0
+    }
+   ],
+   "nb_baisses": 3,
+   "rendement_net_pct": 2.49,
+   "historique": [
+    {
+     "exercice": 2020,
+     "montant_net": 363.665,
+     "date_paiement": "2021-07-30",
+     "avis": "https://www.brvm.org/sites/default/files/20210707_-_avis_ndeg132_brvmdg_-_paiement_de_dividendes_exo_2020_-_nestle_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 856.8,
+     "date_paiement": "2022-08-02",
+     "avis": "https://www.brvm.org/sites/default/files/20220719_-_avis_ndeg150_brvmdg_-_paiement_de_dividendes_exo_2021_-_nestle_ci_0.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 728.1,
+     "date_paiement": "2023-08-08",
+     "avis": "https://www.brvm.org/sites/default/files/20230717_-_avis_ndeg148_brvmdg_-_paiement_de_dividendes_exo_2022_-_nestle_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 675.0,
+     "date_paiement": "2024-07-20",
+     "avis": "https://www.brvm.org/sites/default/files/20240712_-_avis_ndeg159_brvmdg_-_paiement_de_dividendes_exo_2023_-_nestle_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 820.0,
+     "date_paiement": "2025-08-18",
+     "avis": "https://www.brvm.org/sites/default/files/20250704_-_avis_ndeg152_brvmdg_-_paiement_de_dividendes_exo_2024_-_nestle_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 420.0,
+     "date_paiement": "2026-09-07",
+     "avis": "https://www.brvm.org/sites/default/files/20260730_-_avis_ndeg228_brvmdg_-_paiement_de_dividendes_exo_2025_-_nestle_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "ORAC",
@@ -361,7 +1175,52 @@
    "variation_52s_pct": 50.67,
    "position_dans_range_52s": 1.0
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 4,
+   "premier_exercice": 2022,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 800.0,
+   "derniere_date_paiement": "2026-06-08",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 4,
+   "exercices_consecutifs": 4,
+   "baisses": [
+    {
+     "exercice": 2024,
+     "de": 780.0,
+     "a": 750.0
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 3.56,
+   "historique": [
+    {
+     "exercice": 2022,
+     "montant_net": 752.76,
+     "date_paiement": "2023-06-13",
+     "avis": "https://www.brvm.org/sites/default/files/20230531_-_avis_ndeg101_brvmdg_-_paiement_de_dividendes_exercice_2022_-_orange_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 780.0,
+     "date_paiement": "2024-06-03",
+     "avis": "https://www.brvm.org/sites/default/files/20240514_-_avis_ndeg092_brvmdg_-_paiement_de_dividendes_-_exercice_2023_-_orange_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 750.0,
+     "date_paiement": "2025-06-11",
+     "avis": "https://www.brvm.org/sites/default/files/20250522_-_avis_ndeg118_brvmdg_-_paiement_de_dividendes_-_exercice_2024_-_orange_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 800.0,
+     "date_paiement": "2026-06-08",
+     "avis": "https://www.brvm.org/sites/default/files/20260520_-_avis_ndeg138_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_orange_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "PALC",
@@ -389,7 +1248,91 @@
    "variation_52s_pct": -5.03,
    "position_dans_range_52s": 0.483
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 8,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 501.596,
+   "derniere_date_paiement": "2026-06-29",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 8,
+   "exercices_consecutifs": 6,
+   "baisses": [
+    {
+     "exercice": 2022,
+     "de": 1236.34,
+     "a": 1213.632
+    },
+    {
+     "exercice": 2023,
+     "de": 1213.632,
+     "a": 563.306
+    },
+    {
+     "exercice": 2024,
+     "de": 563.306,
+     "a": 513.012
+    },
+    {
+     "exercice": 2025,
+     "de": 513.012,
+     "a": 501.596
+    }
+   ],
+   "nb_baisses": 4,
+   "rendement_net_pct": 6.04,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 240.6,
+     "date_paiement": "2017-09-29",
+     "avis": "https://www.brvm.org/sites/default/files/20170914_-_avis_ndeg170_brvmdg_-_paiement_de_dividendes_exo_2016_-_palmci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 253.47,
+     "date_paiement": "2018-09-24",
+     "avis": "https://www.brvm.org/sites/default/files/20180910_-_avis_ndeg142_brvmdg_-_paiement_de_dividendes_exo_2017_-_palmci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 102.51,
+     "date_paiement": "2021-08-27",
+     "avis": "https://www.brvm.org/sites/default/files/20210811_-_avis_ndeg162_brvmdg_-_paiement_de_dividendes_exo_2020_-_palm_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 1236.34,
+     "date_paiement": "2022-08-31",
+     "avis": "https://www.brvm.org/sites/default/files/20220718_-_avis_ndeg145_brvmdg_-_paiement_de_dividendes_exo_2021_-_palm_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 1213.632,
+     "date_paiement": "2023-07-19",
+     "avis": "https://www.brvm.org/sites/default/files/20230622_-_avis_ndeg124_brvmdg_-_paiement_de_dividendes_exo_2022_-_palm_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 563.306,
+     "date_paiement": "2024-07-26",
+     "avis": "https://www.brvm.org/sites/default/files/20240702_-_avis_ndeg152_brvmdg_-_paiement_de_dividendes_exo_2023_-_palm_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 513.012,
+     "date_paiement": "2025-09-10",
+     "avis": "https://www.brvm.org/sites/default/files/20250825_-_avis_ndeg209_brvmdg_-_paiement_de_dividendes_exo_2024_-_palm_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 501.596,
+     "date_paiement": "2026-06-29",
+     "avis": "https://www.brvm.org/sites/default/files/20260610_-_avis_ndeg162_brvmdg_-_paiement_de_dividendes_exo_2025_-_palm_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "PRSC",
@@ -417,7 +1360,92 @@
    "variation_52s_pct": 66.73,
    "position_dans_range_52s": 0.648
   },
-  "liquidite": "etroite"
+  "liquidite": "etroite",
+  "dividendes": {
+   "exercices_connus": 9,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2024,
+   "dernier_montant_net": 207.0,
+   "derniere_date_paiement": "2025-09-30",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 9,
+   "exercices_consecutifs": 9,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 13500.0,
+     "a": 3839.0
+    },
+    {
+     "exercice": 2019,
+     "de": 9623.0,
+     "a": 159.3
+    },
+    {
+     "exercice": 2022,
+     "de": 175.86,
+     "a": 27.45
+    }
+   ],
+   "nb_baisses": 3,
+   "rendement_net_pct": 4.72,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 13500.0,
+     "date_paiement": "2017-09-25",
+     "avis": "https://www.brvm.org/sites/default/files/20170911_-_avis_ndeg166_brvmdg_-_paiement_de_dividendes_exo_2016_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 3839.0,
+     "date_paiement": "2018-08-31",
+     "avis": "https://www.brvm.org/sites/default/files/20180816_-_avis_ndeg132_brvmdg_-_paiement_de_dividendes_exo_2017_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 9623.0,
+     "date_paiement": "2019-09-18",
+     "avis": "https://www.brvm.org/sites/default/files/20190904_-_avis_ndeg144_brvmdg_-_paiement_de_dividendes_exo_2018_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 159.3,
+     "date_paiement": "2020-09-01",
+     "avis": "https://www.brvm.org/sites/default/files/20200813_-_avis_n140_brvmdg_-_paiement_de_dividendes_exo_2019_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 162.9,
+     "date_paiement": "2021-09-02",
+     "avis": "https://www.brvm.org/sites/default/files/20210818_-_avis_ndeg167_brvmdg_-_paiement_de_dividendes_exo_2020_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 175.86,
+     "date_paiement": "2022-08-30",
+     "avis": "https://www.brvm.org/sites/default/files/20220715_-_avis_ndeg142_brvmdg_-_paiement_de_dividendes_exo_2021_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 27.45,
+     "date_paiement": "2023-09-15",
+     "avis": "https://www.brvm.org/sites/default/files/20230823_-_avis_ndeg177_brvmdg_-_paiement_de_dividendes_exo_2022_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 182.7,
+     "date_paiement": "2024-09-24",
+     "avis": "https://www.brvm.org/sites/default/files/20240906_-_avis_ndeg221_brvmdg_-_paiement_de_dividendes_exo_2023_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 207.0,
+     "date_paiement": "2025-09-30",
+     "avis": "https://www.brvm.org/sites/default/files/20250911_-_avis_ndeg223_brvmdg_-_paiement_de_dividendes_exo_2024_-_tractafric_motors_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SAFC",
@@ -445,7 +1473,10 @@
    "variation_52s_pct": 487.6,
    "position_dans_range_52s": 0.851
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 0
+  }
  },
  {
   "ticker": "SCRC",
@@ -473,7 +1504,46 @@
    "variation_52s_pct": 178.81,
    "position_dans_range_52s": 0.785
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 3,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2020,
+   "dernier_montant_net": 40.5,
+   "derniere_date_paiement": "2021-08-20",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 3,
+   "exercices_consecutifs": 1,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 549.0,
+     "a": 72.0
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 1.23,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 549.0,
+     "date_paiement": "2017-09-29",
+     "avis": "https://www.brvm.org/sites/default/files/20170918_-_avis_ndeg173_brvmdg_-_paiement_de_dividendes_exo_2016_-_sucrivoire_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 72.0,
+     "date_paiement": "2018-09-28",
+     "avis": "https://www.brvm.org/sites/default/files/20180910_-_avis_ndeg141_brvmdg_-_paiement_de_dividendes_exo_2017_-_sucrivoire_ci_1.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 40.5,
+     "date_paiement": "2021-08-20",
+     "avis": "https://www.brvm.org/sites/default/files/20210805_-_avis_ndeg157_brvmdg_-_paiement_de_dividendes_exo_2020_-_sucrivoire_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SDCC",
@@ -501,7 +1571,93 @@
    "variation_52s_pct": 122.41,
    "position_dans_range_52s": 0.961
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 10,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 525.0,
+   "derniere_date_paiement": "2026-09-16",
+   "prochaine_date_ex": "2026-09-15",
+   "exercices_payes_10a": 10,
+   "exercices_consecutifs": 10,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 2700.0,
+     "a": 270.0
+    },
+    {
+     "exercice": 2024,
+     "de": 481.5,
+     "a": 400.0
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 3.92,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 2700.0,
+     "date_paiement": "2017-09-28",
+     "avis": "https://www.brvm.org/sites/default/files/20170914_-_avis_ndeg169_brvmdg_-_paiement_de_dividendes_exo_2016_-_sodeci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 270.0,
+     "date_paiement": "2018-08-29",
+     "avis": "https://www.brvm.org/sites/default/files/20180813_-_avis_ndeg131_brvmdg_-_paiement_de_dividendes_exo_2017_-_sodeci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 270.0,
+     "date_paiement": "2019-10-29",
+     "avis": "https://www.brvm.org/sites/default/files/20191015_-_avis_ndeg164_brvmdg_-_paiement_de_dividendes_exo_2018_-_sodeci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 292.5,
+     "date_paiement": "2020-09-25",
+     "avis": "https://www.brvm.org/sites/default/files/20200908_-_avis_ndeg159_brvmdg_-_paiement_de_dividendes_exo_2019_-_sodeci_0.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 337.5,
+     "date_paiement": "2021-07-27",
+     "avis": "https://www.brvm.org/sites/default/files/20210707_-_avis_ndeg133_brvmdg_-_paiement_de_dividendes_exo_2020_-_sode_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 432.0,
+     "date_paiement": "2022-10-21",
+     "avis": "https://www.brvm.org/sites/default/files/20221007_-_avis_ndeg203_brvmdg_-_paiement_de_dividendes_exo_2020_-_sode_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 450.0,
+     "date_paiement": "2023-09-15",
+     "avis": "https://www.brvm.org/sites/default/files/20230821_-_avis_ndeg174_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sode_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 481.5,
+     "date_paiement": "2024-09-25",
+     "avis": "https://www.brvm.org/sites/default/files/20240812_-_avis_ndeg189_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sode_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 400.0,
+     "date_paiement": "2025-09-30",
+     "avis": "https://www.brvm.org/sites/default/files/20240821_-_avis_ndeg206_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sode_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 525.0,
+     "date_paiement": "2026-09-16",
+     "avis": "https://www.brvm.org/sites/default/files/20260902_-_avis_ndeg259_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sode_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SDSC",
@@ -529,7 +1685,81 @@
    "variation_52s_pct": 114.13,
    "position_dans_range_52s": 0.903
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 8,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2024,
+   "dernier_montant_net": 92.0,
+   "derniere_date_paiement": "2025-08-29",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 8,
+   "exercices_consecutifs": 7,
+   "baisses": [
+    {
+     "exercice": 2019,
+     "de": 184.0,
+     "a": 100.0
+    },
+    {
+     "exercice": 2021,
+     "de": 100.0,
+     "a": 21.0
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 3.04,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 8997.0,
+     "date_paiement": "2017-07-13",
+     "avis": "https://www.brvm.org/sites/default/files/20170629_-_avis_ndeg098_brvmdg_-_paiement_de_dividendes_exo_2016_-_bollore_transport_logistics.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 184.0,
+     "date_paiement": "2019-06-06",
+     "avis": "https://www.brvm.org/sites/default/files/20190515_-_avis_ndeg069_brvmdg_-_paiement_de_dividendes_exo_2018_-_bollore_transport_logistics.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 100.0,
+     "date_paiement": "2020-12-18",
+     "avis": "https://www.brvm.org/sites/default/files/20201127_-_avis_ndeg201_brvmdg_-_paiement_de_dividendes_exo_2019_-_bollore_transport_logistics_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 100.0,
+     "date_paiement": "2021-08-11",
+     "avis": "https://www.brvm.org/sites/default/files/20210726_-_avis_ndeg153_brvmdg_-_paiement_de_dividendes_exo_2020_-_bollore_transport_logistics_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 21.0,
+     "date_paiement": "2022-06-23",
+     "avis": "https://www.brvm.org/sites/default/files/20220607_-_avis_ndeg100_brvmdg_-_paiement_de_dividendes_exercice_2021_-_bollore_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 92.0,
+     "date_paiement": "2023-11-20",
+     "avis": "https://www.brvm.org/sites/default/files/20231030_-_avis_ndeg228_brvmdg_-_paiement_de_dividendes_exo_2022_-_agl_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 92.0,
+     "date_paiement": "2024-12-12",
+     "avis": "https://www.brvm.org/sites/default/files/20241120_-_avis_ndeg300_brvmdg_-_paiement_de_dividendes_exo_2023_-_agl_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 92.0,
+     "date_paiement": "2025-08-29",
+     "avis": "https://www.brvm.org/sites/default/files/20250811_-_avis_ndeg198_brvmdg_-_paiement_de_dividendes_exo_2024_-_agl_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SEMC",
@@ -557,7 +1787,34 @@
    "variation_52s_pct": 147.62,
    "position_dans_range_52s": 0.462
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 2,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2020,
+   "dernier_montant_net": 14.4,
+   "derniere_date_paiement": "2021-12-28",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 2,
+   "exercices_consecutifs": 1,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 0.92,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 676.8,
+     "date_paiement": "2017-09-29",
+     "avis": "https://www.brvm.org/sites/default/files/20170912_-_avis_ndeg167_brvmdg_-_paiement_de_dividendes_exo_2016_-_crown_siem.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 14.4,
+     "date_paiement": "2021-12-28",
+     "avis": "https://www.brvm.org/sites/default/files/20211214_-_avis_ndeg234_brvmdg_-_paiement_de_dividendes_exo_2020_-_crown_siem.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SGBC",
@@ -585,7 +1842,98 @@
    "variation_52s_pct": 50.98,
    "position_dans_range_52s": 0.897
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 10,
+   "premier_exercice": 2015,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 2606.0,
+   "derniere_date_paiement": "2026-08-24",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 9,
+   "exercices_consecutifs": 2,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 5837.0,
+     "a": 585.0
+    },
+    {
+     "exercice": 2018,
+     "de": 585.0,
+     "a": 206.0
+    },
+    {
+     "exercice": 2021,
+     "de": 368.298,
+     "a": 8.0
+    }
+   ],
+   "nb_baisses": 3,
+   "rendement_net_pct": 6.77,
+   "historique": [
+    {
+     "exercice": 2015,
+     "montant_net": 5228.0,
+     "date_paiement": "2016-06-28",
+     "avis": ""
+    },
+    {
+     "exercice": 2016,
+     "montant_net": 5837.0,
+     "date_paiement": "2017-07-04",
+     "avis": "https://www.brvm.org/sites/default/files/20170616_-_avis_ndeg083_brvmdg_-_paiement_de_dividendes_exo_2016_-_sgb_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 585.0,
+     "date_paiement": "2018-07-17",
+     "avis": "https://www.brvm.org/sites/default/files/20180628_-_avis_ndeg102_brvmdg_-_paiement_de_dividendes_exo_2017_-_sgb_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 206.0,
+     "date_paiement": "2019-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20190712_-_avis_ndeg117_brvmdg_-_paiement_de_dividendes_exo_2018_-_sg_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 273.0,
+     "date_paiement": "2020-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20200713_-_avis_ndeg120_brvmdg_-_paiement_de_dividendes_exercice_2019_-_societe_generale_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 368.298,
+     "date_paiement": "2021-06-30",
+     "avis": "https://www.brvm.org/sites/default/files/20210528_-_avis_ndeg091_brvmdg_-_paiement_de_dividendes_exercice_2020_-_societe_generale_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 8.0,
+     "date_paiement": "2022-06-10",
+     "avis": "https://www.brvm.org/sites/default/files/20220523_-_avis_ndeg088_brvmdg_-_paiement_de_dividendes_exercice_2021_-_societe_generale_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 1553.847,
+     "date_paiement": "2024-06-25",
+     "avis": "https://www.brvm.org/sites/default/files/20240604_-_avis_ndeg118_brvmdg_-_paiement_de_dividendes_exercice_2023_-_societe_generale_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 1863.0,
+     "date_paiement": "2025-08-05",
+     "avis": "https://www.brvm.org/sites/default/files/20250702_-_avis_ndeg149_brvmdg_-_paiement_de_dividendes_exercice_2024_-_societe_generale_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 2606.0,
+     "date_paiement": "2026-08-24",
+     "avis": "https://www.brvm.org/sites/default/files/20260806_-_avis_ndeg231_brvmdg_-_paiement_de_dividendes_exercice_2025_-_societe_generale_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SHEC",
@@ -613,7 +1961,93 @@
    "variation_52s_pct": 121.74,
    "position_dans_range_52s": 1.0
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 10,
+   "premier_exercice": 2015,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 96.67,
+   "derniere_date_paiement": "2026-09-25",
+   "prochaine_date_ex": "2026-09-24",
+   "exercices_payes_10a": 9,
+   "exercices_consecutifs": 5,
+   "baisses": [
+    {
+     "exercice": 2016,
+     "de": 1665.0,
+     "a": 33.7
+    },
+    {
+     "exercice": 2019,
+     "de": 64.286,
+     "a": 63.9
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 3.79,
+   "historique": [
+    {
+     "exercice": 2015,
+     "montant_net": 1665.0,
+     "date_paiement": "2016-07-27",
+     "avis": ""
+    },
+    {
+     "exercice": 2016,
+     "montant_net": 33.7,
+     "date_paiement": "2017-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20170719-avis_n_069-2017-dcbr-dg-dividende_exercice_2016-_vivo_energy.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 42.86,
+     "date_paiement": "2018-07-23",
+     "avis": "https://www.brvm.org/sites/default/files/20180704_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_exo_2017_-_vivo_energy_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 64.286,
+     "date_paiement": "2019-08-02",
+     "avis": "https://www.brvm.org/sites/default/files/20190719_-_avis_ndeg123_brvmdg_-_paiement_de_dividendes_exo_2018_-_vivo_energy_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 63.9,
+     "date_paiement": "2020-11-26",
+     "avis": "https://www.brvm.org/sites/default/files/20201112_-_avis_ndeg189_brvmdg_-_paiement_de_dividendes_exo_2019_-_vivo_energy_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 29.0,
+     "date_paiement": "2022-10-28",
+     "avis": "https://www.brvm.org/sites/default/files/20221014_-_avis_ndeg210_brvmdg_-_paiement_de_dividendes_exo_2021_-_vivo_energy_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 53.0,
+     "date_paiement": "2023-12-28",
+     "avis": "https://www.brvm.org/sites/default/files/20231211_-_avis_ndeg257_brvmdg_-_paiement_de_dividendes_exo_2022_-_vivo_energy_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 57.0,
+     "date_paiement": "2024-09-27",
+     "avis": "https://www.brvm.org/sites/default/files/20240910_-_avis_ndeg225_brvmdg_-_paiement_de_dividendes_exo_2023_-_vivo_energy_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 85.56,
+     "date_paiement": "2025-10-22",
+     "avis": "https://www.brvm.org/sites/default/files/20250930_-_avis_ndeg240_brvmdg_-_paiement_de_dividendes_exo_2024_-_vivo_energy_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 96.67,
+     "date_paiement": "2026-09-25",
+     "avis": "https://www.brvm.org/sites/default/files/20260821_-_avis_ndeg249_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_vivo_energy_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SIBC",
@@ -641,7 +2075,93 @@
    "variation_52s_pct": 90.38,
    "position_dans_range_52s": 0.957
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 10,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 425.0,
+   "derniere_date_paiement": "2026-07-31",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 10,
+   "exercices_consecutifs": 10,
+   "baisses": [
+    {
+     "exercice": 2018,
+     "de": 945.0,
+     "a": 252.0
+    },
+    {
+     "exercice": 2024,
+     "de": 495.0,
+     "a": 375.0
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 4.57,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 855.0,
+     "date_paiement": "2017-06-09",
+     "avis": "https://www.brvm.org/sites/default/files/20170523_-_avis_ndeg060_brvmdg_-_paiement_de_dividendes_exo_2016_-_sib_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 945.0,
+     "date_paiement": "2018-06-08",
+     "avis": "https://www.brvm.org/sites/default/files/20180525_-_avis_ndeg076_brvmdg_-_paiement_de_dividendes_exo_2017_.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 252.0,
+     "date_paiement": "2019-07-05",
+     "avis": "https://www.brvm.org/sites/default/files/20190620_-_avis_ndeg098_brvmdg_-_paiement_de_dividendes_exo_2018_-_sib_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 270.0,
+     "date_paiement": "2020-06-19",
+     "avis": "https://www.brvm.org/sites/default/files/20200604_-_avis_ndeg091_brvmdg_-_paiement_de_dividendes_exo_2019_-_sib_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 360.0,
+     "date_paiement": "2021-07-23",
+     "avis": "https://www.brvm.org/sites/default/files/20210706_-_avis_ndeg131_brvmdg_-_paiement_de_dividendes_exo_2020_-_sib_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 405.0,
+     "date_paiement": "2022-06-30",
+     "avis": "https://www.brvm.org/sites/default/files/20220613_-_avis_ndeg106_brvmdg_-_paiement_de_dividendes_exercice_2021_-_sib_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 495.0,
+     "date_paiement": "2023-08-11",
+     "avis": "https://www.brvm.org/sites/default/files/20230720_-_avis_ndeg153_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sib_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 495.0,
+     "date_paiement": "2024-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20240715_-_avis_ndeg166_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sib_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 375.0,
+     "date_paiement": "2025-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20250711_-_avis_ndeg161_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sib_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 425.0,
+     "date_paiement": "2026-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20260623_-_avis_ndeg184_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sib_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SICC",
@@ -669,7 +2189,10 @@
    "variation_52s_pct": 164.64,
    "position_dans_range_52s": 0.758
   },
-  "liquidite": "illiquide"
+  "liquidite": "illiquide",
+  "dividendes": {
+   "exercices_connus": 0
+  }
  },
  {
   "ticker": "SIVC",
@@ -697,7 +2220,28 @@
    "variation_52s_pct": 303.36,
    "position_dans_range_52s": 0.69
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 1,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2016,
+   "dernier_montant_net": 630.0,
+   "derniere_date_paiement": "2017-09-29",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 1,
+   "exercices_consecutifs": 1,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 26.25,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 630.0,
+     "date_paiement": "2017-09-29",
+     "avis": "https://www.brvm.org/sites/default/files/20170915_-_avis_ndeg172_brvmdg_-_paiement_de_dividendes_exo_2016_-_air_liquide_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SLBC",
@@ -725,7 +2269,75 @@
    "variation_52s_pct": 102.38,
    "position_dans_range_52s": 0.756
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 7,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 2127.0,
+   "derniere_date_paiement": "2026-07-30",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 7,
+   "exercices_consecutifs": 2,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 4101.0,
+     "a": 2322.0
+    },
+    {
+     "exercice": 2018,
+     "de": 2322.0,
+     "a": 1368.0
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 5.61,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 4101.0,
+     "date_paiement": "2017-06-08",
+     "avis": "https://www.brvm.org/sites/default/files/20170523_-_avis_ndeg061_brvmdg_-_paiement_de_dividendes_exo_2016_-_solibra_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 2322.0,
+     "date_paiement": "2018-06-14",
+     "avis": "https://www.brvm.org/sites/default/files/20180529_-_avis_ndeg078_brvmdg_-_paiement_de_dividendes_exo_2017_-_solibra_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 1368.0,
+     "date_paiement": "2019-06-06",
+     "avis": "https://www.brvm.org/sites/default/files/20190516_-_avis_ndeg071_brvmdg_-_paiement_de_dividendes_exo_2018_-_solibra_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 2736.0,
+     "date_paiement": "2021-08-03",
+     "avis": "https://www.brvm.org/sites/default/files/20210716_-_avis_ndeg147_brvmdg_-_paiement_de_dividendes_exo_2020_-_solibra_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 4050.0,
+     "date_paiement": "2022-08-12",
+     "avis": "https://www.brvm.org/sites/default/files/20220728_-_avis_ndeg154_brvmdg_-_paiement_de_dividendes_exo_2021_-_solibra_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 1220.0,
+     "date_paiement": "2025-07-29",
+     "avis": "https://www.brvm.org/sites/default/files/20250715_-_avis_ndeg167_brvmdg_-_paiement_de_dividendes_exo_2024_-_solibra_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 2127.0,
+     "date_paiement": "2026-07-30",
+     "avis": "https://www.brvm.org/sites/default/files/20260713_-_avis_ndeg208_brvmdg_-_paiement_de_dividendes_exo_2025_-_solibra_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SMBC",
@@ -753,7 +2365,81 @@
    "variation_52s_pct": 88.66,
    "position_dans_range_52s": 0.979
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 8,
+   "premier_exercice": 2017,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 800.0,
+   "derniere_date_paiement": "2026-09-18",
+   "prochaine_date_ex": "2026-09-17",
+   "exercices_payes_10a": 8,
+   "exercices_consecutifs": 6,
+   "baisses": [
+    {
+     "exercice": 2021,
+     "de": 810.0,
+     "a": 720.0
+    },
+    {
+     "exercice": 2024,
+     "de": 1080.0,
+     "a": 700.0
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 4.37,
+   "historique": [
+    {
+     "exercice": 2017,
+     "montant_net": 450.0,
+     "date_paiement": "2018-08-29",
+     "avis": "https://www.brvm.org/sites/default/files/20180813_-_avis_ndeg130_brvmdg_-_paiement_de_dividendes_exo_2017_-_smb_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 450.0,
+     "date_paiement": "2019-08-30",
+     "avis": "https://www.brvm.org/sites/default/files/20190816_-_avis_ndeg138_brvmdg_-_paiement_de_dividendes_exercice_2018_-smb_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 810.0,
+     "date_paiement": "2021-07-15",
+     "avis": "https://www.brvm.org/sites/default/files/20210701_-_avis_ndeg126_brvmdg_-_paiement_de_dividendes_exercice_2020_-_smb_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 720.0,
+     "date_paiement": "2022-08-24",
+     "avis": "https://www.brvm.org/sites/default/files/20220809_-_avis_ndeg163_brvmdg_-_paiement_de_dividendes_exercice_2021_-_smb_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 720.0,
+     "date_paiement": "2023-08-31",
+     "avis": "https://www.brvm.org/sites/default/files/20230720_-_avis_ndeg154_brvmdg_-_paiement_de_dividendes_exercice_2022_-_smb_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 1080.0,
+     "date_paiement": "2024-09-30",
+     "avis": "https://www.brvm.org/sites/default/files/20240828_-_avis_ndeg210_brvmdg_-_paiement_de_dividendes_exercice_2023_-_smb_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 700.0,
+     "date_paiement": "2025-09-15",
+     "avis": "https://www.brvm.org/sites/default/files/20250827_-_avis_ndeg211_brvmdg_-_paiement_de_dividendes_exercice_2024_-_smb_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 800.0,
+     "date_paiement": "2026-09-18",
+     "avis": "https://www.brvm.org/sites/default/files/20260904_-_avis_ndeg261_brvmdg_-_paiement_de_dividendes_exercice_2025_-_smb_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SOGC",
@@ -781,7 +2467,114 @@
    "variation_52s_pct": 4.58,
    "position_dans_range_52s": 0.526
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 11,
+   "premier_exercice": 2015,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 570.0,
+   "derniere_date_paiement": "2026-08-06",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 10,
+   "exercices_consecutifs": 11,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 3204.0,
+     "a": 432.0
+    },
+    {
+     "exercice": 2018,
+     "de": 432.0,
+     "a": 129.0
+    },
+    {
+     "exercice": 2019,
+     "de": 129.0,
+     "a": 126.0
+    },
+    {
+     "exercice": 2023,
+     "de": 558.0,
+     "a": 207.0
+    },
+    {
+     "exercice": 2025,
+     "de": 600.0,
+     "a": 570.0
+    }
+   ],
+   "nb_baisses": 5,
+   "rendement_net_pct": 7.04,
+   "historique": [
+    {
+     "exercice": 2015,
+     "montant_net": 1710.0,
+     "date_paiement": "2016-07-25",
+     "avis": ""
+    },
+    {
+     "exercice": 2016,
+     "montant_net": 3204.0,
+     "date_paiement": "2017-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20170711_-_avis_ndeg114_brvmdg_-_paiement_de_dividendes_exercice_2016_-_sogb_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 432.0,
+     "date_paiement": "2018-07-23",
+     "avis": "https://www.brvm.org/sites/default/files/20180627_-_avis_ndeg100_brvmdg_-_paiement_de_dividendes_exercice_2017_-_sogb_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 129.0,
+     "date_paiement": "2019-07-16",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_084-2019-dcbr-dg-dividende_exercice_2018-_sogb.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 126.0,
+     "date_paiement": "2020-07-15",
+     "avis": "https://www.brvm.org/sites/default/files/20200622_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_exercice_2019_-_sogb_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 250.0,
+     "date_paiement": "2021-07-15",
+     "avis": "https://www.brvm.org/sites/default/files/20210622_-_avis_ndeg113_brvmdg_-_paiement_de_dividendes_exercice_2020_-_sogb_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 541.8,
+     "date_paiement": "2022-07-21",
+     "avis": "https://www.brvm.org/sites/default/files/20220706_-_avis_ndeg126_brvmdg_-_paiement_de_dividendes_exercice_2021_-_sogb_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 558.0,
+     "date_paiement": "2023-07-17",
+     "avis": "https://www.brvm.org/sites/default/files/20230703_-_avis_ndeg132_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sogb_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 207.0,
+     "date_paiement": "2024-08-06",
+     "avis": "https://www.brvm.org/sites/default/files/20240722_-_avis_ndeg168_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sogb_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 600.0,
+     "date_paiement": "2025-07-15",
+     "avis": "https://www.brvm.org/sites/default/files/20250701_-_avis_ndeg146_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sogb_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 570.0,
+     "date_paiement": "2026-08-06",
+     "avis": "https://www.brvm.org/sites/default/files/20260722_-_avis_ndeg213_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sogb_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SPHC",
@@ -809,7 +2602,75 @@
    "variation_52s_pct": 20.29,
    "position_dans_range_52s": 0.441
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 7,
+   "premier_exercice": 2017,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 489.0,
+   "derniere_date_paiement": "2026-08-28",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 7,
+   "exercices_consecutifs": 6,
+   "baisses": [
+    {
+     "exercice": 2022,
+     "de": 365.4,
+     "a": 294.3
+    },
+    {
+     "exercice": 2023,
+     "de": 294.3,
+     "a": 64.8
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 5.89,
+   "historique": [
+    {
+     "exercice": 2017,
+     "montant_net": 78.0,
+     "date_paiement": "2018-09-27",
+     "avis": "https://www.brvm.org/sites/default/files/20180913_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_exo_2017_-_saph_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 132.3,
+     "date_paiement": "2021-08-24",
+     "avis": "https://www.brvm.org/sites/default/files/20210809_-_avis_ndeg160_brvmdg_-_paiement_de_dividendes_exo_2020_-_saph_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 365.4,
+     "date_paiement": "2022-08-04",
+     "avis": "https://www.brvm.org/sites/default/files/20220719_-_avis_ndeg151_brvmdg_-_paiement_de_dividendes_exo_2021_-_saph_ci_002_0.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 294.3,
+     "date_paiement": "2023-09-29",
+     "avis": "https://www.brvm.org/sites/default/files/20230912_-_avis_ndeg193_brvmdg_-_paiement_de_dividendes_exo_2022_-_saph_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 64.8,
+     "date_paiement": "2024-08-12",
+     "avis": "https://www.brvm.org/sites/default/files/20240723_-_avis_ndeg169_brvmdg_-_paiement_de_dividendes_exo_2023_-_saph_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 368.0,
+     "date_paiement": "2025-07-17",
+     "avis": "https://www.brvm.org/sites/default/files/20250703_-_avis_ndeg150_brvmdg_-_paiement_de_dividendes_exo_2024_-_saph_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 489.0,
+     "date_paiement": "2026-08-28",
+     "avis": "https://www.brvm.org/sites/default/files/20260812_-_avis_ndeg238_brvmdg_-_paiement_de_dividendes_exo_2025_-_saph_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "STAC",
@@ -837,7 +2698,34 @@
    "variation_52s_pct": 278.68,
    "position_dans_range_52s": 0.589
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 2,
+   "premier_exercice": 2020,
+   "dernier_exercice": 2021,
+   "dernier_montant_net": 66.15,
+   "derniere_date_paiement": "2022-07-18",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 2,
+   "exercices_consecutifs": 2,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 2.57,
+   "historique": [
+    {
+     "exercice": 2020,
+     "montant_net": 66.15,
+     "date_paiement": "2021-07-16",
+     "avis": "https://www.brvm.org/sites/default/files/20210621_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exo_2020_-_setao_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 66.15,
+     "date_paiement": "2022-07-18",
+     "avis": "https://www.brvm.org/sites/default/files/20220617_-_avis_ndeg113_brvmdg_-_paiement_de_dividendes_exercice_2021_-_setao_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "STBC",
@@ -865,7 +2753,75 @@
    "variation_52s_pct": 16.81,
    "position_dans_range_52s": 0.556
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 7,
+   "premier_exercice": 2015,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 1707.2,
+   "derniere_date_paiement": "2026-08-13",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 6,
+   "exercices_consecutifs": 5,
+   "baisses": [
+    {
+     "exercice": 2016,
+     "de": 8150.0,
+     "a": 4124.0
+    },
+    {
+     "exercice": 2025,
+     "de": 2375.0,
+     "a": 1707.2
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 7.69,
+   "historique": [
+    {
+     "exercice": 2015,
+     "montant_net": 8150.0,
+     "date_paiement": "2016-06-09",
+     "avis": ""
+    },
+    {
+     "exercice": 2016,
+     "montant_net": 4124.0,
+     "date_paiement": "2017-06-19",
+     "avis": "https://www.brvm.org/sites/default/files/20170602_-_avis_ndeg065_brvmdg_-_paiement_de_dividendes_exo_2016_-_sitab_ci_0.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 445.117,
+     "date_paiement": "2022-07-21",
+     "avis": "https://www.brvm.org/sites/default/files/20220706_-_avis_ndeg127_brvmdg_-_paiement_de_dividendes_exercice_2021_-_sitab.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 551.0,
+     "date_paiement": "2023-07-27",
+     "avis": "https://www.brvm.org/sites/default/files/20230713_-_avis_ndeg145_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sitab_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 675.0,
+     "date_paiement": "2024-07-29",
+     "avis": "https://www.brvm.org/sites/default/files/20240712_-_avis_ndeg165_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sitab_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 2375.0,
+     "date_paiement": "2025-08-29",
+     "avis": "https://www.brvm.org/sites/default/files/20250814_-_avis_ndeg200_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sitab_ci-.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 1707.2,
+     "date_paiement": "2026-08-13",
+     "avis": "https://www.brvm.org/sites/default/files/20260729_-_avis_ndeg226_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sitab_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "TTLC",
@@ -893,7 +2849,98 @@
    "variation_52s_pct": 29.13,
    "position_dans_range_52s": 0.762
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 10,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 158.827,
+   "derniere_date_paiement": "2026-08-31",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 10,
+   "exercices_consecutifs": 10,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 485.0,
+     "a": 103.45
+    },
+    {
+     "exercice": 2020,
+     "de": 113.5125,
+     "a": 109.314
+    },
+    {
+     "exercice": 2025,
+     "de": 222.3578,
+     "a": 158.827
+    }
+   ],
+   "nb_baisses": 3,
+   "rendement_net_pct": 4.84,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 485.0,
+     "date_paiement": "2017-06-30",
+     "avis": "https://www.brvm.org/sites/default/files/20170614_-_avis_ndeg080_brvmdg_-_paiement_de_dividendes_exo_2016_-_total_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 103.45,
+     "date_paiement": "2018-09-28",
+     "avis": "https://www.brvm.org/sites/default/files/20180914_-_avis_ndeg144_brvmdg_-_paiement_de_dividendes_exo_2017_-_total_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 108.4,
+     "date_paiement": "2019-10-11",
+     "avis": "https://www.brvm.org/sites/default/files/20190926_-_avis_ndeg154_brvmdg_-_paiement_de_dividendes_exo_2018_-_total_ci.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 113.5125,
+     "date_paiement": "2020-09-25",
+     "avis": "https://www.brvm.org/sites/default/files/20200908_-_avis_ndeg158_brvmdg_-_paiement_de_dividendes_exo_2019_-_total_ci_0.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 109.314,
+     "date_paiement": "2021-09-27",
+     "avis": "https://www.brvm.org/sites/default/files/20210816_-_avis_ndeg166_brvmdg_-_paiement_de_dividendes_exo_2020_-_total_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 159.2874,
+     "date_paiement": "2022-08-25",
+     "avis": "https://www.brvm.org/sites/default/files/20220803_-_avis_ndeg159_brvmdg_-_paiement_de_dividendes_exo_2021_-_total_ci.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 175.5258,
+     "date_paiement": "2023-09-21",
+     "avis": "https://www.brvm.org/sites/default/files/20230905_-_avis_ndeg188_brvmdg_-_paiement_de_dividendes_exercice_2022_-_total_ci.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 199.5353,
+     "date_paiement": "2024-09-17",
+     "avis": "https://www.brvm.org/sites/default/files/20240902_-_avis_ndeg213_brvmdg_-_paiement_de_dividendes_exo_2023_-_total_ci.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 222.3578,
+     "date_paiement": "2025-09-03",
+     "avis": "https://www.brvm.org/sites/default/files/20250820_-_avis_ndeg205_brvmdg_-_paiement_de_dividendes_exo_2024_-_totalenergies_marketing_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 158.827,
+     "date_paiement": "2026-08-31",
+     "avis": "https://www.brvm.org/sites/default/files/20260814_-_avis_ndeg245_brvmdg_-_paiement_de_dividendes_exo_2025_-_totalenergies_marketing_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "UNLC",
@@ -921,7 +2968,10 @@
    "variation_52s_pct": 320.07,
    "position_dans_range_52s": 0.566
   },
-  "liquidite": "illiquide"
+  "liquidite": "illiquide",
+  "dividendes": {
+   "exercices_connus": 0
+  }
  },
  {
   "ticker": "UNXC",
@@ -949,7 +2999,58 @@
    "variation_52s_pct": 194.48,
    "position_dans_range_52s": 0.944
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 5,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2021,
+   "dernier_montant_net": 60.75,
+   "derniere_date_paiement": "2022-07-29",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 5,
+   "exercices_consecutifs": 2,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 868.0,
+     "a": 173.7
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 2.53,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 868.0,
+     "date_paiement": "2017-07-10",
+     "avis": "https://www.brvm.org/sites/default/files/20170623_-_avis_ndeg093_brvmdg_-_paiement_de_dividendes_exo_2016_-_uniwax_ci.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 173.7,
+     "date_paiement": "2018-07-13",
+     "avis": "https://www.brvm.org/sites/default/files/20180629_-_avis_ndeg103_brvmdg_-_paiement_de_dividendes_exo_2017_-_uniwax_ci.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 181.8,
+     "date_paiement": "2019-07-11",
+     "avis": "https://www.brvm.org/sites/default/files/20190625_-_avis_ndeg101_brvmdg_-_paiement_de_dividendes_exo_2018_-_uniwax_ci.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 18.0,
+     "date_paiement": "2021-07-16",
+     "avis": "https://www.brvm.org/sites/default/files/20210702_-_avis_ndeg128_brvmdg_-_paiement_de_dividendes_exo_2020_-_uniwax_ci.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 60.75,
+     "date_paiement": "2022-07-29",
+     "avis": "https://www.brvm.org/sites/default/files/20220715_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_exo_2021_-_uniwax_ci.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BOAS",
@@ -977,7 +3078,58 @@
    "variation_52s_pct": 74.1,
    "position_dans_range_52s": 0.921
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 5,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 450.0,
+   "derniere_date_paiement": "2026-06-01",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 5,
+   "exercices_consecutifs": 2,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 1000.0,
+     "a": 160.0
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 5.49,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 1000.0,
+     "date_paiement": "2017-05-15",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_024-2017-dcbr-dg-dividende_exercice_2016-boa_senegal.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 160.0,
+     "date_paiement": "2018-05-02",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_031-2018-dcbr-dg-dividende_exercice_2017-boa_sn.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 160.0,
+     "date_paiement": "2019-06-03",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_039-2019-dcbr-dg-dividende_exercice_2018-boa_sn.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 350.0,
+     "date_paiement": "2025-06-02",
+     "avis": "https://www.brvm.org/sites/default/files/20250515_-_avis_ndeg108_brvmdg_-_paiement_de_dividendes_exo_2024_-_boa_sn.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 450.0,
+     "date_paiement": "2026-06-01",
+     "avis": "https://www.brvm.org/sites/default/files/20260508_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exo_2025_-_boa_sn.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "SNTS",
@@ -1005,7 +3157,10 @@
    "variation_52s_pct": 57.1,
    "position_dans_range_52s": 1.0
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 0
+  }
  },
  {
   "ticker": "TTLS",
@@ -1033,7 +3188,28 @@
    "variation_52s_pct": 55.6,
    "position_dans_range_52s": 0.716
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 1,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2016,
+   "dernier_montant_net": 450.0,
+   "derniere_date_paiement": null,
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 1,
+   "exercices_consecutifs": 1,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 11.57,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 450.0,
+     "date_paiement": null,
+     "avis": "https://www.brvm.org/sites/default/files/20170602-_communique_declaration_de_dividendes_-total_senegal.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BOABF",
@@ -1061,7 +3237,75 @@
    "variation_52s_pct": 136.58,
    "position_dans_range_52s": 0.982
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 7,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 397.0,
+   "derniere_date_paiement": "2026-04-23",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 7,
+   "exercices_consecutifs": 5,
+   "baisses": [
+    {
+     "exercice": 2024,
+     "de": 704.0,
+     "a": 428.0
+    },
+    {
+     "exercice": 2025,
+     "de": 428.0,
+     "a": 397.0
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 4.42,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 6930.0,
+     "date_paiement": "2017-05-04",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_025-2017-dcbr-dg-dividende_exercice_2016-boa_burkina_faso.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 370.0,
+     "date_paiement": "2020-05-04",
+     "avis": "https://www.brvm.org/sites/default/files/avis_ndeg37-2020-_pmnt_des_dividendes_boa_bf_exo_2019.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 29.0,
+     "date_paiement": "2022-05-04",
+     "avis": "https://www.brvm.org/sites/default/files/20220412_-_avis_ndeg060_brvmdg_-_paiement_de_dividendes_exo_2021_-_boa_bf.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 577.0,
+     "date_paiement": "2023-05-05",
+     "avis": "https://www.brvm.org/sites/default/files/20230411_-_avis_ndeg054_brvmdg_-_paiement_de_dividendes_exo_2022_-_boa_bf.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 704.0,
+     "date_paiement": "2024-05-06",
+     "avis": "https://www.brvm.org/sites/default/files/20240404_-_avis_ndeg058_brvmdg_-_paiement_de_dividendes_exo_2023_-_boa_bf.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 428.0,
+     "date_paiement": "2025-04-22",
+     "avis": "https://www.brvm.org/sites/default/files/20250407_-_avis_ndeg070_brvmdg_-_paiement_de_dividendes_exo_2024_-_boa_bf.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 397.0,
+     "date_paiement": "2026-04-23",
+     "avis": "https://www.brvm.org/sites/default/files/20260331_-_avis_ndeg072_brvmdg_-_paiement_de_dividendes_exo_2025_-_boa_bf.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "CBIBF",
@@ -1089,7 +3333,75 @@
    "variation_52s_pct": 251.79,
    "position_dans_range_52s": 1.0
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 7,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 900.0,
+   "derniere_date_paiement": "2026-06-19",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 7,
+   "exercices_consecutifs": 3,
+   "baisses": [
+    {
+     "exercice": 2017,
+     "de": 1120.0,
+     "a": 336.0
+    },
+    {
+     "exercice": 2024,
+     "de": 790.0,
+     "a": 555.0
+    }
+   ],
+   "nb_baisses": 2,
+   "rendement_net_pct": 2.62,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 1120.0,
+     "date_paiement": "2017-06-09",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_038-2017-dcbr-dg-dividende_exercice_2016-coris_bank_burkina_faso.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 336.0,
+     "date_paiement": "2018-07-05",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_061-2018-dcbr-dg-dividende_exercice_2017-coris_bank_burkina_faso.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 402.0,
+     "date_paiement": "2019-07-05",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_073-2019-dcbr-dg-dividende_exercice_2018-coris_bank_burkina_faso.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 448.0,
+     "date_paiement": "2022-07-06",
+     "avis": "https://www.brvm.org/sites/default/files/20220622_-_avis_ndeg116_brvmdg_-_paiement_de_dividendes_exo_2021_-_cbibf1.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 790.0,
+     "date_paiement": "2024-07-05",
+     "avis": "https://www.brvm.org/sites/default/files/20240614_-_avis_ndeg134_brvmdg_-_paiement_de_dividendes_exo_2023_-_cbibf.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 555.0,
+     "date_paiement": "2025-07-07",
+     "avis": "https://www.brvm.org/sites/default/files/20250619_-_avis_ndeg140_brvmdg_-_paiement_de_dividendes_exo_2024_-_cbibf.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 900.0,
+     "date_paiement": "2026-06-19",
+     "avis": "https://www.brvm.org/sites/default/files/20260603_-_avis_n154_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_coris_bank_international_bf.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "ONTBF",
@@ -1117,7 +3429,113 @@
    "variation_52s_pct": 22.91,
    "position_dans_range_52s": 0.732
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 10,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 145.3214,
+   "derniere_date_paiement": "2026-06-15",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 10,
+   "exercices_consecutifs": 10,
+   "baisses": [
+    {
+     "exercice": 2018,
+     "de": 727.9125,
+     "a": 409.36
+    },
+    {
+     "exercice": 2019,
+     "de": 409.36,
+     "a": 387.17
+    },
+    {
+     "exercice": 2021,
+     "de": 399.5635,
+     "a": 13.0
+    },
+    {
+     "exercice": 2023,
+     "de": 287.8799,
+     "a": 266.44625
+    },
+    {
+     "exercice": 2024,
+     "de": 266.44625,
+     "a": 189.5299
+    },
+    {
+     "exercice": 2025,
+     "de": 189.5299,
+     "a": 145.3214
+    }
+   ],
+   "nb_baisses": 6,
+   "rendement_net_pct": 5.06,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 619.0625,
+     "date_paiement": "2017-06-01",
+     "avis": "https://www.brvm.org/sites/default/files/20170515_-_avis_ndeg053_brvmdg_-_paiement_de_dividendes_exo_2016_-_onatel_bf.pdf"
+    },
+    {
+     "exercice": 2017,
+     "montant_net": 727.9125,
+     "date_paiement": "2018-06-06",
+     "avis": "https://www.brvm.org/sites/default/files/20180523_-_avis_ndeg074_brvmdg_-_paiement_de_dividendes_exo_2017_-_onatel_bf.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 409.36,
+     "date_paiement": "2019-06-03",
+     "avis": "https://www.brvm.org/sites/default/files/20190514_-_avis_ndeg066_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 387.17,
+     "date_paiement": "2020-06-10",
+     "avis": "https://www.brvm.org/sites/default/files/20200526_-_avis_ndeg082_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
+    },
+    {
+     "exercice": 2020,
+     "montant_net": 399.5635,
+     "date_paiement": "2021-06-01",
+     "avis": "https://www.brvm.org/sites/default/files/20210517_-_avis_ndeg076_brvmdg_-_paiement_de_dividendes_-_onatel_bf_0.pdf"
+    },
+    {
+     "exercice": 2021,
+     "montant_net": 13.0,
+     "date_paiement": "2022-06-15",
+     "avis": "https://www.brvm.org/sites/default/files/20220527_-_avis_ndeg090_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 287.8799,
+     "date_paiement": "2023-06-26",
+     "avis": "https://www.brvm.org/sites/default/files/20230612_-_avis_ndeg110_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
+    },
+    {
+     "exercice": 2023,
+     "montant_net": 266.44625,
+     "date_paiement": "2024-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20240705_-_avis_ndeg155_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
+    },
+    {
+     "exercice": 2024,
+     "montant_net": 189.5299,
+     "date_paiement": "2025-07-21",
+     "avis": "https://www.brvm.org/sites/default/files/20250625_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 145.3214,
+     "date_paiement": "2026-06-15",
+     "avis": "https://www.brvm.org/sites/default/files/20260519_-_avis_ndeg137_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BOAM",
@@ -1145,7 +3563,34 @@
    "variation_52s_pct": 99.72,
    "position_dans_range_52s": 0.988
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 2,
+   "premier_exercice": 2016,
+   "dernier_exercice": 2018,
+   "dernier_montant_net": 13.0,
+   "derniere_date_paiement": "2019-05-15",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 2,
+   "exercices_consecutifs": 1,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 0.18,
+   "historique": [
+    {
+     "exercice": 2016,
+     "montant_net": 2790.0,
+     "date_paiement": "2017-05-02",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_022-2017-dcbr-dg-dividende_exercice_2016-boa_mali.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 13.0,
+     "date_paiement": "2019-05-15",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_037-2019-dcbr-dg-dividende_exercice_2018-boa_mali.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "ETIT",
@@ -1173,7 +3618,46 @@
    "variation_52s_pct": 311.76,
    "position_dans_range_52s": 0.871
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 3,
+   "premier_exercice": 2021,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 176.65,
+   "derniere_date_paiement": "2026-07-17",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 3,
+   "exercices_consecutifs": 1,
+   "baisses": [
+    {
+     "exercice": 2022,
+     "de": 0.16,
+     "a": 0.11
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 252.36,
+   "historique": [
+    {
+     "exercice": 2021,
+     "montant_net": 0.16,
+     "date_paiement": "2022-06-20",
+     "avis": "https://www.brvm.org/sites/default/files/20220613_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_exercice_2021_-_eti_tg.pdf"
+    },
+    {
+     "exercice": 2022,
+     "montant_net": 0.11,
+     "date_paiement": "2023-06-08",
+     "avis": "https://www.brvm.org/sites/default/files/20230524_-_avis_ndeg092_brvmdg_-_paiement_de_dividendes_exercice_2022_-_eti_tg.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 176.65,
+     "date_paiement": "2026-07-17",
+     "avis": "https://www.brvm.org/sites/default/files/20260624_-_avis_ndeg185_brvmdg_-_paiement_de_dividendes_exercice_2025_-_totalenergies_marketing_sn.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "ORGT",
@@ -1201,7 +3685,34 @@
    "variation_52s_pct": 94.24,
    "position_dans_range_52s": 0.663
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 2,
+   "premier_exercice": 2018,
+   "dernier_exercice": 2019,
+   "dernier_montant_net": 59.52,
+   "derniere_date_paiement": "2020-07-17",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 2,
+   "exercices_consecutifs": 2,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 1.86,
+   "historique": [
+    {
+     "exercice": 2018,
+     "montant_net": 56.73,
+     "date_paiement": "2019-07-01",
+     "avis": "https://www.brvm.org/sites/default/files/20190614_-_avis_ndeg091_brvmdg_-_paiement_de_dividendes_exo_2018_-_oragroup.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 59.52,
+     "date_paiement": "2020-07-17",
+     "avis": "https://www.brvm.org/sites/default/files/20200703_-_avis_ndeg115_brvmdg_-_paiement_de_dividendes_exercice_2019_-_oragroup_tg.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BICB",
@@ -1229,7 +3740,34 @@
    "variation_52s_pct": 101.74,
    "position_dans_range_52s": 0.943
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 2,
+   "premier_exercice": 2024,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 254.6,
+   "derniere_date_paiement": "2026-07-31",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 2,
+   "exercices_consecutifs": 2,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 2.44,
+   "historique": [
+    {
+     "exercice": 2024,
+     "montant_net": 254.6,
+     "date_paiement": "2025-09-15",
+     "avis": "https://www.brvm.org/sites/default/files/20250828_-_avis_ndeg212_brvmdg_-_paiement_de_dividendes_exo_2024_-_biic_bn.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 254.6,
+     "date_paiement": "2026-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20260703_-_avis_ndeg199_brvmdg_-_paiement_de_dividendes_exo_2025_-_biic_bn.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "LNBB",
@@ -1257,7 +3795,40 @@
    "variation_52s_pct": -10.01,
    "position_dans_range_52s": 0.349
   },
-  "liquidite": "correcte"
+  "liquidite": "correcte",
+  "dividendes": {
+   "exercices_connus": 2,
+   "premier_exercice": 2024,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 164.1709,
+   "derniere_date_paiement": "2026-08-03",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 2,
+   "exercices_consecutifs": 2,
+   "baisses": [
+    {
+     "exercice": 2025,
+     "de": 275.5,
+     "a": 164.1709
+    }
+   ],
+   "nb_baisses": 1,
+   "rendement_net_pct": 4.1,
+   "historique": [
+    {
+     "exercice": 2024,
+     "montant_net": 275.5,
+     "date_paiement": "2025-07-31",
+     "avis": "https://www.brvm.org/sites/default/files/20250711_-_avis_ndeg162_brvmdg_-_paiement_de_dividendes_exo_2024_-_loterie_nationale_du_benin_-_lnbb.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 164.1709,
+     "date_paiement": "2026-08-03",
+     "avis": "https://www.brvm.org/sites/default/files/20250720_-_avis_ndeg211_brvmdg_-_paiement_de_dividendes_exo_2025_-_loterie_nationale_du_benin.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BOAB",
@@ -1285,7 +3856,40 @@
    "variation_52s_pct": 122.47,
    "position_dans_range_52s": 0.957
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 3,
+   "premier_exercice": 2017,
+   "dernier_exercice": 2019,
+   "dernier_montant_net": 436.0,
+   "derniere_date_paiement": "2020-05-15",
+   "prochaine_date_ex": null,
+   "exercices_payes_10a": 3,
+   "exercices_consecutifs": 3,
+   "baisses": [],
+   "nb_baisses": 0,
+   "rendement_net_pct": 4.32,
+   "historique": [
+    {
+     "exercice": 2017,
+     "montant_net": 407.0,
+     "date_paiement": "2018-05-15",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_033-2018-dcbr-dg-dividende_exercice_2017-boa_benin.pdf"
+    },
+    {
+     "exercice": 2018,
+     "montant_net": 416.0,
+     "date_paiement": "2019-05-22",
+     "avis": "https://www.brvm.org/sites/default/files/avis_n_040-2019-dcbr-dg-dividende_exercice_2018-boa_benin.pdf"
+    },
+    {
+     "exercice": 2019,
+     "montant_net": 436.0,
+     "date_paiement": "2020-05-15",
+     "avis": "https://www.brvm.org/sites/default/files/avis_ndeg38-2020-_pmnt_des_dividendes_boa_benin_exo_2019.pdf"
+    }
+   ]
+  }
  },
  {
   "ticker": "BOAN",
@@ -1313,6 +3917,9 @@
    "variation_52s_pct": 115.61,
    "position_dans_range_52s": 0.984
   },
-  "liquidite": "liquide"
+  "liquidite": "liquide",
+  "dividendes": {
+   "exercices_connus": 0
+  }
  }
 ]

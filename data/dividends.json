@@ -1,0 +1,2602 @@
+[
+ {
+  "ticker": "ABJC",
+  "libelle_source": "SERVAIR ABIDJAN CI",
+  "exercice": 2016,
+  "date_paiement": "2017-07-24",
+  "date_ex": "2017-07-20",
+  "montant_net": 49.5,
+  "avis": "https://www.brvm.org/sites/default/files/20170710_-_avis_ndeg110_brvmdg_-_paiement_de_dividendes_exo_2016_-_servair_abidjan_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ABJC",
+  "libelle_source": "SERVAIR ABIDJAN CI",
+  "exercice": 2017,
+  "date_paiement": "2018-06-20",
+  "date_ex": "2018-06-18",
+  "montant_net": 98.97,
+  "avis": "https://www.brvm.org/sites/default/files/20180604_-_avis_ndeg81_brvmdg_-paiement_de_dividendes_exo_2017_-_servair_abj.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ABJC",
+  "libelle_source": "SERVAIR ABIDJAN CI",
+  "exercice": 2018,
+  "date_paiement": "2019-09-30",
+  "date_ex": "2019-09-26",
+  "montant_net": 41.239003,
+  "avis": "https://www.brvm.org/sites/default/files/20190910_-_avis_ndeg148_brvmdg_-_paiement_de_la_derniere_fraction_des_dividendes_exo_2018_-_servair_abidjan_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ABJC",
+  "libelle_source": "SERVAIR ABIDJAN CI",
+  "exercice": 2021,
+  "date_paiement": "2022-08-24",
+  "date_ex": "2022-08-22",
+  "montant_net": 57.73,
+  "avis": "https://www.brvm.org/sites/default/files/20220805_-_avis_ndeg161_brvmdg_-_paiement_de_dividendes_exo_2021_-_servair_abidjan_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ABJC",
+  "libelle_source": "SERVAIR ABIDJAN CI",
+  "exercice": 2022,
+  "date_paiement": "2023-08-31",
+  "date_ex": "2023-08-29",
+  "montant_net": 92.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230717_-_avis_ndeg149_brvmdg_-_paiement_de_dividendes_exo_2022_-_servair_abidjan_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ABJC",
+  "libelle_source": "SERVAIR ABIDJAN CI",
+  "exercice": 2023,
+  "date_paiement": "2024-09-30",
+  "date_ex": "2024-09-26",
+  "montant_net": 206.195,
+  "avis": "https://www.brvm.org/sites/default/files/20240916_-_avis_ndeg234_brvmdg_-_paiement_de_dividendes_exo_2023_-_servair_abidjan_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ABJC",
+  "libelle_source": "SERVAIR ABIDJAN CI",
+  "exercice": 2025,
+  "date_paiement": "2026-09-30",
+  "date_ex": "2026-09-29",
+  "montant_net": 124.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260701_-_avis_ndeg193_brvmdg_-_paiement_de_dividendes_exo_2025_-_servair_abidjan_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICB",
+  "libelle_source": "BIIC",
+  "exercice": 2024,
+  "date_paiement": "2025-09-15",
+  "date_ex": "2025-09-11",
+  "montant_net": 254.6,
+  "avis": "https://www.brvm.org/sites/default/files/20250828_-_avis_ndeg212_brvmdg_-_paiement_de_dividendes_exo_2024_-_biic_bn.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICB",
+  "libelle_source": "BIIC",
+  "exercice": 2025,
+  "date_paiement": "2026-07-31",
+  "date_ex": "2026-07-30",
+  "montant_net": 254.6,
+  "avis": "https://www.brvm.org/sites/default/files/20260703_-_avis_ndeg199_brvmdg_-_paiement_de_dividendes_exo_2025_-_biic_bn.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2016,
+  "date_paiement": "2017-07-24",
+  "date_ex": "2017-07-20",
+  "montant_net": 2771.41,
+  "avis": "https://www.brvm.org/sites/default/files/20170710_-_avis_ndeg108_brvmdg_-_paiement_de_dividendes_exo_2016_-_bici_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2018,
+  "date_paiement": "2019-07-17",
+  "date_ex": "2019-07-15",
+  "montant_net": 182.9,
+  "avis": "https://www.brvm.org/sites/default/files/20190703_-_avis_ndeg110_brvmdg_-_paiement_de_dividendes_exo_2018_-_bici_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2020,
+  "date_paiement": "2021-07-06",
+  "date_ex": "2021-07-02",
+  "montant_net": 50.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210622_-_avis_ndeg112_brvmdg_-_paiement_de_dividendes_exercice_2020_-_bicici.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2021,
+  "date_paiement": "2022-07-15",
+  "date_ex": "2022-07-13",
+  "montant_net": 518.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220627_-_avis_ndeg120_brvmdg_-_paiement_de_dividendes_exercice_2021_-_bicici.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2022,
+  "date_paiement": "2023-07-31",
+  "date_ex": "2023-07-27",
+  "montant_net": 401.4,
+  "avis": "https://www.brvm.org/sites/default/files/20230714_-_avis_ndeg146_brvmdg_-_paiement_de_dividendes_exercice_2022_-_bicici_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2023,
+  "date_paiement": "2024-06-27",
+  "date_ex": "2024-06-25",
+  "montant_net": 540.9,
+  "avis": "https://www.brvm.org/sites/default/files/20240607_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exercice_2023_-_bicici.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2024,
+  "date_paiement": "2025-05-23",
+  "date_ex": "2025-05-21",
+  "montant_net": 944.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250502_-_avis_ndeg090_brvmdg_-_paiement_de_dividendes_exercice_2024_-_bicici.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BICC",
+  "libelle_source": "BICI CI",
+  "exercice": 2025,
+  "date_paiement": "2026-07-06",
+  "date_ex": "2026-07-03",
+  "montant_net": 1315.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260617_-_avis_ndeg176_brvmdg_-_paiement_de_dividendes_exercice_2025_-_bicici.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BNBC",
+  "libelle_source": "BERNABE CI",
+  "exercice": 2015,
+  "date_paiement": "2016-07-08",
+  "date_ex": "2016-07-06",
+  "montant_net": 5500.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BNBC",
+  "libelle_source": "BERNABE CI",
+  "exercice": 2016,
+  "date_paiement": "2017-07-11",
+  "date_ex": "2017-07-07",
+  "montant_net": 3252.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170627_-_avis_ndeg097_brvmdg_-_paiement_de_dividendes_exo_2016_-_bernabe_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BNBC",
+  "libelle_source": "BERNABE CI",
+  "exercice": 2017,
+  "date_paiement": "2018-07-25",
+  "date_ex": "2018-07-23",
+  "montant_net": 63.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180705_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exo_2017_-_bernabe.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BNBC",
+  "libelle_source": "BERNABE CI",
+  "exercice": 2018,
+  "date_paiement": "2019-07-19",
+  "date_ex": "2019-07-17",
+  "montant_net": 45.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190702_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exo_2018_-_bernabe_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BNBC",
+  "libelle_source": "BERNABE CI",
+  "exercice": 2022,
+  "date_paiement": "2023-07-24",
+  "date_ex": "2023-07-20",
+  "montant_net": 150.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230710_-_avis_ndeg139_brvmdg_-_paiement_de_dividendes_exercice_2022_-_bernabe_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2017,
+  "date_paiement": "2018-05-15",
+  "date_ex": null,
+  "montant_net": 407.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_033-2018-dcbr-dg-dividende_exercice_2017-boa_benin.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2018,
+  "date_paiement": "2019-05-22",
+  "date_ex": null,
+  "montant_net": 416.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_040-2019-dcbr-dg-dividende_exercice_2018-boa_benin.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAB",
+  "libelle_source": "BANK OF AFRICA BN",
+  "exercice": 2019,
+  "date_paiement": "2020-05-15",
+  "date_ex": "2020-05-13",
+  "montant_net": 436.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_ndeg38-2020-_pmnt_des_dividendes_boa_benin_exo_2019.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2016,
+  "date_paiement": "2017-05-04",
+  "date_ex": "2017-04-30",
+  "montant_net": 6930.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_025-2017-dcbr-dg-dividende_exercice_2016-boa_burkina_faso.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2019,
+  "date_paiement": "2020-05-04",
+  "date_ex": "2020-04-29",
+  "montant_net": 370.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_ndeg37-2020-_pmnt_des_dividendes_boa_bf_exo_2019.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2021,
+  "date_paiement": "2022-05-04",
+  "date_ex": null,
+  "montant_net": 29.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220412_-_avis_ndeg060_brvmdg_-_paiement_de_dividendes_exo_2021_-_boa_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2022,
+  "date_paiement": "2023-05-05",
+  "date_ex": "2023-05-03",
+  "montant_net": 577.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230411_-_avis_ndeg054_brvmdg_-_paiement_de_dividendes_exo_2022_-_boa_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2023,
+  "date_paiement": "2024-05-06",
+  "date_ex": "2024-05-02",
+  "montant_net": 704.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240404_-_avis_ndeg058_brvmdg_-_paiement_de_dividendes_exo_2023_-_boa_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2024,
+  "date_paiement": "2025-04-22",
+  "date_ex": "2025-04-17",
+  "montant_net": 428.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250407_-_avis_ndeg070_brvmdg_-_paiement_de_dividendes_exo_2024_-_boa_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOABF",
+  "libelle_source": "BANK OF AFRICA BF",
+  "exercice": 2025,
+  "date_paiement": "2026-04-23",
+  "date_ex": "2026-04-22",
+  "montant_net": 397.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260331_-_avis_ndeg072_brvmdg_-_paiement_de_dividendes_exo_2025_-_boa_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2023,
+  "date_paiement": "2024-04-29",
+  "date_ex": "2024-04-25",
+  "montant_net": 684.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240404_-_avis_ndeg057_brvmdg_-_paiement_de_dividendes_exo_2023_-_boa_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAC",
+  "libelle_source": "BANK OF AFRICA CI",
+  "exercice": 2024,
+  "date_paiement": "2025-05-20",
+  "date_ex": "2025-05-16",
+  "montant_net": 469.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250505_-_avis_ndeg092_brvmdg_-_paiement_de_dividendes_exo_2024_-_boa_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAM",
+  "libelle_source": "BANK OF AFRICA ML",
+  "exercice": 2016,
+  "date_paiement": "2017-05-02",
+  "date_ex": "2017-04-28",
+  "montant_net": 2790.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_022-2017-dcbr-dg-dividende_exercice_2016-boa_mali.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAM",
+  "libelle_source": "BANK OF AFRICA ML",
+  "exercice": 2018,
+  "date_paiement": "2019-05-15",
+  "date_ex": null,
+  "montant_net": 13.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_037-2019-dcbr-dg-dividende_exercice_2018-boa_mali.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2016,
+  "date_paiement": "2017-05-15",
+  "date_ex": "2017-05-12",
+  "montant_net": 1000.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_024-2017-dcbr-dg-dividende_exercice_2016-boa_senegal.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2017,
+  "date_paiement": "2018-05-02",
+  "date_ex": null,
+  "montant_net": 160.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_031-2018-dcbr-dg-dividende_exercice_2017-boa_sn.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2018,
+  "date_paiement": "2019-06-03",
+  "date_ex": "2019-05-30",
+  "montant_net": 160.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_039-2019-dcbr-dg-dividende_exercice_2018-boa_sn.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2024,
+  "date_paiement": "2025-06-02",
+  "date_ex": "2025-05-28",
+  "montant_net": 350.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250515_-_avis_ndeg108_brvmdg_-_paiement_de_dividendes_exo_2024_-_boa_sn.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "BOAS",
+  "libelle_source": "BANK OF AFRICA SN",
+  "exercice": 2025,
+  "date_paiement": "2026-06-01",
+  "date_ex": "2026-05-29",
+  "montant_net": 450.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260508_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exo_2025_-_boa_sn.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2015,
+  "date_paiement": "2016-07-28",
+  "date_ex": "2016-07-26",
+  "montant_net": 1200.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2016,
+  "date_paiement": "2017-06-30",
+  "date_ex": "2017-06-28",
+  "montant_net": 2000.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170614_-_avis_ndeg079_brvmdg_-_paiement_de_dividendes_exo_2016_-_sicable_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2017,
+  "date_paiement": "2018-05-31",
+  "date_ex": "2018-05-29",
+  "montant_net": 100.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180516_-_avis_ndeg067_brvmdg_-_paiement_de_dividendes_exo_2017_-_sicable_ci_.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2018,
+  "date_paiement": "2019-06-03",
+  "date_ex": "2019-05-29",
+  "montant_net": 75.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190517_-_avis_ndeg073_brvmdg_-_paiement_de_dividendes_exo_2018_-_sicable_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2019,
+  "date_paiement": "2020-07-29",
+  "date_ex": "2020-07-27",
+  "montant_net": 75.0,
+  "avis": "https://www.brvm.org/sites/default/files/20200714_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exercice_2019_-_sicable_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2020,
+  "date_paiement": "2021-08-02",
+  "date_ex": "2021-07-29",
+  "montant_net": 133.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210716_-_avis_ndeg148_brvmdg_-_paiement_de_dividendes_exercice_2020_-_sicable_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2021,
+  "date_paiement": "2022-08-02",
+  "date_ex": "2022-07-29",
+  "montant_net": 69.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220719_-_avis_ndeg148_brvmdg_-_paiement_de_dividendes_exercice_2021_-_sicable_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2022,
+  "date_paiement": "2023-08-02",
+  "date_ex": "2023-07-31",
+  "montant_net": 69.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230719_-_avis_ndeg152_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sicable_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2023,
+  "date_paiement": "2024-05-31",
+  "date_ex": "2024-05-29",
+  "montant_net": 79.58,
+  "avis": "https://www.brvm.org/sites/default/files/20240514_-_avis_ndeg091_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sicable_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CABC",
+  "libelle_source": "SICABLE",
+  "exercice": 2024,
+  "date_paiement": "2025-06-02",
+  "date_ex": "2025-05-28",
+  "montant_net": 128.1,
+  "avis": "https://www.brvm.org/sites/default/files/20250516_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sicable_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CBIBF",
+  "libelle_source": "",
+  "exercice": 2016,
+  "date_paiement": "2017-06-09",
+  "date_ex": null,
+  "montant_net": 1120.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_038-2017-dcbr-dg-dividende_exercice_2016-coris_bank_burkina_faso.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CBIBF",
+  "libelle_source": "",
+  "exercice": 2017,
+  "date_paiement": "2018-07-05",
+  "date_ex": null,
+  "montant_net": 336.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_061-2018-dcbr-dg-dividende_exercice_2017-coris_bank_burkina_faso.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CBIBF",
+  "libelle_source": "",
+  "exercice": 2018,
+  "date_paiement": "2019-07-05",
+  "date_ex": null,
+  "montant_net": 402.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_073-2019-dcbr-dg-dividende_exercice_2018-coris_bank_burkina_faso.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CBIBF",
+  "libelle_source": "",
+  "exercice": 2021,
+  "date_paiement": "2022-07-06",
+  "date_ex": "2022-07-04",
+  "montant_net": 448.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220622_-_avis_ndeg116_brvmdg_-_paiement_de_dividendes_exo_2021_-_cbibf1.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CBIBF",
+  "libelle_source": "CORIS BANK INTERNATIONAL",
+  "exercice": 2023,
+  "date_paiement": "2024-07-05",
+  "date_ex": "2024-07-03",
+  "montant_net": 790.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240614_-_avis_ndeg134_brvmdg_-_paiement_de_dividendes_exo_2023_-_cbibf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CBIBF",
+  "libelle_source": "CORIS BANK INTERNATIONAL",
+  "exercice": 2024,
+  "date_paiement": "2025-07-07",
+  "date_ex": "2025-07-03",
+  "montant_net": 555.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250619_-_avis_ndeg140_brvmdg_-_paiement_de_dividendes_exo_2024_-_cbibf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CBIBF",
+  "libelle_source": "CORIS BANK INTERNATIONAL",
+  "exercice": 2025,
+  "date_paiement": "2026-06-19",
+  "date_ex": "2026-06-18",
+  "montant_net": 900.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260603_-_avis_n154_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_coris_bank_international_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2015,
+  "date_paiement": "2016-07-29",
+  "date_ex": "2016-07-27",
+  "montant_net": 2297.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2016,
+  "date_paiement": "2017-07-24",
+  "date_ex": "2017-07-20",
+  "montant_net": 2032.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170710_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exo_2016_-_cfao_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2017,
+  "date_paiement": "2018-07-27",
+  "date_ex": "2018-07-25",
+  "montant_net": 9.9,
+  "avis": "https://www.brvm.org/sites/default/files/20180713_-_avis_ndeg117_brvmdg_-_paiement_de_dividendes_exo_2017_-_cfao_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2018,
+  "date_paiement": "2019-07-23",
+  "date_ex": "2019-07-19",
+  "montant_net": 31.5,
+  "avis": "https://www.brvm.org/sites/default/files/20190709_-_avis_ndeg115_brvmdg_-_paiement_de_dividendes_exo_2018_-_cfao_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2019,
+  "date_paiement": "2020-08-25",
+  "date_ex": "2020-08-21",
+  "montant_net": 26.073,
+  "avis": "https://www.brvm.org/sites/default/files/20200810_-_avis_ndeg138_brvmdg_-_paiement_de_dividendes_exo_2019_-_cfao_motors_ci_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2020,
+  "date_paiement": "2021-07-15",
+  "date_ex": "2021-07-13",
+  "montant_net": 22.15,
+  "avis": "https://www.brvm.org/sites/default/files/20210701_-_avis_ndeg127_brvmdg_-_paiement_de_dividendes_exo_2020_-_cfao_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2021,
+  "date_paiement": "2022-08-02",
+  "date_ex": "2022-07-29",
+  "montant_net": 69.47,
+  "avis": "https://www.brvm.org/sites/default/files/20220719_-_avis_ndeg149_brvmdg_-_paiement_de_dividendes_exo_2021_-_cfao_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2023,
+  "date_paiement": "2024-08-30",
+  "date_ex": "2024-08-28",
+  "montant_net": 15.87,
+  "avis": "https://www.brvm.org/sites/default/files/20240816_-_avis_ndeg195_brvmdg_-_paiement_de_dividendes_exo_2023_-_cfao_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2024,
+  "date_paiement": "2025-08-19",
+  "date_ex": "2025-08-14",
+  "montant_net": 8.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250801_-_avis_ndeg188_brvmdg_-_paiement_de_dividendes_exo_2024_-_cfao_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CFAC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2025,
+  "date_paiement": "2026-08-14",
+  "date_ex": "2026-08-13",
+  "montant_net": 63.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260730_-_avis_ndeg227_brvmdg_-_paiement_de_dividendes_exo_2025_-_cfao_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2015,
+  "date_paiement": "2016-09-15",
+  "date_ex": "2016-09-13",
+  "montant_net": 2641.0,
+  "avis": "https://www.brvm.org/sites/default/files/20160714_-_avis_ndeg063-2016-_dcbr-dg-pmt_de_dividendes_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2016,
+  "date_paiement": "2017-09-20",
+  "date_ex": null,
+  "montant_net": 3465.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170904_-_avis_ndeg161_brvmdg_-_paiement_de_dividende_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2017,
+  "date_paiement": "2018-07-20",
+  "date_ex": "2018-07-18",
+  "montant_net": 31.95,
+  "avis": "https://www.brvm.org/sites/default/files/20180706_-_avis_ndeg111_brvmdg_-_paiement_de_dividendes_exo_2017_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2018,
+  "date_paiement": "2019-08-09",
+  "date_ex": "2019-08-06",
+  "montant_net": 79.23,
+  "avis": "https://www.brvm.org/sites/default/files/20190725_-_avis_ndeg127_brvmdg_-_paiement_de_dividendes_exo_2018_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2019,
+  "date_paiement": "2020-08-05",
+  "date_ex": "2020-08-03",
+  "montant_net": 104.979,
+  "avis": "https://www.brvm.org/sites/default/files/20200715_-_avis_ndeg124_brvmdg_-_paiement_de_dividendes_exercice_2019_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2020,
+  "date_paiement": "2021-07-14",
+  "date_ex": "2021-07-12",
+  "montant_net": 167.14,
+  "avis": "https://www.brvm.org/sites/default/files/20210629_-_avis_ndeg122_brvmdg_-_paiement_de_dividendes_exercice_2020_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2021,
+  "date_paiement": "2022-07-25",
+  "date_ex": "2022-07-21",
+  "montant_net": 153.161,
+  "avis": "https://www.brvm.org/sites/default/files/20220701_-_avis_ndeg123_brvmdg_-_paiement_de_dividendes_exercice_2021_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2022,
+  "date_paiement": "2023-07-31",
+  "date_ex": "2023-07-27",
+  "montant_net": 157.5,
+  "avis": "https://www.brvm.org/sites/default/files/20230706_-_avis_ndeg136_brvmdg_-_paiement_de_dividendes_exercice_2022_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2023,
+  "date_paiement": "2024-07-30",
+  "date_ex": "2024-07-26",
+  "montant_net": 171.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240710_-_avis_ndeg157_brvmdg_-_paiement_de_dividendes_exercice_2023_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2024,
+  "date_paiement": "2025-07-31",
+  "date_ex": "2025-07-29",
+  "montant_net": 180.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250711_-_avis_ndeg163_brvmdg_-_paiement_de_dividendes_exercice_2024_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "CIEC",
+  "libelle_source": "CIE CI",
+  "exercice": 2025,
+  "date_paiement": "2026-07-28",
+  "date_ex": "2026-07-27",
+  "montant_net": 234.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260707_-_avis_ndeg201_brvmdg_-_paiement_de_dividendes_exercice_2025_-_cie_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2017,
+  "date_paiement": "2018-06-22",
+  "date_ex": "2018-06-20",
+  "montant_net": 1844.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180601_-_avis_ndeg080_brvmdg_-_paiement_de_dividendes_exo_2017_-_ecobank_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2018,
+  "date_paiement": "2019-05-15",
+  "date_ex": null,
+  "montant_net": 13.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190430_-_avis_ndeg055_brvmdg_-_paiement_de_dividendes_exo_2018_-_ecobank_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2019,
+  "date_paiement": "2020-07-20",
+  "date_ex": "2020-07-16",
+  "montant_net": 353.0,
+  "avis": "https://www.brvm.org/sites/default/files/20200706_-_avis_ndeg116_brvmdg_-_paiement_de_dividendes_exercice_2019_-_ecobank_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2020,
+  "date_paiement": "2021-05-06",
+  "date_ex": "2021-05-04",
+  "montant_net": 294.3,
+  "avis": "https://www.brvm.org/sites/default/files/20210422_-_avis_ndeg058_brvmdg_-_paiement_de_dividendes_exercice_2020_-_ecobank_ci_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2021,
+  "date_paiement": "2022-04-29",
+  "date_ex": null,
+  "montant_net": 26.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220412_-_avis_ndeg058_brvmdg_-_paiement_de_dividendes_exercice_2021_-_ecobank_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2022,
+  "date_paiement": "2023-05-30",
+  "date_ex": "2023-05-25",
+  "montant_net": 549.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230512_-_avis_ndeg081-2023_paiement_de_dividendes_ecobank_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2023,
+  "date_paiement": "2024-05-30",
+  "date_ex": "2024-05-28",
+  "montant_net": 594.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240510_-_avis_ndeg089_brvmdg_-_paiement_de_dividendes_-_exercice_2023_-_ecobank_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2024,
+  "date_paiement": "2025-05-30",
+  "date_ex": "2025-05-31",
+  "montant_net": 804.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240515_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_-_exercice_2024_-_ecobank_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ECOC",
+  "libelle_source": "ECOBANK CI",
+  "exercice": 2025,
+  "date_paiement": "2026-05-26",
+  "date_ex": "2026-05-22",
+  "montant_net": 888.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260508_-_avis_ndeg128_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_ecobank_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ETIT",
+  "libelle_source": "ECOBANK TG",
+  "exercice": 2021,
+  "date_paiement": "2022-06-20",
+  "date_ex": "2022-06-16",
+  "montant_net": 0.16,
+  "avis": "https://www.brvm.org/sites/default/files/20220613_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_exercice_2021_-_eti_tg.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ETIT",
+  "libelle_source": "ECOBANK TG",
+  "exercice": 2022,
+  "date_paiement": "2023-06-08",
+  "date_ex": "2023-06-06",
+  "montant_net": 0.11,
+  "avis": "https://www.brvm.org/sites/default/files/20230524_-_avis_ndeg092_brvmdg_-_paiement_de_dividendes_exercice_2022_-_eti_tg.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ETIT",
+  "libelle_source": "TOTAL SENEGAL S.A.",
+  "exercice": 2025,
+  "date_paiement": "2026-07-17",
+  "date_ex": "2026-07-16",
+  "montant_net": 176.65,
+  "avis": "https://www.brvm.org/sites/default/files/20260624_-_avis_ndeg185_brvmdg_-_paiement_de_dividendes_exercice_2025_-_totalenergies_marketing_sn.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "FTSC",
+  "libelle_source": "FILTISAC CI",
+  "exercice": 2016,
+  "date_paiement": "2018-01-09",
+  "date_ex": "2018-01-05",
+  "montant_net": 1200.0,
+  "avis": "https://www.brvm.org/sites/default/files/20171222_-_avis_ndeg267_brvmdg_-_paiement_de_dividendes_complementaires_-_filtisac_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "FTSC",
+  "libelle_source": "FILTISAC CI",
+  "exercice": 2018,
+  "date_paiement": "2019-07-31",
+  "date_ex": "2019-07-29",
+  "montant_net": 110.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190625_-_avis_ndeg103_brvmdg_-_paiement_de_dividendes_exercice_2018_-_filtisac_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "FTSC",
+  "libelle_source": "FILTISAC CI",
+  "exercice": 2019,
+  "date_paiement": "2020-08-06",
+  "date_ex": "2020-07-04",
+  "montant_net": 125.0,
+  "avis": "https://www.brvm.org/sites/default/files/20200721_-_avis_ndeg127_brvmdg_-_paiement_de_dividendes_exercice_2019_-_filtisac_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "FTSC",
+  "libelle_source": "FILTISAC CI",
+  "exercice": 2020,
+  "date_paiement": "2021-07-30",
+  "date_ex": "2021-07-28",
+  "montant_net": 235.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210628_-_avis_ndeg121_brvmdg_-_paiement_de_dividendes_exercice_2020_-_filtisac_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "FTSC",
+  "libelle_source": "FILTISAC CI",
+  "exercice": 2023,
+  "date_paiement": "2024-09-30",
+  "date_ex": "2024-09-26",
+  "montant_net": 143.1,
+  "avis": "https://www.brvm.org/sites/default/files/20240916_-_avis_ndeg235_brvmdg_-_paiement_de_dividendes_exercice_2023_-_filtisac_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "FTSC",
+  "libelle_source": "FILTISAC CI",
+  "exercice": 2024,
+  "date_paiement": "2025-09-30",
+  "date_ex": "2025-09-26",
+  "montant_net": 1320.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250916_-_avis_ndeg230_brvmdg_-_paiement_de_dividendes_exercice_2024_et_paiement_de_dividendes_exceptionnels_-_filtisac_ci_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "LNBB",
+  "libelle_source": "LNB",
+  "exercice": 2024,
+  "date_paiement": "2025-07-31",
+  "date_ex": "2025-07-29",
+  "montant_net": 275.5,
+  "avis": "https://www.brvm.org/sites/default/files/20250711_-_avis_ndeg162_brvmdg_-_paiement_de_dividendes_exo_2024_-_loterie_nationale_du_benin_-_lnbb.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "LNBB",
+  "libelle_source": "LNB",
+  "exercice": 2025,
+  "date_paiement": "2026-08-03",
+  "date_ex": "2026-07-31",
+  "montant_net": 164.1709,
+  "avis": "https://www.brvm.org/sites/default/files/20250720_-_avis_ndeg211_brvmdg_-_paiement_de_dividendes_exo_2025_-_loterie_nationale_du_benin.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NEIC",
+  "libelle_source": "NEI-CEDA CI",
+  "exercice": 2022,
+  "date_paiement": "2023-09-22",
+  "date_ex": "2023-09-20",
+  "montant_net": 35.25,
+  "avis": "https://www.brvm.org/sites/default/files/20230828_-_avis_ndeg181_brvmdg_-_paiement_de_dividendes_exercice_2022_-_nei-ceda_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NEIC",
+  "libelle_source": "NEI-CEDA CI",
+  "exercice": 2023,
+  "date_paiement": "2024-06-25",
+  "date_ex": "2024-06-21",
+  "montant_net": 81.78,
+  "avis": "https://www.brvm.org/sites/default/files/20240605_-_avis_ndeg120_brvmdg_-_paiement_de_dividendes_exo_2023_-_nei-ceda_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NEIC",
+  "libelle_source": "NEI-CEDA CI",
+  "exercice": 2025,
+  "date_paiement": "2026-09-10",
+  "date_ex": "2026-09-09",
+  "montant_net": 159.54,
+  "avis": "https://www.brvm.org/sites/default/files/20260827_-_avis_ndeg252_brvmdg_-_paiement_de_dividendes_exo_2025_-_nei-ceda_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NSBC",
+  "libelle_source": "NSBC",
+  "exercice": 2017,
+  "date_paiement": "2018-06-25",
+  "date_ex": "2018-06-21",
+  "montant_net": 466.1,
+  "avis": "https://www.brvm.org/sites/default/files/20180607_-_avis_ndeg085_brvmdg_-_paiement_de_dividendes_exo_2017_-_nsia_banque_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NSBC",
+  "libelle_source": "NSBC",
+  "exercice": 2018,
+  "date_paiement": "2019-07-09",
+  "date_ex": "2019-07-05",
+  "montant_net": 194.2,
+  "avis": "https://www.brvm.org/sites/default/files/20190625_-_avis_ndeg102_brvmdg_-_paiement_de_dividendes_exo_2018_-_nsia_banque_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NSBC",
+  "libelle_source": "NSBC",
+  "exercice": 2019,
+  "date_paiement": "2020-07-27",
+  "date_ex": "2020-07-23",
+  "montant_net": 77.68666379,
+  "avis": "https://www.brvm.org/sites/default/files/20200713_-_avis_ndeg121_brvmdg_-_paiement_de_dividendes_exercice_2019_-_nsia_banque_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NSBC",
+  "libelle_source": "NSBC",
+  "exercice": 2022,
+  "date_paiement": "2023-06-07",
+  "date_ex": "2023-06-05",
+  "montant_net": 363.6,
+  "avis": "https://www.brvm.org/sites/default/files/20230622_-_avis_ndeg123_brvmdg_-_paiement_de_dividendes_exercice_2022_-_nsia_banque_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NSBC",
+  "libelle_source": "NSBC",
+  "exercice": 2023,
+  "date_paiement": "2024-07-08",
+  "date_ex": "2024-07-04",
+  "montant_net": 454.829,
+  "avis": "https://www.brvm.org/sites/default/files/20240620_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_exercice_2023_-_nsia_banque_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NSBC",
+  "libelle_source": "NSBC",
+  "exercice": 2024,
+  "date_paiement": "2025-07-09",
+  "date_ex": "2025-07-07",
+  "montant_net": 759.2612,
+  "avis": "https://www.brvm.org/sites/default/files/20250624_-_avis_ndeg141_brvmdg_-_paiement_de_dividendes_exercice_2024_-_nsia_banque_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NSBC",
+  "libelle_source": "NSBC",
+  "exercice": 2025,
+  "date_paiement": "2026-08-04",
+  "date_ex": "2026-08-03",
+  "montant_net": 768.16,
+  "avis": "https://www.brvm.org/sites/default/files/20260721_-_avis_ndeg212_brvmdg_-_paiement_de_dividendes_exercice_2025_-_nsia_banque_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NTLC",
+  "libelle_source": "NESTLE CI",
+  "exercice": 2020,
+  "date_paiement": "2021-07-30",
+  "date_ex": "2021-07-28",
+  "montant_net": 363.665,
+  "avis": "https://www.brvm.org/sites/default/files/20210707_-_avis_ndeg132_brvmdg_-_paiement_de_dividendes_exo_2020_-_nestle_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NTLC",
+  "libelle_source": "NESTLE CI",
+  "exercice": 2021,
+  "date_paiement": "2022-08-02",
+  "date_ex": "2022-07-29",
+  "montant_net": 856.8,
+  "avis": "https://www.brvm.org/sites/default/files/20220719_-_avis_ndeg150_brvmdg_-_paiement_de_dividendes_exo_2021_-_nestle_ci_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NTLC",
+  "libelle_source": "NESTLE CI",
+  "exercice": 2022,
+  "date_paiement": "2023-08-08",
+  "date_ex": "2023-08-03",
+  "montant_net": 728.1,
+  "avis": "https://www.brvm.org/sites/default/files/20230717_-_avis_ndeg148_brvmdg_-_paiement_de_dividendes_exo_2022_-_nestle_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NTLC",
+  "libelle_source": "NESTLE CI",
+  "exercice": 2023,
+  "date_paiement": "2024-07-20",
+  "date_ex": "2024-07-16",
+  "montant_net": 675.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240712_-_avis_ndeg159_brvmdg_-_paiement_de_dividendes_exo_2023_-_nestle_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NTLC",
+  "libelle_source": "NESTLE CI",
+  "exercice": 2024,
+  "date_paiement": "2025-08-18",
+  "date_ex": "2025-08-13",
+  "montant_net": 820.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250704_-_avis_ndeg152_brvmdg_-_paiement_de_dividendes_exo_2024_-_nestle_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "NTLC",
+  "libelle_source": "NESTLE CI",
+  "exercice": 2025,
+  "date_paiement": "2026-09-07",
+  "date_ex": "2026-09-04",
+  "montant_net": 420.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260730_-_avis_ndeg228_brvmdg_-_paiement_de_dividendes_exo_2025_-_nestle_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2016,
+  "date_paiement": "2017-06-01",
+  "date_ex": "2017-05-30",
+  "montant_net": 619.0625,
+  "avis": "https://www.brvm.org/sites/default/files/20170515_-_avis_ndeg053_brvmdg_-_paiement_de_dividendes_exo_2016_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2017,
+  "date_paiement": "2018-06-06",
+  "date_ex": "2018-05-04",
+  "montant_net": 727.9125,
+  "avis": "https://www.brvm.org/sites/default/files/20180523_-_avis_ndeg074_brvmdg_-_paiement_de_dividendes_exo_2017_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2018,
+  "date_paiement": "2019-06-03",
+  "date_ex": "2019-05-29",
+  "montant_net": 409.36,
+  "avis": "https://www.brvm.org/sites/default/files/20190514_-_avis_ndeg066_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2019,
+  "date_paiement": "2020-06-10",
+  "date_ex": "2020-06-08",
+  "montant_net": 387.17,
+  "avis": "https://www.brvm.org/sites/default/files/20200526_-_avis_ndeg082_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2020,
+  "date_paiement": "2021-06-01",
+  "date_ex": "2021-05-28",
+  "montant_net": 399.5635,
+  "avis": "https://www.brvm.org/sites/default/files/20210517_-_avis_ndeg076_brvmdg_-_paiement_de_dividendes_-_onatel_bf_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2021,
+  "date_paiement": "2022-06-15",
+  "date_ex": null,
+  "montant_net": 13.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220527_-_avis_ndeg090_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2022,
+  "date_paiement": "2023-06-26",
+  "date_ex": "2023-06-22",
+  "montant_net": 287.8799,
+  "avis": "https://www.brvm.org/sites/default/files/20230612_-_avis_ndeg110_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2023,
+  "date_paiement": "2024-07-31",
+  "date_ex": "2024-08-01",
+  "montant_net": 266.44625,
+  "avis": "https://www.brvm.org/sites/default/files/20240705_-_avis_ndeg155_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2024,
+  "date_paiement": "2025-07-21",
+  "date_ex": "2025-07-17",
+  "montant_net": 189.5299,
+  "avis": "https://www.brvm.org/sites/default/files/20250625_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ONTBF",
+  "libelle_source": "ONATEL BF",
+  "exercice": 2025,
+  "date_paiement": "2026-06-15",
+  "date_ex": "2026-06-12",
+  "montant_net": 145.3214,
+  "avis": "https://www.brvm.org/sites/default/files/20260519_-_avis_ndeg137_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ORAC",
+  "libelle_source": "ORANGE CI",
+  "exercice": 2022,
+  "date_paiement": "2023-06-13",
+  "date_ex": "2023-06-16",
+  "montant_net": 752.76,
+  "avis": "https://www.brvm.org/sites/default/files/20230531_-_avis_ndeg101_brvmdg_-_paiement_de_dividendes_exercice_2022_-_orange_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ORAC",
+  "libelle_source": "ORANGE CI",
+  "exercice": 2023,
+  "date_paiement": "2024-06-03",
+  "date_ex": "2024-05-30",
+  "montant_net": 780.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240514_-_avis_ndeg092_brvmdg_-_paiement_de_dividendes_-_exercice_2023_-_orange_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ORAC",
+  "libelle_source": "ORANGE CI",
+  "exercice": 2024,
+  "date_paiement": "2025-06-11",
+  "date_ex": "2025-06-05",
+  "montant_net": 750.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250522_-_avis_ndeg118_brvmdg_-_paiement_de_dividendes_-_exercice_2024_-_orange_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ORAC",
+  "libelle_source": "ORANGE CI",
+  "exercice": 2025,
+  "date_paiement": "2026-06-08",
+  "date_ex": "2026-06-05",
+  "montant_net": 800.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260520_-_avis_ndeg138_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_orange_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ORGT",
+  "libelle_source": "ORAGROUP",
+  "exercice": 2018,
+  "date_paiement": "2019-07-01",
+  "date_ex": "2019-06-27",
+  "montant_net": 56.73,
+  "avis": "https://www.brvm.org/sites/default/files/20190614_-_avis_ndeg091_brvmdg_-_paiement_de_dividendes_exo_2018_-_oragroup.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "ORGT",
+  "libelle_source": "ORAGROUP",
+  "exercice": 2019,
+  "date_paiement": "2020-07-17",
+  "date_ex": "2020-07-15",
+  "montant_net": 59.52,
+  "avis": "https://www.brvm.org/sites/default/files/20200703_-_avis_ndeg115_brvmdg_-_paiement_de_dividendes_exercice_2019_-_oragroup_tg.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PALC",
+  "libelle_source": "PALM CI",
+  "exercice": 2016,
+  "date_paiement": "2017-09-29",
+  "date_ex": "2017-09-27",
+  "montant_net": 240.6,
+  "avis": "https://www.brvm.org/sites/default/files/20170914_-_avis_ndeg170_brvmdg_-_paiement_de_dividendes_exo_2016_-_palmci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PALC",
+  "libelle_source": "PALM CI",
+  "exercice": 2017,
+  "date_paiement": "2018-09-24",
+  "date_ex": "2018-09-20",
+  "montant_net": 253.47,
+  "avis": "https://www.brvm.org/sites/default/files/20180910_-_avis_ndeg142_brvmdg_-_paiement_de_dividendes_exo_2017_-_palmci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PALC",
+  "libelle_source": "PALM CI",
+  "exercice": 2020,
+  "date_paiement": "2021-08-27",
+  "date_ex": "2021-08-25",
+  "montant_net": 102.51,
+  "avis": "https://www.brvm.org/sites/default/files/20210811_-_avis_ndeg162_brvmdg_-_paiement_de_dividendes_exo_2020_-_palm_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PALC",
+  "libelle_source": "PALM CI",
+  "exercice": 2021,
+  "date_paiement": "2022-08-31",
+  "date_ex": "2022-08-29",
+  "montant_net": 1236.34,
+  "avis": "https://www.brvm.org/sites/default/files/20220718_-_avis_ndeg145_brvmdg_-_paiement_de_dividendes_exo_2021_-_palm_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PALC",
+  "libelle_source": "PALM CI",
+  "exercice": 2022,
+  "date_paiement": "2023-07-19",
+  "date_ex": "2023-07-17",
+  "montant_net": 1213.632,
+  "avis": "https://www.brvm.org/sites/default/files/20230622_-_avis_ndeg124_brvmdg_-_paiement_de_dividendes_exo_2022_-_palm_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PALC",
+  "libelle_source": "PALM CI",
+  "exercice": 2023,
+  "date_paiement": "2024-07-26",
+  "date_ex": "2024-07-24",
+  "montant_net": 563.306,
+  "avis": "https://www.brvm.org/sites/default/files/20240702_-_avis_ndeg152_brvmdg_-_paiement_de_dividendes_exo_2023_-_palm_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PALC",
+  "libelle_source": "PALM CI",
+  "exercice": 2024,
+  "date_paiement": "2025-09-10",
+  "date_ex": "2025-09-08",
+  "montant_net": 513.012,
+  "avis": "https://www.brvm.org/sites/default/files/20250825_-_avis_ndeg209_brvmdg_-_paiement_de_dividendes_exo_2024_-_palm_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PALC",
+  "libelle_source": "PALM CI",
+  "exercice": 2025,
+  "date_paiement": "2026-06-29",
+  "date_ex": "2026-06-26",
+  "montant_net": 501.596,
+  "avis": "https://www.brvm.org/sites/default/files/20260610_-_avis_ndeg162_brvmdg_-_paiement_de_dividendes_exo_2025_-_palm_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "TRACTAFRIC CI",
+  "exercice": 2016,
+  "date_paiement": "2017-09-25",
+  "date_ex": "2017-09-21",
+  "montant_net": 13500.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170911_-_avis_ndeg166_brvmdg_-_paiement_de_dividendes_exo_2016_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "TRACTAFRIC CI",
+  "exercice": 2017,
+  "date_paiement": "2018-08-31",
+  "date_ex": "2018-08-29",
+  "montant_net": 3839.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180816_-_avis_ndeg132_brvmdg_-_paiement_de_dividendes_exo_2017_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "TRACTAFRIC CI",
+  "exercice": 2018,
+  "date_paiement": "2019-09-18",
+  "date_ex": "2019-09-16",
+  "montant_net": 9623.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190904_-_avis_ndeg144_brvmdg_-_paiement_de_dividendes_exo_2018_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "TRACTAFRIC CI",
+  "exercice": 2019,
+  "date_paiement": "2020-09-01",
+  "date_ex": "2020-08-28",
+  "montant_net": 159.3,
+  "avis": "https://www.brvm.org/sites/default/files/20200813_-_avis_n140_brvmdg_-_paiement_de_dividendes_exo_2019_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "TRACTAFRIC CI",
+  "exercice": 2020,
+  "date_paiement": "2021-09-02",
+  "date_ex": "2021-08-31",
+  "montant_net": 162.9,
+  "avis": "https://www.brvm.org/sites/default/files/20210818_-_avis_ndeg167_brvmdg_-_paiement_de_dividendes_exo_2020_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "TRACTAFRIC CI",
+  "exercice": 2021,
+  "date_paiement": "2022-08-30",
+  "date_ex": "2022-08-26",
+  "montant_net": 175.86,
+  "avis": "https://www.brvm.org/sites/default/files/20220715_-_avis_ndeg142_brvmdg_-_paiement_de_dividendes_exo_2021_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "CFAO MOTORS CI",
+  "exercice": 2022,
+  "date_paiement": "2023-09-15",
+  "date_ex": "2023-09-13",
+  "montant_net": 27.45,
+  "avis": "https://www.brvm.org/sites/default/files/20230823_-_avis_ndeg177_brvmdg_-_paiement_de_dividendes_exo_2022_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "TRACTAFRIC CI",
+  "exercice": 2023,
+  "date_paiement": "2024-09-24",
+  "date_ex": "2024-09-20",
+  "montant_net": 182.7,
+  "avis": "https://www.brvm.org/sites/default/files/20240906_-_avis_ndeg221_brvmdg_-_paiement_de_dividendes_exo_2023_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "PRSC",
+  "libelle_source": "TRACTAFRIC CI",
+  "exercice": 2024,
+  "date_paiement": "2025-09-30",
+  "date_ex": "2025-09-26",
+  "montant_net": 207.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250911_-_avis_ndeg223_brvmdg_-_paiement_de_dividendes_exo_2024_-_tractafric_motors_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SCRC",
+  "libelle_source": "SUCRIVOIRE",
+  "exercice": 2016,
+  "date_paiement": "2017-09-29",
+  "date_ex": null,
+  "montant_net": 549.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170918_-_avis_ndeg173_brvmdg_-_paiement_de_dividendes_exo_2016_-_sucrivoire_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SCRC",
+  "libelle_source": "SUCRIVOIRE",
+  "exercice": 2017,
+  "date_paiement": "2018-09-28",
+  "date_ex": "2018-09-26",
+  "montant_net": 72.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180910_-_avis_ndeg141_brvmdg_-_paiement_de_dividendes_exo_2017_-_sucrivoire_ci_1.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SCRC",
+  "libelle_source": "SUCRIVOIRE",
+  "exercice": 2020,
+  "date_paiement": "2021-08-20",
+  "date_ex": "2021-08-18",
+  "montant_net": 40.5,
+  "avis": "https://www.brvm.org/sites/default/files/20210805_-_avis_ndeg157_brvmdg_-_paiement_de_dividendes_exo_2020_-_sucrivoire_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2016,
+  "date_paiement": "2017-09-28",
+  "date_ex": "2017-09-26",
+  "montant_net": 2700.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170914_-_avis_ndeg169_brvmdg_-_paiement_de_dividendes_exo_2016_-_sodeci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2017,
+  "date_paiement": "2018-08-29",
+  "date_ex": "2018-08-27",
+  "montant_net": 270.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180813_-_avis_ndeg131_brvmdg_-_paiement_de_dividendes_exo_2017_-_sodeci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2018,
+  "date_paiement": "2019-10-29",
+  "date_ex": "2019-10-25",
+  "montant_net": 270.0,
+  "avis": "https://www.brvm.org/sites/default/files/20191015_-_avis_ndeg164_brvmdg_-_paiement_de_dividendes_exo_2018_-_sodeci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2019,
+  "date_paiement": "2020-09-25",
+  "date_ex": "2020-09-23",
+  "montant_net": 292.5,
+  "avis": "https://www.brvm.org/sites/default/files/20200908_-_avis_ndeg159_brvmdg_-_paiement_de_dividendes_exo_2019_-_sodeci_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2020,
+  "date_paiement": "2021-07-27",
+  "date_ex": "2021-07-23",
+  "montant_net": 337.5,
+  "avis": "https://www.brvm.org/sites/default/files/20210707_-_avis_ndeg133_brvmdg_-_paiement_de_dividendes_exo_2020_-_sode_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2021,
+  "date_paiement": "2022-10-21",
+  "date_ex": "2022-10-19",
+  "montant_net": 432.0,
+  "avis": "https://www.brvm.org/sites/default/files/20221007_-_avis_ndeg203_brvmdg_-_paiement_de_dividendes_exo_2020_-_sode_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2022,
+  "date_paiement": "2023-09-15",
+  "date_ex": "2023-09-13",
+  "montant_net": 450.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230821_-_avis_ndeg174_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sode_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2023,
+  "date_paiement": "2024-09-25",
+  "date_ex": "2024-09-23",
+  "montant_net": 481.5,
+  "avis": "https://www.brvm.org/sites/default/files/20240812_-_avis_ndeg189_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sode_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2024,
+  "date_paiement": "2025-09-30",
+  "date_ex": "2025-09-26",
+  "montant_net": 400.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240821_-_avis_ndeg206_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sode_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDCC",
+  "libelle_source": "SODECI",
+  "exercice": 2025,
+  "date_paiement": "2026-09-16",
+  "date_ex": "2026-09-15",
+  "montant_net": 525.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260902_-_avis_ndeg259_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sode_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2016,
+  "date_paiement": "2017-07-13",
+  "date_ex": "2017-07-11",
+  "montant_net": 8997.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170629_-_avis_ndeg098_brvmdg_-_paiement_de_dividendes_exo_2016_-_bollore_transport_logistics.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2018,
+  "date_paiement": "2019-06-06",
+  "date_ex": "2019-06-03",
+  "montant_net": 184.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190515_-_avis_ndeg069_brvmdg_-_paiement_de_dividendes_exo_2018_-_bollore_transport_logistics.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2019,
+  "date_paiement": "2020-12-18",
+  "date_ex": "2020-12-16",
+  "montant_net": 100.0,
+  "avis": "https://www.brvm.org/sites/default/files/20201127_-_avis_ndeg201_brvmdg_-_paiement_de_dividendes_exo_2019_-_bollore_transport_logistics_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2020,
+  "date_paiement": "2021-08-11",
+  "date_ex": "2021-08-09",
+  "montant_net": 100.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210726_-_avis_ndeg153_brvmdg_-_paiement_de_dividendes_exo_2020_-_bollore_transport_logistics_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2021,
+  "date_paiement": "2022-06-23",
+  "date_ex": null,
+  "montant_net": 21.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220607_-_avis_ndeg100_brvmdg_-_paiement_de_dividendes_exercice_2021_-_bollore_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2022,
+  "date_paiement": "2023-11-20",
+  "date_ex": "2023-11-16",
+  "montant_net": 92.0,
+  "avis": "https://www.brvm.org/sites/default/files/20231030_-_avis_ndeg228_brvmdg_-_paiement_de_dividendes_exo_2022_-_agl_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2023,
+  "date_paiement": "2024-12-12",
+  "date_ex": "2024-12-10",
+  "montant_net": 92.0,
+  "avis": "https://www.brvm.org/sites/default/files/20241120_-_avis_ndeg300_brvmdg_-_paiement_de_dividendes_exo_2023_-_agl_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2024,
+  "date_paiement": "2025-08-29",
+  "date_ex": "2025-08-27",
+  "montant_net": 92.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250811_-_avis_ndeg198_brvmdg_-_paiement_de_dividendes_exo_2024_-_agl_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SEMC",
+  "libelle_source": "CROWN SIEM CI",
+  "exercice": 2016,
+  "date_paiement": "2017-09-29",
+  "date_ex": "2017-09-27",
+  "montant_net": 676.8,
+  "avis": "https://www.brvm.org/sites/default/files/20170912_-_avis_ndeg167_brvmdg_-_paiement_de_dividendes_exo_2016_-_crown_siem.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SEMC",
+  "libelle_source": "CROWN SIEM CI",
+  "exercice": 2020,
+  "date_paiement": "2021-12-28",
+  "date_ex": "2021-12-24",
+  "montant_net": 14.4,
+  "avis": "https://www.brvm.org/sites/default/files/20211214_-_avis_ndeg234_brvmdg_-_paiement_de_dividendes_exo_2020_-_crown_siem.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2015,
+  "date_paiement": "2016-06-28",
+  "date_ex": "2016-04-24",
+  "montant_net": 5228.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2016,
+  "date_paiement": "2017-07-04",
+  "date_ex": "2017-06-30",
+  "montant_net": 5837.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170616_-_avis_ndeg083_brvmdg_-_paiement_de_dividendes_exo_2016_-_sgb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2017,
+  "date_paiement": "2018-07-17",
+  "date_ex": "2018-07-13",
+  "montant_net": 585.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180628_-_avis_ndeg102_brvmdg_-_paiement_de_dividendes_exo_2017_-_sgb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2018,
+  "date_paiement": "2019-07-31",
+  "date_ex": "2019-07-29",
+  "montant_net": 206.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190712_-_avis_ndeg117_brvmdg_-_paiement_de_dividendes_exo_2018_-_sg_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2019,
+  "date_paiement": "2020-07-31",
+  "date_ex": "2020-07-29",
+  "montant_net": 273.0,
+  "avis": "https://www.brvm.org/sites/default/files/20200713_-_avis_ndeg120_brvmdg_-_paiement_de_dividendes_exercice_2019_-_societe_generale_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2020,
+  "date_paiement": "2021-06-30",
+  "date_ex": "2021-06-28",
+  "montant_net": 368.298,
+  "avis": "https://www.brvm.org/sites/default/files/20210528_-_avis_ndeg091_brvmdg_-_paiement_de_dividendes_exercice_2020_-_societe_generale_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2021,
+  "date_paiement": "2022-06-10",
+  "date_ex": null,
+  "montant_net": 8.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220523_-_avis_ndeg088_brvmdg_-_paiement_de_dividendes_exercice_2021_-_societe_generale_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2022,
+  "date_paiement": "2024-06-25",
+  "date_ex": "2024-06-21",
+  "montant_net": 1553.847,
+  "avis": "https://www.brvm.org/sites/default/files/20240604_-_avis_ndeg118_brvmdg_-_paiement_de_dividendes_exercice_2023_-_societe_generale_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2024,
+  "date_paiement": "2025-08-05",
+  "date_ex": "2025-08-01",
+  "montant_net": 1863.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250702_-_avis_ndeg149_brvmdg_-_paiement_de_dividendes_exercice_2024_-_societe_generale_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SGBC",
+  "libelle_source": "SGCI",
+  "exercice": 2025,
+  "date_paiement": "2026-08-24",
+  "date_ex": "2026-08-21",
+  "montant_net": 2606.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260806_-_avis_ndeg231_brvmdg_-_paiement_de_dividendes_exercice_2025_-_societe_generale_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2015,
+  "date_paiement": "2016-07-27",
+  "date_ex": "2016-07-25",
+  "montant_net": 1665.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2016,
+  "date_paiement": "2017-07-31",
+  "date_ex": null,
+  "montant_net": 33.7,
+  "avis": "https://www.brvm.org/sites/default/files/20170719-avis_n_069-2017-dcbr-dg-dividende_exercice_2016-_vivo_energy.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2017,
+  "date_paiement": "2018-07-23",
+  "date_ex": "2018-07-19",
+  "montant_net": 42.86,
+  "avis": "https://www.brvm.org/sites/default/files/20180704_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_exo_2017_-_vivo_energy_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2018,
+  "date_paiement": "2019-08-02",
+  "date_ex": "2019-07-31",
+  "montant_net": 64.286,
+  "avis": "https://www.brvm.org/sites/default/files/20190719_-_avis_ndeg123_brvmdg_-_paiement_de_dividendes_exo_2018_-_vivo_energy_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2019,
+  "date_paiement": "2020-11-26",
+  "date_ex": "2020-11-24",
+  "montant_net": 63.9,
+  "avis": "https://www.brvm.org/sites/default/files/20201112_-_avis_ndeg189_brvmdg_-_paiement_de_dividendes_exo_2019_-_vivo_energy_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2021,
+  "date_paiement": "2022-10-28",
+  "date_ex": "2022-10-26",
+  "montant_net": 29.0,
+  "avis": "https://www.brvm.org/sites/default/files/20221014_-_avis_ndeg210_brvmdg_-_paiement_de_dividendes_exo_2021_-_vivo_energy_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2022,
+  "date_paiement": "2023-12-28",
+  "date_ex": "2023-12-26",
+  "montant_net": 53.0,
+  "avis": "https://www.brvm.org/sites/default/files/20231211_-_avis_ndeg257_brvmdg_-_paiement_de_dividendes_exo_2022_-_vivo_energy_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2023,
+  "date_paiement": "2024-09-27",
+  "date_ex": "2024-09-25",
+  "montant_net": 57.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240910_-_avis_ndeg225_brvmdg_-_paiement_de_dividendes_exo_2023_-_vivo_energy_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2024,
+  "date_paiement": "2025-10-22",
+  "date_ex": "2025-10-20",
+  "montant_net": 85.56,
+  "avis": "https://www.brvm.org/sites/default/files/20250930_-_avis_ndeg240_brvmdg_-_paiement_de_dividendes_exo_2024_-_vivo_energy_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SHEC",
+  "libelle_source": "VIVO ENERGY CI",
+  "exercice": 2025,
+  "date_paiement": "2026-09-25",
+  "date_ex": "2026-09-24",
+  "montant_net": 96.67,
+  "avis": "https://www.brvm.org/sites/default/files/20260821_-_avis_ndeg249_brvmdg_-_paiement_de_dividendes_-_exercice_2025_-_vivo_energy_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2016,
+  "date_paiement": "2017-06-09",
+  "date_ex": "2017-06-07",
+  "montant_net": 855.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170523_-_avis_ndeg060_brvmdg_-_paiement_de_dividendes_exo_2016_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2017,
+  "date_paiement": "2018-06-08",
+  "date_ex": "2018-06-06",
+  "montant_net": 945.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180525_-_avis_ndeg076_brvmdg_-_paiement_de_dividendes_exo_2017_.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2018,
+  "date_paiement": "2019-07-05",
+  "date_ex": "2019-07-03",
+  "montant_net": 252.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190620_-_avis_ndeg098_brvmdg_-_paiement_de_dividendes_exo_2018_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2019,
+  "date_paiement": "2020-06-19",
+  "date_ex": "2020-06-17",
+  "montant_net": 270.0,
+  "avis": "https://www.brvm.org/sites/default/files/20200604_-_avis_ndeg091_brvmdg_-_paiement_de_dividendes_exo_2019_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2020,
+  "date_paiement": "2021-07-23",
+  "date_ex": "2021-07-21",
+  "montant_net": 360.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210706_-_avis_ndeg131_brvmdg_-_paiement_de_dividendes_exo_2020_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2021,
+  "date_paiement": "2022-06-30",
+  "date_ex": "2022-06-28",
+  "montant_net": 405.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220613_-_avis_ndeg106_brvmdg_-_paiement_de_dividendes_exercice_2021_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2022,
+  "date_paiement": "2023-08-11",
+  "date_ex": "2023-08-09",
+  "montant_net": 495.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230720_-_avis_ndeg153_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2023,
+  "date_paiement": "2024-07-31",
+  "date_ex": "2024-07-29",
+  "montant_net": 495.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240715_-_avis_ndeg166_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2024,
+  "date_paiement": "2025-07-31",
+  "date_ex": "2025-07-29",
+  "montant_net": 375.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250711_-_avis_ndeg161_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIBC",
+  "libelle_source": "SIB",
+  "exercice": 2025,
+  "date_paiement": "2026-07-31",
+  "date_ex": "2026-07-30",
+  "montant_net": 425.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260623_-_avis_ndeg184_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sib_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SIVC",
+  "libelle_source": "AIR LIQUIDE CI",
+  "exercice": 2016,
+  "date_paiement": "2017-09-29",
+  "date_ex": "2017-09-27",
+  "montant_net": 630.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170915_-_avis_ndeg172_brvmdg_-_paiement_de_dividendes_exo_2016_-_air_liquide_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SLBC",
+  "libelle_source": "SOLIBRA",
+  "exercice": 2016,
+  "date_paiement": "2017-06-08",
+  "date_ex": "2017-06-06",
+  "montant_net": 4101.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170523_-_avis_ndeg061_brvmdg_-_paiement_de_dividendes_exo_2016_-_solibra_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SLBC",
+  "libelle_source": "SOLIBRA",
+  "exercice": 2017,
+  "date_paiement": "2018-06-14",
+  "date_ex": "2018-06-14",
+  "montant_net": 2322.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180529_-_avis_ndeg078_brvmdg_-_paiement_de_dividendes_exo_2017_-_solibra_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SLBC",
+  "libelle_source": "SOLIBRA",
+  "exercice": 2018,
+  "date_paiement": "2019-06-06",
+  "date_ex": "2019-06-03",
+  "montant_net": 1368.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190516_-_avis_ndeg071_brvmdg_-_paiement_de_dividendes_exo_2018_-_solibra_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SLBC",
+  "libelle_source": "SOLIBRA",
+  "exercice": 2020,
+  "date_paiement": "2021-08-03",
+  "date_ex": "2021-07-30",
+  "montant_net": 2736.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210716_-_avis_ndeg147_brvmdg_-_paiement_de_dividendes_exo_2020_-_solibra_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SLBC",
+  "libelle_source": "SOLIBRA",
+  "exercice": 2021,
+  "date_paiement": "2022-08-12",
+  "date_ex": "2022-08-10",
+  "montant_net": 4050.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220728_-_avis_ndeg154_brvmdg_-_paiement_de_dividendes_exo_2021_-_solibra_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SLBC",
+  "libelle_source": "SOLIBRA",
+  "exercice": 2024,
+  "date_paiement": "2025-07-29",
+  "date_ex": "2025-07-25",
+  "montant_net": 1220.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250715_-_avis_ndeg167_brvmdg_-_paiement_de_dividendes_exo_2024_-_solibra_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SLBC",
+  "libelle_source": "SOLIBRA",
+  "exercice": 2025,
+  "date_paiement": "2026-07-30",
+  "date_ex": "2026-07-29",
+  "montant_net": 2127.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260713_-_avis_ndeg208_brvmdg_-_paiement_de_dividendes_exo_2025_-_solibra_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SMBC",
+  "libelle_source": "SMB",
+  "exercice": 2017,
+  "date_paiement": "2018-08-29",
+  "date_ex": "2018-08-27",
+  "montant_net": 450.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180813_-_avis_ndeg130_brvmdg_-_paiement_de_dividendes_exo_2017_-_smb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SMBC",
+  "libelle_source": "SMB",
+  "exercice": 2018,
+  "date_paiement": "2019-08-30",
+  "date_ex": "2019-08-28",
+  "montant_net": 450.0,
+  "avis": "https://www.brvm.org/sites/default/files/20190816_-_avis_ndeg138_brvmdg_-_paiement_de_dividendes_exercice_2018_-smb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SMBC",
+  "libelle_source": "SMB",
+  "exercice": 2020,
+  "date_paiement": "2021-07-15",
+  "date_ex": "2021-07-13",
+  "montant_net": 810.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210701_-_avis_ndeg126_brvmdg_-_paiement_de_dividendes_exercice_2020_-_smb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SMBC",
+  "libelle_source": "SMB",
+  "exercice": 2021,
+  "date_paiement": "2022-08-24",
+  "date_ex": "2022-08-22",
+  "montant_net": 720.0,
+  "avis": "https://www.brvm.org/sites/default/files/20220809_-_avis_ndeg163_brvmdg_-_paiement_de_dividendes_exercice_2021_-_smb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SMBC",
+  "libelle_source": "",
+  "exercice": 2022,
+  "date_paiement": "2023-08-31",
+  "date_ex": "2023-08-29",
+  "montant_net": 720.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230720_-_avis_ndeg154_brvmdg_-_paiement_de_dividendes_exercice_2022_-_smb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SMBC",
+  "libelle_source": "SMB",
+  "exercice": 2023,
+  "date_paiement": "2024-09-30",
+  "date_ex": "2024-09-26",
+  "montant_net": 1080.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240828_-_avis_ndeg210_brvmdg_-_paiement_de_dividendes_exercice_2023_-_smb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SMBC",
+  "libelle_source": "SMB",
+  "exercice": 2024,
+  "date_paiement": "2025-09-15",
+  "date_ex": "2025-09-11",
+  "montant_net": 700.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250827_-_avis_ndeg211_brvmdg_-_paiement_de_dividendes_exercice_2024_-_smb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SMBC",
+  "libelle_source": "SMB",
+  "exercice": 2025,
+  "date_paiement": "2026-09-18",
+  "date_ex": "2026-09-17",
+  "montant_net": 800.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260904_-_avis_ndeg261_brvmdg_-_paiement_de_dividendes_exercice_2025_-_smb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2015,
+  "date_paiement": "2016-07-25",
+  "date_ex": "2016-07-21",
+  "montant_net": 1710.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2016,
+  "date_paiement": "2017-07-31",
+  "date_ex": "2017-07-27",
+  "montant_net": 3204.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170711_-_avis_ndeg114_brvmdg_-_paiement_de_dividendes_exercice_2016_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2017,
+  "date_paiement": "2018-07-23",
+  "date_ex": "2018-07-19",
+  "montant_net": 432.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180627_-_avis_ndeg100_brvmdg_-_paiement_de_dividendes_exercice_2017_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2018,
+  "date_paiement": "2019-07-16",
+  "date_ex": null,
+  "montant_net": 129.0,
+  "avis": "https://www.brvm.org/sites/default/files/avis_n_084-2019-dcbr-dg-dividende_exercice_2018-_sogb.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2019,
+  "date_paiement": "2020-07-15",
+  "date_ex": "2020-07-13",
+  "montant_net": 126.0,
+  "avis": "https://www.brvm.org/sites/default/files/20200622_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_exercice_2019_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2020,
+  "date_paiement": "2021-07-15",
+  "date_ex": "2021-07-13",
+  "montant_net": 250.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210622_-_avis_ndeg113_brvmdg_-_paiement_de_dividendes_exercice_2020_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2021,
+  "date_paiement": "2022-07-21",
+  "date_ex": "2022-07-19",
+  "montant_net": 541.8,
+  "avis": "https://www.brvm.org/sites/default/files/20220706_-_avis_ndeg126_brvmdg_-_paiement_de_dividendes_exercice_2021_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2022,
+  "date_paiement": "2023-07-17",
+  "date_ex": "2023-07-13",
+  "montant_net": 558.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230703_-_avis_ndeg132_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2023,
+  "date_paiement": "2024-08-06",
+  "date_ex": "2024-08-02",
+  "montant_net": 207.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240722_-_avis_ndeg168_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2024,
+  "date_paiement": "2025-07-15",
+  "date_ex": "2025-07-11",
+  "montant_net": 600.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250701_-_avis_ndeg146_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SOGC",
+  "libelle_source": "SOGB",
+  "exercice": 2025,
+  "date_paiement": "2026-08-06",
+  "date_ex": "2026-07-05",
+  "montant_net": 570.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260722_-_avis_ndeg213_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sogb_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SPHC",
+  "libelle_source": "SAPH CI",
+  "exercice": 2017,
+  "date_paiement": "2018-09-27",
+  "date_ex": "2018-09-25",
+  "montant_net": 78.0,
+  "avis": "https://www.brvm.org/sites/default/files/20180913_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_exo_2017_-_saph_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SPHC",
+  "libelle_source": "SAPH CI",
+  "exercice": 2020,
+  "date_paiement": "2021-08-24",
+  "date_ex": "2021-08-20",
+  "montant_net": 132.3,
+  "avis": "https://www.brvm.org/sites/default/files/20210809_-_avis_ndeg160_brvmdg_-_paiement_de_dividendes_exo_2020_-_saph_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SPHC",
+  "libelle_source": "SAPH CI",
+  "exercice": 2021,
+  "date_paiement": "2022-08-04",
+  "date_ex": "2022-08-02",
+  "montant_net": 365.4,
+  "avis": "https://www.brvm.org/sites/default/files/20220719_-_avis_ndeg151_brvmdg_-_paiement_de_dividendes_exo_2021_-_saph_ci_002_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SPHC",
+  "libelle_source": "SAPH CI",
+  "exercice": 2022,
+  "date_paiement": "2023-09-29",
+  "date_ex": "2023-09-26",
+  "montant_net": 294.3,
+  "avis": "https://www.brvm.org/sites/default/files/20230912_-_avis_ndeg193_brvmdg_-_paiement_de_dividendes_exo_2022_-_saph_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SPHC",
+  "libelle_source": "SAPH CI",
+  "exercice": 2023,
+  "date_paiement": "2024-08-12",
+  "date_ex": "2024-08-08",
+  "montant_net": 64.8,
+  "avis": "https://www.brvm.org/sites/default/files/20240723_-_avis_ndeg169_brvmdg_-_paiement_de_dividendes_exo_2023_-_saph_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SPHC",
+  "libelle_source": "SAPH CI",
+  "exercice": 2024,
+  "date_paiement": "2025-07-17",
+  "date_ex": "2025-07-15",
+  "montant_net": 368.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250703_-_avis_ndeg150_brvmdg_-_paiement_de_dividendes_exo_2024_-_saph_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "SPHC",
+  "libelle_source": "SAPH CI",
+  "exercice": 2025,
+  "date_paiement": "2026-08-28",
+  "date_ex": "2026-08-27",
+  "montant_net": 489.0,
+  "avis": "https://www.brvm.org/sites/default/files/20260812_-_avis_ndeg238_brvmdg_-_paiement_de_dividendes_exo_2025_-_saph_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STAC",
+  "libelle_source": "SETAO CI",
+  "exercice": 2020,
+  "date_paiement": "2021-07-16",
+  "date_ex": "2021-07-14",
+  "montant_net": 66.15,
+  "avis": "https://www.brvm.org/sites/default/files/20210621_-_avis_ndeg109_brvmdg_-_paiement_de_dividendes_exo_2020_-_setao_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STAC",
+  "libelle_source": "SETAO CI",
+  "exercice": 2021,
+  "date_paiement": "2022-07-18",
+  "date_ex": "2022-07-14",
+  "montant_net": 66.15,
+  "avis": "https://www.brvm.org/sites/default/files/20220617_-_avis_ndeg113_brvmdg_-_paiement_de_dividendes_exercice_2021_-_setao_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STBC",
+  "libelle_source": "SITAB",
+  "exercice": 2015,
+  "date_paiement": "2016-06-09",
+  "date_ex": "2016-06-07",
+  "montant_net": 8150.0,
+  "avis": "",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STBC",
+  "libelle_source": "SITAB",
+  "exercice": 2016,
+  "date_paiement": "2017-06-19",
+  "date_ex": "2017-06-15",
+  "montant_net": 4124.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170602_-_avis_ndeg065_brvmdg_-_paiement_de_dividendes_exo_2016_-_sitab_ci_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STBC",
+  "libelle_source": "SITAB",
+  "exercice": 2021,
+  "date_paiement": "2022-07-21",
+  "date_ex": "2022-07-19",
+  "montant_net": 445.117,
+  "avis": "https://www.brvm.org/sites/default/files/20220706_-_avis_ndeg127_brvmdg_-_paiement_de_dividendes_exercice_2021_-_sitab.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STBC",
+  "libelle_source": "SITAB",
+  "exercice": 2022,
+  "date_paiement": "2023-07-27",
+  "date_ex": "2023-07-25",
+  "montant_net": 551.0,
+  "avis": "https://www.brvm.org/sites/default/files/20230713_-_avis_ndeg145_brvmdg_-_paiement_de_dividendes_exercice_2022_-_sitab_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STBC",
+  "libelle_source": "SITAB",
+  "exercice": 2023,
+  "date_paiement": "2024-07-29",
+  "date_ex": "2024-07-25",
+  "montant_net": 675.0,
+  "avis": "https://www.brvm.org/sites/default/files/20240712_-_avis_ndeg165_brvmdg_-_paiement_de_dividendes_exercice_2023_-_sitab_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STBC",
+  "libelle_source": "SITAB",
+  "exercice": 2024,
+  "date_paiement": "2025-08-29",
+  "date_ex": "2025-08-27",
+  "montant_net": 2375.0,
+  "avis": "https://www.brvm.org/sites/default/files/20250814_-_avis_ndeg200_brvmdg_-_paiement_de_dividendes_exercice_2024_-_sitab_ci-.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "STBC",
+  "libelle_source": "SITAB",
+  "exercice": 2025,
+  "date_paiement": "2026-08-13",
+  "date_ex": "2026-08-12",
+  "montant_net": 1707.2,
+  "avis": "https://www.brvm.org/sites/default/files/20260729_-_avis_ndeg226_brvmdg_-_paiement_de_dividendes_exercice_2025_-_sitab_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2016,
+  "date_paiement": "2017-06-30",
+  "date_ex": "2017-06-28",
+  "montant_net": 485.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170614_-_avis_ndeg080_brvmdg_-_paiement_de_dividendes_exo_2016_-_total_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2017,
+  "date_paiement": "2018-09-28",
+  "date_ex": "2018-09-26",
+  "montant_net": 103.45,
+  "avis": "https://www.brvm.org/sites/default/files/20180914_-_avis_ndeg144_brvmdg_-_paiement_de_dividendes_exo_2017_-_total_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2018,
+  "date_paiement": "2019-10-11",
+  "date_ex": "2019-10-09",
+  "montant_net": 108.4,
+  "avis": "https://www.brvm.org/sites/default/files/20190926_-_avis_ndeg154_brvmdg_-_paiement_de_dividendes_exo_2018_-_total_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2019,
+  "date_paiement": "2020-09-25",
+  "date_ex": "2020-09-23",
+  "montant_net": 113.5125,
+  "avis": "https://www.brvm.org/sites/default/files/20200908_-_avis_ndeg158_brvmdg_-_paiement_de_dividendes_exo_2019_-_total_ci_0.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2020,
+  "date_paiement": "2021-09-27",
+  "date_ex": "2021-09-23",
+  "montant_net": 109.314,
+  "avis": "https://www.brvm.org/sites/default/files/20210816_-_avis_ndeg166_brvmdg_-_paiement_de_dividendes_exo_2020_-_total_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2021,
+  "date_paiement": "2022-08-25",
+  "date_ex": "2022-08-23",
+  "montant_net": 159.2874,
+  "avis": "https://www.brvm.org/sites/default/files/20220803_-_avis_ndeg159_brvmdg_-_paiement_de_dividendes_exo_2021_-_total_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2022,
+  "date_paiement": "2023-09-21",
+  "date_ex": "2023-09-19",
+  "montant_net": 175.5258,
+  "avis": "https://www.brvm.org/sites/default/files/20230905_-_avis_ndeg188_brvmdg_-_paiement_de_dividendes_exercice_2022_-_total_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2023,
+  "date_paiement": "2024-09-17",
+  "date_ex": "2024-09-12",
+  "montant_net": 199.5353,
+  "avis": "https://www.brvm.org/sites/default/files/20240902_-_avis_ndeg213_brvmdg_-_paiement_de_dividendes_exo_2023_-_total_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2024,
+  "date_paiement": "2025-09-03",
+  "date_ex": "2025-09-01",
+  "montant_net": 222.3578,
+  "avis": "https://www.brvm.org/sites/default/files/20250820_-_avis_ndeg205_brvmdg_-_paiement_de_dividendes_exo_2024_-_totalenergies_marketing_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLC",
+  "libelle_source": "TOTAL",
+  "exercice": 2025,
+  "date_paiement": "2026-08-31",
+  "date_ex": "2026-08-28",
+  "montant_net": 158.827,
+  "avis": "https://www.brvm.org/sites/default/files/20260814_-_avis_ndeg245_brvmdg_-_paiement_de_dividendes_exo_2025_-_totalenergies_marketing_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "TTLS",
+  "libelle_source": "TOTAL SENEGAL S.A.",
+  "exercice": 2016,
+  "date_paiement": null,
+  "date_ex": null,
+  "montant_net": 450.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170602-_communique_declaration_de_dividendes_-total_senegal.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "UNXC",
+  "libelle_source": "UNIWAX CI",
+  "exercice": 2016,
+  "date_paiement": "2017-07-10",
+  "date_ex": "2017-07-06",
+  "montant_net": 868.0,
+  "avis": "https://www.brvm.org/sites/default/files/20170623_-_avis_ndeg093_brvmdg_-_paiement_de_dividendes_exo_2016_-_uniwax_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "UNXC",
+  "libelle_source": "UNIWAX CI",
+  "exercice": 2017,
+  "date_paiement": "2018-07-13",
+  "date_ex": "2018-07-11",
+  "montant_net": 173.7,
+  "avis": "https://www.brvm.org/sites/default/files/20180629_-_avis_ndeg103_brvmdg_-_paiement_de_dividendes_exo_2017_-_uniwax_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "UNXC",
+  "libelle_source": "UNIWAX CI",
+  "exercice": 2018,
+  "date_paiement": "2019-07-11",
+  "date_ex": "2019-07-09",
+  "montant_net": 181.8,
+  "avis": "https://www.brvm.org/sites/default/files/20190625_-_avis_ndeg101_brvmdg_-_paiement_de_dividendes_exo_2018_-_uniwax_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "UNXC",
+  "libelle_source": "UNIWAX CI",
+  "exercice": 2020,
+  "date_paiement": "2021-07-16",
+  "date_ex": "2021-07-14",
+  "montant_net": 18.0,
+  "avis": "https://www.brvm.org/sites/default/files/20210702_-_avis_ndeg128_brvmdg_-_paiement_de_dividendes_exo_2020_-_uniwax_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
+  "ticker": "UNXC",
+  "libelle_source": "UNIWAX CI",
+  "exercice": 2021,
+  "date_paiement": "2022-07-29",
+  "date_ex": "2022-07-27",
+  "montant_net": 60.75,
+  "avis": "https://www.brvm.org/sites/default/files/20220715_-_avis_ndeg143_brvmdg_-_paiement_de_dividendes_exo_2021_-_uniwax_ci.pdf",
+  "source": "brvm.org"
+ }
+]
