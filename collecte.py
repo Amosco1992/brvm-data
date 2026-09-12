@@ -369,6 +369,16 @@ LIBELLES = {
     "eti":"ETIT","eti tg":"ETIT","bicici":"BICC","biic":"BICB","oragroup":"ORGT",
     "boa benin":"BOAB","boa burkina faso":"BOABF","boa ci":"BOAC","boa mali":"BOAM",
     "boa niger":"BOAN","boa senegal":"BOAS","lnb":"LNBB",
+    # Libellés effectivement servis par brvm.org, relevés sur une collecte réelle.
+    # « NG » désigne ici le Niger : il n'y a pas de filiale nigériane cotée à la BRVM.
+    "bank of africa bn":"BOAB","bank of africa benin":"BOAB",
+    "bank of africa bf":"BOABF","bank of africa burkina faso":"BOABF",
+    "bank of africa ci":"BOAC","bank of africa cote d ivoire":"BOAC",
+    "bank of africa ml":"BOAM","bank of africa mali":"BOAM",
+    "bank of africa ng":"BOAN","bank of africa niger":"BOAN",
+    "bank of africa sn":"BOAS","bank of africa senegal":"BOAS",
+    "boa bn":"BOAB","boa bf":"BOABF","boa ml":"BOAM","boa ng":"BOAN","boa sn":"BOAS",
+    "bici ci":"BICC","bici":"BICC",
 }
 
 
@@ -430,7 +440,9 @@ def parser_page(html: str) -> tuple[list[dict], list[str]]:
 
         t = ticker_de(libelle, url)
         if not t:
-            orphelins.append(libelle)
+            # une cellule émetteur vide n'est pas un libellé qu'on n'a pas su lire :
+            # c'est une ligne inexploitable, on la compte sans la nommer.
+            orphelins.append(libelle.strip() or "(émetteur absent)")
             continue
         montant = _montant(cells[6])
         if montant is None:
