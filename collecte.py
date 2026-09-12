@@ -323,9 +323,208 @@ def rapports(slug_societe: str, session: requests.Session | None = None,
 
 
 # ==========================================================================
+# DIVIDENDES — historique officiel publié par la BRVM
+# ==========================================================================
+
+MOIS = {"janvier":1,"février":2,"fevrier":2,"mars":3,"avril":4,"mai":5,"juin":6,
+        "juillet":7,"août":8,"aout":8,"septembre":9,"octobre":10,"novembre":11,
+        "décembre":12,"decembre":12}
+
+URL_ESV = "https://www.brvm.org/fr/esv/paiement-de-dividendes"
+
+# Identifiants trouvés dans le nom de fichier de l'avis -> ticker.
+# Les plus spécifiques d'abord : « sib_ci » ne doit pas capter « cbibf ».
+SLUGS = [
+    ("totalenergies_marketing_senegal","TTLS"),("totalenergies_marketing_ci","TTLC"),
+    ("total_senegal","TTLS"),("total_ci","TTLC"),
+    ("societe_generale_ci","SGBC"),("nsia_banque_ci","NSBC"),("nei-ceda_ci","NEIC"),
+    ("nei_ceda_ci","NEIC"),("cfao_motors_ci","CFAC"),("vivo_energy_ci","SHEC"),
+    ("coris_bank","CBIBF"),("cbibf","CBIBF"),("onatel_bf","ONTBF"),("onatel","ONTBF"),
+    ("oragroup","ORGT"),("sonatel","SNTS"),("orange_ci","ORAC"),("nestle_ci","NTLC"),
+    ("solibra","SLBC"),("unilever_ci","UNLC"),("uniwax","UNXC"),("sitab_ci","STBC"),
+    ("sitab","STBC"),("filtisac","FTSC"),("sicable","CABC"),("sicor","SICC"),
+    ("air_liquide","SIVC"),("crown_siem","SEMC"),("siem","SEMC"),
+    ("saph_ci","SPHC"),("saph","SPHC"),("sogb_ci","SOGC"),("sogb","SOGC"),
+    ("palm_ci","PALC"),("palmci","PALC"),("sucrivoire","SCRC"),
+    ("smb_ci","SMBC"),("sode_ci","SDCC"),("sodeci","SDCC"),("cie_ci","CIEC"),
+    ("setao","STAC"),("servair","ABJC"),("bernabe","BNBC"),("safca","SAFC"),
+    ("tractafric","PRSC"),("bollore","SDSC"),("agl_ci","SDSC"),
+    ("ecobank_ci","ECOC"),("eti_tg","ETIT"),("eti","ETIT"),
+    ("bicici","BICC"),("bici_ci","BICC"),("biic","BICB"),
+    ("boa_benin","BOAB"),("boa_bn","BOAB"),("boa_burkina","BOABF"),("boa_bf","BOABF"),
+    ("boa_ci","BOAC"),("boa_mali","BOAM"),("boa_ml","BOAM"),("boa_niger","BOAN"),
+    ("boa_ne","BOAN"),("boa_senegal","BOAS"),("boa_sn","BOAS"),
+    ("sib_ci","SIBC"),("lnb","LNBB"),("loterie","LNBB"),
+]
+
+# Libellés affichés -> ticker, utilisés seulement si le nom de fichier ne dit rien.
+LIBELLES = {
+    "smb":"SMBC","sodeci":"SDCC","sode ci":"SDCC","nei-ceda ci":"NEIC","nei ceda ci":"NEIC",
+    "vivo energy ci":"SHEC","saph ci":"SPHC","sgci":"SGBC","sgbci":"SGBC","nestle ci":"NTLC",
+    "cfao motors ci":"CFAC","sitab":"STBC","sogb":"SOGC","sib":"SIBC","cie ci":"CIEC",
+    "onatel bf":"ONTBF","palm ci":"PALC","nsbc":"NSBC","coris bank international":"CBIBF",
+    "sonatel":"SNTS","orange ci":"ORAC","solibra":"SLBC","unilever ci":"UNLC","uniwax":"UNXC",
+    "filtisac":"FTSC","sicable":"CABC","sicor":"SICC","sucrivoire":"SCRC","setao":"STAC",
+    "servair abidjan":"ABJC","bernabe ci":"BNBC","safca":"SAFC","ecobank ci":"ECOC",
+    "eti":"ETIT","eti tg":"ETIT","bicici":"BICC","biic":"BICB","oragroup":"ORGT",
+    "boa benin":"BOAB","boa burkina faso":"BOABF","boa ci":"BOAC","boa mali":"BOAM",
+    "boa niger":"BOAN","boa senegal":"BOAS","lnb":"LNBB",
+}
+
+
+def _texte(html: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).strip()
+
+
+def _date_fr(s: str) -> str | None:
+    """« 18 septembre 2026 » -> « 2026-09-18 »."""
+    m = re.search(r"(\d{1,2})\s+([A-Za-zéûôàè]+)\s+(\d{4})", s or "")
+    if not m:
+        return None
+    mois = MOIS.get(m.group(2).lower())
+    if not mois:
+        return None
+    try:
+        return date(int(m.group(3)), mois, int(m.group(1))).isoformat()
+    except ValueError:
+        return None
+
+
+def _montant(s: str) -> float | None:
+    """« 1 707,2 FCFA » -> 1707.2 ; « 266,44625 FCFA » -> 266.44625."""
+    m = re.search(r"([\d][\d\s\u00a0\u202f]*(?:,\d+)?)", s or "")
+    if not m:
+        return None
+    try:
+        return float(re.sub(r"[\s\u00a0\u202f]", "", m.group(1)).replace(",", "."))
+    except ValueError:
+        return None
+
+
+def ticker_de(libelle: str, url_avis: str) -> str | None:
+    """Le nom de fichier de l'avis prime sur le libellé affiché."""
+    u = (url_avis or "").lower()
+    for slug, t in SLUGS:
+        if slug in u:
+            return t
+    n = re.sub(r"[^a-z0-9 ]", " ", (libelle or "").lower())
+    n = re.sub(r"\s+", " ", n).strip()
+    return LIBELLES.get(n)
+
+
+def parser_page(html: str) -> tuple[list[dict], list[str]]:
+    """Extrait les paiements d'une page. Renvoie (lignes, libellés non rapprochés)."""
+    lignes, orphelins = [], []
+    for bloc in re.split(r"<tr[^>]*>", html, flags=re.I)[1:]:
+        cells = [_texte(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", bloc,
+                                               re.I | re.S)]
+        if len(cells) < 7:
+            continue
+        libelle, exercice = cells[0], cells[3]
+        if not re.fullmatch(r"(19|20)\d{2}", exercice.strip()):
+            continue
+        lien = re.search(r'href="([^"]+\.pdf)"', bloc, re.I)
+        url = lien.group(1) if lien else ""
+        if url.startswith("/"):
+            url = "https://www.brvm.org" + url
+
+        t = ticker_de(libelle, url)
+        if not t:
+            orphelins.append(libelle)
+            continue
+        montant = _montant(cells[6])
+        if montant is None:
+            continue
+        lignes.append({
+            "ticker": t, "libelle_source": libelle, "exercice": int(exercice),
+            "date_paiement": _date_fr(cells[4]), "date_ex": _date_fr(cells[5]),
+            "montant_net": montant, "avis": url, "source": "brvm.org",
+        })
+    return lignes, orphelins
+
+
+def collecter_dividendes(session, pages: int = 44, timeout: int = 30) -> tuple[list[dict], list[str]]:
+    """Parcourt le tableau paginé. Les pages en échec sont sautées, pas fatales."""
+    tout, orphelins = [], []
+    for p in range(pages):
+        url = URL_ESV if p == 0 else f"{URL_ESV}?page={p}"
+        try:
+            r = session.get(url, timeout=timeout,
+                            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "fr"})
+            r.raise_for_status()
+        except Exception:                       # noqa: BLE001
+            continue
+        lignes, orph = parser_page(r.text)
+        if not lignes and p > 0:
+            break                               # fin de pagination
+        tout.extend(lignes)
+        orphelins.extend(orph)
+    # dédoublonnage : un même exercice peut être republié (avis rectificatif)
+    vus, net = set(), []
+    for l in sorted(tout, key=lambda x: (x["ticker"], x["exercice"],
+                                         x["date_paiement"] or "")):
+        cle = (l["ticker"], l["exercice"])
+        if cle in vus:
+            net[-1] = l                         # on garde la publication la plus récente
+            continue
+        vus.add(cle)
+        net.append(l)
+    return net, sorted(set(orphelins))
+
+
+def metriques_dividendes(paiements: list[dict], cours: float | None,
+              aujourdhui: date | None = None) -> dict:
+    """Régularité et rendement, à partir des seuls exercices effectivement payés.
+
+    Le rendement est calculé sur le *dividende net* publié par la BRVM :
+    c'est ce que l'actionnaire touche, pas le dividende brut voté.
+    """
+    if not paiements:
+        return {"exercices_connus": 0}
+    aujourdhui = aujourdhui or date.today()
+    par_ex = {p["exercice"]: p for p in paiements}
+    annees = sorted(par_ex)
+    dernier = par_ex[annees[-1]]
+
+    # exercices consécutifs payés en remontant depuis le plus récent
+    consec, a = 1, annees[-1]
+    while a - 1 in par_ex:
+        consec += 1
+        a -= 1
+
+    # baisses d'un exercice au suivant, sur les exercices contigus
+    baisses = [{"exercice": y, "de": par_ex[y-1]["montant_net"],
+                "a": par_ex[y]["montant_net"]}
+               for y in annees[1:]
+               if y - 1 in par_ex and par_ex[y]["montant_net"] < par_ex[y-1]["montant_net"]]
+
+    fenetre = [y for y in annees if y >= aujourdhui.year - 10]
+    return {
+        "exercices_connus": len(annees),
+        "premier_exercice": annees[0],
+        "dernier_exercice": annees[-1],
+        "dernier_montant_net": dernier["montant_net"],
+        "derniere_date_paiement": dernier["date_paiement"],
+        "prochaine_date_ex": (dernier["date_ex"]
+                              if dernier["date_ex"] and dernier["date_ex"] >= aujourdhui.isoformat()
+                              else None),
+        "exercices_payes_10a": len(fenetre),
+        "exercices_consecutifs": consec,
+        "baisses": baisses,
+        "nb_baisses": len(baisses),
+        "rendement_net_pct": (round(dernier["montant_net"] / cours * 100, 2)
+                              if cours else None),
+        "historique": [{"exercice": y, "montant_net": par_ex[y]["montant_net"],
+                        "date_paiement": par_ex[y]["date_paiement"],
+                        "avis": par_ex[y]["avis"]} for y in annees],
+    }
+
+
+# ==========================================================================
 # COLLECTE ET INDICATEURS
 # ==========================================================================
 
+_HISTOIRES: dict = {}
 RACINE = Path(__file__).resolve().parent
 DOSSIER = RACINE / "data"
 
@@ -431,13 +630,14 @@ def tranche_liquidite(ind: dict) -> str:
     return "illiquide"
 
 
-def collecter(verifier_sika: bool = True) -> tuple[list[dict], dict]:
+def collecter(verifier_sika: bool = True, avec_dividendes: bool = True) -> tuple[list[dict], dict]:
     session = requests.Session()
     univers, journal, divergences, echecs_sika = [], {}, [], []
     ok_miroir = 0
 
     # passe 1 : tout télécharger, puis établir le calendrier de marché
-    histoires = {t: historique_miroir(t, session=session) for t in TICKERS}
+    global _HISTOIRES
+    histoires = _HISTOIRES = {t: historique_miroir(t, session=session) for t in TICKERS}
     calendrier = calendrier_marche(histoires)
 
     # passe 2 : dériver les indicateurs sur ce calendrier commun
@@ -517,6 +717,28 @@ def collecter(verifier_sika: bool = True) -> tuple[list[dict], dict]:
             "etat": "ok" if controles else "injoignable",
         }
 
+    if avec_dividendes:
+        paiements, orphelins = collecter_dividendes(session)
+        par_ticker: dict[str, list] = {}
+        for p in paiements:
+            par_ticker.setdefault(p["ticker"], []).append(p)
+        for u in univers:
+            u["dividendes"] = metriques_dividendes(
+                par_ticker.get(u["ticker"], []), u.get("cours"))
+        couverts = sum(1 for u in univers if u["dividendes"]["exercices_connus"])
+        journal["dividendes"] = {
+            "paiements": len(paiements),
+            "titres_couverts": couverts,
+            "titres_sans_historique": [u["ticker"] for u in univers
+                                       if not u["dividendes"]["exercices_connus"]],
+            "libelles_non_rapproches": orphelins,
+            "etat": "ok" if couverts >= 20 else "degrade",
+        }
+        (DOSSIER / "dividends.json").write_text(
+            json.dumps(paiements, ensure_ascii=False, indent=1), encoding="utf-8")
+    else:
+        journal["dividendes"] = {"etat": "ignore"}
+
     journal["calendrier"] = {"seances_retenues": len(calendrier),
                             "de": calendrier[0], "a": calendrier[-1]}
 
@@ -527,28 +749,94 @@ def collecter(verifier_sika: bool = True) -> tuple[list[dict], dict]:
         "perimes": [u["ticker"] for u in univers if u.get("perime")],
         "devise": "XOF",
         "parite_eur_fixe": 655.957,
+        "date_seance": max((u["date_cours"] for u in univers if u["date_cours"]),
+                           default=None),
         "avertissement": "Données de marché à titre informatif. "
                          "Ne constitue pas un conseil en investissement.",
     }
     return univers, meta
 
 
+def hebdomadaire(lignes: list[dict], n: int = 260) -> list[int]:
+    """Une clôture par semaine ISO : de quoi tracer cinq ans sans transporter
+    1 300 points par titre jusqu'au téléphone."""
+    vu, out = set(), []
+    for s in lignes:
+        d = date.fromisoformat(s["date"])
+        cle = d.isocalendar()[:2]
+        if cle not in vu:
+            vu.add(cle)
+            out.append(round(s["cloture"]))
+    return out[-n:]
+
+
+def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
+    """Écrit data/app.json : exactement ce que lit l'application, et rien de plus.
+
+    Sans ce fichier l'application devrait charger universe.json plus 47
+    fichiers d'historique pour afficher une fiche. Ici elle fait une requête.
+    """
+    titres = []
+    for u in univers:
+        i = u.get("indicateurs") or {}
+        w = hebdomadaire(histoires.get(u["ticker"], []))
+        d = u.get("dividendes") or {}
+        titres.append({
+            "t": u["ticker"], "n": u["emetteur"], "p": u["pays_libelle"],
+            "s": u["secteur"], "c": u["cours"], "d": u["date_cours"],
+            "l": u["liquidite"], "pe": u.get("perime"),
+            "v": i.get("valeur_mediane_par_seance"), "o": i.get("ordre_confortable"),
+            "h": i.get("plus_haut_52s"), "b": i.get("plus_bas_52s"),
+            "va": i.get("variation_52s_pct"), "r": i.get("position_dans_range_52s"),
+            "h5": max(w) if w else None, "b5": min(w) if w else None,
+            "w": w,
+            "div": {
+                "n": d.get("exercices_connus", 0),
+                "consec": d.get("exercices_consecutifs"),
+                "dix": d.get("exercices_payes_10a"),
+                "baisses": d.get("nb_baisses"),
+                "montant": d.get("dernier_montant_net"),
+                "exercice": d.get("dernier_exercice"),
+                "rdt": d.get("rendement_net_pct"),
+                "ex": d.get("prochaine_date_ex"),
+                "hist": [[x["exercice"], x["montant_net"]]
+                         for x in d.get("historique", [])],
+            } if d.get("exercices_connus") else None,
+        })
+    (DOSSIER / "app.json").write_text(
+        json.dumps({"titres": titres, "date_seance": meta["date_seance"],
+                    "genere_le": meta["genere_le"],
+                    "dividendes_etat": meta["sources"].get("dividendes", {})},
+                   ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Collecte des données BRVM")
+    ap.add_argument("--sans-dividendes", action="store_true",
+                    help="ne pas collecter l'historique des dividendes")
     ap.add_argument("--sans-sika", action="store_true",
                     help="ne pas croiser avec Sika Finance")
     args = ap.parse_args()
 
     DOSSIER.mkdir(parents=True, exist_ok=True)
-    univers, meta = collecter(verifier_sika=not args.sans_sika)
+    univers, meta = collecter(verifier_sika=not args.sans_sika,
+                              avec_dividendes=not args.sans_dividendes)
 
     (DOSSIER / "universe.json").write_text(
         json.dumps(univers, ensure_ascii=False, indent=1), encoding="utf-8")
     (DOSSIER / "meta.json").write_text(
         json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    ecrire_app(univers, _HISTOIRES, meta)
+
     cotes = sum(1 for u in univers if u["cours"])
     print(f"{cotes}/{len(univers)} titres cotés")
+    d = meta["sources"].get("dividendes", {})
+    if d.get("etat") not in (None, "ignore"):
+        print(f"dividendes : {d['paiements']} paiements, "
+              f"{d['titres_couverts']}/{len(univers)} titres couverts")
+        if d["libelles_non_rapproches"]:
+            print("  libellés non rapprochés :", ", ".join(d["libelles_non_rapproches"][:8]))
     print(f"périmés : {len(meta['perimes'])}  divergences : {len(meta['divergences'])}")
     for d in meta["divergences"][:10]:
         print(f"  {d['ticker']}: miroir {d['miroir']} / sika {d['sika']} "
@@ -559,4 +847,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
