@@ -533,6 +533,158 @@ def metriques_dividendes(paiements: list[dict], cours: float | None,
 
 
 # ==========================================================================
+# VALORISATION — PER, capitalisation, taux de distribution
+# ==========================================================================
+
+RACINE_BRVM = "https://www.brvm.org"
+ENTETES_VAL = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                         "(KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+           "Accept-Language": "fr"}
+
+MOIS_FR = {"janvier":1,"février":2,"fevrier":2,"mars":3,"avril":4,"mai":5,"juin":6,
+           "juillet":7,"août":8,"aout":8,"septembre":9,"octobre":10,"novembre":11,
+           "décembre":12,"decembre":12}
+
+AGE_PERIME = 400   # jours au-delà desquels la fiche est signalée comme ancienne
+
+
+def _nb_val(s: str) -> float | None:
+    if s is None:
+        return None
+    t = re.sub(r"[\s\u00a0\u202f]", "", str(s))
+    t = t.replace(",", ".") if t.count(",") and not t.count(".") else t.replace(",", "")
+    try:
+        v = float(t)
+        return v if v > 0 else None
+    except ValueError:
+        return None
+
+
+def _champ_val(texte: str, etiquette: str) -> str | None:
+    """Les fiches sont des paires « Étiquette: valeur » séparées par des balises."""
+    m = re.search(re.escape(etiquette) + r"\s*:?\s*([^\n<]{1,60})", texte, re.I)
+    return m.group(1).strip() if m else None
+
+
+def _date_fiche(s: str) -> str | None:
+    m = re.search(r"(\d{1,2})\s+([A-Za-zéûôàè]+),?\s+(\d{4})", s or "")
+    if not m:
+        return None
+    mois = MOIS_FR.get(m.group(2).lower())
+    if not mois:
+        return None
+    try:
+        return date(int(m.group(3)), mois, int(m.group(1))).isoformat()
+    except ValueError:
+        return None
+
+
+def urls_symboles(html: str) -> dict[str, str]:
+    """Relève, dans le bandeau de cotation, le lien de chaque ticker.
+
+    Évite de deviner 47 alias Drupal, et suit automatiquement le site s'il
+    republie une fiche sous un nouvel alias.
+    """
+    out = {}
+    for href, libelle in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>\s*([A-Z]{3,5})\s*<',
+                                    html):
+        if re.fullmatch(r"[A-Z]{3,5}", libelle) and "/fr/" in href:
+            out.setdefault(libelle, href if href.startswith("http") else RACINE_BRVM + href)
+    return out
+
+
+def parser_fiche(html: str) -> dict | None:
+    """Extrait les quatre champs utiles d'une fiche symbole."""
+    # Les sauts de ligne sont ce qui borne chaque valeur : on remplace les
+    # balises par des retours et on ne compacte que les espaces horizontaux.
+    # Tout aplatir ferait déborder la capture sur le champ suivant.
+    txt = re.sub(r"[ \t\r\f\v]+", " ", re.sub(r"<[^>]+>", "\n", html))
+    per = _nb_val(_champ_val(txt, "PER"))
+    capi = _nb_val(_champ_val(txt, "Capitalisation Boursière"))
+    cours = _nb_val(_champ_val(txt, "Cours Clôture"))
+    if not (per and cours):
+        return None
+    return {
+        "per_fiche": per,
+        "cours_fiche": cours,
+        "capitalisation": capi,
+        "date_fiche": _date_fiche(_champ_val(txt, "Trading Date") or ""),
+        "symbole": (_champ_val(txt, "Code Symbole") or "").strip() or None,
+    }
+
+
+def derive_valorisation(fiche: dict, cours_actuel: float | None,
+           dividende_net: float | None = None,
+           aujourdhui: date | None = None) -> dict:
+    """Calcule ce qui reste valable quand la fiche a vieilli.
+
+    Le BPA implicite tient tant que les comptes publiés n'ont pas changé ;
+    le PER de la fiche, lui, est périmé dès que le cours bouge.
+    """
+    aujourdhui = aujourdhui or date.today()
+    bpa = fiche["cours_fiche"] / fiche["per_fiche"]
+    actions = (fiche["capitalisation"] / fiche["cours_fiche"]
+               if fiche.get("capitalisation") else None)
+
+    age = None
+    if fiche.get("date_fiche"):
+        age = (aujourdhui - date.fromisoformat(fiche["date_fiche"])).days
+
+    out = {
+        "bpa_implicite": round(bpa, 2),
+        "per_fiche": fiche["per_fiche"],
+        "per_actuel": round(cours_actuel / bpa, 2) if cours_actuel and bpa else None,
+        "actions_estimees": round(actions) if actions else None,
+        "resultat_net_estime": (round(fiche["capitalisation"] / fiche["per_fiche"])
+                                if fiche.get("capitalisation") else None),
+        "date_comptes": fiche.get("date_fiche"),
+        "age_jours": age,
+        "fiche_ancienne": age is not None and age > AGE_PERIME,
+    }
+    if dividende_net and bpa:
+        taux = dividende_net / bpa * 100
+        out["taux_distribution_pct"] = round(taux, 1)
+        # Le dividende publié est net de retenue, le BPA est brut : le taux
+        # est donc minoré. On ne tranche que sur des écarts francs.
+        out["distribution"] = ("superieure_aux_benefices" if taux > 100
+                               else "elevee" if taux > 80
+                               else "confortable" if taux > 0 else None)
+    return out
+
+
+def collecter_valorisation(session, tickers: list[str], cours: dict[str, float],
+              dividendes: dict[str, float] | None = None,
+              timeout: int = 30) -> tuple[dict[str, dict], list[str]]:
+    """Renvoie ({ticker: valorisation}, tickers non résolus)."""
+    dividendes = dividendes or {}
+    try:
+        r = session.get(f"{RACINE}/fr/indice-prestige", headers=ENTETES, timeout=timeout)
+        r.raise_for_status()
+        carte = urls_symboles(r.text)
+    except Exception:                                    # noqa: BLE001
+        carte = {}
+
+    out, manquants = {}, []
+    for t in tickers:
+        url = carte.get(t)
+        if not url:
+            manquants.append(t)
+            continue
+        try:
+            rr = session.get(url, headers=ENTETES, timeout=timeout)
+            rr.raise_for_status()
+            fiche = parser_fiche(rr.text)
+        except Exception:                                # noqa: BLE001
+            fiche = None
+        if not fiche:
+            manquants.append(t)
+            continue
+        out[t] = derive(fiche, cours.get(t), dividendes.get(t))
+        out[t]["url_fiche"] = url
+    return out, manquants
+
+
+# ==========================================================================
 # COLLECTE ET INDICATEURS
 # ==========================================================================
 
@@ -642,7 +794,8 @@ def tranche_liquidite(ind: dict) -> str:
     return "illiquide"
 
 
-def collecter(verifier_sika: bool = True, avec_dividendes: bool = True) -> tuple[list[dict], dict]:
+def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
+              avec_valorisation: bool = True) -> tuple[list[dict], dict]:
     session = requests.Session()
     univers, journal, divergences, echecs_sika = [], {}, [], []
     ok_miroir = 0
@@ -751,6 +904,23 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True) -> tuple
     else:
         journal["dividendes"] = {"etat": "ignore"}
 
+    if avec_valorisation:
+        cours_map = {u["ticker"]: u["cours"] for u in univers if u["cours"]}
+        div_map = {u["ticker"]: (u.get("dividendes") or {}).get("dernier_montant_net")
+                   for u in univers}
+        div_map = {k: v for k, v in div_map.items() if v}
+        vals, manquants = collecter_valorisation(session, TICKERS, cours_map, div_map)
+        for u in univers:
+            u["valorisation"] = vals.get(u["ticker"])
+        anciennes = sum(1 for v in vals.values() if v.get("fiche_ancienne"))
+        journal["valorisation"] = {
+            "titres_resolus": len(vals), "titres_manquants": manquants,
+            "fiches_anciennes": anciennes,
+            "etat": "ok" if len(vals) >= 30 else "degrade",
+        }
+    else:
+        journal["valorisation"] = {"etat": "ignore"}
+
     journal["calendrier"] = {"seances_retenues": len(calendrier),
                             "de": calendrier[0], "a": calendrier[-1]}
 
@@ -793,6 +963,7 @@ def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
         i = u.get("indicateurs") or {}
         w = hebdomadaire(histoires.get(u["ticker"], []))
         d = u.get("dividendes") or {}
+        v = u.get("valorisation") or {}
         titres.append({
             "t": u["ticker"], "n": u["emetteur"], "p": u["pays_libelle"],
             "s": u["secteur"], "c": u["cours"], "d": u["date_cours"],
@@ -814,6 +985,12 @@ def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
                 "hist": [[x["exercice"], x["montant_net"]]
                          for x in d.get("historique", [])],
             } if d.get("exercices_connus") else None,
+            "val": {
+                "per": v.get("per_actuel"), "bpa": v.get("bpa_implicite"),
+                "payout": v.get("taux_distribution_pct"),
+                "niveau": v.get("distribution"),
+                "comptes": v.get("date_comptes"), "vieux": v.get("fiche_ancienne"),
+            } if v.get("bpa_implicite") else None,
         })
     (DOSSIER / "app.json").write_text(
         json.dumps({"titres": titres, "date_seance": meta["date_seance"],
@@ -824,6 +1001,8 @@ def ecrire_app(univers: list[dict], histoires: dict, meta: dict) -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Collecte des données BRVM")
+    ap.add_argument("--sans-valorisation", action="store_true",
+                    help="ne pas collecter PER et capitalisation")
     ap.add_argument("--sans-dividendes", action="store_true",
                     help="ne pas collecter l'historique des dividendes")
     ap.add_argument("--sans-sika", action="store_true",
@@ -832,7 +1011,8 @@ def main() -> int:
 
     DOSSIER.mkdir(parents=True, exist_ok=True)
     univers, meta = collecter(verifier_sika=not args.sans_sika,
-                              avec_dividendes=not args.sans_dividendes)
+                              avec_dividendes=not args.sans_dividendes,
+                              avec_valorisation=not args.sans_valorisation)
 
     (DOSSIER / "universe.json").write_text(
         json.dumps(univers, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -849,6 +1029,12 @@ def main() -> int:
               f"{d['titres_couverts']}/{len(univers)} titres couverts")
         if d["libelles_non_rapproches"]:
             print("  libellés non rapprochés :", ", ".join(d["libelles_non_rapproches"][:8]))
+    vv = meta["sources"].get("valorisation", {})
+    if vv.get("etat") not in (None, "ignore"):
+        print(f"valorisation : {vv['titres_resolus']}/{len(univers)} fiches, "
+              f"{vv['fiches_anciennes']} anciennes")
+        if vv["titres_manquants"]:
+            print("  sans fiche :", ", ".join(vv["titres_manquants"][:10]))
     print(f"périmés : {len(meta['perimes'])}  divergences : {len(meta['divergences'])}")
     for d in meta["divergences"][:10]:
         print(f"  {d['ticker']}: miroir {d['miroir']} / sika {d['sika']} "
