@@ -10,6 +10,15 @@
  },
  {
   "date": "2026-08-26",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-26",
   "titre": "BOA BURKINA FASO : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -25,15 +34,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_coris_bank_international_bf.pdf",
   "ticker": "CBIBF"
- },
- {
-  "date": "2026-08-26",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
  },
  {
   "date": "2026-08-18",
@@ -73,6 +73,15 @@
  },
  {
   "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_avis_de_convocation_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
   "titre": "AFRICA GLOBAL LOGISTICS CI : Pouvoir - Assemblée Générale Mixte",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -87,15 +96,6 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260803_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-08-03",
-  "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260803_-_avis_de_convocation_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
   "ticker": null
  },
  {
@@ -217,20 +217,20 @@
  },
  {
   "date": "2026-06-29",
-  "titre": "LNB BN (Annule et remplace le précédent) : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260626_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_lnb_bn_annule_et_remplace_le_precedent.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-06-29",
   "titre": "ERIUM CI : Pouvoir - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260626_-_pouvoir_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-29",
+  "titre": "LNB BN (Annule et remplace le précédent) : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260626_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_lnb_bn_annule_et_remplace_le_precedent.pdf",
   "ticker": null
  },
  {
@@ -433,21 +433,21 @@
  },
  {
   "date": "2026-06-01",
-  "titre": "FILTISAC CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260529_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_filtisac_ci.pdf",
-  "ticker": "FTSC"
- },
- {
-  "date": "2026-06-01",
   "titre": "NEI-CEDA CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260529_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_nei-ceda_ci.pdf",
   "ticker": "NEIC"
+ },
+ {
+  "date": "2026-06-01",
+  "titre": "FILTISAC CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260529_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_filtisac_ci.pdf",
+  "ticker": "FTSC"
  },
  {
   "date": "2026-05-29",
@@ -541,15 +541,6 @@
  },
  {
   "date": "2026-05-05",
-  "titre": "SITAB CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_sitab_2025.pdf",
-  "ticker": "STBC"
- },
- {
-  "date": "2026-05-05",
   "titre": "ORAGROUP TG : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -565,6 +556,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/fiche_de_notation-_erium_ci_-_2025.pdf",
   "ticker": null
+ },
+ {
+  "date": "2026-05-05",
+  "titre": "SITAB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_sitab_2025.pdf",
+  "ticker": "STBC"
  },
  {
   "date": "2026-05-05",
@@ -649,20 +649,20 @@
  },
  {
   "date": "2026-04-16",
-  "titre": "Communiqué - Franchissement de seuil par NSIA PARTICIPATIONS",
-  "rubrique": "communique",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260416_-_communique_-_franchissement_de_seuil_par_nsia_participations.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-04-16",
   "titre": "Communiqué - Franchissement de seuil par NSIA HOLDING FINANCIERE",
   "rubrique": "communique",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260416_-_communique_-_franchissement_de_seuil_par_nsia_holding_financiere.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-04-16",
+  "titre": "Communiqué - Franchissement de seuil par NSIA PARTICIPATIONS",
+  "rubrique": "communique",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260416_-_communique_-_franchissement_de_seuil_par_nsia_participations.pdf",
   "ticker": null
  },
  {
@@ -1144,21 +1144,21 @@
  },
  {
   "date": "2025-08-22",
-  "titre": "BERNABE CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_bernabe_ci.pdf",
-  "ticker": "BNBC"
- },
- {
-  "date": "2025-08-22",
   "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_palm_ci.pdf",
   "ticker": null
+ },
+ {
+  "date": "2025-08-22",
+  "titre": "BERNABE CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_bernabe_ci.pdf",
+  "ticker": "BNBC"
  },
  {
   "date": "2025-08-18",
@@ -1270,21 +1270,21 @@
  },
  {
   "date": "2025-07-07",
-  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
-  "rubrique": "dirigeant",
-  "type": "dirigeant",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_nsia_banque_ci.pdf",
-  "ticker": "NSBC"
- },
- {
-  "date": "2025-07-07",
   "titre": "CIE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
   "rubrique": "dirigeant",
   "type": "dirigeant",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_cie_ci.pdf",
   "ticker": null
+ },
+ {
+  "date": "2025-07-07",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
  },
  {
   "date": "2025-07-07",
@@ -1468,24 +1468,6 @@
  },
  {
   "date": "2025-03-19",
-  "titre": "BOA NIGER : Projet de résolutions - Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_niger.pdf",
-  "ticker": "BOAN"
- },
- {
-  "date": "2025-03-19",
-  "titre": "BOA SENEGAL : Projet de résolutions àl&#039;Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_senegal.pdf",
-  "ticker": "BOAS"
- },
- {
-  "date": "2025-03-19",
   "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "assemblee",
@@ -1501,6 +1483,24 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_mali.pdf",
   "ticker": "BOAM"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA NIGER : Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_niger.pdf",
+  "ticker": "BOAN"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA SENEGAL : Projet de résolutions àl&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_senegal.pdf",
+  "ticker": "BOAS"
  },
  {
   "date": "2025-03-18",
@@ -1990,20 +1990,20 @@
  },
  {
   "date": "2021-12-07",
-  "titre": "ETI TOG0 : Communiqué - Nomination au sein de la Direction",
-  "rubrique": "dirigeant",
-  "type": "dirigeant",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_nomination_au_sein_de_la_sein_de_la_direction_-_eti_tg_0.pdf",
-  "ticker": null
- },
- {
-  "date": "2021-12-07",
   "titre": "ETI TOGO : Communiqué - Départ important au sein de la Direction",
   "rubrique": "dirigeant",
   "type": "autre",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_depart_important_au_sein_de_la_direction_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2021-12-07",
+  "titre": "ETI TOG0 : Communiqué - Nomination au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_nomination_au_sein_de_la_sein_de_la_direction_-_eti_tg_0.pdf",
   "ticker": null
  },
  {
@@ -2179,6 +2179,15 @@
  },
  {
   "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2011-06-21",
   "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (1)",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2202,15 +2211,6 @@
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
-  "ticker": "SDCC"
- },
- {
-  "date": "2011-06-21",
-  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
   "ticker": "SDCC"
  },
  {

@@ -2725,20 +2725,20 @@
    },
    {
     "date": "2011-06-21",
-    "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
-    "rubrique": "seuil",
-    "type": "seuil",
-    "important": true,
-    "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
-    "ticker": "SDCC"
-   },
-   {
-    "date": "2011-06-21",
     "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
     "rubrique": "seuil",
     "type": "seuil",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
+    "ticker": "SDCC"
+   },
+   {
+    "date": "2011-06-21",
+    "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
+    "rubrique": "seuil",
+    "type": "seuil",
+    "important": true,
+    "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
     "ticker": "SDCC"
    }
   ]
