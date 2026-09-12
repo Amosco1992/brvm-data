@@ -722,7 +722,7 @@ def collecter_valorisation(session, tickers: list[str], cours: dict[str, float],
         if not fiche:
             manquants.append(t)
             continue
-        out[t] = derive(fiche, cours.get(t), dividendes.get(t))
+        out[t] = derive_valorisation(fiche, cours.get(t), dividendes.get(t))
         out[t]["url_fiche"] = url
     return out, manquants
 
@@ -834,7 +834,7 @@ def collecter_annonces(session, resolveur, pages=3, timeout=30):
                 r.raise_for_status()
             except Exception:                       # noqa: BLE001
                 break
-            l = parser_page(r.text, nom, resolveur)
+            l = parser_annonces(r.text, nom, resolveur)
             if not l:
                 break
             tout.extend(l)
@@ -966,7 +966,7 @@ def extraire_etats(texte: str, devise_attendue: str = "XOF") -> dict:
 
         # Une déclaration d'unité vaut pour tout ce qui suit, jusqu'à la suivante.
         if re.search(r"montants?\s+en|exprim[ée]s?\s+en|\(en\s+", ligne, re.I):
-            e, d = unite_de(ligne)
+            e, d = unite_financiere(ligne)
             if e or d:
                 echelle, devise = e or echelle, d or devise
                 continue
