@@ -73,13 +73,18 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid 
  letter-spacing:-.03em;font-variant-numeric:tabular-nums}
 .f-cours .u{font-size:.85rem;color:var(--gris)}
 .f-date{font-size:.76rem;color:var(--gris);margin-bottom:14px}
-.grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:1px;
- background:var(--trait);border:1px solid var(--trait);border-radius:2px;margin:14px 0}
-.case{background:var(--encre);padding:10px 11px}
-.case .v{font-family:'Spline Sans Mono',monospace;font-size:1.05rem;font-weight:600;font-variant-numeric:tabular-nums}
-.case .k{font-size:.72rem;color:var(--gris);margin-top:2px}
-button.case{display:block;width:100%;text-align:left;border:0;font:inherit;cursor:pointer}
-button.case:hover .k{color:var(--gris2)}
+.grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));
+ gap:7px;margin:14px 0}
+button.case{background:var(--encre2);border:1px solid var(--trait);border-radius:3px;
+ padding:10px 11px;width:100%;text-align:left;font:inherit;color:inherit;cursor:default;
+ display:flex;flex-direction:column;justify-content:flex-start;gap:6px;min-height:70px}
+button.case[data-def]{cursor:pointer}
+.case .v{font-family:'Spline Sans Mono',ui-monospace,monospace;font-size:1.02rem;
+ font-weight:600;font-variant-numeric:tabular-nums;line-height:1.05;letter-spacing:-.01em}
+.case .k{font-size:.7rem;color:var(--gris);line-height:1.3;margin-top:auto}
+button.case[data-def] .k{border-bottom:1px dotted rgba(195,202,210,.45);
+ padding-bottom:2px;align-self:flex-start}
+button.case[data-def]:hover .k{color:var(--gris2);border-bottom-color:var(--gris2)}
 .expli{font-size:.82rem;color:var(--gris2);border-left:3px solid var(--gris);
  padding:9px 12px;margin:-6px 0 14px;display:none;background:var(--encre2);border-radius:0 2px 2px 0}
 .expli[data-ouvert=oui]{display:block}
@@ -501,7 +506,7 @@ function blocVal(x){
                confortable:['var(--vert)','Distribue une part tenable de ses bénéfices']}[v.niveau]||['var(--gris)',''];
   return `<h4 style="font-size:.85rem;font-weight:600;color:var(--gris2);margin:18px 0 0">Bénéfices et distribution (estimés)</h4>
     ${grilleG([
-      caseG(String(v.per??'—'),'per','PER au cours du jour'),
+      caseG(String(v.per??'—'),'per','PER du jour'),
       caseG(fmt(v.bpa),'bpa','Bénéfice par action'),
       caseG(`${v.payout??'—'} %`,'payout','Taux de distribution',seuil[0]),
     ])}
@@ -528,11 +533,11 @@ function blocFin(x){
       Comptes publiés${f.publie_le?` · ${f.publie_le}`:''}</h4>
     ${grilleG([
       caseG(mds(f.rn),'rn','Résultat net'),
-      caseG(mds(f.ca),'ca',"Produit d'exploitation"),
+      caseG(mds(f.ca),'ca','Exploitation'),
       caseG(mds(f.cp),'cp','Capitaux propres'),
       ...(f.marge!=null?[caseG(`${f.marge} %`,'marge','Marge nette')]:[]),
-      ...(f.roe!=null?[caseG(`${f.roe} %`,'roe','Rentabilité des fonds propres')]:[]),
-      ...(f.payout!=null?[caseG(`${f.payout} %`,'payout','Distribution (comptes réels)')]:[]),
+      ...(f.roe!=null?[caseG(`${f.roe} %`,'roe','Rentabilité fonds propres')]:[]),
+      ...(f.payout!=null?[caseG(`${f.payout} %`,'payout','Distribution réelle')]:[]),
     ])}
     <div style="font-size:.78rem;color:var(--gris);margin-top:8px">
       Extrait automatiquement du PDF déposé à la BRVM${f.rn_conf&&f.rn_conf!=='elevee'?` — confiance ${f.rn_conf}, à recouper`:''}.
@@ -590,7 +595,7 @@ function caseG(valeur, cle, libelle, couleur){
   return `<button class="case" type="button" ${g?`data-def="${cle}"`:''}
     aria-label="${g?g[0]+' — toucher pour la définition':libelle}">
     <div class="v"${couleur?` style="color:${couleur}"`:''}>${valeur}</div>
-    <div class="k">${libelle}${g?' <span style="opacity:.5">?</span>':''}</div></button>`;
+    <div class="k">${libelle}</div></button>`;
 }
 const grilleG = cases => `<div class="grille">${cases.join('')}</div><div class="expli"></div>`;
 
@@ -642,10 +647,10 @@ function blocCroissance(x){
   return `<h4 style="font-size:.85rem;font-weight:600;color:var(--gris2);margin:18px 0 0">Croissance constatée</h4>
     ${grilleG([
       caseG(c?(c.tcam>=0?'+':'')+c.tcam.toFixed(1)+' %':'—','crois',
-            `Dividende, par an${c?` (${c.de}–${c.a})`:''}`,
+            `Dividende / an${c?` ${c.de}–${c.a}`:''}`,
             c?(c.tcam>0?'var(--vert)':'var(--rouille)'):null),
       caseG(garde!=null?Math.round(garde)+' %':'—','garde','Bénéfices réinvestis'),
-      caseG(roe!=null?roe+' %':'—','roe','Rentabilité des fonds propres'),
+      caseG(roe!=null?roe+' %':'—','roe','Rentabilité fonds propres'),
     ])}
     <ul class="lect">
       ${c?(c.tcam>3
@@ -674,10 +679,10 @@ function blocDiv(x){
   return `<h4 style="font-size:.85rem;font-weight:600;color:var(--gris2);margin:18px 0 0">Dividendes</h4>
     ${courbeDiv(d.hist)}
     ${grilleG([
-      caseG(`${d.rdt??'—'} %`,'rdt',`Rendement net, exercice ${d.exercice}`),
-      caseG(fmt(d.montant),'montant','Dernier montant net / action'),
+      caseG(`${d.rdt??'—'} %`,'rdt',`Rendement net ${d.exercice}`),
+      caseG(fmt(d.montant),'montant','Dernier montant net'),
       caseG(String(d.consec),'consec','Exercices consécutifs'),
-      caseG(`${d.dix}/10`,'dix','Exercices payés sur 10 ans'),
+      caseG(`${d.dix}/10`,'dix','Payés sur 10 ans'),
     ])}
     <ul class="lect">
       ${d.consec>=8?`<li><b>Versé sans interruption sur ${d.consec} exercices.</b> C'est la qualité qui compte le plus pour un revenu tenu dans la durée.</li>`
@@ -702,12 +707,12 @@ function fiche(x){
     ${courbe(x.w,x.h,x.b,x.w0,x.d)}
     <div style="font-size:.72rem;color:var(--gris);text-align:center">Clôtures hebdomadaires, cinq ans · montants en FCFA</div>
     ${grilleG([
-      caseG(`${Math.round((x.r??0)*100)} %`,'range','Position range 52 s.'),
-      caseG(pc(x.va),'var52','Variation 52 semaines'),
-      caseG(pc(Math.min(0,x.dd??0)),'dd','Écart au plus haut 5 ans'),
-      caseG(`${x.vol??'—'} %`,'vol','Volatilité annualisée'),
-      caseG(fmt(x.v),'volume','Échangé, séance médiane'),
-      caseG(String(qte),'actions',`Actions pour ${fmt(ligne)}`),
+      caseG(`${Math.round((x.r??0)*100)} %`,'range','Dans le range 52 s.'),
+      caseG(pc(x.va),'var52','Sur 52 semaines'),
+      caseG(x.dd==null?'—':(x.dd>=-0.05?'0 %':pc(x.dd)),'dd','Sous le haut 5 ans'),
+      caseG(`${x.vol??'—'} %`,'vol','Volatilité'),
+      caseG(fmt(x.v),'volume','Échangé / séance'),
+      caseG(String(qte),'actions','Actions achetables'),
     ])}
     ${blocCriteres(x,ligne)}
     <ul class="lect">${lecture(x,ligne).map(l=>`<li>${l}</li>`).join('')}</ul>
