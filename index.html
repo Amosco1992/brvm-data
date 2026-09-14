@@ -140,7 +140,8 @@ footer p+p{margin-top:6px}
     <input type="number" id="ligne" class="mono" value="200000" step="10000" min="1000"></div>
   <div class="champ"><label for="tri">Trier par</label>
     <select id="tri">
-      <option value="crit">Critères remplis (4/4 d'abord)</option>
+      <option value="crit">Critères remplis (sans-faute d'abord)</option>
+      <option value="crois">Croissance du dividende</option>
       <option value="range">Position dans le range 52 s. (bas d'abord)</option>
       <option value="dd">Écart au plus haut 5 ans</option>
       <option value="vol">Volatilité (faible d'abord)</option>
@@ -219,7 +220,8 @@ const filtres=()=>T.filter(x=>(!filtre.liq||x.l===filtre.liq)&&(!filtre.pays||x.
 
 function liste(){
   const ligne=+$('ligne').value||0, tri=$('tri').value;
-  const ord={crit:(a,b)=>scoreDe(b,ligne)-scoreDe(a,ligne),range:(a,b)=>(a.r??9)-(b.r??9),dd:(a,b)=>(a.dd??9)-(b.dd??9),
+  const ord={crit:(a,b)=>scoreDe(b,ligne)-scoreDe(a,ligne),
+    crois:(a,b)=>((croissanceDiv(b.div?.hist)?.tcam)??-1e9)-((croissanceDiv(a.div?.hist)?.tcam)??-1e9),range:(a,b)=>(a.r??9)-(b.r??9),dd:(a,b)=>(a.dd??9)-(b.dd??9),
     vol:(a,b)=>(a.vol??1e9)-(b.vol??1e9),liq:(a,b)=>(b.v??0)-(a.v??0),
     rdt:(a,b)=>(b.div?.rdt??-1)-(a.div?.rdt??-1),consec:(a,b)=>(b.div?.consec??-1)-(a.div?.consec??-1),
     payout:(a,b)=>(a.val?.payout??1e9)-(b.val?.payout??1e9),
@@ -242,8 +244,8 @@ function liste(){
         ${x.div?.rdt?`<span>rdt net <b>${x.div.rdt} %</b></span>`:''}
         ${x.val?.niveau==='superieure_aux_benefices'?'<span class="etiq e-illiquide">distribue &gt; bénéfices</span>':''}
         ${x.val?.per?`<span>PER <b>${x.val.per}</b></span>`:''}
-        <span class="etiq ${scoreDe(x,ligne)===4?'e-liquide':scoreDe(x,ligne)>=2?'e-etroite':''}"
-          style="${scoreDe(x,ligne)<2?'background:none;color:var(--gris);padding:0':''}">${scoreDe(x,ligne)}/4</span></div></div>
+        <span class="etiq ${scoreDe(x,ligne)===CRITERES.length?'e-liquide':scoreDe(x,ligne)>=CRITERES.length-2?'e-etroite':''}"
+          style="${scoreDe(x,ligne)<CRITERES.length-2?'background:none;color:var(--gris);padding:0':''}">${scoreDe(x,ligne)}/${CRITERES.length}</span></div></div>
       <button class="plus" aria-label="Ajouter ${x.t} au panier">${choisis.has(x.t)?'✓':'+'}</button>`;
     const corps=el.querySelector('.t-corps');
     corps.onclick=()=>fiche(x);
@@ -254,21 +256,63 @@ function liste(){
 }
 
 // ---- graphique : 5 ans de clôtures hebdomadaires ----
-function courbe(w,h52,b52){
-  const L=640,H=140,P=4;
-  const mn=Math.min(...w),mx=Math.max(...w),et=(mx-mn)||1;
-  const X=i=>P+i*(L-2*P)/(w.length-1), Y=v=>H-P-(v-mn)/et*(H-2*P);
+// Axe vertical gradué en FCFA, axe horizontal en années. Les points sont
+// espacés d'une semaine : on date donc l'abscisse en partant du premier
+// point plutôt qu'en transportant 260 dates jusqu'au téléphone.
+function joliPas(etendue,cibles){
+  const brut=etendue/cibles, ordre=Math.pow(10,Math.floor(Math.log10(brut)));
+  return [1,2,2.5,5,10].map(m=>m*ordre).find(v=>v>=brut)||ordre*10;
+}
+function courbe(w,h52,b52,debutISO,finISO){
+  const L=420,H=180,GA=46,GB=22,GH=8,GD=8;
+  const mn=Math.min(...w),mx=Math.max(...w);
+  const pas=joliPas(mx-mn||1,4);
+  const bas=Math.floor(mn/pas)*pas, haut=Math.ceil(mx/pas)*pas, et=(haut-bas)||1;
+  const X=i=>GA+i*(L-GA-GD)/Math.max(1,w.length-1);
+  const Y=v=>GH+(haut-v)/et*(H-GH-GB);
+
+  let ticksY='';
+  for(let v=bas;v<=haut+1e-9;v+=pas){
+    const y=Y(v);
+    ticksY+=`<line x1="${GA}" y1="${y.toFixed(1)}" x2="${L-GD}" y2="${y.toFixed(1)}"
+      stroke="#274A6D" stroke-width="0.5"/>
+      <text x="${GA-6}" y="${(y+3).toFixed(1)}" text-anchor="end" fill="#7C8794"
+        font-size="9" font-family="monospace">${fmt(v)}</text>`;
+  }
+  let ticksX='';
+  if(debutISO&&finISO){
+    const d0=new Date(debutISO), d1=new Date(finISO);
+    const total=(d1-d0)||1;
+    for(let an=new Date(d0).getFullYear()+1;an<=d1.getFullYear();an++){
+      const x=GA+((new Date(an+'-01-01')-d0)/total)*(L-GA-GD);
+      if(x<GA||x>L-GD) continue;
+      ticksX+=`<line x1="${x.toFixed(1)}" y1="${GH}" x2="${x.toFixed(1)}" y2="${H-GB}"
+        stroke="#274A6D" stroke-width="0.5" stroke-dasharray="2 3"/>
+        <text x="${x.toFixed(1)}" y="${H-GB+13}" text-anchor="middle" fill="#7C8794"
+          font-size="9" font-family="monospace">${an}</text>`;
+    }
+  }
   const d=w.map((v,i)=>`${i?'L':'M'}${X(i).toFixed(1)} ${Y(v).toFixed(1)}`).join(' ');
-  const aire=`${d} L${X(w.length-1).toFixed(1)} ${H-P} L${X(0).toFixed(1)} ${H-P} Z`;
-  const yH=Y(h52),yB=Y(b52);
-  return `<svg viewBox="0 0 ${L} ${H}" style="width:100%;height:auto;display:block;margin:6px 0 2px" role="img"
-    aria-label="Cours hebdomadaire sur cinq ans"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#1E7A5A" stop-opacity=".35"/><stop offset="100%" stop-color="#1E7A5A" stop-opacity="0"/>
-    </linearGradient></defs>
-    <line x1="${P}" y1="${yH.toFixed(1)}" x2="${L-P}" y2="${yH.toFixed(1)}" stroke="#7C8794" stroke-width="1" stroke-dasharray="3 4"/>
-    <line x1="${P}" y1="${yB.toFixed(1)}" x2="${L-P}" y2="${yB.toFixed(1)}" stroke="#7C8794" stroke-width="1" stroke-dasharray="3 4"/>
-    <path d="${aire}" fill="url(#g)"/><path d="${d}" fill="none" stroke="#5FD0A5" stroke-width="2"
-    stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+  const aire=`${d} L${X(w.length-1).toFixed(1)} ${H-GB} L${GA} ${H-GB} Z`;
+  const dern=w[w.length-1], yd=Y(dern);
+  return `<svg viewBox="0 0 ${L} ${H}" style="width:100%;height:auto;display:block;margin:8px 0 2px"
+    role="img" aria-label="Cours hebdomadaire sur cinq ans">
+    <defs><linearGradient id="gC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E7A5A" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#1E7A5A" stop-opacity="0"/></linearGradient></defs>
+    ${ticksY}${ticksX}
+    <line x1="${GA}" y1="${Y(h52).toFixed(1)}" x2="${L-GD}" y2="${Y(h52).toFixed(1)}"
+      stroke="#B8862B" stroke-width="1" stroke-dasharray="4 3"/>
+    <line x1="${GA}" y1="${Y(b52).toFixed(1)}" x2="${L-GD}" y2="${Y(b52).toFixed(1)}"
+      stroke="#B8862B" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="${L-GD}" y="${(Y(h52)-4).toFixed(1)}" text-anchor="end" fill="#B8862B"
+      font-size="8.5">haut 52 s. ${fmt(h52)}</text>
+    <text x="${L-GD}" y="${(Y(b52)+11).toFixed(1)}" text-anchor="end" fill="#B8862B"
+      font-size="8.5">bas 52 s. ${fmt(b52)}</text>
+    <path d="${aire}" fill="url(#gC)"/>
+    <path d="${d}" fill="none" stroke="#5FD0A5" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="${X(w.length-1).toFixed(1)}" cy="${yd.toFixed(1)}" r="3" fill="#5FD0A5"/>
+  </svg>`;
 }
 
 // ---- lecture honnête : uniquement ce que les données portent ----
@@ -291,9 +335,6 @@ function lecture(x,ligne){
   return L;
 }
 
-// Le dividende par exercice, en courbe. Un exercice sans versement coupe le
-// trait et pose un point rouge sur l'axe : relier par-dessus lisserait
-// justement ce qu'il faut voir.
 // Les quatre critères correspondent à l'objectif énoncé : détenir longtemps
 // pour le revenu. Ils sont affichés un par un, avec le chiffre qui les
 // motive, plutôt que fondus dans une note globale : une note unique cache
@@ -306,9 +347,13 @@ const CRITERES=[
   test:x=>{const p=x.fin?.payout??x.val?.payout; return p!=null&&p<=80},
   dit:x=>{const p=x.fin?.payout??x.val?.payout;
     return p!=null?`distribue ${Math.round(p)} % des bénéfices${x.fin?.payout!=null?' (comptes publiés)':' (estimé)'}`:'bénéfices inconnus'}},
- {id:'rev', nom:'Revenu significatif', seuil:'rendement net d\'au moins 4 %',
+ {id:'rev', nom:'Revenu significatif', seuil:"rendement net d'au moins 4 %",
   test:x=>x.div&&x.div.rdt>=4,
   dit:x=>x.div&&x.div.rdt?`${x.div.rdt} % net`:'pas de dividende'},
+ {id:'crois', nom:'Dividende en progression', seuil:'en hausse sur au moins 3 exercices',
+  test:x=>{const c=croissanceDiv(x.div?.hist); return !!c&&c.tcam>0},
+  dit:x=>{const c=croissanceDiv(x.div?.hist);
+    return c?`${c.tcam>=0?'+':''}${c.tcam.toFixed(1)} % par an de ${c.de} à ${c.a}`:'historique trop court'}},
  {id:'neg', nom:'Négociable à votre taille',
   seuil:'ligne sous 10 % des capitaux échangés en séance',
   test:(x,l)=>x.o&&l<=x.o,
@@ -318,9 +363,10 @@ const scoreDe=(x,l)=>CRITERES.filter(c=>c.test(x,l)).length;
 
 function blocCriteres(x,ligne){
   const n=scoreDe(x,ligne);
-  const coul=n===4?'var(--vert)':n>=2?'var(--ambre)':'var(--rouille)';
+  const N=CRITERES.length;
+  const coul=n===N?'var(--vert)':n>=N-2?'var(--ambre)':'var(--rouille)';
   return `<h4 style="font-size:.85rem;font-weight:600;color:var(--gris2);margin:18px 0 8px">
-      Face à vos critères <span style="color:${coul}">${n}/4</span></h4>
+      Face à vos critères <span style="color:${coul}">${n}/${N}</span></h4>
     <div>${CRITERES.map(c=>{const ok=c.test(x,ligne);return `
       <div style="display:flex;gap:9px;padding:7px 0;border-bottom:1px solid var(--trait);font-size:.84rem">
         <span style="flex:none;color:${ok?'var(--vert)':'var(--gris)'};font-weight:700">${ok?'✓':'·'}</span>
@@ -328,33 +374,73 @@ function blocCriteres(x,ligne){
           <span style="display:block;color:var(--gris);font-size:.77rem">${c.seuil} — ${c.dit(x,ligne)}</span></span>
       </div>`}).join('')}</div>
     <div style="font-size:.78rem;color:var(--gris);margin-top:9px">
-      Ce sont des filtres, pas un avis. Quatre sur quatre veut dire qu'un titre
-      passe ces quatre tests — pas qu'il faut l'acheter, ni que les seuils
-      choisis sont les bons.</div>`;
+      Ce sont des filtres, pas un avis. Un sans-faute veut dire qu'un titre
+      passe ces ${N} tests — pas qu'il faut l'acheter, ni que les seuils choisis
+      sont les bons. Aucun de ces tests ne prédit le cours de demain : ils
+      décrivent ce que la société a fait, pas ce qu'elle fera.</div>`;
 }
 
+// La croissance telle qu'elle a eu lieu, pas telle qu'on la prévoit.
+// Le dividende par action d'un exercice à l'autre : une société ne peut
+// l'augmenter durablement que si ses bénéfices suivent. C'est de la
+// croissance constatée, arrivée sur le compte de l'actionnaire.
+function croissanceDiv(hist){
+  if(!hist||hist.length<3) return null;
+  const pts=hist.filter(h=>h[1]>0);
+  if(pts.length<3) return null;
+  const [a0,v0]=pts[0], [a1,v1]=pts[pts.length-1];
+  const n=a1-a0;
+  if(n<2||!v0) return null;
+  return {tcam:(Math.pow(v1/v0,1/n)-1)*100, de:a0, a:a1, v0, v1};
+}
+
+// Le dividende par exercice, en courbe. Un exercice sans versement coupe le
+// trait et pose un point rouge sur l'axe : relier par-dessus lisserait
+// justement ce qu'il faut voir. Axe vertical gradué en FCFA par action,
+// dernier montant annoté.
 function courbeDiv(hist){
   if(!hist||hist.length<2) return '';
   const a0=Math.min(...hist.map(h=>h[0])), a1=Math.max(...hist.map(h=>h[0]));
   const serie=[]; for(let y=a0;y<=a1;y++){const f=hist.find(h=>h[0]===y); serie.push([y,f?f[1]:null]);}
-  const mx=Math.max(...serie.map(p=>p[1]||0)), L=640, H=120, P=14;
-  const X=i=>P+i*(L-2*P)/Math.max(1,serie.length-1);
-  const Y=v=>H-P-(v/mx)*(H-2*P);
-  let d='', ouvert=false;
-  serie.forEach((pt,i)=>{
-    if(pt[1]==null){ouvert=false;return}
-    d+=`${ouvert?'L':'M'}${X(i).toFixed(1)} ${Y(pt[1]).toFixed(1)} `; ouvert=true;
-  });
+  const vals=serie.filter(p=>p[1]!=null).map(p=>p[1]);
+  const L=420,H=160,GA=46,GB=20,GH=10,GD=10;
+  const pas=joliPas(Math.max(...vals)||1,3);
+  const haut=Math.ceil(Math.max(...vals)/pas)*pas||1;
+  const X=i=>GA+i*(L-GA-GD)/Math.max(1,serie.length-1);
+  const Y=v=>GH+(haut-v)/haut*(H-GH-GB);
+
+  let ticksY='';
+  for(let v=0;v<=haut+1e-9;v+=pas){
+    const y=Y(v);
+    ticksY+=`<line x1="${GA}" y1="${y.toFixed(1)}" x2="${L-GD}" y2="${y.toFixed(1)}"
+      stroke="#274A6D" stroke-width="0.5"/>
+      <text x="${GA-6}" y="${(y+3).toFixed(1)}" text-anchor="end" fill="#7C8794"
+        font-size="9" font-family="monospace">${fmt(v)}</text>`;
+  }
+  // Une année sur deux si la série est longue, pour ne pas empiler les libellés.
+  const saut=serie.length>9?2:1;
+  const ticksX=serie.map((p,i)=>(i%saut||i===serie.length-1)&&i%saut
+    ?'':`<text x="${X(i).toFixed(1)}" y="${H-GB+13}" text-anchor="middle" fill="#7C8794"
+        font-size="9" font-family="monospace">${String(p[0]).slice(2)}</text>`).join('');
+
+  let d='',ouvert=false;
+  serie.forEach((pt,i)=>{ if(pt[1]==null){ouvert=false;return}
+    d+=`${ouvert?'L':'M'}${X(i).toFixed(1)} ${Y(pt[1]).toFixed(1)} `; ouvert=true; });
   const pts=serie.map((pt,i)=>pt[1]==null
-    ? `<circle cx="${X(i).toFixed(1)}" cy="${H-P}" r="3.5" fill="#A8452C"/>`
-    : `<circle cx="${X(i).toFixed(1)}" cy="${Y(pt[1]).toFixed(1)}" r="3" fill="#5FD0A5"/>`).join('');
+    ? `<circle cx="${X(i).toFixed(1)}" cy="${(H-GB).toFixed(1)}" r="3.5" fill="#A8452C"/>`
+    : `<circle cx="${X(i).toFixed(1)}" cy="${Y(pt[1]).toFixed(1)}" r="2.8" fill="#5FD0A5"/>`).join('');
+  const der=serie.filter(p=>p[1]!=null).pop();
+  const iDer=serie.findIndex(p=>p[0]===der[0]);
   return `<svg viewBox="0 0 ${L} ${H}" style="width:100%;height:auto;display:block;margin:10px 0 2px"
-    role="img" aria-label="Dividende net par exercice">
-    <line x1="${P}" y1="${H-P}" x2="${L-P}" y2="${H-P}" stroke="#274A6D" stroke-width="1"/>
-    <path d="${d}" fill="none" stroke="#5FD0A5" stroke-width="2" stroke-linejoin="round"/>
-    ${pts}</svg>
-    <div style="display:flex;justify-content:space-between;font-size:.68rem;color:var(--gris)">
-      <span>${a0}</span>${serie.some(p=>p[1]==null)?'<span style="color:var(--rouille)">points rouges : exercices sans versement</span>':''}<span>${a1}</span></div>`;
+    role="img" aria-label="Dividende net par exercice, en FCFA par action">
+    ${ticksY}${ticksX}
+    <path d="${d}" fill="none" stroke="#5FD0A5" stroke-width="1.8" stroke-linejoin="round"/>
+    ${pts}
+    <text x="${Math.min(X(iDer),L-GD-4).toFixed(1)}" y="${(Y(der[1])-7).toFixed(1)}"
+      text-anchor="end" fill="#5FD0A5" font-size="9.5" font-family="monospace">${fmt(der[1])}</text>
+  </svg>
+  <div style="font-size:.72rem;color:var(--gris);text-align:center">
+    Dividende net par action, en FCFA${serie.some(p=>p[1]==null)?' · <span style="color:var(--rouille)">points rouges : exercices sans versement</span>':''}</div>`;
 }
 
 const LIB_ANN={dividende:'Dividende',etats_financiers:'États financiers',
@@ -421,6 +507,39 @@ function blocFin(x){
       ${f.url?`<a href="${f.url}" target="_blank" rel="noopener" style="color:#5FD0A5">Vérifier dans la source</a>`:''}</div>`;
 }
 
+function blocCroissance(x){
+  const c=croissanceDiv(x.div?.hist);
+  const payout=x.fin?.payout??x.val?.payout;
+  const roe=x.fin?.roe;
+  if(!c&&payout==null&&roe==null) return '';
+  const garde=payout!=null?Math.max(0,100-payout):null;
+  return `<h4 style="font-size:.85rem;font-weight:600;color:var(--gris2);margin:18px 0 0">Croissance constatée</h4>
+    <div class="grille">
+      <div class="case"><div class="v" style="color:${c?(c.tcam>0?'var(--vert)':'var(--rouille)'):'inherit'}">${c?(c.tcam>=0?'+':'')+c.tcam.toFixed(1)+' %':'—'}</div>
+        <div class="k">Dividende, par an${c?` (${c.de}–${c.a})`:''}</div></div>
+      <div class="case"><div class="v">${garde!=null?Math.round(garde)+' %':'—'}</div>
+        <div class="k">Bénéfices réinvestis</div></div>
+      <div class="case"><div class="v">${roe!=null?roe+' %':'—'}</div>
+        <div class="k">Rentabilité des fonds propres</div></div>
+    </div>
+    <ul class="lect">
+      ${c?(c.tcam>3
+        ? `<li><b>Le dividende progresse de ${c.tcam.toFixed(1)} % par an</b>, de ${fmt(c.v0)} en ${c.de} à ${fmt(c.v1)} en ${c.a}. Une société n'augmente durablement son versement que si ses bénéfices suivent.</li>`
+        : c.tcam<-1
+        ? `<li><b>Le dividende recule de ${Math.abs(c.tcam).toFixed(1)} % par an</b> depuis ${c.de}. À regarder avec les résultats : un versement qui s'érode précède souvent une coupe.</li>`
+        : `<li><b>Dividende globalement stable</b> depuis ${c.de}. Le revenu se maintient, il ne croît pas.</li>`):''}
+      ${garde!=null?(garde>=50
+        ? `<li><b>${Math.round(garde)} % des bénéfices restent dans la société.</b> De quoi financer sa croissance sans emprunter.</li>`
+        : garde>=10
+        ? `<li><b>${Math.round(garde)} % des bénéfices sont réinvestis.</b> Une part modeste : la société privilégie la distribution à l'expansion.</li>`
+        : `<li><b>Presque rien n'est réinvesti.</b> Le revenu peut être confortable, mais il ne faut pas attendre de croissance financée en interne.</li>`):''}
+      ${roe!=null?(roe>=15
+        ? `<li><b>${roe} % de rentabilité sur les fonds propres.</b> Chaque franc conservé travaille bien : ce qui est réinvesti se transforme efficacement en bénéfices.</li>`
+        : `<li><b>${roe} % de rentabilité sur les fonds propres.</b> Ce qui est mis en réserve rapporte peu ; la croissance interne sera lente.</li>`):''}
+      <li style="color:var(--gris)">Tout ceci décrit ce qui <i>s'est produit</i>. Rien ici ne prédit le cours de demain, et une société qui a grandi cinq ans peut cesser de grandir.</li>
+    </ul>`;
+}
+
 function blocDiv(x){
   const d=x.div;
   if(!d) return `<div class="manque"><b>Dividendes non chargés</b>
@@ -454,8 +573,8 @@ function fiche(x){
     <div class="f-sous">${x.n} · ${x.s} · ${x.p}</div>
     <div class="f-cours"><span class="n">${fmt(x.c)}</span><span class="u">FCFA</span></div>
     <div class="f-date">Clôture du ${x.d} — le cours en direct est sur le portail SGI</div>
-    ${courbe(x.w,x.h,x.b)}
-    <div style="font-size:.73rem;color:var(--gris);text-align:center">Cinq ans de clôtures hebdomadaires · pointillés : plus haut et plus bas sur 52 semaines</div>
+    ${courbe(x.w,x.h,x.b,x.w0,x.d)}
+    <div style="font-size:.72rem;color:var(--gris);text-align:center">Clôtures hebdomadaires, cinq ans · montants en FCFA</div>
     <div class="grille">
       <div class="case"><div class="v">${Math.round((x.r??0)*100)} %</div><div class="k">Position range 52 s.</div></div>
       <div class="case"><div class="v">${pc(x.va)}</div><div class="k">Variation 52 semaines</div></div>
@@ -467,6 +586,7 @@ function fiche(x){
     ${blocCriteres(x,ligne)}
     <ul class="lect">${lecture(x,ligne).map(l=>`<li>${l}</li>`).join('')}</ul>
     ${blocDiv(x)}
+    ${blocCroissance(x)}
     ${blocVal(x)}
     ${blocFin(x)}
     ${blocAnn(x)}
