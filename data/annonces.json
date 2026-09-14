@@ -10,15 +10,6 @@
  },
  {
   "date": "2026-08-26",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-08-26",
   "titre": "BOA BURKINA FASO : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -34,6 +25,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_coris_bank_international_bf.pdf",
   "ticker": "CBIBF"
+ },
+ {
+  "date": "2026-08-26",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2026-08-18",
@@ -199,20 +199,20 @@
  },
  {
   "date": "2026-06-30",
-  "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
-  "ticker": "UNXC"
- },
- {
-  "date": "2026-06-30",
   "titre": "UNIWAX CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260629_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2026-06-30",
+  "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
   "ticker": "UNXC"
  },
  {
@@ -1468,15 +1468,6 @@
  },
  {
   "date": "2025-03-19",
-  "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_benin.pdf",
-  "ticker": "BOAB"
- },
- {
-  "date": "2025-03-19",
   "titre": "BOA MALI : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "assemblee",
@@ -1501,6 +1492,15 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_senegal.pdf",
   "ticker": "BOAS"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_benin.pdf",
+  "ticker": "BOAB"
  },
  {
   "date": "2025-03-18",
@@ -1765,21 +1765,21 @@
  },
  {
   "date": "2024-05-30",
-  "titre": "SMB CI : Projet de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20240530_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
-  "ticker": "SMBC"
- },
- {
-  "date": "2024-05-30",
   "titre": "FILTISAC CI : Projet de résolution - Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20240530_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_filtisac_ci.pdf",
   "ticker": "FTSC"
+ },
+ {
+  "date": "2024-05-30",
+  "titre": "SMB CI : Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240530_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": "SMBC"
  },
  {
   "date": "2024-05-03",
@@ -2134,15 +2134,6 @@
  },
  {
   "date": "2012-03-02",
-  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
-  "ticker": "SHEC"
- },
- {
-  "date": "2012-03-02",
   "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2151,12 +2142,21 @@
   "ticker": "SHEC"
  },
  {
-  "date": "2012-01-04",
-  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (SAGA CI)",
+  "date": "2012-03-02",
+  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_saga_ci.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2012-01-04",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_1.pdf",
   "ticker": null
  },
  {
@@ -2176,6 +2176,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_tractafric_motors_ci_-_exercice_2011.pdf",
   "ticker": "PRSC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
+  "ticker": "SDCC"
  },
  {
   "date": "2011-06-21",
@@ -2202,15 +2211,6 @@
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
-  "ticker": "SDCC"
- },
- {
-  "date": "2011-06-21",
-  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
   "ticker": "SDCC"
  },
  {

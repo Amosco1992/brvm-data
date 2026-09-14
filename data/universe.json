@@ -2725,20 +2725,20 @@
    },
    {
     "date": "2011-06-21",
-    "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
-    "rubrique": "seuil",
-    "type": "seuil",
-    "important": true,
-    "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
-    "ticker": "SDCC"
-   },
-   {
-    "date": "2011-06-21",
     "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
     "rubrique": "seuil",
     "type": "seuil",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
+    "ticker": "SDCC"
+   },
+   {
+    "date": "2011-06-21",
+    "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
+    "rubrique": "seuil",
+    "type": "seuil",
+    "important": true,
+    "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
     "ticker": "SDCC"
    }
   ]
@@ -3213,20 +3213,20 @@
    },
    {
     "date": "2012-03-02",
-    "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
-    "rubrique": "seuil",
-    "type": "seuil",
-    "important": true,
-    "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
-    "ticker": "SHEC"
-   },
-   {
-    "date": "2012-03-02",
     "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
     "rubrique": "seuil",
     "type": "seuil",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
+    "ticker": "SHEC"
+   },
+   {
+    "date": "2012-03-02",
+    "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
+    "rubrique": "seuil",
+    "type": "seuil",
+    "important": true,
+    "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
     "ticker": "SHEC"
    }
   ]
@@ -4582,20 +4582,20 @@
   "annonces": [
    {
     "date": "2026-06-30",
-    "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
-    "rubrique": "assemblee",
-    "type": "assemblee",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
-    "ticker": "UNXC"
-   },
-   {
-    "date": "2026-06-30",
     "titre": "UNIWAX CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
     "rubrique": "assemblee",
     "type": "assemblee",
     "important": false,
     "url": "https://www.brvm.org/sites/default/files/20260629_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_uniwax_ci.pdf",
+    "ticker": "UNXC"
+   },
+   {
+    "date": "2026-06-30",
+    "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
+    "rubrique": "assemblee",
+    "type": "assemblee",
+    "important": false,
+    "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
     "ticker": "UNXC"
    },
    {
