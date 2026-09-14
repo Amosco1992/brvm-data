@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-09-14",
+  "titre": "FCTC EPT 2025-2040 : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260914_-_notation_financiere_-_fctc_ept_2025-2040.pdf",
+  "ticker": null
+ },
+ {
   "date": "2026-09-01",
   "titre": "FCTC ZAKA RMBS NSIA BANQUE CÔTE D’IVOIRE 2025-2044 : Notation Financière",
   "rubrique": "notation",
@@ -7,6 +16,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260901_-_notation_financiere_-_fctc_zaka_rmbs_nsia_banque_cote_divoire_2025-2044.pdf",
   "ticker": "NSBC"
+ },
+ {
+  "date": "2026-08-26",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2026-08-26",
@@ -25,15 +43,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_coris_bank_international_bf.pdf",
   "ticker": "CBIBF"
- },
- {
-  "date": "2026-08-26",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
  },
  {
   "date": "2026-08-18",
@@ -199,20 +208,20 @@
  },
  {
   "date": "2026-06-30",
-  "titre": "UNIWAX CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260629_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_uniwax_ci.pdf",
-  "ticker": "UNXC"
- },
- {
-  "date": "2026-06-30",
   "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2026-06-30",
+  "titre": "UNIWAX CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260629_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_uniwax_ci.pdf",
   "ticker": "UNXC"
  },
  {
@@ -244,24 +253,6 @@
  },
  {
   "date": "2026-06-26",
-  "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260625_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
-  "ticker": "STBC"
- },
- {
-  "date": "2026-06-26",
-  "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_morale_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
-  "ticker": "STBC"
- },
- {
-  "date": "2026-06-26",
   "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -277,6 +268,24 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260625_-avis_de_convocation_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
   "ticker": null
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_morale_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
  },
  {
   "date": "2026-06-26",
@@ -379,20 +388,20 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
-  "ticker": "SMBC"
- },
- {
-  "date": "2026-06-07",
   "titre": "SMB CI : Pouvoir - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260605_-_pouvoir_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
   "ticker": "SMBC"
  },
  {
@@ -874,21 +883,21 @@
  },
  {
   "date": "2026-01-08",
-  "titre": "CIE CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_cie_ci.pdf",
-  "ticker": "CIEC"
- },
- {
-  "date": "2026-01-08",
   "titre": "SIB CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_sib_ci.pdf",
   "ticker": null
+ },
+ {
+  "date": "2026-01-08",
+  "titre": "CIE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_cie_ci.pdf",
+  "ticker": "CIEC"
  },
  {
   "date": "2025-12-31",
@@ -1296,15 +1305,6 @@
   "ticker": "STBC"
  },
  {
-  "date": "2025-07-01",
-  "titre": "SONATEL SENEGAL : Notation financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250701_-_notation_financiere_-_sonatel_sn.pdf",
-  "ticker": "SNTS"
- },
- {
   "date": "2025-06-27",
   "titre": "LOTERIE NATIONALE DU BENIN : Projet de résolutions à l&#039;Assemblée Générale Mixte",
   "rubrique": "resolution",
@@ -1468,6 +1468,15 @@
  },
  {
   "date": "2025-03-19",
+  "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_benin.pdf",
+  "ticker": "BOAB"
+ },
+ {
+  "date": "2025-03-19",
   "titre": "BOA MALI : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "assemblee",
@@ -1492,15 +1501,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_senegal.pdf",
   "ticker": "BOAS"
- },
- {
-  "date": "2025-03-19",
-  "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_benin.pdf",
-  "ticker": "BOAB"
  },
  {
   "date": "2025-03-18",
@@ -1531,21 +1531,21 @@
  },
  {
   "date": "2025-02-24",
-  "titre": "SUCRIVOIRE CÔTE D&#039;IVOIRE : Communiqué",
-  "rubrique": "communique",
-  "type": "autre",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250224_-_communique_-_sucrivoire_ci.pdf",
-  "ticker": "SCRC"
- },
- {
-  "date": "2025-02-24",
   "titre": "SOCIETE GENERALE CÔTE D&#039;IVOIRE : Communiqué - Augmentation de capital",
   "rubrique": "communique",
   "type": "capital",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250224_-_communique_-_augmentation_de_capital_-_societe_generale_ci.pdf",
   "ticker": "SGBC"
+ },
+ {
+  "date": "2025-02-24",
+  "titre": "SUCRIVOIRE CÔTE D&#039;IVOIRE : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250224_-_communique_-_sucrivoire_ci.pdf",
+  "ticker": "SCRC"
  },
  {
   "date": "2025-02-20",
@@ -1765,21 +1765,21 @@
  },
  {
   "date": "2024-05-30",
-  "titre": "FILTISAC CI : Projet de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20240530_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_filtisac_ci.pdf",
-  "ticker": "FTSC"
- },
- {
-  "date": "2024-05-30",
   "titre": "SMB CI : Projet de résolution - Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20240530_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
   "ticker": "SMBC"
+ },
+ {
+  "date": "2024-05-30",
+  "titre": "FILTISAC CI : Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240530_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_filtisac_ci.pdf",
+  "ticker": "FTSC"
  },
  {
   "date": "2024-05-03",
@@ -2179,15 +2179,6 @@
  },
  {
   "date": "2011-06-21",
-  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
-  "ticker": "SDCC"
- },
- {
-  "date": "2011-06-21",
   "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (1)",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2211,6 +2202,15 @@
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
   "ticker": "SDCC"
  },
  {
