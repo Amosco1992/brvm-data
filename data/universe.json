@@ -2702,7 +2702,7 @@
     "rubrique": "dirigeant",
     "type": "autre",
     "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-_changement_important_dans_la_direction_-_sode_ci.pdf",
+    "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-changement_important_dans_la_direction_-_sode_ci.pdf",
     "ticker": "SDCC"
    },
    {
@@ -3734,20 +3734,20 @@
   "annonces": [
    {
     "date": "2026-06-07",
-    "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
-    "rubrique": "assemblee",
-    "type": "assemblee",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
-    "ticker": "SMBC"
-   },
-   {
-    "date": "2026-06-07",
     "titre": "SMB CI : Pouvoir - Assemblée Générale Ordinaire",
     "rubrique": "assemblee",
     "type": "assemblee",
     "important": false,
     "url": "https://www.brvm.org/sites/default/files/20260605_-_pouvoir_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+    "ticker": "SMBC"
+   },
+   {
+    "date": "2026-06-07",
+    "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
+    "rubrique": "assemblee",
+    "type": "assemblee",
+    "important": false,
+    "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
     "ticker": "SMBC"
    },
    {
