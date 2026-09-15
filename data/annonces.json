@@ -19,15 +19,6 @@
  },
  {
   "date": "2026-08-26",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-08-26",
   "titre": "BOA BURKINA FASO : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -43,6 +34,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_coris_bank_international_bf.pdf",
   "ticker": "CBIBF"
+ },
+ {
+  "date": "2026-08-26",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2026-08-18",
@@ -253,24 +253,6 @@
  },
  {
   "date": "2026-06-26",
-  "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_physique_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
-  "ticker": "STBC"
- },
- {
-  "date": "2026-06-26",
-  "titre": "Avis de convocation - Assemblée Générale Ordinaire - ERIUM CI",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260625_-avis_de_convocation_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-06-26",
   "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -286,6 +268,24 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_morale_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
   "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_physique_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-26",
+  "titre": "Avis de convocation - Assemblée Générale Ordinaire - ERIUM CI",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-avis_de_convocation_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2026-06-26",
@@ -388,20 +388,20 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "SMB CI : Pouvoir - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_pouvoir_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
-  "ticker": "SMBC"
- },
- {
-  "date": "2026-06-07",
   "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "SMB CI : Pouvoir - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_pouvoir_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
   "ticker": "SMBC"
  },
  {
@@ -883,21 +883,21 @@
  },
  {
   "date": "2026-01-08",
-  "titre": "SIB CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_sib_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-01-08",
   "titre": "CIE CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_cie_ci.pdf",
   "ticker": "CIEC"
+ },
+ {
+  "date": "2026-01-08",
+  "titre": "SIB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_sib_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2025-12-31",
@@ -907,6 +907,15 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20251231_-_communique_profit_warning_lnb_sa_30-12-2025.pdf",
   "ticker": "LNBB"
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "TOTALENERGIES MARKETING SN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_sn.pdf",
+  "ticker": null
  },
  {
   "date": "2025-12-30",
@@ -943,15 +952,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_ci.pdf",
   "ticker": "TTLC"
- },
- {
-  "date": "2025-12-30",
-  "titre": "TOTALENERGIES MARKETING SN : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_sn.pdf",
-  "ticker": null
  },
  {
   "date": "2025-12-23",
@@ -1531,21 +1531,21 @@
  },
  {
   "date": "2025-02-24",
-  "titre": "SOCIETE GENERALE CÔTE D&#039;IVOIRE : Communiqué - Augmentation de capital",
-  "rubrique": "communique",
-  "type": "capital",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250224_-_communique_-_augmentation_de_capital_-_societe_generale_ci.pdf",
-  "ticker": "SGBC"
- },
- {
-  "date": "2025-02-24",
   "titre": "SUCRIVOIRE CÔTE D&#039;IVOIRE : Communiqué",
   "rubrique": "communique",
   "type": "autre",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250224_-_communique_-_sucrivoire_ci.pdf",
   "ticker": "SCRC"
+ },
+ {
+  "date": "2025-02-24",
+  "titre": "SOCIETE GENERALE CÔTE D&#039;IVOIRE : Communiqué - Augmentation de capital",
+  "rubrique": "communique",
+  "type": "capital",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250224_-_communique_-_augmentation_de_capital_-_societe_generale_ci.pdf",
+  "ticker": "SGBC"
  },
  {
   "date": "2025-02-20",
@@ -2161,21 +2161,21 @@
  },
  {
   "date": "2011-12-12",
-  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2011 (SDA CI) (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_bollore_transport_logistics_ci_-_exercice_2011_sda_ci_1.pdf",
-  "ticker": null
- },
- {
-  "date": "2011-12-12",
   "titre": "Franchissement de seuil - TRACTAFRIC MOTORS CI - Exercice 2011",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_tractafric_motors_ci_-_exercice_2011.pdf",
   "ticker": "PRSC"
+ },
+ {
+  "date": "2011-12-12",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2011 (SDA CI) (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_bollore_transport_logistics_ci_-_exercice_2011_sda_ci_1.pdf",
+  "ticker": null
  },
  {
   "date": "2011-06-21",
