@@ -46,21 +46,21 @@
  },
  {
   "date": "2026-08-18",
-  "titre": "BOA ML : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_ml.pdf",
-  "ticker": "BOAM"
- },
- {
-  "date": "2026-08-18",
   "titre": "BOA BN : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_bn.pdf",
   "ticker": "BOAB"
+ },
+ {
+  "date": "2026-08-18",
+  "titre": "BOA ML : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_ml.pdf",
+  "ticker": "BOAM"
  },
  {
   "date": "2026-08-17",
@@ -82,6 +82,15 @@
  },
  {
   "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_avis_de_convocation_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
   "titre": "AFRICA GLOBAL LOGISTICS CI : Pouvoir - Assemblée Générale Mixte",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -96,15 +105,6 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260803_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-08-03",
-  "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260803_-_avis_de_convocation_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
   "ticker": null
  },
  {
@@ -334,12 +334,12 @@
  },
  {
   "date": "2026-06-13",
-  "titre": "BIIC BN : Avis de convocation - Assemblée Générale Ordinaire",
+  "titre": "LNB BN : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260612_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_biic_bn.pdf",
-  "ticker": "BICB"
+  "url": "https://www.brvm.org/sites/default/files/20260612_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_lnb_bn.pdf",
+  "ticker": null
  },
  {
   "date": "2026-06-12",
@@ -478,24 +478,6 @@
  },
  {
   "date": "2026-05-20",
-  "titre": "SOLIBRA CI : Pouvoir - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-  "ticker": "SLBC"
- },
- {
-  "date": "2026-05-20",
-  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-  "ticker": "SLBC"
- },
- {
-  "date": "2026-05-20",
   "titre": "SOGB CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -510,6 +492,24 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260519_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Pouvoir - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
   "ticker": "SLBC"
  },
  {
@@ -541,24 +541,6 @@
  },
  {
   "date": "2026-05-05",
-  "titre": "ORAGROUP TG : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_oragroup_sa_-_2025.pdf",
-  "ticker": "ORGT"
- },
- {
-  "date": "2026-05-05",
-  "titre": "ERIUM CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation-_erium_ci_-_2025.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-05-05",
   "titre": "SITAB CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -568,12 +550,30 @@
  },
  {
   "date": "2026-05-05",
+  "titre": "ORAGROUP TG : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_oragroup_sa_-_2025.pdf",
+  "ticker": "ORGT"
+ },
+ {
+  "date": "2026-05-05",
   "titre": "TotalEnergies Marketing CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260505_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_totalenergies_marketing_ci.pdf",
   "ticker": "TTLC"
+ },
+ {
+  "date": "2026-05-01",
+  "titre": "SETAO CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_setao_ci.pdf",
+  "ticker": "STAC"
  },
  {
   "date": "2026-05-01",
@@ -592,15 +592,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_servair_abidjan_ci.pdf",
   "ticker": "ABJC"
- },
- {
-  "date": "2026-05-01",
-  "titre": "SETAO CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_setao_ci.pdf",
-  "ticker": "STAC"
  },
  {
   "date": "2026-05-01",
@@ -901,6 +892,24 @@
  },
  {
   "date": "2025-12-30",
+  "titre": "ONATEL BURKINA FASO : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_onatel_bf.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "SERVAIR ABIDJAN CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_servair_abidjan_ci.pdf",
+  "ticker": "ABJC"
+ },
+ {
+  "date": "2025-12-30",
   "titre": "SUCRIVOIRE CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -925,24 +934,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_sn.pdf",
   "ticker": null
- },
- {
-  "date": "2025-12-30",
-  "titre": "ONATEL BURKINA FASO : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_onatel_bf.pdf",
-  "ticker": null
- },
- {
-  "date": "2025-12-30",
-  "titre": "SERVAIR ABIDJAN CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_servair_abidjan_ci.pdf",
-  "ticker": "ABJC"
  },
  {
   "date": "2025-12-23",
@@ -1234,21 +1225,21 @@
  },
  {
   "date": "2025-07-23",
-  "titre": "BOA BENIN : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_benin.pdf",
-  "ticker": "BOAB"
- },
- {
-  "date": "2025-07-23",
   "titre": "BOA MALI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_mali.pdf",
   "ticker": "BOAM"
+ },
+ {
+  "date": "2025-07-23",
+  "titre": "BOA BENIN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_benin.pdf",
+  "ticker": "BOAB"
  },
  {
   "date": "2025-07-10",
@@ -1459,24 +1450,6 @@
  },
  {
   "date": "2025-03-19",
-  "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_benin.pdf",
-  "ticker": "BOAB"
- },
- {
-  "date": "2025-03-19",
-  "titre": "BOA MALI : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_mali.pdf",
-  "ticker": "BOAM"
- },
- {
-  "date": "2025-03-19",
   "titre": "BOA NIGER : Projet de résolutions - Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "assemblee",
@@ -1492,6 +1465,24 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_senegal.pdf",
   "ticker": "BOAS"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_benin.pdf",
+  "ticker": "BOAB"
+ },
+ {
+  "date": "2025-03-19",
+  "titre": "BOA MALI : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_mali.pdf",
+  "ticker": "BOAM"
  },
  {
   "date": "2025-03-18",
@@ -1981,20 +1972,20 @@
  },
  {
   "date": "2021-12-07",
-  "titre": "ETI TOGO : Communiqué - Départ important au sein de la Direction",
-  "rubrique": "dirigeant",
-  "type": "autre",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_depart_important_au_sein_de_la_direction_-_eti_tg.pdf",
-  "ticker": null
- },
- {
-  "date": "2021-12-07",
   "titre": "ETI TOG0 : Communiqué - Nomination au sein de la Direction",
   "rubrique": "dirigeant",
   "type": "dirigeant",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_nomination_au_sein_de_la_sein_de_la_direction_-_eti_tg_0.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2021-12-07",
+  "titre": "ETI TOGO : Communiqué - Départ important au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_depart_important_au_sein_de_la_direction_-_eti_tg.pdf",
   "ticker": null
  },
  {

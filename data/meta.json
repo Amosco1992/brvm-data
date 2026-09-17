@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-16T20:32:13+00:00",
+ "genere_le": "2026-09-17T20:39:04+00:00",
  "sources": {
   "miroir-github": {
    "tickers_attendus": 47,
@@ -86,8 +86,8 @@
    "etat": "degrade"
   },
   "annonces": {
-   "total": 255,
-   "rattachees": 190,
+   "total": 254,
+   "rattachees": 189,
    "rubriques_en_echec": [
     "permanente"
    ],
@@ -100,14 +100,14 @@
   },
   "calendrier": {
    "seances_retenues": 90,
-   "de": "2026-05-05",
-   "a": "2026-09-14"
+   "de": "2026-05-08",
+   "a": "2026-09-17"
   }
  },
  "divergences": [],
  "perimes": [],
  "devise": "XOF",
  "parite_eur_fixe": 655.957,
- "date_seance": "2026-09-14",
+ "date_seance": "2026-09-17",
  "avertissement": "Données de marché à titre informatif. Ne constitue pas un conseil en investissement."
 }
