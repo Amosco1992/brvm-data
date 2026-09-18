@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-17T20:39:04+00:00",
+ "genere_le": "2026-09-18T01:30:03+00:00",
  "sources": {
   "miroir-github": {
    "tickers_attendus": 47,
@@ -87,15 +87,17 @@
   },
   "annonces": {
    "total": 254,
-   "rattachees": 189,
+   "rattachees": 188,
    "rubriques_en_echec": [
     "permanente"
    ],
    "etat": "ok"
   },
   "etats_financiers": {
-   "titres_extraits": 11,
-   "documents_scannes": 6,
+   "titres_extraits": 14,
+   "titres_pluriannuels": 3,
+   "pdf_telecharges": 66,
+   "documents_scannes": 52,
    "etat": "degrade"
   },
   "calendrier": {

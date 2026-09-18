@@ -9,7 +9,7 @@
   "cours": 4050.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3824,
   "premiere_seance": "2000-03-31",
@@ -150,7 +150,7 @@
   "cours": 31250.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4037,
   "premiere_seance": "1998-09-16",
@@ -313,8 +313,8 @@
   ],
   "etats": {
    "etat": "ok",
+   "exercice": 2025,
    "url": "https://www.brvm.org/sites/default/files/20260417_-_etats_financiers_-_exercice_2025_-_bici_ci.pdf",
-   "publie_le": "2026-04-17",
    "postes": {
     "total_bilan": {
      "valeur": null,
@@ -332,7 +332,11 @@
      "raison": "unite_non_declaree"
     }
    },
-   "ratios": {}
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  },
  {
@@ -345,7 +349,7 @@
   "cours": 2060.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3448,
   "premiere_seance": "1998-09-18",
@@ -446,8 +450,8 @@
   ],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20260430_-_etats_financiers_-_exercice_2025_-_bernabe_ci.pdf",
-   "publie_le": "2026-04-30",
+   "exercice": 2025,
+   "url": "https://www.brvm.org/sites/default/files/20260417_-_etats_financiers_-_exercice_2025_-_bici_ci.pdf",
    "postes": {
     "total_bilan": {
      "valeur": null,
@@ -463,9 +467,39 @@
      "valeur": null,
      "confiance": "aucune",
      "raison": "unite_non_declaree"
+    },
+    "dettes_financieres": {
+     "valeur": null,
+     "confiance": "aucune",
+     "raison": "unite_non_declaree"
     }
    },
-   "ratios": {}
+   "ratios": {},
+   "serie": {
+    "exercices": 4,
+    "suffisant": true,
+    "de": 2020,
+    "a": 2023,
+    "croissance_ca_pct": null,
+    "croissance_resultat_pct": -96.2,
+    "croissance_capitaux_propres_pct": 4.7,
+    "marges": {
+     "2020": 1693.4
+    },
+    "marge_derniere": null,
+    "marge_tendance": null,
+    "roes": {
+     "2020": 4325.8,
+     "2021": 9396242.2,
+     "2022": 9.6,
+     "2023": 0.2
+    },
+    "roe_dernier": 0.2,
+    "exercices_deficitaires": 0,
+    "exercices_en_recul": 2,
+    "conversion_tresorerie_pct": null,
+    "dette_sur_fonds_propres_pct": 4
+   }
   }
  },
  {
@@ -478,7 +512,7 @@
   "cours": 12000.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3529,
   "premiere_seance": "2010-04-12",
@@ -635,8 +669,8 @@
   ],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20250402_-_etats_financiers_-_exercice_2024_-_boa_ci.pdf",
-   "publie_le": "2025-04-02",
+   "exercice": 2024,
+   "url": "https://www.brvm.org/sites/default/files/20250430_-_etats_financiers_-_exercice_2024_-_bernabe_ci.pdf",
    "postes": {
     "total_bilan": {
      "valeur": null,
@@ -644,7 +678,11 @@
      "raison": "unite_non_declaree"
     }
    },
-   "ratios": {}
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  },
  {
@@ -657,7 +695,7 @@
   "cours": 3430.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3489,
   "premiere_seance": "1998-09-16",
@@ -815,7 +853,7 @@
   "cours": 1650.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3284,
   "premiere_seance": "1998-09-18",
@@ -965,36 +1003,13 @@
   ],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20250617_-_etats_financiers_-_exercices_2018_a_2023_-_tractafric_motors_ci_annule_et_remplace_le_precedent.pdf",
-   "publie_le": "2025-06-17",
-   "postes": {
-    "total_bilan": {
-     "valeur": null,
-     "confiance": "aucune",
-     "raison": "unite_non_declaree"
-    },
-    "resultat_net": {
-     "valeur": 2044698226000.0,
-     "devise": "XOF",
-     "confiance": "moyenne",
-     "candidats": 2,
-     "source_ligne": "Résultat net de l’exercice 2 044 698 226 3 562 810 724 2 952 005 323 1 723 627 405 1 804 027 065 2 048 422 689"
-    },
-    "capitaux_propres": {
-     "valeur": null,
-     "confiance": "aucune",
-     "raison": "unite_non_declaree"
-    },
-    "produit_exploitation": {
-     "valeur": 77672808000.0,
-     "devise": "XOF",
-     "confiance": "moyenne",
-     "candidats": 1,
-     "source_ligne": "Chiffre d’affaires 77 672 808 69 917 211 64 920 168 50 980 929 54 627 456 51 350 962"
-    }
-   },
-   "ratios": {
-    "marge_nette_pct": 2632.5
+   "exercice": 2024,
+   "url": "https://www.brvm.org/sites/default/files/20250430_-_etats_financiers_-_exercice_2024_-_bernabe_ci.pdf",
+   "postes": {},
+   "ratios": {},
+   "serie": {
+    "exercices": 1,
+    "suffisant": false
    }
   }
  },
@@ -1008,7 +1023,7 @@
   "cours": 6500.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 5440,
   "premiere_seance": "1998-09-16",
@@ -1167,8 +1182,8 @@
   ],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20260520_-_etats_financiers_syscohada_et_ifrs_-_exercice_2025_-_cie_ci.pdf",
-   "publie_le": "2026-05-20",
+   "exercice": 2025,
+   "url": "https://www.brvm.org/sites/default/files/20260417_-_etats_financiers_-_exercice_2025_-_bici_ci.pdf",
    "postes": {
     "total_bilan": {
      "valeur": 2018446000000.0,
@@ -1197,9 +1212,49 @@
      "confiance": "elevee",
      "candidats": 1,
      "source_ligne": "Capitaux propres - part Groupe 42 815 39 848"
+    },
+    "dettes_financieres": {
+     "valeur": 157959000000.0,
+     "devise": "XOF",
+     "confiance": "elevee",
+     "candidats": 1,
+     "source_ligne": "Emprunts et Dettes financières courantes 157 959 147 195"
+    },
+    "tresorerie": {
+     "valeur": 190158000000.0,
+     "devise": "XOF",
+     "confiance": "moyenne",
+     "candidats": 1,
+     "source_ligne": "Trésorerie et équivalents de trésorerie 190 158 175 992 Autres passifs courants 31 687 20 276"
     }
    },
-   "ratios": {}
+   "ratios": {},
+   "serie": {
+    "exercices": 3,
+    "suffisant": true,
+    "de": 2023,
+    "a": 2025,
+    "croissance_ca_pct": 8.4,
+    "croissance_resultat_pct": 6.8,
+    "croissance_capitaux_propres_pct": 3.4,
+    "marges": {
+     "2023": 4.5,
+     "2024": 4.0,
+     "2025": 4.3
+    },
+    "marge_derniere": 4.3,
+    "marge_tendance": -0.2,
+    "roes": {
+     "2023": 28.7,
+     "2024": 26.5,
+     "2025": 30.7
+    },
+    "roe_dernier": 30.7,
+    "exercices_deficitaires": 0,
+    "exercices_en_recul": 1,
+    "conversion_tresorerie_pct": null,
+    "dette_sur_fonds_propres_pct": 369
+   }
   }
  },
  {
@@ -1212,7 +1267,7 @@
   "cours": 17100.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2177,
   "premiere_seance": "2017-12-12",
@@ -1337,8 +1392,8 @@
   ],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20240328_-_resultats_financiers_-_exercice_2023_-_ecobank_ci.pdf",
-   "publie_le": "2024-03-28",
+   "exercice": 2023,
+   "url": "https://www.brvm.org/sites/default/files/20240502_-_etats_financiers_-_exercice_2023_-_bici_ci.pdf",
    "postes": {
     "produit_exploitation": {
      "valeur": 110189000000.0,
@@ -1364,6 +1419,28 @@
    },
    "ratios": {
     "marge_nette_pct": 43.6
+   },
+   "serie": {
+    "exercices": 3,
+    "suffisant": true,
+    "de": 2020,
+    "a": 2023,
+    "croissance_ca_pct": 8.4,
+    "croissance_resultat_pct": 17.0,
+    "croissance_capitaux_propres_pct": null,
+    "marges": {
+     "2020": 34.7,
+     "2021": 37.9,
+     "2023": 43.6
+    },
+    "marge_derniere": 43.6,
+    "marge_tendance": 8.9,
+    "roes": {},
+    "roe_dernier": null,
+    "exercices_deficitaires": 0,
+    "exercices_en_recul": 0,
+    "conversion_tresorerie_pct": null,
+    "dette_sur_fonds_propres_pct": null
    }
   }
  },
@@ -1377,7 +1454,7 @@
   "cours": 2095.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 5001,
   "premiere_seance": "1998-09-16",
@@ -1536,8 +1613,8 @@
   ],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20260610_-_etats_financiers_-_exercice_2025_-_filtisac_ci.pdf",
-   "publie_le": "2026-06-10",
+   "exercice": 2025,
+   "url": "https://www.brvm.org/sites/default/files/20260417_-_etats_financiers_-_exercice_2025_-_bici_ci.pdf",
    "postes": {
     "produit_exploitation": {
      "valeur": null,
@@ -1555,7 +1632,11 @@
      "raison": "unite_non_declaree"
     }
    },
-   "ratios": {}
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  },
  {
@@ -1568,7 +1649,7 @@
   "cours": 2550.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2291,
   "premiere_seance": "2000-04-14",
@@ -1659,7 +1740,7 @@
   "cours": 24505.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2150,
   "premiere_seance": "2017-10-24",
@@ -1857,7 +1938,7 @@
   "cours": 16355.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3839,
   "premiere_seance": "1998-09-18",
@@ -1982,7 +2063,7 @@
   "cours": 22200.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 922,
   "premiere_seance": "2022-12-30",
@@ -2067,7 +2148,7 @@
   "cours": 8500.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4775,
   "premiere_seance": "1999-10-18",
@@ -2245,7 +2326,7 @@
   "cours": 4480.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2445,
   "premiere_seance": "1998-09-23",
@@ -2397,7 +2478,7 @@
   "cours": 4835.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 1800,
   "premiere_seance": "1998-09-23",
@@ -2476,7 +2557,7 @@
   "cours": 3085.0,
   "date_cours": "2026-09-15",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 2,
+  "seances_ecoulees": 3,
   "perime": false,
   "profondeur_historique": 2381,
   "premiere_seance": "2016-12-29",
@@ -2582,7 +2663,7 @@
   "cours": 13495.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4288,
   "premiere_seance": "1998-09-16",
@@ -2753,7 +2834,7 @@
   "cours": 2990.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3763,
   "premiere_seance": "2007-02-28",
@@ -2857,7 +2938,7 @@
   "cours": 1495.0,
   "date_cours": "2026-09-15",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 2,
+  "seances_ecoulees": 3,
   "perime": false,
   "profondeur_historique": 2213,
   "premiere_seance": "1998-09-18",
@@ -2905,10 +2986,14 @@
   "annonces": [],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20241216_-_etats_financiers_de_synthese_-exercice_2023_-_eviosys_packaging_siem_ci.pdf",
-   "publie_le": "2024-12-16",
+   "exercice": 2023,
+   "url": "https://www.brvm.org/sites/default/files/20240502_-_etats_financiers_-_exercice_2023_-_bici_ci.pdf",
    "postes": {},
-   "ratios": {}
+   "ratios": {},
+   "serie": {
+    "exercices": 1,
+    "suffisant": false
+   }
   }
  },
  {
@@ -2921,7 +3006,7 @@
   "cours": 38000.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4816,
   "premiere_seance": "1998-09-18",
@@ -3079,7 +3164,7 @@
   "cours": 2980.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4939,
   "premiere_seance": "1998-09-16",
@@ -3241,7 +3326,7 @@
   "cours": 9100.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2460,
   "premiere_seance": "2016-10-27",
@@ -3357,7 +3442,7 @@
   "cours": 8400.0,
   "date_cours": "2026-09-15",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 2,
+  "seances_ecoulees": 3,
   "perime": false,
   "profondeur_historique": 1797,
   "premiere_seance": "1998-09-16",
@@ -3400,7 +3485,7 @@
   "cours": 2215.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4453,
   "premiere_seance": "1999-04-19",
@@ -3488,10 +3573,14 @@
   ],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20260626_-_etats_financiers_-_exercice_2025_-_erium_ci.pdf",
-   "publie_le": "2026-06-26",
+   "exercice": 2025,
+   "url": "https://www.brvm.org/sites/default/files/20260417_-_etats_financiers_-_exercice_2025_-_bici_ci.pdf",
    "postes": {},
-   "ratios": {}
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  },
  {
@@ -3504,7 +3593,7 @@
   "cours": 38000.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2755,
   "premiere_seance": "1998-09-23",
@@ -3593,29 +3682,20 @@
   "annonces": [
    {
     "date": "2026-05-20",
-    "titre": "SOLIBRA CI : Avis de convocation - Assemblée Générale Ordinaire",
-    "rubrique": "assemblee",
-    "type": "assemblee",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260519_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-    "ticker": "SLBC"
-   },
-   {
-    "date": "2026-05-20",
-    "titre": "SOLIBRA CI : Pouvoir - Assemblée Générale Ordinaire",
-    "rubrique": "assemblee",
-    "type": "assemblee",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-    "ticker": "SLBC"
-   },
-   {
-    "date": "2026-05-20",
     "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
     "rubrique": "assemblee",
     "type": "assemblee",
     "important": false,
     "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+    "ticker": "SLBC"
+   },
+   {
+    "date": "2026-05-20",
+    "titre": "SOLIBRA CI : Avis de convocation - Assemblée Générale Ordinaire",
+    "rubrique": "assemblee",
+    "type": "assemblee",
+    "important": false,
+    "url": "https://www.brvm.org/sites/default/files/20260519_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
     "ticker": "SLBC"
    },
    {
@@ -3639,7 +3719,7 @@
   "cours": 17000.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3714,
   "premiere_seance": "1998-09-18",
@@ -3662,7 +3742,7 @@
    "dernier_exercice": 2025,
    "dernier_montant_net": 800.0,
    "derniere_date_paiement": "2026-09-18",
-   "prochaine_date_ex": "2026-09-17",
+   "prochaine_date_ex": null,
    "exercices_payes_10a": 8,
    "exercices_consecutifs": 6,
    "baisses": [
@@ -3789,7 +3869,7 @@
   "cours": 8000.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4874,
   "premiere_seance": "1998-09-16",
@@ -3936,7 +4016,7 @@
   "cours": 8050.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 5229,
   "premiere_seance": "1998-09-18",
@@ -4071,7 +4151,7 @@
   "cours": 2435.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2224,
   "premiere_seance": "1998-10-07",
@@ -4147,7 +4227,7 @@
   "cours": 21970.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4148,
   "premiere_seance": "1998-09-21",
@@ -4309,7 +4389,7 @@
   "cours": 3270.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4248,
   "premiere_seance": "1998-09-16",
@@ -4467,7 +4547,7 @@
   "cours": 52700.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2786,
   "premiere_seance": "2001-06-20",
@@ -4510,7 +4590,7 @@
   "cours": 2320.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3577,
   "premiere_seance": "1998-09-18",
@@ -4637,7 +4717,7 @@
   "cours": 8190.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2907,
   "premiere_seance": "2014-12-10",
@@ -4786,9 +4866,8 @@
    }
   ],
   "etats": {
-   "etat": "scanne",
-   "url": "https://www.brvm.org/sites/default/files/20260422_-_etats_financiers_-_1er_trimestre_2026_-_boa_sn.pdf",
-   "publie_le": "2026-04-22"
+   "etat": "aucun_exploitable",
+   "documents": 8
   }
  },
  {
@@ -4801,7 +4880,7 @@
   "cours": 39250.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 6510,
   "premiere_seance": "1998-10-02",
@@ -4922,7 +5001,11 @@
     "url": "https://www.brvm.org/sites/default/files/20211201_-_changement_important_dans_la_direction-sonatel_sn.pdf",
     "ticker": "SNTS"
    }
-  ]
+  ],
+  "etats": {
+   "etat": "aucun_exploitable",
+   "documents": 0
+  }
  },
  {
   "ticker": "TTLS",
@@ -4934,7 +5017,7 @@
   "cours": 3800.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2839,
   "premiere_seance": "2015-02-20",
@@ -5004,7 +5087,7 @@
   "cours": 8000.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3436,
   "premiere_seance": "2011-01-03",
@@ -5148,9 +5231,8 @@
    }
   ],
   "etats": {
-   "etat": "scanne",
-   "url": "https://www.brvm.org/sites/default/files/20260805_-_etats_financiers_-_1er_semestre_2026_-_boa_bf.pdf",
-   "publie_le": "2026-08-05"
+   "etat": "aucun_exploitable",
+   "documents": 8
   }
  },
  {
@@ -5163,7 +5245,7 @@
   "cours": 33500.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2302,
   "premiere_seance": "2016-12-23",
@@ -5279,9 +5361,28 @@
    }
   ],
   "etats": {
-   "etat": "scanne",
-   "url": "https://www.brvm.org/sites/default/files/20260707_-_etats_financiers_-_exercice_2025_-_coris_bank_international_bf.pdf",
-   "publie_le": "2026-07-07"
+   "etat": "ok",
+   "exercice": 2022,
+   "url": "https://www.brvm.org/sites/default/files/bilan_et_compte_de_resultat_bicici_31_12_2022_.pdf",
+   "postes": {
+    "total_bilan": {
+     "valeur": null,
+     "confiance": "aucune",
+     "raison": "unite_non_declaree"
+    },
+    "capitaux_propres": {
+     "valeur": 189815000000.0,
+     "devise": "XOF",
+     "confiance": "elevee",
+     "candidats": 1,
+     "source_ligne": "CAPITAUX PROPRES ET RESSOURCES ASSIMILEES 189 815 228 513"
+    }
+   },
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  },
  {
@@ -5294,7 +5395,7 @@
   "cours": 2890.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 3903,
   "premiere_seance": "2009-04-30",
@@ -5485,7 +5586,7 @@
   "cours": 6900.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 2547,
   "premiere_seance": "2016-05-31",
@@ -5622,9 +5723,8 @@
    }
   ],
   "etats": {
-   "etat": "scanne",
-   "url": "https://www.brvm.org/sites/default/files/20260324_-_etats_financiers_-_exercice_2025_-_boa_ml.pdf",
-   "publie_le": "2026-03-24"
+   "etat": "aucun_exploitable",
+   "documents": 8
   }
  },
  {
@@ -5637,7 +5737,7 @@
   "cours": 70.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4852,
   "premiere_seance": "2006-09-11",
@@ -5734,7 +5834,7 @@
   "cours": 3295.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 1683,
   "premiere_seance": "2019-04-16",
@@ -5837,7 +5937,7 @@
   "cours": 10435.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 346,
   "premiere_seance": "2025-04-28",
@@ -5885,10 +5985,25 @@
   "annonces": [],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20250627_-_etats_financiers_-_exercice_2024_-_bidc.pdf",
-   "publie_le": "2025-06-27",
-   "postes": {},
-   "ratios": {}
+   "exercice": 2024,
+   "url": "https://www.brvm.org/sites/default/files/20250430_-_etats_financiers_-_exercice_2024_-_bernabe_ci.pdf",
+   "postes": {
+    "total_bilan": {
+     "valeur": null,
+     "confiance": "aucune",
+     "raison": "unite_non_declaree"
+    },
+    "tresorerie": {
+     "valeur": null,
+     "confiance": "aucune",
+     "raison": "unite_non_declaree"
+    }
+   },
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  },
  {
@@ -5901,7 +6016,7 @@
   "cours": 4095.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 437,
   "premiere_seance": "2024-12-13",
@@ -5974,8 +6089,8 @@
   ],
   "etats": {
    "etat": "ok",
-   "url": "https://www.brvm.org/sites/default/files/20260430_-_etats_financiers_-_exercice_2025_-_lnb_bn.pdf",
-   "publie_le": "2026-04-30",
+   "exercice": 2025,
+   "url": "https://www.brvm.org/sites/default/files/20260417_-_etats_financiers_-_exercice_2025_-_bici_ci.pdf",
    "postes": {
     "resultat_net": {
      "valeur": null,
@@ -5983,7 +6098,11 @@
      "raison": "unite_non_declaree"
     }
    },
-   "ratios": {}
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  },
  {
@@ -5996,7 +6115,7 @@
   "cours": 10100.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 5438,
   "premiere_seance": "2000-11-17",
@@ -6151,9 +6270,15 @@
    }
   ],
   "etats": {
-   "etat": "scanne",
-   "url": "https://www.brvm.org/sites/default/files/20260415_-_etats_financiers_-_exercice_2025_-_boa_bn.pdf",
-   "publie_le": "2026-04-15"
+   "etat": "ok",
+   "exercice": 2023,
+   "url": "https://www.brvm.org/sites/default/files/20240502_-_etats_financiers_-_exercice_2023_-_bici_ci.pdf",
+   "postes": {},
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  },
  {
@@ -6166,7 +6291,7 @@
   "cours": 5350.0,
   "date_cours": "2026-09-17",
   "source_cours": "miroir-github",
-  "seances_ecoulees": 0,
+  "seances_ecoulees": 1,
   "perime": false,
   "profondeur_historique": 4133,
   "premiere_seance": "2003-12-30",
@@ -6358,9 +6483,15 @@
    }
   ],
   "etats": {
-   "etat": "scanne",
-   "url": "https://www.brvm.org/sites/default/files/20260401_-_rapport_des_commissaires_aux_comptes_sur_les_etats_financiers_annuels_-_exercice_2025_-_boa_ng.pdf",
-   "publie_le": "2026-04-01"
+   "etat": "ok",
+   "exercice": 2014,
+   "url": "https://www.brvm.org/sites/default/files/20150327_-_efp_-_bank_of_africa_ng_-_exercice_2014.pdf",
+   "postes": {},
+   "ratios": {},
+   "serie": {
+    "exercices": 0,
+    "suffisant": false
+   }
   }
  }
 ]
