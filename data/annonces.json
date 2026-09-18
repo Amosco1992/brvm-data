@@ -1,5 +1,23 @@
 [
  {
+  "date": "2026-09-18",
+  "titre": "UNIWAX CI : Communiqué - Déclarations de franchissement de seuil",
+  "rubrique": "communique",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260918_-_communique_-_declarations_de_franchissement_de_seuil_-_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2026-09-18",
+  "titre": "SONATEL SN : Avis de convocation - Assemblée Générale Extraordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260917_-_avis_de_convocation_-_assemblee_generale_extraordinaire_-_sonatel_sn.pdf",
+  "ticker": "SNTS"
+ },
+ {
   "date": "2026-09-14",
   "titre": "FCTC EPT 2025-2040 : Notation financière",
   "rubrique": "notation",
@@ -16,15 +34,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260901_-_notation_financiere_-_fctc_zaka_rmbs_nsia_banque_cote_divoire_2025-2044.pdf",
   "ticker": "NSBC"
- },
- {
-  "date": "2026-08-26",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
  },
  {
   "date": "2026-08-26",
@@ -45,13 +54,13 @@
   "ticker": "CBIBF"
  },
  {
-  "date": "2026-08-18",
-  "titre": "BOA BN : Notation Financière",
+  "date": "2026-08-26",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_bn.pdf",
-  "ticker": "BOAB"
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2026-08-18",
@@ -61,6 +70,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_ml.pdf",
   "ticker": "BOAM"
+ },
+ {
+  "date": "2026-08-18",
+  "titre": "BOA BN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_bn.pdf",
+  "ticker": "BOAB"
  },
  {
   "date": "2026-08-17",
@@ -334,6 +352,15 @@
  },
  {
   "date": "2026-06-13",
+  "titre": "BIIC BN : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260612_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_biic_bn.pdf",
+  "ticker": "BICB"
+ },
+ {
+  "date": "2026-06-13",
   "titre": "LNB BN : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -487,20 +514,29 @@
  },
  {
   "date": "2026-05-20",
-  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-  "ticker": "SLBC"
- },
- {
-  "date": "2026-05-20",
   "titre": "SOLIBRA CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260519_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Pouvoir - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
   "ticker": "SLBC"
  },
  {
@@ -693,15 +729,6 @@
   "ticker": "SAFC"
  },
  {
-  "date": "2026-04-10",
-  "titre": "ECOBANK CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260410_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_ecobank_ci.pdf",
-  "ticker": "ECOC"
- },
- {
   "date": "2026-04-09",
   "titre": "ONATEL BURKINA FASO : Communiqué de presse",
   "rubrique": "communique",
@@ -865,21 +892,21 @@
  },
  {
   "date": "2026-01-08",
-  "titre": "SIB CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_sib_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-01-08",
   "titre": "CIE CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_cie_ci.pdf",
   "ticker": "CIEC"
+ },
+ {
+  "date": "2026-01-08",
+  "titre": "SIB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_sib_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2025-12-31",
@@ -1575,15 +1602,6 @@
   "ticker": "BOAN"
  },
  {
-  "date": "2024-11-29",
-  "titre": "BICI CÔTE D&#039;IVOIRE : Communiqué - Augmentation de capital par incorporation de réserves",
-  "rubrique": "communique",
-  "type": "capital",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20241129_-_communique_-_augmentation_de_capital_par_incorporation_de_reserves_-_bici_ci.pdf",
-  "ticker": "BICC"
- },
- {
   "date": "2024-10-29",
   "titre": "TRACTAFRIC MOTORS CI : Communiqué - Changement important dans la Direction",
   "rubrique": "dirigeant",
@@ -2134,11 +2152,11 @@
  },
  {
   "date": "2012-01-04",
-  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (1)",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (2)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_1.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_2.pdf",
   "ticker": null
  },
  {

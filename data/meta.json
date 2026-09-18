@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-18T01:30:03+00:00",
+ "genere_le": "2026-09-18T20:04:58+00:00",
  "sources": {
   "miroir-github": {
    "tickers_attendus": 47,
@@ -86,8 +86,8 @@
    "etat": "degrade"
   },
   "annonces": {
-   "total": 254,
-   "rattachees": 188,
+   "total": 256,
+   "rattachees": 190,
    "rubriques_en_echec": [
     "permanente"
    ],
@@ -96,20 +96,20 @@
   "etats_financiers": {
    "titres_extraits": 14,
    "titres_pluriannuels": 3,
-   "pdf_telecharges": 66,
-   "documents_scannes": 52,
+   "pdf_telecharges": 0,
+   "documents_scannes": 0,
    "etat": "degrade"
   },
   "calendrier": {
    "seances_retenues": 90,
-   "de": "2026-05-08",
-   "a": "2026-09-17"
+   "de": "2026-05-11",
+   "a": "2026-09-18"
   }
  },
  "divergences": [],
  "perimes": [],
  "devise": "XOF",
  "parite_eur_fixe": 655.957,
- "date_seance": "2026-09-17",
+ "date_seance": "2026-09-18",
  "avertissement": "Données de marché à titre informatif. Ne constitue pas un conseil en investissement."
 }
