@@ -64,21 +64,21 @@
  },
  {
   "date": "2026-08-18",
-  "titre": "BOA ML : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_ml.pdf",
-  "ticker": "BOAM"
- },
- {
-  "date": "2026-08-18",
   "titre": "BOA BN : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_bn.pdf",
   "ticker": "BOAB"
+ },
+ {
+  "date": "2026-08-18",
+  "titre": "BOA ML : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_ml.pdf",
+  "ticker": "BOAM"
  },
  {
   "date": "2026-08-17",
@@ -388,15 +388,6 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "NESTLE CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_nestle_ci.pdf",
-  "ticker": "NTLC"
- },
- {
-  "date": "2026-06-07",
   "titre": "CRRH-UEMOA : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -406,12 +397,12 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
-  "ticker": "SMBC"
+  "titre": "NESTLE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_nestle_ci.pdf",
+  "ticker": "NTLC"
  },
  {
   "date": "2026-06-07",
@@ -420,6 +411,15 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260605_-_pouvoir_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
   "ticker": "SMBC"
  },
  {
@@ -919,24 +919,6 @@
  },
  {
   "date": "2025-12-30",
-  "titre": "ONATEL BURKINA FASO : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_onatel_bf.pdf",
-  "ticker": null
- },
- {
-  "date": "2025-12-30",
-  "titre": "SERVAIR ABIDJAN CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_servair_abidjan_ci.pdf",
-  "ticker": "ABJC"
- },
- {
-  "date": "2025-12-30",
   "titre": "SUCRIVOIRE CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -961,6 +943,24 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_sn.pdf",
   "ticker": null
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "ONATEL BURKINA FASO : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_onatel_bf.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "SERVAIR ABIDJAN CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_servair_abidjan_ci.pdf",
+  "ticker": "ABJC"
  },
  {
   "date": "2025-12-23",
@@ -2152,11 +2152,11 @@
  },
  {
   "date": "2012-01-04",
-  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (2)",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (1)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_2.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_1.pdf",
   "ticker": null
  },
  {

@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-18T20:04:58+00:00",
+ "genere_le": "2026-09-21T21:41:46+00:00",
  "sources": {
-  "miroir-github": {
+  "cours": {
    "tickers_attendus": 47,
-   "tickers_obtenus": 47,
+   "tickers_a_jour": 47,
    "etat": "ok"
   },
   "sika": {
@@ -98,12 +98,20 @@
    "titres_pluriannuels": 3,
    "pdf_telecharges": 0,
    "documents_scannes": 0,
+   "budget_epuise": false,
+   "pdf_reportes": 0,
    "etat": "degrade"
   },
   "calendrier": {
    "seances_retenues": 90,
    "de": "2026-05-11",
    "a": "2026-09-18"
+  },
+  "sources_cours": {
+   "archive": 47,
+   "miroir": 0,
+   "sika": 0,
+   "brvm": 0
   }
  },
  "divergences": [],
