@@ -34,6 +34,7 @@ import random
 import re
 import math
 import statistics
+import time
 import unicodedata
 import uuid
 from datetime import date, datetime, timezone
@@ -1338,7 +1339,8 @@ DOSSIER = RACINE / "data"
 
 SEUIL_PERIME = 5          # séances sans mise à jour avant de marquer périmé
 SEUIL_DIVERGENCE = 0.01   # 1 % d'écart entre sources -> on signale
-SEANCES_PUBLIEES = 1300   # ~5 ans : ce dont l'application a besoin
+SEANCES_PUBLIEES = 1300
+BUDGET_PDF_SECONDES = 9 * 60   # marge sous le délai du workflow   # ~5 ans : ce dont l'application a besoin
 
 
 def _maintenant() -> str:
@@ -1388,16 +1390,23 @@ def indicateurs(lignes: list[dict], calendrier: list[str]) -> dict:
     fenetre = [l for l in lignes if l["date"] in jours]
     cloture = [l["cloture"] for l in lignes if l["date"] >= debut] or \
               [lignes[-1]["cloture"]]
-    volumes = [l["volume"] for l in fenetre]
-    valeurs = [l["cloture"] * l["volume"] for l in fenetre if l["volume"] > 0]
+    # Le bandeau officiel donne un cours pour chaque titre, échangé ou non, et
+    # jamais de volume. Une ligne sans volume prouve qu'un prix existait, pas
+    # qu'une transaction a eu lieu : seules les séances à volume connu et
+    # positif comptent comme échangées.
+    connues = [l for l in fenetre if l.get("volume") is not None]
+    echangees = [l for l in connues if l["volume"] > 0]
+    volumes = [l["volume"] for l in connues]
+    valeurs = [l["cloture"] * l["volume"] for l in echangees]
 
     an = lignes[-260:]
     cloture_an = [l["cloture"] for l in an]
 
     return {
         "seances_marche": len(calendrier),
-        "seances_echangees": len(fenetre),
-        "part_seances_echangees": round(len(fenetre) / len(calendrier), 3),
+        "seances_echangees": len(echangees),
+        "seances_sans_volume": len(fenetre) - len(connues),
+        "part_seances_echangees": round(len(echangees) / len(calendrier), 3),
         "volume_median": int(statistics.median(volumes)) if volumes else 0,
         "valeur_mediane_par_seance": int(statistics.median(valeurs)) if valeurs else 0,
         "ordre_confortable": int(
@@ -1438,6 +1447,84 @@ def tranche_liquidite(ind: dict) -> str:
     return "illiquide"
 
 
+def charger_archive(ticker: str) -> list[dict]:
+    """L'historique déjà constitué par les collectes précédentes.
+
+    C'est désormais l'épine dorsale : le miroir GitHub dont on dépendait a
+    disparu en septembre 2026, et il n'y a aucune raison de redépendre d'un
+    tiers pour le passé. Chaque collecte n'a plus qu'à ajouter les séances
+    nouvelles à ce que le dépôt contient déjà.
+    """
+    f = DOSSIER / "history" / f"{ticker}.json"
+    if not f.exists():
+        return []
+    try:
+        return json.loads(f.read_text(encoding="utf-8")).get("seances", [])
+    except (ValueError, OSError):
+        return []
+
+
+def fusionner_series(*series: list[dict]) -> list[dict]:
+    """Fusionne plusieurs séries par date. Les sources passées en dernier
+    l'emportent à date égale — on les ordonne donc de la moins à la plus fiable."""
+    par_date: dict[str, dict] = {}
+    for serie in series:
+        for l in serie or []:
+            if not l.get("date") or not l.get("cloture"):
+                continue
+            base = par_date.get(l["date"], {})
+            base.update({k: v for k, v in l.items() if v is not None})
+            par_date[l["date"]] = base
+    return sorted(par_date.values(), key=lambda x: x["date"])
+
+
+def cotes_du_jour_datees(session) -> dict[str, dict]:
+    """Clôtures du jour lues sur brvm.org, datées de la séance.
+
+    Le bandeau ne porte pas de date : on retient la date du jour, et seulement
+    en semaine. La collecte tourne après la clôture, c'est donc la séance qui
+    vient de se terminer. Un jour férié peut produire une ligne dupliquée au
+    cours inchangé : c'est sans conséquence sur les indicateurs.
+    """
+    if date.today().weekday() >= 5:
+        return {}
+    try:
+        cote = cote_du_jour(TICKERS, session=session)
+    except Exception:                                       # noqa: BLE001
+        return {}
+    jour = date.today().isoformat()
+    return {t: {"date": jour, "cloture": v["cloture"], "volume": None,
+                "source": "brvm.org"} for t, v in cote.items() if v.get("cloture")}
+
+
+def acquerir_historiques(session) -> tuple[dict[str, list], dict]:
+    """Archive locale, enrichie des sources disponibles ce jour-là.
+
+    Aucune source n'est indispensable. Si toutes échouent, on conserve
+    l'archive telle quelle : les cours vieillissent et le signalent, mais la
+    collecte ne plante plus.
+    """
+    etat = {"archive": 0, "miroir": 0, "sika": 0, "brvm": 0}
+    cote = cotes_du_jour_datees(session)
+    etat["brvm"] = len(cote)
+    out = {}
+    for t in TICKERS:
+        archive = charger_archive(t)
+        etat["archive"] += bool(archive)
+        miroir = historique_miroir(t, session=session)
+        etat["miroir"] += bool(miroir)
+        sika = []
+        try:
+            sika = historique_sika(PAR_TICKER[t]["symbole_sika"], jours=15, session=session)
+        except Exception:                                   # noqa: BLE001
+            sika = []
+        etat["sika"] += bool(sika)
+        # de la moins sûre à la plus sûre : la cote officielle l'emporte
+        out[t] = fusionner_series(archive, miroir, sika,
+                                  [cote[t]] if t in cote else [])
+    return out, etat
+
+
 def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
               avec_valorisation: bool = True, avec_annonces: bool = True,
               avec_etats: bool = True) -> tuple[list[dict], dict]:
@@ -1447,7 +1534,8 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
 
     # passe 1 : tout télécharger, puis établir le calendrier de marché
     global _HISTOIRES
-    histoires = _HISTOIRES = {t: historique_miroir(t, session=session) for t in TICKERS}
+    histoires, etat_sources = acquerir_historiques(session)
+    _HISTOIRES = histoires
     calendrier = calendrier_marche(histoires)
 
     # passe 2 : dériver les indicateurs sur ce calendrier commun
@@ -1464,7 +1552,7 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
             ref.update({
                 "cours": dernier["cloture"],
                 "date_cours": dernier["date"],
-                "source_cours": NOM_MIROIR,
+                "source_cours": dernier.get("source", "archive"),
                 "seances_ecoulees": ecoulees,
                 "perime": ecoulees > SEUIL_PERIME,
                 "profondeur_historique": len(lignes),
@@ -1512,9 +1600,13 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
 
         univers.append(ref)
 
-    journal["miroir-github"] = {
-        "tickers_attendus": len(TICKERS), "tickers_obtenus": ok_miroir,
-        "etat": "ok" if ok_miroir >= len(TICKERS) * 0.9 else "degrade",
+    frais = sum(1 for u in univers
+                if u.get("cours") and not u.get("perime"))
+    journal["cours"] = {
+        "tickers_attendus": len(TICKERS), "tickers_a_jour": frais,
+        # « degrade » plutôt qu'échec : des cours de la veille valent mieux
+        # qu'une collecte qui s'arrête et ne publie rien du tout.
+        "etat": "ok" if frais >= len(TICKERS) * 0.9 else "degrade",
     }
     if verifier_sika:
         controles = sum(1 for u in univers if "controle_sika" in u)
@@ -1592,6 +1684,13 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
         cache = json.loads(cache_f.read_text()) if cache_f.exists() else {}
         slugs = slugs_emetteurs(session)
         res_ok = scannes = telecharges = 0
+        # Budget de temps. La première collecte compte près de 400 PDF et
+        # dépasserait le délai du workflow. Plutôt que d'échouer, on cesse de
+        # télécharger au bout du budget : ce qui est fait est acquis, et la
+        # collecte suivante reprend là où celle-ci s'est arrêtée.
+        echeance = time.monotonic() + BUDGET_PDF_SECONDES
+        budget_epuise = False
+        restants = 0
         for u in univers:
             cible = next((v for k, v in slugs.items()
                           if ticker_de(k, "") == u["ticker"]), None)
@@ -1601,6 +1700,10 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
             for doc in docs:
                 if doc["url"] in cache:
                     e = cache[doc["url"]]
+                elif time.monotonic() > echeance:
+                    budget_epuise = True
+                    restants += 1
+                    continue
                 else:
                     texte, etat = texte_du_pdf(session, doc["url"])
                     if etat != "ok":
@@ -1615,6 +1718,9 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
                     cache[doc["url"]] = e
                 if e.get("etat") == "ok" and e.get("exercice"):
                     exercices[e["exercice"]] = e["postes"]
+            # Écrit après chaque société : si le workflow est coupé en route,
+            # le travail déjà fait n'est pas perdu.
+            cache_f.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
             if not exercices:
                 u["etats"] = {"etat": "aucun_exploitable",
                               "documents": len(docs)}
@@ -1639,13 +1745,16 @@ def collecter(verifier_sika: bool = True, avec_dividendes: bool = True,
         journal["etats_financiers"] = {
             "titres_extraits": res_ok, "titres_pluriannuels": pluri,
             "pdf_telecharges": telecharges, "documents_scannes": scannes,
+            "budget_epuise": budget_epuise, "pdf_reportes": restants,
             "etat": "ok" if res_ok >= 15 else "degrade",
         }
     else:
         journal["etats_financiers"] = {"etat": "ignore"}
 
     journal["calendrier"] = {"seances_retenues": len(calendrier),
-                            "de": calendrier[0], "a": calendrier[-1]}
+                            "de": calendrier[0] if calendrier else None,
+                            "a": calendrier[-1] if calendrier else None}
+    journal["sources_cours"] = etat_sources
 
     meta = {
         "genere_le": _maintenant(),
@@ -1843,14 +1952,18 @@ def main() -> int:
         print(f"états financiers : {ef['titres_extraits']} extraits, "
               f"{ef['titres_pluriannuels']} avec série pluriannuelle, "
               f"{ef['documents_scannes']} scannés (illisibles sans OCR)")
+        if ef.get("budget_epuise"):
+            print(f"  budget de temps atteint : {ef['pdf_reportes']} PDF reportés "
+                  f"à la prochaine collecte (normal lors des premiers passages)")
     print(f"périmés : {len(meta['perimes'])}  divergences : {len(meta['divergences'])}")
     for d in meta["divergences"][:10]:
         print(f"  {d['ticker']}: miroir {d['miroir']} / sika {d['sika']} "
               f"({d['ecart_pct']} %)")
     # collecte dégradée = échec visible dans l'Action, pas silence
-    return 0 if meta["sources"]["miroir-github"]["etat"] == "ok" else 1
+    # On n'échoue que si plus rien n'est publiable. Une source tierce qui
+    # disparaît ne doit plus jamais faire tomber toute la collecte.
+    return 0 if any(u.get("cours") for u in univers) else 1
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
