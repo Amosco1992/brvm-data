@@ -1,5 +1,23 @@
 [
  {
+  "date": "2026-09-22",
+  "titre": "SUCRIVOIRE CI : Communiqué",
+  "rubrique": "communique",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260921_-_communique_-_sucrivoire_ci.pdf",
+  "ticker": "SCRC"
+ },
+ {
+  "date": "2026-09-22",
+  "titre": "SAPH : Communiqué - Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260921_-_communique_-_changement_important_dans_la_direction_-_saph_ci.pdf",
+  "ticker": "SPHC"
+ },
+ {
   "date": "2026-09-18",
   "titre": "UNIWAX CI : Communiqué - Déclarations de franchissement de seuil",
   "rubrique": "communique",
@@ -244,20 +262,20 @@
  },
  {
   "date": "2026-06-29",
-  "titre": "LNB BN (Annule et remplace le précédent) : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260626_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_lnb_bn_annule_et_remplace_le_precedent.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-06-29",
   "titre": "ERIUM CI : Pouvoir - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260626_-_pouvoir_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-29",
+  "titre": "LNB BN (Annule et remplace le précédent) : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260626_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_lnb_bn_annule_et_remplace_le_precedent.pdf",
   "ticker": null
  },
  {
@@ -388,15 +406,6 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "CRRH-UEMOA : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-06-07",
   "titre": "NESTLE CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -406,12 +415,12 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "SMB CI : Pouvoir - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_pouvoir_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
-  "ticker": "SMBC"
+  "titre": "CRRH-UEMOA : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
+  "ticker": null
  },
  {
   "date": "2026-06-07",
@@ -420,6 +429,15 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
+  "ticker": "SMBC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "SMB CI : Pouvoir - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_pouvoir_-_assemblee_generale_ordinaire_-_smb_ci.pdf",
   "ticker": "SMBC"
  },
  {
@@ -1288,21 +1306,21 @@
  },
  {
   "date": "2025-07-07",
-  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
-  "rubrique": "dirigeant",
-  "type": "dirigeant",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_nsia_banque_ci.pdf",
-  "ticker": "NSBC"
- },
- {
-  "date": "2025-07-07",
   "titre": "CIE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
   "rubrique": "dirigeant",
   "type": "dirigeant",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_cie_ci.pdf",
   "ticker": null
+ },
+ {
+  "date": "2025-07-07",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
  },
  {
   "date": "2025-07-07",
@@ -1591,15 +1609,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20241227_-_communique_-_filtisac_ci.pdf",
   "ticker": "FTSC"
- },
- {
-  "date": "2024-12-17",
-  "titre": "BOA NIGER : Note d&#039;information sur la baisse de résultat",
-  "rubrique": "communique",
-  "type": "autre",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20241217_-_note_dinformation_sur_la_baisse_de_resultat_-_boa_niger.pdf",
-  "ticker": "BOAN"
  },
  {
   "date": "2024-10-29",
@@ -2052,15 +2061,6 @@
   "ticker": null
  },
  {
-  "date": "2021-04-08",
-  "titre": "ETI TOGO : Nomination au sein de la direction",
-  "rubrique": "dirigeant",
-  "type": "dirigeant",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20210408_-_nomination_au_sein_de_la_direction_-_eti_tg.pdf",
-  "ticker": null
- },
- {
   "date": "2018-04-19",
   "titre": "ONATEL BF : Franchissement de seuil par l’Etat du BURKINA FASO",
   "rubrique": "seuil",
@@ -2134,20 +2134,20 @@
  },
  {
   "date": "2012-03-02",
-  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
-  "ticker": "SHEC"
- },
- {
-  "date": "2012-03-02",
   "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2012-03-02",
+  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
   "ticker": "SHEC"
  },
  {
@@ -2179,24 +2179,6 @@
  },
  {
   "date": "2011-06-21",
-  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_1.pdf",
-  "ticker": "CIEC"
- },
- {
-  "date": "2011-06-21",
-  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (2)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_2.pdf",
-  "ticker": "CIEC"
- },
- {
-  "date": "2011-06-21",
   "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2212,6 +2194,24 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
   "ticker": "SDCC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_1.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_2.pdf",
+  "ticker": "CIEC"
  },
  {
   "date": "2010-09-24",
