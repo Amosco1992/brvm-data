@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-22T20:33:11+00:00",
+ "genere_le": "2026-09-23T20:46:03+00:00",
  "sources": {
   "cours": {
    "tickers_attendus": 47,
-   "tickers_a_jour": 47,
+   "tickers_a_jour": 44,
    "etat": "ok"
   },
   "sika": {
@@ -115,7 +115,11 @@
   }
  },
  "divergences": [],
- "perimes": [],
+ "perimes": [
+  "SCRC",
+  "SEMC",
+  "SICC"
+ ],
  "devise": "XOF",
  "parite_eur_fixe": 655.957,
  "date_seance": "2026-09-18",
