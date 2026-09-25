@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-09-25",
+  "titre": "TOTALENERGIES MARKETING SN : Changement important dans la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260924_-_communique_-_changement_important_dans_la_direction_-_totalenergies_marketing_sn.pdf",
+  "ticker": null
+ },
+ {
   "date": "2026-09-22",
   "titre": "SUCRIVOIRE CI : Communiqué",
   "rubrique": "communique",
@@ -244,20 +253,20 @@
  },
  {
   "date": "2026-06-30",
-  "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
-  "ticker": "UNXC"
- },
- {
-  "date": "2026-06-30",
   "titre": "UNIWAX CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260629_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2026-06-30",
+  "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
   "ticker": "UNXC"
  },
  {
@@ -622,15 +631,6 @@
  },
  {
   "date": "2026-05-01",
-  "titre": "SETAO CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_setao_ci.pdf",
-  "ticker": "STAC"
- },
- {
-  "date": "2026-05-01",
   "titre": "SUCRIVOIRE CI : Avis de convocation et projets de résolution - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -646,6 +646,15 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_servair_abidjan_ci.pdf",
   "ticker": "ABJC"
+ },
+ {
+  "date": "2026-05-01",
+  "titre": "SETAO CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_setao_ci.pdf",
+  "ticker": "STAC"
  },
  {
   "date": "2026-05-01",
@@ -761,7 +770,7 @@
   "rubrique": "dirigeant",
   "type": "autre",
   "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-changement_important_dans_la_direction_-_sode_ci.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-_changement_important_dans_la_direction_-_sode_ci.pdf",
   "ticker": "SDCC"
  },
  {
@@ -937,15 +946,6 @@
  },
  {
   "date": "2025-12-30",
-  "titre": "ONATEL BURKINA FASO : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_onatel_bf.pdf",
-  "ticker": null
- },
- {
-  "date": "2025-12-30",
   "titre": "SERVAIR ABIDJAN CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -978,6 +978,15 @@
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_sn.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "ONATEL BURKINA FASO : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_onatel_bf.pdf",
   "ticker": null
  },
  {
@@ -1180,21 +1189,21 @@
  },
  {
   "date": "2025-08-22",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2025-08-22",
   "titre": "BERNABE CÔTE D&#039;IVOIRE : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_bernabe_ci.pdf",
   "ticker": "BNBC"
+ },
+ {
+  "date": "2025-08-22",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2025-08-18",
@@ -1270,21 +1279,21 @@
  },
  {
   "date": "2025-07-23",
-  "titre": "BOA MALI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_mali.pdf",
-  "ticker": "BOAM"
- },
- {
-  "date": "2025-07-23",
   "titre": "BOA BENIN : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_benin.pdf",
   "ticker": "BOAB"
+ },
+ {
+  "date": "2025-07-23",
+  "titre": "BOA MALI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_mali.pdf",
+  "ticker": "BOAM"
  },
  {
   "date": "2025-07-10",
@@ -2052,15 +2061,6 @@
   "ticker": null
  },
  {
-  "date": "2021-06-03",
-  "titre": "ONATEL BURKINA FASO : Communiqué - Changement important dans la direction",
-  "rubrique": "dirigeant",
-  "type": "autre",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20210603_-_communique_-_changement_important_dans_la_direction_-_onatel_bf.pdf",
-  "ticker": null
- },
- {
   "date": "2018-04-19",
   "titre": "ONATEL BF : Franchissement de seuil par l’Etat du BURKINA FASO",
   "rubrique": "seuil",
@@ -2179,15 +2179,6 @@
  },
  {
   "date": "2011-06-21",
-  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
-  "ticker": "SDCC"
- },
- {
-  "date": "2011-06-21",
   "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2212,6 +2203,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_2.pdf",
   "ticker": "CIEC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
+  "ticker": "SDCC"
  },
  {
   "date": "2010-09-24",
