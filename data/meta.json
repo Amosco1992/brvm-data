@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-09-25T20:49:30+00:00",
+ "genere_le": "2026-09-28T22:42:11+00:00",
  "sources": {
   "cours": {
    "tickers_attendus": 47,
-   "tickers_a_jour": 44,
-   "etat": "ok"
+   "tickers_a_jour": 0,
+   "etat": "degrade"
   },
   "sika": {
    "tickers_controles": 0,
@@ -86,8 +86,8 @@
    "etat": "degrade"
   },
   "annonces": {
-   "total": 256,
-   "rattachees": 191,
+   "total": 255,
+   "rattachees": 190,
    "rubriques_en_echec": [
     "permanente"
    ],
@@ -116,9 +116,53 @@
  },
  "divergences": [],
  "perimes": [
+  "ABJC",
+  "BICC",
+  "BNBC",
+  "BOAC",
+  "CABC",
+  "CFAC",
+  "CIEC",
+  "ECOC",
+  "FTSC",
+  "NEIC",
+  "NSBC",
+  "NTLC",
+  "ORAC",
+  "PALC",
+  "PRSC",
+  "SAFC",
   "SCRC",
+  "SDCC",
+  "SDSC",
   "SEMC",
-  "SICC"
+  "SGBC",
+  "SHEC",
+  "SIBC",
+  "SICC",
+  "SIVC",
+  "SLBC",
+  "SMBC",
+  "SOGC",
+  "SPHC",
+  "STAC",
+  "STBC",
+  "TTLC",
+  "UNLC",
+  "UNXC",
+  "BOAS",
+  "SNTS",
+  "TTLS",
+  "BOABF",
+  "CBIBF",
+  "ONTBF",
+  "BOAM",
+  "ETIT",
+  "ORGT",
+  "BICB",
+  "LNBB",
+  "BOAB",
+  "BOAN"
  ],
  "devise": "XOF",
  "parite_eur_fixe": 655.957,
