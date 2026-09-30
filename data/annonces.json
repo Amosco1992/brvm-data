@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-09-30",
+  "titre": "Total Energies Marketing CI : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260930_-_totalenergies_marketing_ci_-_notation_financiere_-_totalenergies_marketing_ci.pdf",
+  "ticker": null
+ },
+ {
   "date": "2026-09-29",
   "titre": "FCTC SENELEC 2025-2030 : Notation financière",
   "rubrique": "notation",
@@ -955,15 +964,6 @@
  },
  {
   "date": "2025-12-30",
-  "titre": "SERVAIR ABIDJAN CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_servair_abidjan_ci.pdf",
-  "ticker": "ABJC"
- },
- {
-  "date": "2025-12-30",
   "titre": "SUCRIVOIRE CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -997,6 +997,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_onatel_bf.pdf",
   "ticker": null
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "SERVAIR ABIDJAN CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_servair_abidjan_ci.pdf",
+  "ticker": "ABJC"
  },
  {
   "date": "2025-12-23",
@@ -1153,21 +1162,21 @@
  },
  {
   "date": "2025-09-15",
-  "titre": "CORIS BANK INTERNATIONAL BURKINA FASO : Notation financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250915_-_notation_financiere_-_coris_bank_international_bf.pdf",
-  "ticker": "CBIBF"
- },
- {
-  "date": "2025-09-15",
   "titre": "SOCIETE GENERALE CÔTE D&#039;IVOIRE : Notation financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250915_-_notation_financiere_-_societe_generale_ci.pdf",
   "ticker": "SGBC"
+ },
+ {
+  "date": "2025-09-15",
+  "titre": "CORIS BANK INTERNATIONAL BURKINA FASO : Notation financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250915_-_notation_financiere_-_coris_bank_international_bf.pdf",
+  "ticker": "CBIBF"
  },
  {
   "date": "2025-09-02",
@@ -1285,15 +1294,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/lancement_fctc_nsia_banque_du_18_juillet_1.pdf",
   "ticker": "NSBC"
- },
- {
-  "date": "2025-07-23",
-  "titre": "BOA BENIN : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_benin.pdf",
-  "ticker": "BOAB"
  },
  {
   "date": "2025-07-23",
@@ -1747,24 +1747,6 @@
  },
  {
   "date": "2024-06-05",
-  "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
-  "rubrique": "resolution",
-  "type": "resolution",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_onatel_bf_1.pdf",
-  "ticker": "ONTBF"
- },
- {
-  "date": "2024-06-05",
-  "titre": "TOTALENERGIES MARKETING CI : Projets de résolution à l&#039;Assemblée Générale Mixte",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_mixte_-_totalenergies_marketing_ci_1.pdf",
-  "ticker": "TTLC"
- },
- {
-  "date": "2024-06-05",
   "titre": "CIE CI : Projet de résolution à l&#039;Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "assemblee",
@@ -1780,6 +1762,24 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20240605_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
   "ticker": "STBC"
+ },
+ {
+  "date": "2024-06-05",
+  "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
+  "rubrique": "resolution",
+  "type": "resolution",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_onatel_bf_1.pdf",
+  "ticker": "ONTBF"
+ },
+ {
+  "date": "2024-06-05",
+  "titre": "TOTALENERGIES MARKETING CI : Projets de résolution à l&#039;Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_mixte_-_totalenergies_marketing_ci_1.pdf",
+  "ticker": "TTLC"
  },
  {
   "date": "2024-05-30",
@@ -2179,15 +2179,6 @@
  },
  {
   "date": "2011-06-21",
-  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (2)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_2.pdf",
-  "ticker": "CIEC"
- },
- {
-  "date": "2011-06-21",
   "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2211,6 +2202,15 @@
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_1.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_2.pdf",
   "ticker": "CIEC"
  },
  {
@@ -2256,15 +2256,6 @@
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20090212_-_fs_-_palm_ci_-_exercice_2009_ph_ci_1.pdf",
-  "ticker": "PALC"
- },
- {
-  "date": "2009-02-12",
-  "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (2)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20090212_-_fs_-_palm_ci_-_exercice_2009_ph_ci_2.pdf",
   "ticker": "PALC"
  },
  {
