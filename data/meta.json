@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-30T21:35:44+00:00",
+ "genere_le": "2026-10-01T22:04:59+00:00",
  "sources": {
   "cours": {
    "tickers_attendus": 47,
@@ -86,8 +86,8 @@
    "etat": "degrade"
   },
   "annonces": {
-   "total": 255,
-   "rattachees": 189,
+   "total": 256,
+   "rattachees": 190,
    "rubriques_en_echec": [
     "permanente"
    ],
