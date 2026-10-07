@@ -9,7 +9,7 @@
   "cours": 3930.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-08",
@@ -151,7 +151,7 @@
   "cours": 31675.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2020-11-23",
@@ -342,7 +342,7 @@
   "cours": 2000.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-03-01",
@@ -506,7 +506,7 @@
   "cours": 11805.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-28",
@@ -545,17 +545,12 @@
      "a": 16.0
     },
     {
-     "exercice": 2021,
-     "de": 315.0,
-     "a": 26.0
-    },
-    {
      "exercice": 2024,
      "de": 684.0,
      "a": 469.0
     }
    ],
-   "nb_baisses": 4,
+   "nb_baisses": 3,
    "rendement_net_pct": 3.97,
    "historique": [
     {
@@ -590,7 +585,7 @@
     },
     {
      "exercice": 2021,
-     "montant_net": 26.0,
+     "montant_net": 374.0,
      "date_paiement": "2022-04-28",
      "avis": "https://www.brvm.org/sites/default/files/20220406_-_avis_ndeg050_brvmdg_-_paiement_de_dividendes_exo_2021_-_boac.pdf"
     },
@@ -690,7 +685,7 @@
   "cours": 3405.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-04-26",
@@ -729,9 +724,9 @@
      "a": 75.0
     },
     {
-     "exercice": 2021,
-     "de": 133.0,
-     "a": 69.0
+     "exercice": 2020,
+     "de": 75.0,
+     "a": 29.0
     }
    ],
    "nb_baisses": 3,
@@ -769,7 +764,7 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 133.0,
+     "montant_net": 29.0,
      "date_paiement": "2021-08-02",
      "avis": "https://www.brvm.org/sites/default/files/20210716_-_avis_ndeg148_brvmdg_-_paiement_de_dividendes_exercice_2020_-_sicable_ci.pdf"
     },
@@ -849,7 +844,7 @@
   "cours": 1630.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-16",
@@ -1020,7 +1015,7 @@
   "cours": 6450.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-07-01",
@@ -1265,7 +1260,7 @@
   "cours": 16995.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-07-01",
@@ -1302,14 +1297,9 @@
      "exercice": 2020,
      "de": 353.0,
      "a": 294.3
-    },
-    {
-     "exercice": 2021,
-     "de": 294.3,
-     "a": 26.0
     }
    ],
-   "nb_baisses": 3,
+   "nb_baisses": 2,
    "rendement_net_pct": 5.23,
    "historique": [
     {
@@ -1338,7 +1328,7 @@
     },
     {
      "exercice": 2021,
-     "montant_net": 26.0,
+     "montant_net": 420.3,
      "date_paiement": "2022-04-29",
      "avis": "https://www.brvm.org/sites/default/files/20220412_-_avis_ndeg058_brvmdg_-_paiement_de_dividendes_exercice_2021_-_ecobank_ci.pdf"
     },
@@ -1444,7 +1434,7 @@
   "cours": 2090.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-07",
@@ -1640,7 +1630,7 @@
   "cours": 2490.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-01-25",
@@ -1732,7 +1722,7 @@
   "cours": 24500.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-21",
@@ -1931,7 +1921,7 @@
   "cours": 16000.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-10",
@@ -2057,7 +2047,7 @@
   "cours": 22200.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 923,
   "premiere_seance": "2022-12-30",
@@ -2143,7 +2133,7 @@
   "cours": 8390.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-24",
@@ -2209,7 +2199,7 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 102.51,
+     "montant_net": 25.0,
      "date_paiement": "2021-08-27",
      "avis": "https://www.brvm.org/sites/default/files/20210811_-_avis_ndeg162_brvmdg_-_paiement_de_dividendes_exo_2020_-_palm_ci.pdf"
     },
@@ -2249,20 +2239,20 @@
   "annonces": [
    {
     "date": "2023-10-30",
-    "titre": "PALM CI : Communiqué - Changement important dans la direction",
-    "rubrique": "dirigeant",
-    "type": "autre",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
-    "ticker": "PALC"
-   },
-   {
-    "date": "2023-10-30",
     "titre": "PALM CI : Communiqué - Changement de dirigeant",
     "rubrique": "dirigeant",
     "type": "dirigeant",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_de_dirigeant_-_palm_ci.pdf",
+    "ticker": "PALC"
+   },
+   {
+    "date": "2023-10-30",
+    "titre": "PALM CI : Communiqué - Changement important dans la direction",
+    "rubrique": "dirigeant",
+    "type": "autre",
+    "important": false,
+    "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
     "ticker": "PALC"
    },
    {
@@ -2322,7 +2312,7 @@
   "cours": 4305.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-02-23",
@@ -2341,14 +2331,14 @@
   },
   "liquidite": "etroite",
   "dividendes": {
-   "exercices_connus": 9,
+   "exercices_connus": 10,
    "premier_exercice": 2016,
-   "dernier_exercice": 2024,
-   "dernier_montant_net": 207.0,
-   "derniere_date_paiement": "2025-09-30",
-   "prochaine_date_ex": null,
-   "exercices_payes_10a": 9,
-   "exercices_consecutifs": 9,
+   "dernier_exercice": 2025,
+   "dernier_montant_net": 209.0,
+   "derniere_date_paiement": "2026-10-23",
+   "prochaine_date_ex": "2026-10-22",
+   "exercices_payes_10a": 10,
+   "exercices_consecutifs": 10,
    "baisses": [
     {
      "exercice": 2017,
@@ -2361,13 +2351,18 @@
      "a": 159.3
     },
     {
+     "exercice": 2020,
+     "de": 159.3,
+     "a": 31.0
+    },
+    {
      "exercice": 2022,
      "de": 175.86,
      "a": 27.45
     }
    ],
-   "nb_baisses": 3,
-   "rendement_net_pct": 4.81,
+   "nb_baisses": 4,
+   "rendement_net_pct": 4.85,
    "historique": [
     {
      "exercice": 2016,
@@ -2395,7 +2390,7 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 162.9,
+     "montant_net": 31.0,
      "date_paiement": "2021-09-02",
      "avis": "https://www.brvm.org/sites/default/files/20210818_-_avis_ndeg167_brvmdg_-_paiement_de_dividendes_exo_2020_-_tractafric_motors_ci.pdf"
     },
@@ -2422,6 +2417,12 @@
      "montant_net": 207.0,
      "date_paiement": "2025-09-30",
      "avis": "https://www.brvm.org/sites/default/files/20250911_-_avis_ndeg223_brvmdg_-_paiement_de_dividendes_exo_2024_-_tractafric_motors_ci.pdf"
+    },
+    {
+     "exercice": 2025,
+     "montant_net": 209.0,
+     "date_paiement": "2026-10-23",
+     "avis": "https://www.brvm.org/sites/default/files/20261006_-_avis_ndeg294_brvmdg_-_paiement_de_dividendes_exo_2025_-_tractafric_motors_ci.pdf"
     }
    ]
   },
@@ -2475,7 +2476,7 @@
   "cours": 4980.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2018-12-10",
@@ -2555,7 +2556,7 @@
   "cours": 3085.0,
   "date_cours": "2026-09-15",
   "source_cours": "archive",
-  "seances_ecoulees": 15,
+  "seances_ecoulees": 16,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-22",
@@ -2577,7 +2578,7 @@
    "exercices_connus": 3,
    "premier_exercice": 2016,
    "dernier_exercice": 2020,
-   "dernier_montant_net": 40.5,
+   "dernier_montant_net": 18.0,
    "derniere_date_paiement": "2021-08-20",
    "prochaine_date_ex": null,
    "exercices_payes_10a": 3,
@@ -2590,7 +2591,7 @@
     }
    ],
    "nb_baisses": 1,
-   "rendement_net_pct": 1.31,
+   "rendement_net_pct": 0.58,
    "historique": [
     {
      "exercice": 2016,
@@ -2606,7 +2607,7 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 40.5,
+     "montant_net": 18.0,
      "date_paiement": "2021-08-20",
      "avis": "https://www.brvm.org/sites/default/files/20210805_-_avis_ndeg157_brvmdg_-_paiement_de_dividendes_exo_2020_-_sucrivoire_ci.pdf"
     }
@@ -2671,7 +2672,7 @@
   "cours": 12485.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-25",
@@ -2843,7 +2844,7 @@
   "cours": 2910.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-24",
@@ -2877,12 +2878,17 @@
      "a": 100.0
     },
     {
-     "exercice": 2021,
+     "exercice": 2020,
      "de": 100.0,
-     "a": 21.0
+     "a": 9.0
+    },
+    {
+     "exercice": 2022,
+     "de": 130.0,
+     "a": 92.0
     }
    ],
-   "nb_baisses": 2,
+   "nb_baisses": 3,
    "rendement_net_pct": 3.16,
    "historique": [
     {
@@ -2905,13 +2911,13 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 100.0,
+     "montant_net": 9.0,
      "date_paiement": "2021-08-11",
      "avis": "https://www.brvm.org/sites/default/files/20210726_-_avis_ndeg153_brvmdg_-_paiement_de_dividendes_exo_2020_-_bollore_transport_logistics_ci.pdf"
     },
     {
      "exercice": 2021,
-     "montant_net": 21.0,
+     "montant_net": 130.0,
      "date_paiement": "2022-06-23",
      "avis": "https://www.brvm.org/sites/default/files/20220607_-_avis_ndeg100_brvmdg_-_paiement_de_dividendes_exercice_2021_-_bollore_ci.pdf"
     },
@@ -2948,7 +2954,7 @@
   "cours": 1495.0,
   "date_cours": "2026-09-15",
   "source_cours": "archive",
-  "seances_ecoulees": 15,
+  "seances_ecoulees": 16,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2017-02-13",
@@ -2970,14 +2976,14 @@
    "exercices_connus": 2,
    "premier_exercice": 2016,
    "dernier_exercice": 2020,
-   "dernier_montant_net": 14.4,
+   "dernier_montant_net": 24.0,
    "derniere_date_paiement": "2021-12-28",
    "prochaine_date_ex": null,
    "exercices_payes_10a": 2,
    "exercices_consecutifs": 1,
    "baisses": [],
    "nb_baisses": 0,
-   "rendement_net_pct": 0.96,
+   "rendement_net_pct": 1.61,
    "historique": [
     {
      "exercice": 2016,
@@ -2987,7 +2993,7 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 14.4,
+     "montant_net": 24.0,
      "date_paiement": "2021-12-28",
      "avis": "https://www.brvm.org/sites/default/files/20211214_-_avis_ndeg234_brvmdg_-_paiement_de_dividendes_exo_2020_-_crown_siem.pdf"
     }
@@ -3017,7 +3023,7 @@
   "cours": 38900.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-29",
@@ -3054,14 +3060,9 @@
      "exercice": 2018,
      "de": 585.0,
      "a": 206.0
-    },
-    {
-     "exercice": 2021,
-     "de": 368.298,
-     "a": 8.0
     }
    ],
-   "nb_baisses": 3,
+   "nb_baisses": 2,
    "rendement_net_pct": 6.7,
    "historique": [
     {
@@ -3102,7 +3103,7 @@
     },
     {
      "exercice": 2021,
-     "montant_net": 8.0,
+     "montant_net": 1004.93,
      "date_paiement": "2022-06-10",
      "avis": "https://www.brvm.org/sites/default/files/20220523_-_avis_ndeg088_brvmdg_-_paiement_de_dividendes_exercice_2021_-_societe_generale_ci.pdf"
     },
@@ -3176,7 +3177,7 @@
   "cours": 2760.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-29",
@@ -3339,7 +3340,7 @@
   "cours": 9185.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-07-01",
@@ -3456,7 +3457,7 @@
   "cours": 8400.0,
   "date_cours": "2026-09-15",
   "source_cours": "archive",
-  "seances_ecoulees": 15,
+  "seances_ecoulees": 16,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2015-10-06",
@@ -3500,7 +3501,7 @@
   "cours": 2175.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-04-16",
@@ -3609,7 +3610,7 @@
   "cours": 38000.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2018-05-03",
@@ -3671,7 +3672,7 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 2736.0,
+     "montant_net": 30.0,
      "date_paiement": "2021-08-03",
      "avis": "https://www.brvm.org/sites/default/files/20210716_-_avis_ndeg147_brvmdg_-_paiement_de_dividendes_exo_2020_-_solibra_ci.pdf"
     },
@@ -3745,7 +3746,7 @@
   "cours": 17000.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-22",
@@ -3896,7 +3897,7 @@
   "cours": 7855.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-25",
@@ -4044,7 +4045,7 @@
   "cours": 7800.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-05-17",
@@ -4094,7 +4095,7 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 132.3,
+     "montant_net": 20.0,
      "date_paiement": "2021-08-24",
      "avis": "https://www.brvm.org/sites/default/files/20210809_-_avis_ndeg160_brvmdg_-_paiement_de_dividendes_exo_2020_-_saph_ci.pdf"
     },
@@ -4189,7 +4190,7 @@
   "cours": 2275.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-01-22",
@@ -4266,7 +4267,7 @@
   "cours": 21950.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2020-12-23",
@@ -4429,7 +4430,7 @@
   "cours": 3160.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-28",
@@ -4465,7 +4466,7 @@
     {
      "exercice": 2020,
      "de": 113.5125,
-     "a": 109.314
+     "a": 23.0
     },
     {
      "exercice": 2025,
@@ -4502,7 +4503,7 @@
     },
     {
      "exercice": 2020,
-     "montant_net": 109.314,
+     "montant_net": 23.0,
      "date_paiement": "2021-09-27",
      "avis": "https://www.brvm.org/sites/default/files/20210816_-_avis_ndeg166_brvmdg_-_paiement_de_dividendes_exo_2020_-_total_ci.pdf"
     },
@@ -4588,7 +4589,7 @@
   "cours": 52380.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2014-08-01",
@@ -4632,7 +4633,7 @@
   "cours": 2320.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-07-01",
@@ -4769,7 +4770,7 @@
   "cours": 8050.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-28",
@@ -4803,12 +4804,17 @@
      "a": 160.0
     },
     {
+     "exercice": 2018,
+     "de": 160.0,
+     "a": 30.0
+    },
+    {
      "exercice": 2021,
      "de": 161.01,
-     "a": 30.0
+     "a": 161.0
     }
    ],
-   "nb_baisses": 2,
+   "nb_baisses": 3,
    "rendement_net_pct": 5.59,
    "historique": [
     {
@@ -4831,7 +4837,7 @@
     },
     {
      "exercice": 2018,
-     "montant_net": 160.0,
+     "montant_net": 30.0,
      "date_paiement": "2019-06-03",
      "avis": "https://www.brvm.org/sites/default/files/avis_n_039-2019-dcbr-dg-dividende_exercice_2018-boa_sn.pdf"
     },
@@ -4849,7 +4855,7 @@
     },
     {
      "exercice": 2021,
-     "montant_net": 30.0,
+     "montant_net": 161.0,
      "date_paiement": "2022-06-01",
      "avis": "https://www.brvm.org/sites/default/files/20220420_-_avis_ndeg061_brvmdg_-_paiement_de_dividendes_exo_2021_-_boas.pdf"
     },
@@ -4881,6 +4887,15 @@
   },
   "valorisation": null,
   "annonces": [
+   {
+    "date": "2026-10-07",
+    "titre": "BOA SN : Notation Financière",
+    "rubrique": "notation",
+    "type": "notation",
+    "important": true,
+    "url": "https://www.brvm.org/sites/default/files/20261006_-_notation_financiere_-_boa_sn.pdf",
+    "ticker": "BOAS"
+   },
    {
     "date": "2026-03-18",
     "titre": "BOA SN : Projet de résolutions - Assemblée Générale Ordinaire",
@@ -4933,7 +4948,7 @@
   "cours": 42190.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-07-01",
@@ -5080,7 +5095,7 @@
   "cours": 3950.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-25",
@@ -5151,7 +5166,7 @@
   "cours": 7800.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-18",
@@ -5185,11 +5200,6 @@
      "a": 358.0
     },
     {
-     "exercice": 2021,
-     "de": 370.0,
-     "a": 29.0
-    },
-    {
      "exercice": 2024,
      "de": 704.0,
      "a": 428.0
@@ -5200,7 +5210,7 @@
      "a": 397.0
     }
    ],
-   "nb_baisses": 4,
+   "nb_baisses": 3,
    "rendement_net_pct": 5.09,
    "historique": [
     {
@@ -5235,7 +5245,7 @@
     },
     {
      "exercice": 2021,
-     "montant_net": 29.0,
+     "montant_net": 448.0,
      "date_paiement": "2022-05-04",
      "avis": "https://www.brvm.org/sites/default/files/20220412_-_avis_ndeg060_brvmdg_-_paiement_de_dividendes_exo_2021_-_boa_bf.pdf"
     },
@@ -5310,7 +5320,7 @@
   "cours": 33840.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-05-05",
@@ -5461,7 +5471,7 @@
   "cours": 2900.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-07-01",
@@ -5500,9 +5510,9 @@
      "a": 387.17
     },
     {
-     "exercice": 2021,
-     "de": 399.5635,
-     "a": 13.0
+     "exercice": 2022,
+     "de": 416.5791,
+     "a": 287.8799
     },
     {
      "exercice": 2023,
@@ -5555,7 +5565,7 @@
     },
     {
      "exercice": 2021,
-     "montant_net": 13.0,
+     "montant_net": 416.5791,
      "date_paiement": "2022-06-15",
      "avis": "https://www.brvm.org/sites/default/files/20220527_-_avis_ndeg090_brvmdg_-_paiement_de_dividendes_-_onatel_bf.pdf"
     },
@@ -5653,7 +5663,7 @@
   "cours": 6705.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-24",
@@ -5754,15 +5764,6 @@
     "ticker": "BOAM"
    },
    {
-    "date": "2025-07-23",
-    "titre": "BOA MALI : Notation Financière",
-    "rubrique": "notation",
-    "type": "notation",
-    "important": true,
-    "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_mali.pdf",
-    "ticker": "BOAM"
-   },
-   {
     "date": "2025-03-19",
     "titre": "BOA MALI : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
     "rubrique": "resolution",
@@ -5805,7 +5806,7 @@
   "cours": 70.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-07-01",
@@ -5903,7 +5904,7 @@
   "cours": 3205.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-02-22",
@@ -6007,7 +6008,7 @@
   "cours": 10110.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 347,
   "premiere_seance": "2025-04-28",
@@ -6097,7 +6098,7 @@
   "cours": 4080.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 438,
   "premiere_seance": "2024-12-13",
@@ -6197,7 +6198,7 @@
   "cours": 9850.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-28",
@@ -6226,17 +6227,12 @@
    "exercices_consecutifs": 9,
    "baisses": [
     {
-     "exercice": 2021,
-     "de": 436.0,
-     "a": 23.0
-    },
-    {
      "exercice": 2024,
      "de": 706.0,
      "a": 468.0
     }
    ],
-   "nb_baisses": 2,
+   "nb_baisses": 1,
    "rendement_net_pct": 5.94,
    "historique": [
     {
@@ -6265,7 +6261,7 @@
     },
     {
      "exercice": 2021,
-     "montant_net": 23.0,
+     "montant_net": 546.0,
      "date_paiement": "2022-05-25",
      "avis": "https://www.brvm.org/sites/default/files/20220427_-_avis_ndeg067_brvmdg_-_paiement_de_dividendes_exo_2021_-_boab_0.pdf"
     },
@@ -6365,7 +6361,7 @@
   "cours": 5350.0,
   "date_cours": "2026-09-18",
   "source_cours": "archive",
-  "seances_ecoulees": 12,
+  "seances_ecoulees": 13,
   "perime": true,
   "profondeur_historique": 1300,
   "premiere_seance": "2021-06-28",

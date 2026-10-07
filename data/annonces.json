@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-10-07",
+  "titre": "BOA SN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20261006_-_notation_financiere_-_boa_sn.pdf",
+  "ticker": "BOAS"
+ },
+ {
   "date": "2026-10-02",
   "titre": "ETI TG : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
@@ -442,21 +451,21 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "CRRH-UEMOA : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-06-07",
   "titre": "NESTLE CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_nestle_ci.pdf",
   "ticker": "NTLC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "CRRH-UEMOA : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
+  "ticker": null
  },
  {
   "date": "2026-06-07",
@@ -622,6 +631,15 @@
  },
  {
   "date": "2026-05-05",
+  "titre": "SITAB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_sitab_2025.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-05-05",
   "titre": "ORAGROUP TG : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -637,15 +655,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/fiche_de_notation-_erium_ci_-_2025.pdf",
   "ticker": null
- },
- {
-  "date": "2026-05-05",
-  "titre": "SITAB CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_sitab_2025.pdf",
-  "ticker": "STBC"
  },
  {
   "date": "2026-05-05",
@@ -730,20 +739,20 @@
  },
  {
   "date": "2026-04-16",
-  "titre": "Communiqué - Franchissement de seuil par NSIA PARTICIPATIONS",
-  "rubrique": "communique",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260416_-_communique_-_franchissement_de_seuil_par_nsia_participations.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-04-16",
   "titre": "Communiqué - Franchissement de seuil par NSIA HOLDING FINANCIERE",
   "rubrique": "communique",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260416_-_communique_-_franchissement_de_seuil_par_nsia_holding_financiere.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-04-16",
+  "titre": "Communiqué - Franchissement de seuil par NSIA PARTICIPATIONS",
+  "rubrique": "communique",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260416_-_communique_-_franchissement_de_seuil_par_nsia_participations.pdf",
   "ticker": null
  },
  {
@@ -1296,15 +1305,6 @@
   "ticker": "NSBC"
  },
  {
-  "date": "2025-07-23",
-  "titre": "BOA MALI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250723_-_notation_financiere_-_boa_mali.pdf",
-  "ticker": "BOAM"
- },
- {
   "date": "2025-07-10",
   "titre": "Ecobank Transnational Incorporated TOGO : Communiqué de presse",
   "rubrique": "communique",
@@ -1504,6 +1504,15 @@
  },
  {
   "date": "2025-03-19",
+  "titre": "BOA SENEGAL : Projet de résolutions àl&#039;Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_senegal.pdf",
+  "ticker": "BOAS"
+ },
+ {
+  "date": "2025-03-19",
   "titre": "BOA BENIN : Projet de résolutions à l&#039;Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "assemblee",
@@ -1528,15 +1537,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_niger.pdf",
   "ticker": "BOAN"
- },
- {
-  "date": "2025-03-19",
-  "titre": "BOA SENEGAL : Projet de résolutions àl&#039;Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250319_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_boa_senegal.pdf",
-  "ticker": "BOAS"
  },
  {
   "date": "2025-03-18",
@@ -1828,20 +1828,20 @@
  },
  {
   "date": "2023-10-30",
-  "titre": "PALM CI : Communiqué - Changement important dans la direction",
-  "rubrique": "dirigeant",
-  "type": "autre",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
-  "ticker": "PALC"
- },
- {
-  "date": "2023-10-30",
   "titre": "PALM CI : Communiqué - Changement de dirigeant",
   "rubrique": "dirigeant",
   "type": "dirigeant",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_de_dirigeant_-_palm_ci.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2023-10-30",
+  "titre": "PALM CI : Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
   "ticker": "PALC"
  },
  {
@@ -2161,21 +2161,21 @@
  },
  {
   "date": "2011-12-12",
-  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2011 (SDA CI) (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_bollore_transport_logistics_ci_-_exercice_2011_sda_ci_1.pdf",
-  "ticker": null
- },
- {
-  "date": "2011-12-12",
   "titre": "Franchissement de seuil - TRACTAFRIC MOTORS CI - Exercice 2011",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_tractafric_motors_ci_-_exercice_2011.pdf",
   "ticker": "PRSC"
+ },
+ {
+  "date": "2011-12-12",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2011 (SDA CI) (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_bollore_transport_logistics_ci_-_exercice_2011_sda_ci_1.pdf",
+  "ticker": null
  },
  {
   "date": "2011-06-21",
