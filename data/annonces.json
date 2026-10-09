@@ -334,6 +334,15 @@
  },
  {
   "date": "2026-06-26",
+  "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-26",
   "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -358,15 +367,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260625_-avis_de_convocation_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
   "ticker": null
- },
- {
-  "date": "2026-06-26",
-  "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260625_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
-  "ticker": "STBC"
  },
  {
   "date": "2026-06-26",
@@ -460,6 +460,15 @@
  },
  {
   "date": "2026-06-07",
+  "titre": "CRRH-UEMOA : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-06-07",
   "titre": "SMB CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -478,15 +487,6 @@
  },
  {
   "date": "2026-06-04",
-  "titre": "CIE CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_cie_ci.pdf",
-  "ticker": "CIEC"
- },
- {
-  "date": "2026-06-04",
   "titre": "SOCIETE GENERALE CI : Avis de convocation - Assemblée Générale Mixte",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -502,6 +502,15 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_vivo_energy_ci.pdf",
   "ticker": "SHEC"
+ },
+ {
+  "date": "2026-06-04",
+  "titre": "CIE CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_cie_ci.pdf",
+  "ticker": "CIEC"
  },
  {
   "date": "2026-06-03",
@@ -559,15 +568,6 @@
  },
  {
   "date": "2026-05-20",
-  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-  "ticker": "SLBC"
- },
- {
-  "date": "2026-05-20",
   "titre": "SOGB CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -591,6 +591,15 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
   "ticker": "SLBC"
  },
  {
@@ -1738,6 +1747,15 @@
  },
  {
   "date": "2024-06-05",
+  "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
+  "rubrique": "resolution",
+  "type": "resolution",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_onatel_bf_1.pdf",
+  "ticker": "ONTBF"
+ },
+ {
+  "date": "2024-06-05",
   "titre": "TOTALENERGIES MARKETING CI : Projets de résolution à l&#039;Assemblée Générale Mixte",
   "rubrique": "resolution",
   "type": "assemblee",
@@ -1762,15 +1780,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20240605_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
   "ticker": "STBC"
- },
- {
-  "date": "2024-06-05",
-  "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
-  "rubrique": "resolution",
-  "type": "resolution",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_onatel_bf_1.pdf",
-  "ticker": "ONTBF"
  },
  {
   "date": "2024-05-30",
@@ -1999,20 +2008,20 @@
  },
  {
   "date": "2021-12-07",
-  "titre": "ETI TOGO : Communiqué - Départ important au sein de la Direction",
-  "rubrique": "dirigeant",
-  "type": "autre",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_depart_important_au_sein_de_la_direction_-_eti_tg.pdf",
-  "ticker": null
- },
- {
-  "date": "2021-12-07",
   "titre": "ETI TOG0 : Communiqué - Nomination au sein de la Direction",
   "rubrique": "dirigeant",
   "type": "dirigeant",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_nomination_au_sein_de_la_sein_de_la_direction_-_eti_tg_0.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2021-12-07",
+  "titre": "ETI TOGO : Communiqué - Départ important au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_depart_important_au_sein_de_la_direction_-_eti_tg.pdf",
   "ticker": null
  },
  {
@@ -2143,11 +2152,11 @@
  },
  {
   "date": "2012-01-04",
-  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (SAGA CI)",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (1)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_saga_ci.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_1.pdf",
   "ticker": null
  },
  {
@@ -2269,20 +2278,20 @@
  },
  {
   "date": "2006-02-10",
-  "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (2)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_2.pdf",
-  "ticker": "SAFC"
- },
- {
-  "date": "2006-02-10",
   "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (1)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_1.pdf",
+  "ticker": "SAFC"
+ },
+ {
+  "date": "2006-02-10",
+  "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_2.pdf",
   "ticker": "SAFC"
  },
  {
