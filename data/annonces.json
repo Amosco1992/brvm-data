@@ -451,21 +451,21 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "NESTLE CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_nestle_ci.pdf",
-  "ticker": "NTLC"
- },
- {
-  "date": "2026-06-07",
   "titre": "CRRH-UEMOA : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
   "ticker": null
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "NESTLE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_nestle_ci.pdf",
+  "ticker": "NTLC"
  },
  {
   "date": "2026-06-07",
@@ -568,6 +568,15 @@
  },
  {
   "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
   "titre": "SOGB CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -591,15 +600,6 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-  "ticker": "SLBC"
- },
- {
-  "date": "2026-05-20",
-  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
   "ticker": "SLBC"
  },
  {
@@ -1315,21 +1315,21 @@
  },
  {
   "date": "2025-07-07",
-  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
-  "rubrique": "dirigeant",
-  "type": "dirigeant",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_nsia_banque_ci.pdf",
-  "ticker": "NSBC"
- },
- {
-  "date": "2025-07-07",
   "titre": "CIE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
   "rubrique": "dirigeant",
   "type": "dirigeant",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_cie_ci.pdf",
   "ticker": null
+ },
+ {
+  "date": "2025-07-07",
+  "titre": "NSIA BANQUE CÔTE D&#039;IVOIRE : Communiqué - Nomination au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20250707_-_communique_-_nomination_au_sein_de_la_direction_-_nsia_banque_ci.pdf",
+  "ticker": "NSBC"
  },
  {
   "date": "2025-07-07",
@@ -2008,20 +2008,20 @@
  },
  {
   "date": "2021-12-07",
-  "titre": "ETI TOG0 : Communiqué - Nomination au sein de la Direction",
-  "rubrique": "dirigeant",
-  "type": "dirigeant",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_nomination_au_sein_de_la_sein_de_la_direction_-_eti_tg_0.pdf",
-  "ticker": null
- },
- {
-  "date": "2021-12-07",
   "titre": "ETI TOGO : Communiqué - Départ important au sein de la Direction",
   "rubrique": "dirigeant",
   "type": "autre",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_depart_important_au_sein_de_la_direction_-_eti_tg.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2021-12-07",
+  "titre": "ETI TOG0 : Communiqué - Nomination au sein de la Direction",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20211207_-_communique_-_nomination_au_sein_de_la_sein_de_la_direction_-_eti_tg_0.pdf",
   "ticker": null
  },
  {

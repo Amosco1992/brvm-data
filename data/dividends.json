@@ -262,16 +262,6 @@
  {
   "ticker": "BOAB",
   "libelle_source": "BANK OF AFRICA BN",
-  "exercice": 2018,
-  "date_paiement": "2019-05-22",
-  "date_ex": null,
-  "montant_net": 416.0,
-  "avis": "https://www.brvm.org/sites/default/files/avis_n_040-2019-dcbr-dg-dividende_exercice_2018-boa_benin.pdf",
-  "source": "brvm.org"
- },
- {
-  "ticker": "BOAB",
-  "libelle_source": "BANK OF AFRICA BN",
   "exercice": 2019,
   "date_paiement": "2020-05-15",
   "date_ex": "2020-05-13",
@@ -494,8 +484,8 @@
   "libelle_source": "BANK OF AFRICA CI",
   "exercice": 2021,
   "date_paiement": "2022-04-28",
-  "date_ex": "2022-04-26",
-  "montant_net": 374.0,
+  "date_ex": null,
+  "montant_net": 26.0,
   "avis": "https://www.brvm.org/sites/default/files/20220406_-_avis_ndeg050_brvmdg_-_paiement_de_dividendes_exo_2021_-_boac.pdf",
   "source": "brvm.org"
  },
@@ -2100,6 +2090,16 @@
   "source": "brvm.org"
  },
  {
+  "ticker": "SDSC",
+  "libelle_source": "BOLLORE TRANSPORT &amp; LOGISTICS",
+  "exercice": 2025,
+  "date_paiement": "2026-10-27",
+  "date_ex": "2026-10-26",
+  "montant_net": 92.0,
+  "avis": "https://www.brvm.org/sites/default/files/20261009_-_avis_ndeg297_brvmdg_-_paiement_de_dividendes_exo_2025_-_agl_ci.pdf",
+  "source": "brvm.org"
+ },
+ {
   "ticker": "SEMC",
   "libelle_source": "CROWN SIEM CI",
   "exercice": 2016,
@@ -2464,8 +2464,8 @@
   "libelle_source": "SOLIBRA",
   "exercice": 2020,
   "date_paiement": "2021-08-03",
-  "date_ex": null,
-  "montant_net": 30.0,
+  "date_ex": "2021-07-30",
+  "montant_net": 2736.0,
   "avis": "https://www.brvm.org/sites/default/files/20210716_-_avis_ndeg147_brvmdg_-_paiement_de_dividendes_exo_2020_-_solibra_ci.pdf",
   "source": "brvm.org"
  },
