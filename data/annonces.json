@@ -586,15 +586,6 @@
  },
  {
   "date": "2026-05-20",
-  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-  "ticker": "SLBC"
- },
- {
-  "date": "2026-05-20",
   "titre": "SOGB CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -618,6 +609,15 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
   "ticker": "SLBC"
  },
  {
@@ -649,15 +649,6 @@
  },
  {
   "date": "2026-05-05",
-  "titre": "ORAGROUP TG : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_oragroup_sa_-_2025.pdf",
-  "ticker": "ORGT"
- },
- {
-  "date": "2026-05-05",
   "titre": "ERIUM CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -673,6 +664,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_sitab_2025.pdf",
   "ticker": "STBC"
+ },
+ {
+  "date": "2026-05-05",
+  "titre": "ORAGROUP TG : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_oragroup_sa_-_2025.pdf",
+  "ticker": "ORGT"
  },
  {
   "date": "2026-05-05",
@@ -1729,6 +1729,15 @@
  },
  {
   "date": "2024-06-05",
+  "titre": "SITAB CI : Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2024-06-05",
   "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
   "rubrique": "resolution",
   "type": "resolution",
@@ -1753,15 +1762,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_cie_ci_1.pdf",
   "ticker": "CIEC"
- },
- {
-  "date": "2024-06-05",
-  "titre": "SITAB CI : Projet de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20240605_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
-  "ticker": "STBC"
  },
  {
   "date": "2024-05-30",
@@ -2161,6 +2161,15 @@
  },
  {
   "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2011-06-21",
   "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2185,15 +2194,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_2.pdf",
   "ticker": "CIEC"
- },
- {
-  "date": "2011-06-21",
-  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
-  "ticker": "SDCC"
  },
  {
   "date": "2010-09-24",
