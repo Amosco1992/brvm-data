@@ -118,6 +118,15 @@
  },
  {
   "date": "2026-08-26",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-26",
   "titre": "BOA BURKINA FASO : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -133,15 +142,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_coris_bank_international_bf.pdf",
   "ticker": "CBIBF"
- },
- {
-  "date": "2026-08-26",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
  },
  {
   "date": "2026-08-18",
@@ -505,6 +505,15 @@
  },
  {
   "date": "2026-06-04",
+  "titre": "CIE CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_cie_ci.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2026-06-04",
   "titre": "SOCIETE GENERALE CI : Avis de convocation - Assemblée Générale Mixte",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -520,15 +529,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_vivo_energy_ci.pdf",
   "ticker": "SHEC"
- },
- {
-  "date": "2026-06-04",
-  "titre": "CIE CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_cie_ci.pdf",
-  "ticker": "CIEC"
  },
  {
   "date": "2026-06-03",
@@ -649,15 +649,6 @@
  },
  {
   "date": "2026-05-05",
-  "titre": "ERIUM CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation-_erium_ci_-_2025.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-05-05",
   "titre": "SITAB CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -673,6 +664,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_oragroup_sa_-_2025.pdf",
   "ticker": "ORGT"
+ },
+ {
+  "date": "2026-05-05",
+  "titre": "ERIUM CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation-_erium_ci_-_2025.pdf",
+  "ticker": null
  },
  {
   "date": "2026-05-05",
@@ -1216,12 +1216,12 @@
  },
  {
   "date": "2025-08-22",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "titre": "BERNABE CÔTE D&#039;IVOIRE : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
+  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_bernabe_ci.pdf",
+  "ticker": "BNBC"
  },
  {
   "date": "2025-08-18",
@@ -1333,21 +1333,21 @@
  },
  {
   "date": "2025-06-27",
-  "titre": "LOTERIE NATIONALE DU BENIN : Projet de résolutions à l&#039;Assemblée Générale Mixte",
-  "rubrique": "resolution",
-  "type": "resolution",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250624_-_projet_de_resolutions_-_assemblee_generale_mixte_-_loterie_nationale_du_benin.pdf",
-  "ticker": "LNBB"
- },
- {
-  "date": "2025-06-27",
   "titre": "BANQUE INTERNATIONALE POUR L&#039;INDUSTRIE ET LE COMMERCE DU BENIN : ERRATUM - Projet de résolutions - Assemblée Générale Ordinaire",
   "rubrique": "resolution",
   "type": "autre",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250627_-_erratum_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_biic_bn.pdf",
   "ticker": null
+ },
+ {
+  "date": "2025-06-27",
+  "titre": "LOTERIE NATIONALE DU BENIN : Projet de résolutions à l&#039;Assemblée Générale Mixte",
+  "rubrique": "resolution",
+  "type": "resolution",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250624_-_projet_de_resolutions_-_assemblee_generale_mixte_-_loterie_nationale_du_benin.pdf",
+  "ticker": "LNBB"
  },
  {
   "date": "2025-06-26",
@@ -1729,15 +1729,6 @@
  },
  {
   "date": "2024-06-05",
-  "titre": "SITAB CI : Projet de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20240605_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
-  "ticker": "STBC"
- },
- {
-  "date": "2024-06-05",
   "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
   "rubrique": "resolution",
   "type": "resolution",
@@ -1762,6 +1753,15 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_cie_ci_1.pdf",
   "ticker": "CIEC"
+ },
+ {
+  "date": "2024-06-05",
+  "titre": "SITAB CI : Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
  },
  {
   "date": "2024-05-30",
@@ -1810,20 +1810,20 @@
  },
  {
   "date": "2023-10-30",
-  "titre": "PALM CI : Communiqué - Changement de dirigeant",
-  "rubrique": "dirigeant",
-  "type": "dirigeant",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_de_dirigeant_-_palm_ci.pdf",
-  "ticker": "PALC"
- },
- {
-  "date": "2023-10-30",
   "titre": "PALM CI : Communiqué - Changement important dans la direction",
   "rubrique": "dirigeant",
   "type": "autre",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2023-10-30",
+  "titre": "PALM CI : Communiqué - Changement de dirigeant",
+  "rubrique": "dirigeant",
+  "type": "dirigeant",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_de_dirigeant_-_palm_ci.pdf",
   "ticker": "PALC"
  },
  {
@@ -2116,20 +2116,20 @@
  },
  {
   "date": "2012-03-02",
-  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
-  "ticker": "SHEC"
- },
- {
-  "date": "2012-03-02",
   "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2012-03-02",
+  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
   "ticker": "SHEC"
  },
  {
@@ -2161,24 +2161,6 @@
  },
  {
   "date": "2011-06-21",
-  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
-  "ticker": "SDCC"
- },
- {
-  "date": "2011-06-21",
-  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
-  "ticker": "SDCC"
- },
- {
-  "date": "2011-06-21",
   "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (1)",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2194,6 +2176,24 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_2.pdf",
   "ticker": "CIEC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_1.pdf",
+  "ticker": "SDCC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - SODE CI - Exercice 2011 (2)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
+  "ticker": "SDCC"
  },
  {
   "date": "2010-09-24",
