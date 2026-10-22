@@ -118,15 +118,6 @@
  },
  {
   "date": "2026-08-26",
-  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-08-26",
   "titre": "BOA BURKINA FASO : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -142,6 +133,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_coris_bank_international_bf.pdf",
   "ticker": "CBIBF"
+ },
+ {
+  "date": "2026-08-26",
+  "titre": "PALM CÔTE D&#039;IVOIRE : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260826_-_notation_financiere_-_palm_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2026-08-18",
@@ -181,6 +181,15 @@
  },
  {
   "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI - Formulaire de vote par correspondance - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
   "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -195,15 +204,6 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260803_-_pouvoir_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-08-03",
-  "titre": "AFRICA GLOBAL LOGISTICS CI - Formulaire de vote par correspondance - Assemblée Générale Mixte",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260803_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
   "ticker": null
  },
  {
@@ -505,6 +505,15 @@
  },
  {
   "date": "2026-06-04",
+  "titre": "VIVO ENERGY CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_vivo_energy_ci.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2026-06-04",
   "titre": "CIE CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -520,15 +529,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_-_assemblee_generale_mixte_-_societe_generale_ci.pdf",
   "ticker": "SGBC"
- },
- {
-  "date": "2026-06-04",
-  "titre": "VIVO ENERGY CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_vivo_energy_ci.pdf",
-  "ticker": "SHEC"
  },
  {
   "date": "2026-06-03",
@@ -649,15 +649,6 @@
  },
  {
   "date": "2026-05-05",
-  "titre": "SITAB CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_sitab_2025.pdf",
-  "ticker": "STBC"
- },
- {
-  "date": "2026-05-05",
   "titre": "ORAGROUP TG : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
@@ -676,21 +667,21 @@
  },
  {
   "date": "2026-05-05",
+  "titre": "SITAB CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/fiche_de_notation_-_sitab_2025.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-05-05",
   "titre": "TotalEnergies Marketing CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260505_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_totalenergies_marketing_ci.pdf",
   "ticker": "TTLC"
- },
- {
-  "date": "2026-05-01",
-  "titre": "SUCRIVOIRE CI : Avis de convocation et projets de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sucrivoire_ci.pdf",
-  "ticker": "SCRC"
  },
  {
   "date": "2026-05-01",
@@ -709,6 +700,15 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_setao_ci.pdf",
   "ticker": "STAC"
+ },
+ {
+  "date": "2026-05-01",
+  "titre": "SUCRIVOIRE CI : Avis de convocation et projets de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sucrivoire_ci.pdf",
+  "ticker": "SCRC"
  },
  {
   "date": "2026-05-01",
@@ -815,7 +815,7 @@
   "rubrique": "dirigeant",
   "type": "autre",
   "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-_changement_important_dans_la_direction_-_sode_ci.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-changement_important_dans_la_direction_-_sode_ci.pdf",
   "ticker": "SDCC"
  },
  {
@@ -1015,6 +1015,24 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_sucrivoire_ci.pdf",
   "ticker": "SCRC"
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "TOTALENERGIES MARKETING CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_ci.pdf",
+  "ticker": "TTLC"
+ },
+ {
+  "date": "2025-12-30",
+  "titre": "TOTALENERGIES MARKETING SN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251230_-_notation_financiere_-_totalenergies_marketing_sn.pdf",
+  "ticker": null
  },
  {
   "date": "2025-12-23",
@@ -1333,21 +1351,21 @@
  },
  {
   "date": "2025-06-27",
-  "titre": "BANQUE INTERNATIONALE POUR L&#039;INDUSTRIE ET LE COMMERCE DU BENIN : ERRATUM - Projet de résolutions - Assemblée Générale Ordinaire",
-  "rubrique": "resolution",
-  "type": "autre",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20250627_-_erratum_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_biic_bn.pdf",
-  "ticker": null
- },
- {
-  "date": "2025-06-27",
   "titre": "LOTERIE NATIONALE DU BENIN : Projet de résolutions à l&#039;Assemblée Générale Mixte",
   "rubrique": "resolution",
   "type": "resolution",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250624_-_projet_de_resolutions_-_assemblee_generale_mixte_-_loterie_nationale_du_benin.pdf",
   "ticker": "LNBB"
+ },
+ {
+  "date": "2025-06-27",
+  "titre": "BANQUE INTERNATIONALE POUR L&#039;INDUSTRIE ET LE COMMERCE DU BENIN : ERRATUM - Projet de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "resolution",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20250627_-_erratum_-_projet_de_resolutions_-_assemblee_generale_ordinaire_-_biic_bn.pdf",
+  "ticker": null
  },
  {
   "date": "2025-06-26",
@@ -1810,20 +1828,20 @@
  },
  {
   "date": "2023-10-30",
-  "titre": "PALM CI : Communiqué - Changement important dans la direction",
-  "rubrique": "dirigeant",
-  "type": "autre",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
-  "ticker": "PALC"
- },
- {
-  "date": "2023-10-30",
   "titre": "PALM CI : Communiqué - Changement de dirigeant",
   "rubrique": "dirigeant",
   "type": "dirigeant",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_de_dirigeant_-_palm_ci.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2023-10-30",
+  "titre": "PALM CI : Communiqué - Changement important dans la direction",
+  "rubrique": "dirigeant",
+  "type": "autre",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
   "ticker": "PALC"
  },
  {
@@ -2116,20 +2134,20 @@
  },
  {
   "date": "2012-03-02",
-  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
-  "ticker": "SHEC"
- },
- {
-  "date": "2012-03-02",
   "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2012-03-02",
+  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012.pdf",
   "ticker": "SHEC"
  },
  {
