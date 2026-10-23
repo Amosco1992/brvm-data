@@ -1,5 +1,32 @@
 [
  {
+  "date": "2026-10-23",
+  "titre": "LNB BN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20261022_-_notation_financiere_-_lnb_bn.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-10-23",
+  "titre": "ECOBANK CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20261022_-_notation_financiere_-_ecobank_ci.pdf",
+  "ticker": "ECOC"
+ },
+ {
+  "date": "2026-10-23",
+  "titre": "BERNABE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20261022_-_notation_financiere_-_bernabe_ci.pdf",
+  "ticker": "BNBC"
+ },
+ {
   "date": "2026-10-15",
   "titre": "BOA NG : Notation Financière",
   "rubrique": "notation",
@@ -181,15 +208,6 @@
  },
  {
   "date": "2026-08-03",
-  "titre": "AFRICA GLOBAL LOGISTICS CI - Formulaire de vote par correspondance - Assemblée Générale Mixte",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260803_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-08-03",
   "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -204,6 +222,15 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260803_-_pouvoir_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI - Formulaire de vote par correspondance - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
   "ticker": null
  },
  {
@@ -307,20 +334,20 @@
  },
  {
   "date": "2026-06-30",
-  "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
-  "ticker": "UNXC"
- },
- {
-  "date": "2026-06-30",
   "titre": "UNIWAX CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260629_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_uniwax_ci.pdf",
+  "ticker": "UNXC"
+ },
+ {
+  "date": "2026-06-30",
+  "titre": "UNIWAX CI : Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260629_-_avis_de_convocation_et_projet_de_resolution_-_assemblee_generale_ordinaire_-_uniwax_ci.pdf",
   "ticker": "UNXC"
  },
  {
@@ -505,6 +532,15 @@
  },
  {
   "date": "2026-06-04",
+  "titre": "SOCIETE GENERALE CI : Avis de convocation - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_-_assemblee_generale_mixte_-_societe_generale_ci.pdf",
+  "ticker": "SGBC"
+ },
+ {
+  "date": "2026-06-04",
   "titre": "VIVO ENERGY CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -520,15 +556,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_cie_ci.pdf",
   "ticker": "CIEC"
- },
- {
-  "date": "2026-06-04",
-  "titre": "SOCIETE GENERALE CI : Avis de convocation - Assemblée Générale Mixte",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_-_assemblee_generale_mixte_-_societe_generale_ci.pdf",
-  "ticker": "SGBC"
  },
  {
   "date": "2026-06-03",
@@ -685,6 +712,15 @@
  },
  {
   "date": "2026-05-01",
+  "titre": "SUCRIVOIRE CI : Avis de convocation et projets de résolution - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sucrivoire_ci.pdf",
+  "ticker": "SCRC"
+ },
+ {
+  "date": "2026-05-01",
   "titre": "SERVAIR ABIDJAN CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -700,15 +736,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_setao_ci.pdf",
   "ticker": "STAC"
- },
- {
-  "date": "2026-05-01",
-  "titre": "SUCRIVOIRE CI : Avis de convocation et projets de résolution - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260430_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sucrivoire_ci.pdf",
-  "ticker": "SCRC"
  },
  {
   "date": "2026-05-01",
@@ -815,7 +842,7 @@
   "rubrique": "dirigeant",
   "type": "autre",
   "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-changement_important_dans_la_direction_-_sode_ci.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-_changement_important_dans_la_direction_-_sode_ci.pdf",
   "ticker": "SDCC"
  },
  {
@@ -1213,33 +1240,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20250902_-_changement_important_au_sein_de_la_direction_-_totalenergies_marketing_ci.pdf",
   "ticker": null
- },
- {
-  "date": "2025-09-01",
-  "titre": "Port Autonome de Dakar - SENEGAL : Notation financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250901_-_notation_financiere_-_port_autonome_de_dakar.pdf",
-  "ticker": null
- },
- {
-  "date": "2025-08-28",
-  "titre": "LNB BENIN : Notation financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250828_-_notation_financiere_-_lnb_bn.pdf",
-  "ticker": null
- },
- {
-  "date": "2025-08-22",
-  "titre": "BERNABE CÔTE D&#039;IVOIRE : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250822_-_notation_financiere_-_bernabe_ci.pdf",
-  "ticker": "BNBC"
  },
  {
   "date": "2025-08-18",
@@ -1747,15 +1747,6 @@
  },
  {
   "date": "2024-06-05",
-  "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
-  "rubrique": "resolution",
-  "type": "resolution",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_onatel_bf_1.pdf",
-  "ticker": "ONTBF"
- },
- {
-  "date": "2024-06-05",
   "titre": "TOTALENERGIES MARKETING CI : Projets de résolution à l&#039;Assemblée Générale Mixte",
   "rubrique": "resolution",
   "type": "assemblee",
@@ -1780,6 +1771,15 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20240605_-_projet_de_resolution_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
   "ticker": "STBC"
+ },
+ {
+  "date": "2024-06-05",
+  "titre": "Moov Africa BF (ex ONATEL BF) : Projets de résolution",
+  "rubrique": "resolution",
+  "type": "resolution",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20240605_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_onatel_bf_1.pdf",
+  "ticker": "ONTBF"
  },
  {
   "date": "2024-05-30",
@@ -2224,20 +2224,20 @@
  },
  {
   "date": "2009-04-29",
-  "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (3)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20090429_-_fs_-_palm_ci_-_exercice_2009_ph_ci_3.pdf",
-  "ticker": "PALC"
- },
- {
-  "date": "2009-04-29",
   "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (4)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20090429_-_fs_-_palm_ci_-_exercice_2009_ph_ci_4.pdf",
+  "ticker": "PALC"
+ },
+ {
+  "date": "2009-04-29",
+  "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (3)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20090429_-_fs_-_palm_ci_-_exercice_2009_ph_ci_3.pdf",
   "ticker": "PALC"
  },
  {
