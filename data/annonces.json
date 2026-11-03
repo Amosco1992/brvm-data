@@ -181,21 +181,21 @@
  },
  {
   "date": "2026-08-18",
-  "titre": "BOA BN : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_bn.pdf",
-  "ticker": "BOAB"
- },
- {
-  "date": "2026-08-18",
   "titre": "BOA ML : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_ml.pdf",
   "ticker": "BOAM"
+ },
+ {
+  "date": "2026-08-18",
+  "titre": "BOA BN : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_bn.pdf",
+  "ticker": "BOAB"
  },
  {
   "date": "2026-08-17",
@@ -217,15 +217,6 @@
  },
  {
   "date": "2026-08-03",
-  "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260803_-_avis_de_convocation_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-08-03",
   "titre": "AFRICA GLOBAL LOGISTICS CI : Pouvoir - Assemblée Générale Mixte",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -240,6 +231,15 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260803_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
+  "ticker": null
+ },
+ {
+  "date": "2026-08-03",
+  "titre": "AFRICA GLOBAL LOGISTICS CI : Avis de convocation - Assemblée Générale Mixte",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260803_-_avis_de_convocation_-_assemblee_generale_mixte_-_africa_global_logistics_ci.pdf",
   "ticker": null
  },
  {
@@ -388,6 +388,15 @@
  },
  {
   "date": "2026-06-26",
+  "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260625_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+  "ticker": "STBC"
+ },
+ {
+  "date": "2026-06-26",
   "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -412,15 +421,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260625_-avis_de_convocation_-_assemblee_generale_ordinaire_-_erium_ci.pdf",
   "ticker": null
- },
- {
-  "date": "2026-06-26",
-  "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260625_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
-  "ticker": "STBC"
  },
  {
   "date": "2026-06-26",
@@ -622,6 +622,15 @@
  },
  {
   "date": "2026-05-20",
+  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+  "ticker": "SLBC"
+ },
+ {
+  "date": "2026-05-20",
   "titre": "SOGB CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -645,15 +654,6 @@
   "type": "assemblee",
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-  "ticker": "SLBC"
- },
- {
-  "date": "2026-05-20",
-  "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
   "ticker": "SLBC"
  },
  {
@@ -919,21 +919,21 @@
  },
  {
   "date": "2026-03-03",
-  "titre": "ALIOS FINANCE (EX SAFCA CI) : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260303_-_notation_financiere_-_safca_ci.pdf",
-  "ticker": "SAFC"
- },
- {
-  "date": "2026-03-03",
   "titre": "NEI CEDA CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260303_-_notation_financiere_-_nei_ceda_ci.pdf",
   "ticker": "NEIC"
+ },
+ {
+  "date": "2026-03-03",
+  "titre": "ALIOS FINANCE (EX SAFCA CI) : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260303_-_notation_financiere_-_safca_ci.pdf",
+  "ticker": "SAFC"
  },
  {
   "date": "2026-02-22",
@@ -1000,21 +1000,21 @@
  },
  {
   "date": "2026-01-08",
-  "titre": "CIE CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_cie_ci.pdf",
-  "ticker": "CIEC"
- },
- {
-  "date": "2026-01-08",
   "titre": "SIB CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_sib_ci.pdf",
   "ticker": null
+ },
+ {
+  "date": "2026-01-08",
+  "titre": "CIE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260108_-_notation_financiere_-_cie_ci.pdf",
+  "ticker": "CIEC"
  },
  {
   "date": "2025-12-31",
@@ -1189,21 +1189,21 @@
  },
  {
   "date": "2025-10-23",
-  "titre": "PETRO IVOIRE CI : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20251022_-_notation_financiere_-_petro_ivoire_ci.pdf",
-  "ticker": null
- },
- {
-  "date": "2025-10-23",
   "titre": "BOA SN : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20251022_-_notation_financiere_-_boa_sn.pdf",
   "ticker": "BOAS"
+ },
+ {
+  "date": "2025-10-23",
+  "titre": "PETRO IVOIRE CI : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20251022_-_notation_financiere_-_petro_ivoire_ci.pdf",
+  "ticker": null
  },
  {
   "date": "2025-10-16",
@@ -2152,11 +2152,11 @@
  },
  {
   "date": "2012-01-04",
-  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (1)",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (2)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_1.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_2.pdf",
   "ticker": null
  },
  {
@@ -2176,6 +2176,15 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20111212_-_fs_-_tractafric_motors_ci_-_exercice_2011.pdf",
   "ticker": "PRSC"
+ },
+ {
+  "date": "2011-06-21",
+  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_1.pdf",
+  "ticker": "CIEC"
  },
  {
   "date": "2011-06-21",
@@ -2203,15 +2212,6 @@
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_sode_ci_-_exercice_2011_2.pdf",
   "ticker": "SDCC"
- },
- {
-  "date": "2011-06-21",
-  "titre": "Franchissement de seuil - CIE CI - Exercice 2011 (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20110621_-_fs_-_cie_ci_-_exercice_2011_1.pdf",
-  "ticker": "CIEC"
  },
  {
   "date": "2010-09-24",
@@ -2278,20 +2278,20 @@
  },
  {
   "date": "2006-02-10",
-  "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_1.pdf",
-  "ticker": "SAFC"
- },
- {
-  "date": "2006-02-10",
   "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (2)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_2.pdf",
+  "ticker": "SAFC"
+ },
+ {
+  "date": "2006-02-10",
+  "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_1.pdf",
   "ticker": "SAFC"
  },
  {
