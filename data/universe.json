@@ -2524,20 +2524,20 @@
    },
    {
     "date": "2006-02-10",
-    "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (2)",
-    "rubrique": "seuil",
-    "type": "seuil",
-    "important": true,
-    "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_2.pdf",
-    "ticker": "SAFC"
-   },
-   {
-    "date": "2006-02-10",
     "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (1)",
     "rubrique": "seuil",
     "type": "seuil",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_1.pdf",
+    "ticker": "SAFC"
+   },
+   {
+    "date": "2006-02-10",
+    "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (2)",
+    "rubrique": "seuil",
+    "type": "seuil",
+    "important": true,
+    "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_2.pdf",
     "ticker": "SAFC"
    }
   ]
@@ -2789,7 +2789,7 @@
     "rubrique": "dirigeant",
     "type": "autre",
     "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-_changement_important_dans_la_direction_-_sode_ci.pdf",
+    "url": "https://www.brvm.org/sites/default/files/20260402_-_communique_-changement_important_dans_la_direction_-_sode_ci.pdf",
     "ticker": "SDCC"
    },
    {
@@ -3702,15 +3702,6 @@
   "annonces": [
    {
     "date": "2026-05-20",
-    "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-    "rubrique": "assemblee",
-    "type": "assemblee",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
-    "ticker": "SLBC"
-   },
-   {
-    "date": "2026-05-20",
     "titre": "SOLIBRA CI : Avis de convocation - Assemblée Générale Ordinaire",
     "rubrique": "assemblee",
     "type": "assemblee",
@@ -3725,6 +3716,15 @@
     "type": "assemblee",
     "important": false,
     "url": "https://www.brvm.org/sites/default/files/20260519_-_pouvoir_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
+    "ticker": "SLBC"
+   },
+   {
+    "date": "2026-05-20",
+    "titre": "SOLIBRA CI : Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
+    "rubrique": "assemblee",
+    "type": "assemblee",
+    "important": false,
+    "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
     "ticker": "SLBC"
    },
    {
