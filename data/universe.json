@@ -2235,20 +2235,20 @@
   "annonces": [
    {
     "date": "2023-10-30",
-    "titre": "PALM CI : Communiqué - Changement important dans la direction",
-    "rubrique": "dirigeant",
-    "type": "autre",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
-    "ticker": "PALC"
-   },
-   {
-    "date": "2023-10-30",
     "titre": "PALM CI : Communiqué - Changement de dirigeant",
     "rubrique": "dirigeant",
     "type": "dirigeant",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_de_dirigeant_-_palm_ci.pdf",
+    "ticker": "PALC"
+   },
+   {
+    "date": "2023-10-30",
+    "titre": "PALM CI : Communiqué - Changement important dans la direction",
+    "rubrique": "dirigeant",
+    "type": "autre",
+    "important": false,
+    "url": "https://www.brvm.org/sites/default/files/20231030_-_communique_-_changement_important_dans_la_direction_-_palm_ci.pdf",
     "ticker": "PALC"
    },
    {
@@ -2276,6 +2276,15 @@
     "type": "seuil",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20090220_-_fs_-_palm_ci_-_exercice_2009.pdf",
+    "ticker": "PALC"
+   },
+   {
+    "date": "2009-02-12",
+    "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (1)",
+    "rubrique": "seuil",
+    "type": "seuil",
+    "important": true,
+    "url": "https://www.brvm.org/sites/default/files/20090212_-_fs_-_palm_ci_-_exercice_2009_ph_ci_1.pdf",
     "ticker": "PALC"
    },
    {
@@ -2515,20 +2524,20 @@
    },
    {
     "date": "2006-02-10",
-    "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (1)",
-    "rubrique": "seuil",
-    "type": "seuil",
-    "important": true,
-    "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_1.pdf",
-    "ticker": "SAFC"
-   },
-   {
-    "date": "2006-02-10",
     "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (2)",
     "rubrique": "seuil",
     "type": "seuil",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_2.pdf",
+    "ticker": "SAFC"
+   },
+   {
+    "date": "2006-02-10",
+    "titre": "Franchissement de seuil - ALIOS FINANCE CI - Exercice 2006 (SAFCA) (1)",
+    "rubrique": "seuil",
+    "type": "seuil",
+    "important": true,
+    "url": "https://www.brvm.org/sites/default/files/20060210_-_fs_-_alios_finance_ci_-_exercice_2006_safca_1.pdf",
     "ticker": "SAFC"
    }
   ]
@@ -4350,6 +4359,15 @@
   "annonces": [
    {
     "date": "2026-06-26",
+    "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
+    "rubrique": "assemblee",
+    "type": "assemblee",
+    "important": false,
+    "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_physique_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
+    "ticker": "STBC"
+   },
+   {
+    "date": "2026-06-26",
     "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
     "rubrique": "assemblee",
     "type": "assemblee",
@@ -4364,15 +4382,6 @@
     "type": "assemblee",
     "important": false,
     "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_morale_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
-    "ticker": "STBC"
-   },
-   {
-    "date": "2026-06-26",
-    "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-    "rubrique": "assemblee",
-    "type": "assemblee",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260625_-_pouvoir_personne_physique_-_assemblee_generale_ordinaire_-_sitab_ci.pdf",
     "ticker": "STBC"
    },
    {
@@ -5893,6 +5902,15 @@
     "important": false,
     "url": "https://www.brvm.org/sites/default/files/20260722_-_avis_de_convocation_-_assemblee_generale_extraordinaire_-_eti_tg.pdf",
     "ticker": "ETIT"
+   },
+   {
+    "date": "2026-04-16",
+    "titre": "ETI TG : Avis de convocation - Assemblée Générale Extraordinaire",
+    "rubrique": "assemblee",
+    "type": "assemblee",
+    "important": false,
+    "url": "https://www.brvm.org/sites/default/files/20260415_-_avis_de_convocation_-_assemblee_generale_extraordinaire_-_eti_tg.pdf",
+    "ticker": "ETIT"
    }
   ]
  },
@@ -6296,15 +6314,6 @@
     "type": "notation",
     "important": true,
     "url": "https://www.brvm.org/sites/default/files/20260818_-_notation_financiere_-_boa_bn.pdf",
-    "ticker": "BOAB"
-   },
-   {
-    "date": "2026-04-16",
-    "titre": "BOA BN : Avis de convocation - Assemblée Générale Ordinaire",
-    "rubrique": "assemblee",
-    "type": "assemblee",
-    "important": false,
-    "url": "https://www.brvm.org/sites/default/files/20260415_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_boa_bn.pdf",
     "ticker": "BOAB"
    },
    {
