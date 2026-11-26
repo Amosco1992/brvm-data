@@ -541,21 +541,21 @@
  },
  {
   "date": "2026-06-07",
-  "titre": "CRRH-UEMOA : Notation Financière",
-  "rubrique": "notation",
-  "type": "notation",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
-  "ticker": null
- },
- {
-  "date": "2026-06-07",
   "titre": "NESTLE CI : Notation Financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_nestle_ci.pdf",
   "ticker": "NTLC"
+ },
+ {
+  "date": "2026-06-07",
+  "titre": "CRRH-UEMOA : Notation Financière",
+  "rubrique": "notation",
+  "type": "notation",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20260605_-_notation_financiere_-_crrh-uemoa.pdf",
+  "ticker": null
  },
  {
   "date": "2026-06-07",
@@ -577,6 +577,15 @@
  },
  {
   "date": "2026-06-04",
+  "titre": "CIE CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_cie_ci.pdf",
+  "ticker": "CIEC"
+ },
+ {
+  "date": "2026-06-04",
   "titre": "SOCIETE GENERALE CI : Avis de convocation - Assemblée Générale Mixte",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -592,15 +601,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_vivo_energy_ci.pdf",
   "ticker": "SHEC"
- },
- {
-  "date": "2026-06-04",
-  "titre": "CIE CI : Avis de convocation et projets de résolutions - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260603_-_avis_de_convocation_et_projets_de_resolutions_-_assemblee_generale_ordinaire_-_cie_ci.pdf",
-  "ticker": "CIEC"
  },
  {
   "date": "2026-06-03",
@@ -658,6 +658,15 @@
  },
  {
   "date": "2026-05-20",
+  "titre": "SOGB CI : Avis de convocation - Assemblée Générale Ordinaire",
+  "rubrique": "assemblee",
+  "type": "assemblee",
+  "important": false,
+  "url": "https://www.brvm.org/sites/default/files/20260519_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sogb_ci.pdf",
+  "ticker": "SOGC"
+ },
+ {
+  "date": "2026-05-20",
   "titre": "SOLIBRA CI : Avis de convocation - Assemblée Générale Ordinaire",
   "rubrique": "assemblee",
   "type": "assemblee",
@@ -682,15 +691,6 @@
   "important": false,
   "url": "https://www.brvm.org/sites/default/files/20260519_-_formulaire_de_vote_par_correspondance_-_assemblee_generale_ordinaire_-_solibra_ci.pdf",
   "ticker": "SLBC"
- },
- {
-  "date": "2026-05-20",
-  "titre": "SOGB CI : Avis de convocation - Assemblée Générale Ordinaire",
-  "rubrique": "assemblee",
-  "type": "assemblee",
-  "important": false,
-  "url": "https://www.brvm.org/sites/default/files/20260519_-_avis_de_convocation_-_assemblee_generale_ordinaire_-_sogb_ci.pdf",
-  "ticker": "SOGC"
  },
  {
   "date": "2026-05-16",
@@ -1261,12 +1261,12 @@
  },
  {
   "date": "2025-09-15",
-  "titre": "SOCIETE GENERALE CÔTE D&#039;IVOIRE : Notation financière",
+  "titre": "CORIS BANK INTERNATIONAL BURKINA FASO : Notation financière",
   "rubrique": "notation",
   "type": "notation",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20250915_-_notation_financiere_-_societe_generale_ci.pdf",
-  "ticker": "SGBC"
+  "url": "https://www.brvm.org/sites/default/files/20250915_-_notation_financiere_-_coris_bank_international_bf.pdf",
+  "ticker": "CBIBF"
  },
  {
   "date": "2025-09-02",
@@ -2134,15 +2134,6 @@
  },
  {
   "date": "2012-03-02",
-  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
-  "ticker": "SHEC"
- },
- {
-  "date": "2012-03-02",
   "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012",
   "rubrique": "seuil",
   "type": "seuil",
@@ -2151,12 +2142,21 @@
   "ticker": "SHEC"
  },
  {
-  "date": "2012-01-04",
-  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (SAGA CI)",
+  "date": "2012-03-02",
+  "titre": "Franchissement de seuil - VIVO ENERGY CI - Exercice 2012 (SHELL CI)",
   "rubrique": "seuil",
   "type": "seuil",
   "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_saga_ci.pdf",
+  "url": "https://www.brvm.org/sites/default/files/20120302_-_fs_-_vivo_energy_ci_-_exercice_2012_shell_ci.pdf",
+  "ticker": "SHEC"
+ },
+ {
+  "date": "2012-01-04",
+  "titre": "Franchissement de seuil - BOLLORE TRANSPORT &amp; LOGISTICS CI - Exercice 2012 (1)",
+  "rubrique": "seuil",
+  "type": "seuil",
+  "important": true,
+  "url": "https://www.brvm.org/sites/default/files/20120104_-_fs_-_bollore_transport_logistics_ci_-_exercice_2012_1.pdf",
   "ticker": null
  },
  {
@@ -2247,15 +2247,6 @@
   "type": "seuil",
   "important": true,
   "url": "https://www.brvm.org/sites/default/files/20090220_-_fs_-_palm_ci_-_exercice_2009.pdf",
-  "ticker": "PALC"
- },
- {
-  "date": "2009-02-12",
-  "titre": "Franchissement de seuil - PALM CI - Exercice 2009 (PH CI) (1)",
-  "rubrique": "seuil",
-  "type": "seuil",
-  "important": true,
-  "url": "https://www.brvm.org/sites/default/files/20090212_-_fs_-_palm_ci_-_exercice_2009_ph_ci_1.pdf",
   "ticker": "PALC"
  },
  {
